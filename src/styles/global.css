@@ -1,15 +1,9 @@
-@font-face {
-  font-family: Onest;
-  src: url('/fonts/Onest-Latin-Variable.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-}
 :root {
   --mineral: #e5e8e4;
   --graphite: #292d2b;
   --chalk: #f7f8f5;
   --moss: #35463d;
+  --page-gutter: clamp(24px, 2.5cqw, 96px);
   color: var(--graphite);
   background: var(--mineral);
   font-family: Onest, Arial, sans-serif;
@@ -21,4 +15,7 @@
 body, h1, p, figure { margin: 0; }
 a { color: inherit; text-underline-offset: 3px; }
 a:focus-visible { outline: 2px solid var(--moss); outline-offset: 4px; }
-.page { max-width: 1440px; margin-inline: auto; container-type: inline-size; }
+.page { inline-size: 100%; container-type: inline-size; }
+@media (max-width: 1023px) {
+  :root { --page-gutter: clamp(20px, 3.125cqw, 24px); }
+}

@@ -1,0 +1,718 @@
+[
+  {
+    "state": "running",
+    "now": 284.70000000298023,
+    "marks": [
+      {
+        "name": "stillform:font:ready",
+        "time": 25
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 45.600000001490116
+      },
+      {
+        "name": "stillform:hero:candidate",
+        "time": 103.80000000447035
+      },
+      {
+        "name": "stillform:hero:prepared",
+        "time": 105.30000000447035
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 105.40000000596046
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 107.5
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 128
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 128
+      }
+    ],
+    "geometry": {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "scrollHeight": 1157,
+      "stacked": true,
+      "font": true,
+      "fontStatus": [
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "image": 1920,
+      "heading": "BUILT AROUND ABSENCE.",
+      "elements": {
+        ".header": {
+          "x": 24,
+          "y": 27,
+          "width": 720,
+          "height": 26.390625,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".opening": {
+          "x": 21,
+          "y": 98.984375,
+          "width": 746.984375,
+          "height": 261.09375,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".around": {
+          "x": 21,
+          "y": 229.53125,
+          "width": 746.984375,
+          "height": 130.546875,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".closing": {
+          "x": 21,
+          "y": 882.078125,
+          "width": 746.984375,
+          "height": 131.203125,
+          "fontSize": "120.8px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".photo": {
+          "x": 126.390625,
+          "y": 394.078125,
+          "width": 617.59375,
+          "height": 500,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".intro": {
+          "x": 24,
+          "y": 1033.28125,
+          "width": 319.1875,
+          "height": 43.5,
+          "fontSize": "15px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".image-note": {
+          "x": 24,
+          "y": 1096.78125,
+          "width": 720,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".credit": {
+          "x": 626.234375,
+          "y": 1096.78125,
+          "width": 117.765625,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".footer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "none"
+        }
+      },
+      "overflow": []
+    },
+    "elapsed": 178.80000000447035
+  },
+  {
+    "state": "running",
+    "now": 783.5,
+    "marks": [
+      {
+        "name": "stillform:font:ready",
+        "time": 25
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 45.600000001490116
+      },
+      {
+        "name": "stillform:hero:candidate",
+        "time": 103.80000000447035
+      },
+      {
+        "name": "stillform:hero:prepared",
+        "time": 105.30000000447035
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 105.40000000596046
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 107.5
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 128
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 128
+      }
+    ],
+    "geometry": {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "scrollHeight": 1157,
+      "stacked": true,
+      "font": true,
+      "fontStatus": [
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "image": 1920,
+      "heading": "BUILT AROUND ABSENCE.",
+      "elements": {
+        ".header": {
+          "x": 24,
+          "y": 27,
+          "width": 720,
+          "height": 26.390625,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".opening": {
+          "x": 21,
+          "y": 98.984375,
+          "width": 746.984375,
+          "height": 261.09375,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".around": {
+          "x": 21,
+          "y": 229.53125,
+          "width": 746.984375,
+          "height": 130.546875,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".closing": {
+          "x": 21,
+          "y": 882.078125,
+          "width": 746.984375,
+          "height": 131.203125,
+          "fontSize": "120.8px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".photo": {
+          "x": 126.390625,
+          "y": 394.078125,
+          "width": 617.59375,
+          "height": 500,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".intro": {
+          "x": 24,
+          "y": 1033.28125,
+          "width": 319.1875,
+          "height": 43.5,
+          "fontSize": "15px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".image-note": {
+          "x": 24,
+          "y": 1096.78125,
+          "width": 720,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".credit": {
+          "x": 626.234375,
+          "y": 1096.78125,
+          "width": 117.765625,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".footer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "none"
+        }
+      },
+      "overflow": [
+        "",
+        ""
+      ]
+    },
+    "elapsed": 678
+  },
+  {
+    "state": "running",
+    "now": 1043.4000000059605,
+    "marks": [
+      {
+        "name": "stillform:font:ready",
+        "time": 25
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 45.600000001490116
+      },
+      {
+        "name": "stillform:hero:candidate",
+        "time": 103.80000000447035
+      },
+      {
+        "name": "stillform:hero:prepared",
+        "time": 105.30000000447035
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 105.40000000596046
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 107.5
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 128
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 128
+      }
+    ],
+    "geometry": {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "scrollHeight": 1157,
+      "stacked": true,
+      "font": true,
+      "fontStatus": [
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "image": 1920,
+      "heading": "BUILT AROUND ABSENCE.",
+      "elements": {
+        ".header": {
+          "x": 24,
+          "y": 27,
+          "width": 720,
+          "height": 26.390625,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".opening": {
+          "x": 21,
+          "y": 98.984375,
+          "width": 746.984375,
+          "height": 261.09375,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".around": {
+          "x": 21,
+          "y": 229.53125,
+          "width": 746.984375,
+          "height": 130.546875,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".closing": {
+          "x": 21,
+          "y": 882.078125,
+          "width": 746.984375,
+          "height": 131.203125,
+          "fontSize": "120.8px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".photo": {
+          "x": 126.390625,
+          "y": 394.078125,
+          "width": 617.59375,
+          "height": 500,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".intro": {
+          "x": 24,
+          "y": 1033.28125,
+          "width": 319.1875,
+          "height": 43.5,
+          "fontSize": "15px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".image-note": {
+          "x": 24,
+          "y": 1096.78125,
+          "width": 720,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".credit": {
+          "x": 626.234375,
+          "y": 1096.78125,
+          "width": 117.765625,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".footer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "none"
+        }
+      },
+      "overflow": []
+    },
+    "elapsed": 937.9000000059605
+  },
+  {
+    "state": "settled",
+    "now": 1325,
+    "marks": [
+      {
+        "name": "stillform:font:ready",
+        "time": 25
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 45.600000001490116
+      },
+      {
+        "name": "stillform:hero:candidate",
+        "time": 103.80000000447035
+      },
+      {
+        "name": "stillform:hero:prepared",
+        "time": 105.30000000447035
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 105.40000000596046
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 107.5
+      },
+      {
+        "name": "stillform:hero:end",
+        "time": 1254.9000000059605
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 128
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 128
+      }
+    ],
+    "geometry": {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "scrollHeight": 1157,
+      "stacked": true,
+      "font": true,
+      "fontStatus": [
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "image": 1920,
+      "heading": "BUILT AROUND ABSENCE.",
+      "elements": {
+        ".header": {
+          "x": 24,
+          "y": 27,
+          "width": 720,
+          "height": 26.390625,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".opening": {
+          "x": 21,
+          "y": 98.984375,
+          "width": 746.984375,
+          "height": 261.09375,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".around": {
+          "x": 21,
+          "y": 229.53125,
+          "width": 746.984375,
+          "height": 130.546875,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".closing": {
+          "x": 21,
+          "y": 882.078125,
+          "width": 746.984375,
+          "height": 131.203125,
+          "fontSize": "120.8px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".photo": {
+          "x": 126.390625,
+          "y": 394.078125,
+          "width": 617.59375,
+          "height": 500,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".intro": {
+          "x": 24,
+          "y": 1033.28125,
+          "width": 319.1875,
+          "height": 43.5,
+          "fontSize": "15px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".image-note": {
+          "x": 24,
+          "y": 1096.78125,
+          "width": 720,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".credit": {
+          "x": 626.234375,
+          "y": 1096.78125,
+          "width": 117.765625,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".footer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "none"
+        }
+      },
+      "overflow": []
+    },
+    "elapsed": 1219.1000000014901
+  },
+  {
+    "state": "settled",
+    "now": 1757.5,
+    "marks": [
+      {
+        "name": "stillform:font:ready",
+        "time": 25
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 45.600000001490116
+      },
+      {
+        "name": "stillform:hero:candidate",
+        "time": 103.80000000447035
+      },
+      {
+        "name": "stillform:hero:prepared",
+        "time": 105.30000000447035
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 105.40000000596046
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 107.5
+      },
+      {
+        "name": "stillform:hero:end",
+        "time": 1254.9000000059605
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 128
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 128
+      }
+    ],
+    "geometry": {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "scrollHeight": 1157,
+      "stacked": true,
+      "font": true,
+      "fontStatus": [
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "image": 1920,
+      "heading": "BUILT AROUND ABSENCE.",
+      "elements": {
+        ".header": {
+          "x": 24,
+          "y": 27,
+          "width": 720,
+          "height": 26.390625,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".opening": {
+          "x": 21,
+          "y": 98.984375,
+          "width": 746.984375,
+          "height": 261.09375,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".around": {
+          "x": 21,
+          "y": 229.53125,
+          "width": 746.984375,
+          "height": 130.546875,
+          "fontSize": "128px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".closing": {
+          "x": 21,
+          "y": 882.078125,
+          "width": 746.984375,
+          "height": 131.203125,
+          "fontSize": "120.8px",
+          "weight": "500",
+          "display": "block"
+        },
+        ".photo": {
+          "x": 126.390625,
+          "y": 394.078125,
+          "width": 617.59375,
+          "height": 500,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".intro": {
+          "x": 24,
+          "y": 1033.28125,
+          "width": 319.1875,
+          "height": 43.5,
+          "fontSize": "15px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".image-note": {
+          "x": 24,
+          "y": 1096.78125,
+          "width": 720,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "flex"
+        },
+        ".credit": {
+          "x": 626.234375,
+          "y": 1096.78125,
+          "width": 117.765625,
+          "height": 36,
+          "fontSize": "12px",
+          "weight": "400",
+          "display": "block"
+        },
+        ".footer": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "weight": "400",
+          "display": "none"
+        }
+      },
+      "overflow": []
+    },
+    "elapsed": 1651.7000000029802
+  }
+]

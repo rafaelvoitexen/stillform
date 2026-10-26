@@ -1,0 +1,54 @@
+[
+  {
+    "case": "1440x900",
+    "pixelIdentical": true
+  },
+  {
+    "case": "1280x800",
+    "pixelIdentical": true
+  },
+  {
+    "case": "1024x768",
+    "pixelIdentical": true
+  },
+  {
+    "case": "768x1024",
+    "pixelIdentical": true
+  },
+  {
+    "case": "390x844",
+    "pixelIdentical": true
+  },
+  {
+    "case": "360x780",
+    "pixelIdentical": true
+  },
+  {
+    "case": "1600x1000",
+    "pixelIdentical": true
+  },
+  {
+    "case": "320x780",
+    "pixelIdentical": true
+  },
+  {
+    "case": "600x900",
+    "pixelIdentical": true
+  },
+  {
+    "case": "900x900",
+    "pixelIdentical": true
+  },
+  {
+    "case": "desktop-recorded-final",
+    "pixelIdentical": true
+  },
+  {
+    "case": "tablet-recorded-final",
+    "pixelIdentical": true
+  },
+  {
+    "case": "mobile-recorded-final",
+    "pixelIdentical": true
+  }
+]

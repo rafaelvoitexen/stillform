@@ -1,0 +1,162 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "duration": 5.067,
+    "frames": [
+      {
+        "time": 0.1
+      },
+      {
+        "time": 0.8
+      },
+      {
+        "time": 1.8
+      },
+      {
+        "time": 2.5
+      },
+      {
+        "time": 3
+      },
+      {
+        "time": 3.55
+      },
+      {
+        "time": 4.05
+      },
+      {
+        "time": 4.9670000000000005
+      }
+    ]
+  },
+  {
+    "name": "large",
+    "width": 2560,
+    "height": 1440,
+    "duration": 5.25,
+    "frames": [
+      {
+        "time": 0.1
+      },
+      {
+        "time": 0.8
+      },
+      {
+        "time": 1.8
+      },
+      {
+        "time": 2.5
+      },
+      {
+        "time": 3
+      },
+      {
+        "time": 3.55
+      },
+      {
+        "time": 4.05
+      },
+      {
+        "time": 5.15
+      }
+    ]
+  },
+  {
+    "name": "ultrawide",
+    "width": 3440,
+    "height": 1440,
+    "duration": 5.25,
+    "frames": [
+      {
+        "time": 0.1
+      },
+      {
+        "time": 0.8
+      },
+      {
+        "time": 1.8
+      },
+      {
+        "time": 2.5
+      },
+      {
+        "time": 3
+      },
+      {
+        "time": 3.55
+      },
+      {
+        "time": 4.05
+      },
+      {
+        "time": 5.15
+      }
+    ]
+  },
+  {
+    "name": "ultrawide-review",
+    "width": 1920,
+    "height": 804,
+    "duration": 5.217,
+    "frames": [
+      {
+        "time": 0.1
+      },
+      {
+        "time": 0.8
+      },
+      {
+        "time": 1.8
+      },
+      {
+        "time": 2.5
+      },
+      {
+        "time": 3
+      },
+      {
+        "time": 3.55
+      },
+      {
+        "time": 4.05
+      },
+      {
+        "time": 5.117
+      }
+    ]
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "duration": 4.367,
+    "frames": [
+      {
+        "time": 0.1
+      },
+      {
+        "time": 0.8
+      },
+      {
+        "time": 1.8
+      },
+      {
+        "time": 2.5
+      },
+      {
+        "time": 3
+      },
+      {
+        "time": 3.55
+      },
+      {
+        "time": 4.05
+      },
+      {
+        "time": 4.267
+      }
+    ]
+  }
+]

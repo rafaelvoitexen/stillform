@@ -1,0 +1,48 @@
+/* Critical fail-open rules are delivered with the HTML, before reservation is possible. */
+html { --sf-expired: 0; }
+html[data-hero-state="reserved"] { animation: sf-reserved-flag 0s 450ms forwards; }
+html[data-hero-state="running"] { animation: sf-running-flag 0s 6200ms forwards; }
+
+html:is([data-hero-state="reserved"], [data-hero-state="running"]) .hero :is(.wordmark, .descriptor, .chapter, .line-motion, .closing, .photo, .details, .footer) { opacity: 0; }
+html[data-hero-state="reserved"] .hero :is(.wordmark, .descriptor, .chapter, .built, .around, [data-headline-base-mask], .line-motion, .closing, .photo, .details, .footer) { animation: sf-reserved-open 0s 450ms forwards; }
+html[data-hero-state="running"] .hero :is(.wordmark, .descriptor, .chapter, .built, .around, [data-headline-base-mask], .line-motion, .closing, .photo, .details, .footer) { animation: sf-running-open 0s 6200ms forwards; }
+html[data-hero-state="running"] [data-hero-overlay] { animation: sf-overlay-open 0s 6200ms forwards; }
+
+/* Animations affect children only AT expiry. Until then inline GSAP values own motion. */
+@keyframes sf-reserved-open { to { opacity: 1; filter: none; transform: none; clip-path: none; } }
+@keyframes sf-running-open { to { opacity: 1; filter: none; transform: none; clip-path: none; } }
+@keyframes sf-reserved-flag { to { --sf-expired: 1; } }
+@keyframes sf-running-flag { to { --sf-expired: 1; } }
+@keyframes sf-overlay-open { to { opacity: 0; visibility: hidden; } }
+
+html[data-hero-state="running"] .hero :is(.built, .around, .closing) { clip-path: inset(-.2em -.1em -.06em -.1em); }
+@container (min-width: 1024px) {
+  html[data-hero-state="running"] .hero:not([data-stacked]) .closing { background: none !important; }
+  html[data-hero-state="running"] .hero:not([data-stacked]) .closing .line-motion {
+    animation-name: sf-running-closing;
+  }
+}
+@keyframes sf-running-closing {
+  to {
+    opacity: 1; filter: none; transform: none; clip-path: none; color: transparent;
+    background-image: linear-gradient(to right, var(--graphite) 0,
+      var(--graphite) calc(var(--photo-left) - var(--optical-left)),
+      var(--chalk) calc(var(--photo-left) - var(--optical-left)), var(--chalk) 100%);
+    background-clip: text;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:is([data-hero-state="reserved"], [data-hero-state="running"]) .hero :is(.wordmark, .descriptor, .chapter, .built, .around, [data-headline-base-mask], .line-motion, .closing, .photo, .details, .footer) {
+    opacity: 1 !important; filter: none !important; transform: none !important; clip-path: none !important;
+  }
+  [data-hero-overlay] { display: none !important; }
+  @container (min-width: 1024px) {
+    html[data-hero-state="running"] .hero:not([data-stacked]) .closing .line-motion {
+      color: transparent !important;
+      background-image: linear-gradient(to right, var(--graphite) 0,
+        var(--graphite) calc(var(--photo-left) - var(--optical-left)),
+        var(--chalk) calc(var(--photo-left) - var(--optical-left)), var(--chalk) 100%) !important;
+      background-clip: text !important;
+    }
+  }
+}

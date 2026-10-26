@@ -1,0 +1,30 @@
+{
+  "normalAdmissions": {
+    "played": 24,
+    "total": 24
+  },
+  "normalSettledViewports": 11,
+  "allFinalGeometriesEqual": true,
+  "parity": {
+    "exact": 22,
+    "total": 44,
+    "maxChannelDelta": 3,
+    "maxChangedFraction": 0.00036375
+  },
+  "monotonic": true,
+  "maxWhiteRegistrationDelta": 0.000244140625,
+  "allFinalZoomsMatch": true,
+  "normalOverflow": false,
+  "typeScript": {
+    "version": "7.0.2",
+    "strict": true,
+    "noEmit": true,
+    "passed": true
+  },
+  "admissionSyntaxPassed": true,
+  "productionBuild": {
+    "passed": true,
+    "pages": 1
+  },
+  "diffCheckPassed": true
+}

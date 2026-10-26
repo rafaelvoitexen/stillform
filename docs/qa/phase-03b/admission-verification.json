@@ -1,0 +1,20 @@
+[
+  {
+    "name": "desktop",
+    "prepared": 121.89999999850988,
+    "firstPaint": 152,
+    "settledAt": 1359.5
+  },
+  {
+    "name": "mobile",
+    "prepared": 107.29999999701977,
+    "firstPaint": 136,
+    "settledAt": 1152.1000000014901
+  },
+  {
+    "name": "tablet",
+    "prepared": 105.30000000447035,
+    "firstPaint": 128,
+    "settledAt": 1147.4000000059605
+  }
+]

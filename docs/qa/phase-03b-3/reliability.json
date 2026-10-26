@@ -1,0 +1,698 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.59999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 88.40000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 92.09999999962747,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.700000001117587,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 54.30000000074506,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 57.20000000111759,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.90000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 77,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 77.40000000037253,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 12.300000000745058,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 61,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 61.5,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 10,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 39.79999999888241,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 40.09999999962747,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.700000001117587,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 52.80000000074506,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 53.5,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 15.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 44.09999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 44.29999999888241,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 15.599999999627471,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 51.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 51.80000000074506,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 10.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 46.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 46.90000000037253,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.199999999254942,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 48.59999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 48.79999999888241,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 14.400000000372529,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 47.69999999925494,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 48,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 14.099999999627471,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 43.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 43.70000000111759,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 9,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 46,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 46.19999999925494,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 12.900000000372529,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 51.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 51.69999999925494,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 15.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 47.29999999888241,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 47.59999999962747,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 20.40000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 76.09999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 76.80000000074506,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 11.099999999627471,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 54.69999999925494,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 55,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 10.299999998882413,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 56.09999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 56.29999999888241,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 11,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 40.70000000111759,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 41,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 8.800000000745058,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 44,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 44.19999999925494,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 8.599999999627471,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 40.90000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 41.09999999962747,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 10.900000000372529,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 53,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 53.5,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 15.300000000745058,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 46.40000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 46.80000000074506,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 11.099999999627471,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 41.59999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 41.90000000037253,
+        "detail": {
+          "entry": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4367 @@
+{
+  "results": [
+    {
+      "case": "1440x900",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 17.59999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 93,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 97.59999999962747,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4031.7000000011176,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4467.5999999996275,
+          "detail": "complete"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440,
+        "scrollHeight": 900,
+        "stacked": false,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 36,
+            "y": 33,
+            "width": 1368,
+            "height": 30,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 30,
+            "y": 132,
+            "width": 1409.984375,
+            "height": 359.03125,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "inline"
+          },
+          ".around": {
+            "x": 30,
+            "y": 311.515625,
+            "width": 1409.984375,
+            "height": 179.515625,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 30,
+            "y": 536.015625,
+            "width": 796.890625,
+            "height": 179.515625,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 748.796875,
+            "y": 112,
+            "width": 655.1875,
+            "height": 650,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 36,
+            "y": 790,
+            "width": 340.46875,
+            "height": 46.375,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 748.796875,
+            "y": 783,
+            "width": 655.1875,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 1286.21875,
+            "y": 783,
+            "width": 117.765625,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 36,
+            "y": 836.375,
+            "width": 1368,
+            "height": 38.796875,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "grid"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "1280x800",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 23.700000001117587,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 70,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 70.40000000037253,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4069.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4496.5999999996275,
+          "detail": "complete"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        }
+      ],
+      "geometry": {
+        "width": 1280,
+        "height": 800,
+        "scrollWidth": 1280,
+        "scrollHeight": 828,
+        "stacked": false,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 32,
+            "y": 33,
+            "width": 1216,
+            "height": 30,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 26,
+            "y": 132,
+            "width": 1253.984375,
+            "height": 319.125,
+            "fontSize": "156.444px",
+            "weight": "500",
+            "display": "inline"
+          },
+          ".around": {
+            "x": 26,
+            "y": 291.5625,
+            "width": 1253.984375,
+            "height": 159.5625,
+            "fontSize": "156.444px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 26,
+            "y": 491.109375,
+            "width": 708.359375,
+            "height": 159.5625,
+            "fontSize": "156.444px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 665.59375,
+            "y": 112,
+            "width": 582.390625,
+            "height": 577.765625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 32,
+            "y": 717.765625,
+            "width": 340.46875,
+            "height": 46.375,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 665.59375,
+            "y": 710.765625,
+            "width": 582.390625,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 1130.21875,
+            "y": 710.765625,
+            "width": 117.765625,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 32,
+            "y": 764.140625,
+            "width": 1216,
+            "height": 38.796875,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "grid"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "1024x768",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 22.200000001117587,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 68.40000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 68.70000000111759,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4053.10000000149,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4486.700000001118,
+          "detail": "complete"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        }
+      ],
+      "geometry": {
+        "width": 1024,
+        "height": 768,
+        "scrollWidth": 1024,
+        "scrollHeight": 768,
+        "stacked": false,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 25.59375,
+            "y": 33,
+            "width": 972.8125,
+            "height": 30,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 19.59375,
+            "y": 132,
+            "width": 1004.375,
+            "height": 255.3125,
+            "fontSize": "125.155px",
+            "weight": "500",
+            "display": "inline"
+          },
+          ".around": {
+            "x": 19.59375,
+            "y": 259.65625,
+            "width": 1004.375,
+            "height": 127.65625,
+            "fontSize": "125.155px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 19.59375,
+            "y": 419.296875,
+            "width": 566.6875,
+            "height": 127.65625,
+            "fontSize": "125.155px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 532.46875,
+            "y": 112,
+            "width": 465.90625,
+            "height": 462.21875,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 25.59375,
+            "y": 602.21875,
+            "width": 340.46875,
+            "height": 46.375,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 532.46875,
+            "y": 595.21875,
+            "width": 465.90625,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 880.609375,
+            "y": 595.21875,
+            "width": 117.765625,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 25.59375,
+            "y": 704.203125,
+            "width": 972.8125,
+            "height": 38.796875,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "grid"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "768x1024",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 17.40000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 66.19999999925494,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 66.59999999962747,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3401.5999999996275,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3853.2999999988824,
+          "detail": "complete"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        }
+      ],
+      "geometry": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "scrollHeight": 1157,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 24,
+            "y": 27,
+            "width": 720,
+            "height": 26.390625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 21,
+            "y": 98.984375,
+            "width": 746.984375,
+            "height": 261.09375,
+            "fontSize": "128px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 21,
+            "y": 229.53125,
+            "width": 746.984375,
+            "height": 130.546875,
+            "fontSize": "128px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 21,
+            "y": 882.078125,
+            "width": 746.984375,
+            "height": 131.203125,
+            "fontSize": "120.8px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 126.390625,
+            "y": 394.078125,
+            "width": 617.59375,
+            "height": 500,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 24,
+            "y": 1033.28125,
+            "width": 319.1875,
+            "height": 43.5,
+            "fontSize": "15px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 24,
+            "y": 1096.78125,
+            "width": 720,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 626.234375,
+            "y": 1096.78125,
+            "width": 117.765625,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "390x844",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 20.699999999254942,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 103.40000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 103.90000000037253,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3250.9000000003725,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3684.699999999255,
+          "detail": "complete"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        }
+      ],
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 889,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 20,
+            "y": 27,
+            "width": 350,
+            "height": 26.390625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 17,
+            "y": 98.984375,
+            "width": 372.984375,
+            "height": 146.875,
+            "fontSize": "71.9998px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 17,
+            "y": 172.421875,
+            "width": 372.984375,
+            "height": 73.4375,
+            "fontSize": "71.9998px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 17,
+            "y": 667.859375,
+            "width": 372.984375,
+            "height": 77.359375,
+            "fontSize": "68px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 71.984375,
+            "y": 279.859375,
+            "width": 298,
+            "height": 400,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 20,
+            "y": 765.21875,
+            "width": 319.1875,
+            "height": 43.5,
+            "fontSize": "15px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 20,
+            "y": 828.71875,
+            "width": 350,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 252.234375,
+            "y": 828.71875,
+            "width": 117.765625,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "360x780",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 19.300000000745058,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 62.90000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 63.30000000074506,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3205.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3656.300000000745,
+          "detail": "complete"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        }
+      ],
+      "geometry": {
+        "width": 360,
+        "height": 780,
+        "scrollWidth": 360,
+        "scrollHeight": 838,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 20,
+            "y": 27,
+            "width": 320,
+            "height": 26.390625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 17,
+            "y": 98.984375,
+            "width": 342.984375,
+            "height": 135.59375,
+            "fontSize": "66.4614px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 17,
+            "y": 166.78125,
+            "width": 342.984375,
+            "height": 67.796875,
+            "fontSize": "66.4614px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 17,
+            "y": 622.734375,
+            "width": 342.984375,
+            "height": 72.015625,
+            "fontSize": "62.7692px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 67.984375,
+            "y": 268.578125,
+            "width": 272,
+            "height": 365.09375,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 20,
+            "y": 714.75,
+            "width": 319.1875,
+            "height": 43.5,
+            "fontSize": "15px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 20,
+            "y": 778.25,
+            "width": 320,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 222.234375,
+            "y": 778.25,
+            "width": 117.765625,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "1600x1000",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 14.800000000745058,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 63.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 64.30000000074506,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4055.7000000011176,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4489.5,
+          "detail": "complete"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": ""
+        }
+      ],
+      "geometry": {
+        "width": 1600,
+        "height": 1000,
+        "scrollWidth": 1600,
+        "scrollHeight": 1000,
+        "stacked": false,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 116,
+            "y": 33,
+            "width": 1368,
+            "height": 30,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 110,
+            "y": 132,
+            "width": 1409.984375,
+            "height": 359.03125,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "inline"
+          },
+          ".around": {
+            "x": 110,
+            "y": 311.515625,
+            "width": 1409.984375,
+            "height": 179.515625,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 110,
+            "y": 536.015625,
+            "width": 796.890625,
+            "height": 179.515625,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 828.796875,
+            "y": 112,
+            "width": 655.1875,
+            "height": 650,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 116,
+            "y": 790,
+            "width": 340.46875,
+            "height": 46.375,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 828.796875,
+            "y": 783,
+            "width": 655.1875,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 1366.21875,
+            "y": 783,
+            "width": 117.765625,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 116,
+            "y": 936.203125,
+            "width": 1368,
+            "height": 38.796875,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "grid"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "320x780",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 18,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 320,
+        "height": 780,
+        "scrollWidth": 320,
+        "scrollHeight": 780,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 20,
+            "y": 27,
+            "width": 280,
+            "height": 26.390625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 17,
+            "y": 98.984375,
+            "width": 302.984375,
+            "height": 120.5,
+            "fontSize": "59.0768px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 17,
+            "y": 159.234375,
+            "width": 302.984375,
+            "height": 60.25,
+            "fontSize": "59.0768px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 17,
+            "y": 562.5,
+            "width": 302.984375,
+            "height": 64.90625,
+            "fontSize": "55.7949px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 62.65625,
+            "y": 253.484375,
+            "width": 237.328125,
+            "height": 318.5625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 20,
+            "y": 647.40625,
+            "width": 280,
+            "height": 43.5,
+            "fontSize": "15px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 20,
+            "y": 710.90625,
+            "width": 280,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 182.234375,
+            "y": 710.90625,
+            "width": 117.765625,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "320-text200",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 18,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 320,
+        "height": 780,
+        "scrollWidth": 320,
+        "scrollHeight": 1637,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 20,
+            "y": 27,
+            "width": 280,
+            "height": 115.984375,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 17,
+            "y": 188.578125,
+            "width": 302.984375,
+            "height": 534.75,
+            "fontSize": "131.077px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 17,
+            "y": 455.953125,
+            "width": 302.984375,
+            "height": 267.375,
+            "fontSize": "131.077px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 17,
+            "y": 1066.34375,
+            "width": 302.984375,
+            "height": 260.53125,
+            "fontSize": "123.795px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 62.65625,
+            "y": 757.328125,
+            "width": 237.328125,
+            "height": 318.5625,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 20,
+            "y": 1346.875,
+            "width": 280,
+            "height": 130.5,
+            "fontSize": "30px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 20,
+            "y": 1497.375,
+            "width": 280,
+            "height": 116,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 20,
+            "y": 1541.375,
+            "width": 280,
+            "height": 72,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "600x900",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 14.100000001490116,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 600,
+        "height": 900,
+        "scrollWidth": 600,
+        "scrollHeight": 1061,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 20,
+            "y": 27,
+            "width": 560,
+            "height": 26.390625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 17,
+            "y": 98.984375,
+            "width": 582.984375,
+            "height": 225.9375,
+            "fontSize": "110.769px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 17,
+            "y": 211.953125,
+            "width": 582.984375,
+            "height": 112.96875,
+            "fontSize": "110.769px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 17,
+            "y": 802.46875,
+            "width": 582.984375,
+            "height": 114.6875,
+            "fontSize": "104.615px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 99.984375,
+            "y": 358.921875,
+            "width": 480,
+            "height": 455.546875,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 20,
+            "y": 937.15625,
+            "width": 319.1875,
+            "height": 43.5,
+            "fontSize": "15px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 20,
+            "y": 1000.65625,
+            "width": 560,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 462.234375,
+            "y": 1000.65625,
+            "width": 117.765625,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "600-text200",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 14.100000001490116,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 600,
+        "height": 900,
+        "scrollWidth": 600,
+        "scrollHeight": 1745,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 20,
+            "y": 27,
+            "width": 560,
+            "height": 52.796875,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 17,
+            "y": 125.390625,
+            "width": 582.984375,
+            "height": 559.21875,
+            "fontSize": "182.769px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 17,
+            "y": 311.796875,
+            "width": 582.984375,
+            "height": 372.8125,
+            "fontSize": "182.769px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 17,
+            "y": 1162.15625,
+            "width": 582.984375,
+            "height": 360.09375,
+            "fontSize": "172.615px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 99.984375,
+            "y": 718.609375,
+            "width": 480,
+            "height": 455.546875,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 20,
+            "y": 1542.25,
+            "width": 560,
+            "height": 87,
+            "fontSize": "30px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 20,
+            "y": 1649.25,
+            "width": 560,
+            "height": 72,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 344.5,
+            "y": 1649.25,
+            "width": 235.5,
+            "height": 72,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "900x900",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 14.900000000372529,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 900,
+        "height": 900,
+        "scrollWidth": 900,
+        "scrollHeight": 1157,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 24,
+            "y": 27,
+            "width": 852,
+            "height": 26.390625,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 21,
+            "y": 98.984375,
+            "width": 878.984375,
+            "height": 261.09375,
+            "fontSize": "128px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 21,
+            "y": 229.53125,
+            "width": 878.984375,
+            "height": 130.546875,
+            "fontSize": "128px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 21,
+            "y": 882.078125,
+            "width": 878.984375,
+            "height": 131.203125,
+            "fontSize": "120.8px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 143.984375,
+            "y": 394.078125,
+            "width": 732,
+            "height": 500,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 24,
+            "y": 1033.28125,
+            "width": 319.1875,
+            "height": 43.5,
+            "fontSize": "15px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 24,
+            "y": 1096.78125,
+            "width": 852,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 758.234375,
+            "y": 1096.78125,
+            "width": 117.765625,
+            "height": 36,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "900-text200",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 14.900000000372529,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 900,
+        "height": 900,
+        "scrollWidth": 900,
+        "scrollHeight": 2066,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 24,
+            "y": 27,
+            "width": 852,
+            "height": 52.796875,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 21,
+            "y": 125.390625,
+            "width": 878.984375,
+            "height": 728.71875,
+            "fontSize": "238.154px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 21,
+            "y": 368.296875,
+            "width": 878.984375,
+            "height": 485.8125,
+            "fontSize": "238.154px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 21,
+            "y": 1376.109375,
+            "width": 878.984375,
+            "height": 466.8125,
+            "fontSize": "224.923px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 143.984375,
+            "y": 888.109375,
+            "width": 732,
+            "height": 500,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 24,
+            "y": 1862.921875,
+            "width": 638.390625,
+            "height": 87,
+            "fontSize": "30px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 24,
+            "y": 1969.921875,
+            "width": 852,
+            "height": 72,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 640.5,
+            "y": 1969.921875,
+            "width": 235.5,
+            "height": 72,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "1440x500",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 17,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "height": 500,
+        "scrollWidth": 1440,
+        "scrollHeight": 900,
+        "stacked": false,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 36,
+            "y": 33,
+            "width": 1368,
+            "height": 30,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 30,
+            "y": 132,
+            "width": 1409.984375,
+            "height": 359.03125,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "inline"
+          },
+          ".around": {
+            "x": 30,
+            "y": 311.515625,
+            "width": 1409.984375,
+            "height": 179.515625,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 30,
+            "y": 536.015625,
+            "width": 796.890625,
+            "height": 179.515625,
+            "fontSize": "176px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 748.796875,
+            "y": 112,
+            "width": 655.1875,
+            "height": 650,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 36,
+            "y": 790,
+            "width": 340.46875,
+            "height": 46.375,
+            "fontSize": "16px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 748.796875,
+            "y": 783,
+            "width": 655.1875,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 1286.21875,
+            "y": 783,
+            "width": 117.765625,
+            "height": 53.375,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 36,
+            "y": 836.375,
+            "width": 1368,
+            "height": 38.796875,
+            "fontSize": "12px",
+            "weight": "400",
+            "display": "grid"
+          }
+        },
+        "overflow": []
+      }
+    },
+    {
+      "case": "1440-text200",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "reduced-motion"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:end",
+          "time": 17,
+          "detail": "reduced-motion"
+        }
+      ],
+      "expired": "0",
+      "overlays": 0,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "line-motion",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "photo",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        },
+        {
+          "class": "details",
+          "opacity": "1",
+          "filter": "none",
+          "transform": "none",
+          "inline": null
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "height": 500,
+        "scrollWidth": 1440,
+        "scrollHeight": 1797,
+        "stacked": true,
+        "font": true,
+        "fontStatus": [
+          {
+            "family": "Onest",
+            "status": "loaded"
+          }
+        ],
+        "image": 1920,
+        "heading": "BUILT AROUND ABSENCE.",
+        "elements": {
+          ".header": {
+            "x": 24,
+            "y": 27,
+            "width": 1392,
+            "height": 52.796875,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".opening": {
+            "x": 21,
+            "y": 125.390625,
+            "width": 1418.984375,
+            "height": 522.21875,
+            "fontSize": "256px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".around": {
+            "x": 21,
+            "y": 386.5,
+            "width": 1418.984375,
+            "height": 261.109375,
+            "fontSize": "256px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".closing": {
+            "x": 21,
+            "y": 1319.609375,
+            "width": 1418.984375,
+            "height": 254.421875,
+            "fontSize": "241.6px",
+            "weight": "500",
+            "display": "block"
+          },
+          ".photo": {
+            "x": 215.984375,
+            "y": 681.609375,
+            "width": 1200,
+            "height": 650,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".intro": {
+            "x": 24,
+            "y": 1594.03125,
+            "width": 638.390625,
+            "height": 87,
+            "fontSize": "30px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".image-note": {
+            "x": 24,
+            "y": 1701.03125,
+            "width": 1392,
+            "height": 72,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "flex"
+          },
+          ".credit": {
+            "x": 1180.5,
+            "y": 1701.03125,
+            "width": 235.5,
+            "height": 72,
+            "fontSize": "24px",
+            "weight": "400",
+            "display": "block"
+          },
+          ".footer": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "32px",
+            "weight": "400",
+            "display": "none"
+          }
+        },
+        "overflow": []
+      }
+    }
+  ],
+  "reliability": [
+    {
+      "width": 1440,
+      "height": 900,
+      "cache": "cold",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 23,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 75.19999999925494,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 79.5,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "cache": "cold",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 24,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 92.79999999888241,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 97.69999999925494,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "cache": "warm",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 25.100000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 84.10000000149012,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 84.70000000111759,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "cache": "warm",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 20,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 73.80000000074506,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 74.20000000111759,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "cache": "cold",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 20.299999998882413,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 77.69999999925494,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 78,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "cache": "cold",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 23.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 96.29999999888241,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 96.59999999962747,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "cache": "warm",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 27.59999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 78.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 78.5,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "cache": "warm",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 25,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 76.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 76.39999999850988,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "cache": "cold",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 19.899999998509884,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 79.69999999925494,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 80.09999999962747,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "cache": "cold",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 18.40000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 83,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 83.60000000149012,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "cache": "warm",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 21.300000000745058,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 77.59999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 77.90000000037253,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "cache": "warm",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 18.59999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 67.70000000111759,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 68,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(4px)",
+          "transform": "matrix(1, 0, 0, 1, -75, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(4px); transform: translate3d(-75px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1.5px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1.5px);"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "cache": "cold",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 18.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 79.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 79.5,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "cache": "cold",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 19.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 81.59999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 82.40000000037253,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "cache": "warm",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 22.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 70.40000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 70.70000000111759,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "cache": "warm",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 18.399999998509884,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 66.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 66.39999999850988,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -45, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-45px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "cache": "cold",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 17,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 70,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 70.40000000037253,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "cache": "cold",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 17.199999999254942,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 80.89999999850988,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 81.19999999925494,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "cache": "warm",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 21.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 63.19999999925494,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 63.29999999888241,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "cache": "warm",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.59999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 64,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 64.40000000037253,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "cache": "cold",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.199999999254942,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 68.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 68.39999999850988,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "cache": "cold",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 21.300000000745058,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 76.90000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 77.30000000074506,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "cache": "warm",
+      "sample": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 18.40000000037253,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 63.30000000074506,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 63.70000000111759,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "cache": "warm",
+      "sample": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 17.300000000745058,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 69.09999999962747,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 69.59999999962747,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "expired": "0",
+      "overlays": 2,
+      "styles": [
+        {
+          "class": "wordmark",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(2px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "line-motion",
+          "opacity": "0",
+          "filter": "blur(2px)",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "inline": "opacity: 0; translate: none; rotate: none; scale: none; will-change: transform, opacity, filter; background-image: none; color: var(--graphite); filter: blur(2px); transform: translate3d(-32px, 0px, 0px);"
+        },
+        {
+          "class": "photo",
+          "opacity": "0",
+          "filter": "none",
+          "transform": "none",
+          "inline": "opacity: 0;"
+        },
+        {
+          "class": "details",
+          "opacity": "0",
+          "filter": "blur(1px)",
+          "transform": "none",
+          "inline": "opacity: 0; filter: blur(1px);"
+        }
+      ]
+    }
+  ]
+}

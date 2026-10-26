@@ -1,0 +1,314 @@
+[
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 10.100000001490116
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 43.100000001490116
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 58.29999999701977
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 63.19999999552965
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 112
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 112
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 14
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 17.399999998509884
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 19.600000001490116
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 44.20000000298023
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 76
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 76
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 12.100000001490116
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 15.900000005960464
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 18
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 37
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 64
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 9.799999997019768
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 12.399999998509884
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 13.399999998509884
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 51.79999999701977
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 44
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 44
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 8.799999997019768
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 10.600000001490116
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 12.5
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 35.100000001490116
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 64
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 9.700000002980232
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 12.899999998509884
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 13.700000002980232
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 33.899999998509884
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 60
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 13
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 15.099999994039536
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 16.899999998509884
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 34.099999994039536
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 60
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:candidate",
+        "time": 10.100000001490116
+      },
+      {
+        "name": "stillform:font:ready",
+        "time": 11.900000005960464
+      },
+      {
+        "name": "stillform:hero:deadline",
+        "time": 13.700000002980232
+      },
+      {
+        "name": "stillform:image:decoded",
+        "time": 34.100000001490116
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 64
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  }
+]

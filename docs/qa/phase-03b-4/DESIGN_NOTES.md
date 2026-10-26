@@ -1,0 +1,3 @@
+# Phase 03B.4 implementation intent
+
+Keep Occupied Void, Onest 500 and the approved seven-event rhythm. Mineral #e5e8e4, graphite #292d2b, chalk #f7f8f5, moss #35463d. Full-width composition with shared responsive gutters, a height/resolution-bounded near-square photograph, and an end-aligned ABSENCE grid track reaching a controlled distance into the actual photo. Reading text remains bounded; metadata stays at current sizes. The 1440px silhouette is the anchor. Explore 1.06 and 1.08 desktop zoom; provisionally favor 1.06 for architectural detail. Compare resolved ABSENCE inks at 58% and 68% graphite over mineral, preserving full white over the image. No new UI.

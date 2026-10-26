@@ -1,0 +1,370 @@
+[
+  {
+    "label": "01-slit",
+    "requested": 0.12,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028256543.3,
+    "now": 296.40000000037253,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 96.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 96.5,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 99.9068603515625,
+        "y": 282,
+        "width": 568.186279296875,
+        "height": 460,
+        "top": 282,
+        "right": 668.0931396484375,
+        "bottom": 742,
+        "left": 99.9068603515625
+      },
+      "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(0.92)",
+      "clip": "inset(0px 46% 88.1721%)"
+    },
+    "image": {
+      "rect": {
+        "x": 126.390625,
+        "y": 394.078125,
+        "width": 617.59375,
+        "height": 500,
+        "top": 394.078125,
+        "right": 743.984375,
+        "bottom": 894.078125,
+        "left": 126.390625
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "02-identity-in",
+    "requested": 0.55,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028256543.3,
+    "now": 734.7000000001863,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 96.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 96.5,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 99.9068603515625,
+        "y": 282,
+        "width": 568.186279296875,
+        "height": 460,
+        "top": 282,
+        "right": 668.0931396484375,
+        "bottom": 742,
+        "left": 99.9068603515625
+      },
+      "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(0.92)",
+      "clip": "inset(0px 46% 0.007156%)"
+    },
+    "image": {
+      "rect": {
+        "x": 126.390625,
+        "y": 394.078125,
+        "width": 617.59375,
+        "height": 500,
+        "top": 394.078125,
+        "right": 743.984375,
+        "bottom": 894.078125,
+        "left": 126.390625
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "03-expanded",
+    "requested": 1.4,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028256543.3,
+    "now": 1666.7000000001863,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 96.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 96.5,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 96.5999755859375,
+        "y": 279.32275390625,
+        "width": 574.800048828125,
+        "height": 465.3544921875,
+        "top": 279.32275390625,
+        "right": 671.4000244140625,
+        "bottom": 744.67724609375,
+        "left": 96.5999755859375
+      },
+      "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(0.930709)",
+      "clip": "inset(0px 0% 0%)"
+    },
+    "image": {
+      "rect": {
+        "x": 126.390625,
+        "y": 394.078125,
+        "width": 617.59375,
+        "height": 500,
+        "top": 394.078125,
+        "right": 743.984375,
+        "bottom": 894.078125,
+        "left": 126.390625
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "04-scale",
+    "requested": 2,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028256543.3,
+    "now": 2257.5999999996275,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 96.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 96.5,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 88.74725341796875,
+        "y": 272.9652404785156,
+        "width": 590.5054931640625,
+        "height": 478.0695495605469,
+        "top": 272.9652404785156,
+        "right": 679.2527465820312,
+        "bottom": 751.0347900390625,
+        "left": 88.74725341796875
+      },
+      "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(0.956139)",
+      "clip": "inset(0px 0% 0%)"
+    },
+    "image": {
+      "rect": {
+        "x": 126.390625,
+        "y": 394.078125,
+        "width": 617.59375,
+        "height": 500,
+        "top": 394.078125,
+        "right": 743.984375,
+        "bottom": 894.078125,
+        "left": 126.390625
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "05-transfer",
+    "requested": 2.9499999999999997,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028256543.3,
+    "now": 3210.5999999996275,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 96.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 96.5,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 118.48275756835938,
+        "y": 370.76092529296875,
+        "width": 614.3038330078125,
+        "height": 497.33648681640625,
+        "top": 370.76092529296875,
+        "right": 732.7865905761719,
+        "bottom": 868.097412109375,
+        "left": 118.48275756835938
+      },
+      "transform": "translate3d(-9.55282px, -24.6489px, 0px) scale(0.994673)",
+      "clip": "inset(0px 0% 0%)"
+    },
+    "image": {
+      "rect": {
+        "x": 126.390625,
+        "y": 394.078125,
+        "width": 617.59375,
+        "height": 500,
+        "top": 394.078125,
+        "right": 743.984375,
+        "bottom": 894.078125,
+        "left": 126.390625
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "06-headline",
+    "requested": 4.1,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028256543.3,
+    "now": 4372.5999999996275,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 96.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 96.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:transfer",
+        "time": 3636.9000000003725,
+        "detail": null
+      }
+    ],
+    "photo": null,
+    "image": {
+      "rect": {
+        "x": 126.390625,
+        "y": 394.078125,
+        "width": 617.59375,
+        "height": 500,
+        "top": 394.078125,
+        "right": 743.984375,
+        "bottom": 894.078125,
+        "left": 126.390625
+      },
+      "opacity": "1"
+    },
+    "overflow": false
+  },
+  {
+    "label": "07-settled",
+    "requested": 5.199999999999999,
+    "state": {
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "origin": 1793028256543.3,
+    "now": 5423.5999999996275,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 96.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 96.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:transfer",
+        "time": 3636.9000000003725,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:end",
+        "time": 4820.4000000003725,
+        "detail": "complete"
+      }
+    ],
+    "photo": null,
+    "image": {
+      "rect": {
+        "x": 126.390625,
+        "y": 394.078125,
+        "width": 617.59375,
+        "height": 500,
+        "top": 394.078125,
+        "right": 743.984375,
+        "bottom": 894.078125,
+        "left": 126.390625
+      },
+      "opacity": "1"
+    },
+    "overflow": false
+  }
+]

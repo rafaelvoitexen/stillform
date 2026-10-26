@@ -1,3 +1,19 @@
+# STILLFORM — Current production specification amendment
+
+**Phase 03B.4 · 26 October 2026 · Fluid layout and continuous zoom implemented for review**
+
+The current production rules are in [HERO_FLUID_SYSTEM.md](HERO_FLUID_SYSTEM.md). They supersede the archived text below wherever it specifies a 1440px maximum page width, old image crop/scale, static left-edge assumptions, vertical headline travel, a light-corridor lettering mask, completed-transfer-before-headline timing, prior-entry suppression or older timing/deadline values.
+
+Retain the approved Phase 03B.3 narrative and rhythm: opposing STILL / FORM motion; main headline entering from the left concurrently with image transfer; strict white over the actual photo aperture; replay on every eligible new entry; no replay for scrolling to the top within that entry. Phase 03B.4 adds a single monotonic inner zoom to the same CSS final crop, full-width fluid geometry, and a provisional subdued ABSENCE ink.
+
+The new layout/crop screenshots and both ink alternatives await human visual approval. [Current QA and recordings](../qa/phase-03b-4/README.md) record the actual tested implementation and remaining limits. No other section or cross-section motion is in scope.
+
+---
+
+## Archived previous contract — retained historical evidence
+
+The following prior document is preserved for research. Its conflicting implementation instructions are historical, not current production requirements.
+
 # STILLFORM — Final Hero production specification
 
 **Phase 02D · Approved direction consolidated 25 October 2026**

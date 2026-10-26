@@ -5,7 +5,7 @@
     <p class="chapter" aria-label="Section 1 of 4">01 / 04</p>
   </header>
   <div class="stage">
-    <h1 aria-label="Built around absence."><span class="opening"><span class="built">BUILT</span> <span class="around">AROUND</span></span> <span class="closing">ABSENCE.</span></h1>
+    <h1 aria-label="Built around absence."><span class="opening"><span class="built"><span class="line-motion">BUILT</span></span> <span class="around"><span class="line-motion">AROUND</span></span></span> <span class="closing"><span class="line-motion">ABSENCE.</span></span></h1>
     <figure class="photo">
       <img src="/images/tulach-e-vos.jpg" width="1920" height="1440" fetchpriority="high" loading="eager" alt="Two concrete masses frame a narrow shaft of daylight at Tulach a’ tSolais." />
       <p class="image-failure" hidden>Photograph unavailable.</p>
@@ -24,10 +24,13 @@
 <style>
 
   .hero {
-    --gutter: clamp(20px, 3.125cqw, 24px);
+    --gutter: min(var(--page-gutter), 24px);
+    /* Provisional variant B: 68% graphite-equivalent, resolved on mineral. */
+    --absence-ink: #656966;
+    --photo-zoom: 1.04;
     --photo-left: calc(var(--gutter) + 13.333333cqw);
     --optical-left: calc(var(--gutter) - 3px);
-    --photo-width: calc(100cqw - var(--photo-left) - var(--gutter));
+    --photo-width: min(calc(100cqw - var(--photo-left) - var(--gutter)), calc(650px * 4 / 3));
     --photo-height: min(650px, var(--photo-width) * 400 / 298);
     --display: clamp(3rem, calc(4.5rem + 18.4615cqw - 72px), 8rem);
     --closing-display: clamp(2.75rem, calc(4.25rem + 17.4359cqw - 68px), 7.55rem);
@@ -43,9 +46,9 @@
   h1 { display: contents; font-size: var(--display); font-weight: 500; line-height: 1.02; letter-spacing: -.055em; overflow-wrap: anywhere; }
   .opening { grid-area: 1 / 1 / 2 / -1; margin-left: var(--optical-left); }
   .built, .around, .closing { display: block; }
-  .closing { grid-area: 3 / 1 / 4 / -1; z-index: 1; margin: calc(-1 * min(12px, var(--photo-height) * .03)) 0 0 var(--optical-left); padding-block: 4px; font-size: var(--closing-display); background: var(--mineral); }
-  .photo { grid-area: 2 / 2; margin-top: 34px; height: var(--photo-height); position: relative; background: var(--mineral); }
-  .photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+  .closing { grid-area: 3 / 1 / 4 / -1; z-index: 1; margin: calc(-1 * min(12px, var(--photo-height) * .03)) 0 0 var(--optical-left); padding-block: 4px; font-size: var(--closing-display); color: var(--absence-ink); background: var(--mineral); }
+  .photo { grid-area: 2 / 2; margin-top: 34px; height: var(--photo-height); position: relative; overflow: clip; background: var(--mineral); }
+  .photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; transform: scale(var(--photo-zoom)); transform-origin: center; }
   .image-failure { position: absolute; inset: 24px; font-size: .9375rem; }
   .details { margin: 20px var(--gutter) 0; }
   .intro { font-size: .9375rem; line-height: 1.45; letter-spacing: -.015em; max-width: 32ch; }
@@ -63,25 +66,37 @@
         calc(400px + (100cqw - 390px) * 100 / 378));
     }
   }
-  @container (min-width: 1024px) {
+  @container (max-width: 599px) {
+    .hero { --photo-zoom: 1.03; }
+  }
+  /* Preserve 1024px eligibility at 16px; enlarged text gets a CSS-only stacked fallback. */
+  @container (min-width: calc(64rem + (100vw - 1024px) * .7)) {
     .hero:not([data-stacked]) {
-      --gutter: clamp(24px, 2.5cqw, 36px);
-      --photo-left: 52cqw;
+      --gutter: var(--page-gutter);
+      --photo-zoom: 1.06;
+      /* Retain the 1440 anchor, then fit height without exceeding the local source at 1×. */
+      --photo-limit: min(max(650px, calc(100svh - 250px)), calc(1440px / 1.08));
+      --photo-width: min(calc(48cqw - var(--gutter)), calc(var(--photo-limit) * 655.2 / 650));
+      --photo-left: calc(100cqw - var(--gutter) - var(--photo-width));
       --optical-left: calc(var(--gutter) - 6px);
-      --photo-height: min(650px, var(--photo-width) * 650 / 655.2);
-      --display: clamp(6rem, calc(11rem + 12.222222cqw - 176px), 11rem);
+      --photo-height: calc(var(--photo-width) * 650 / 655.2);
+      --display: clamp(6rem, min(calc(11rem + 12.222222cqw - 176px), calc(11rem + var(--photo-height) * .31 - 176px)), 26rem);
+      --photo-overlap: clamp(3.5rem, calc(var(--display) * .4437), 12rem);
+      --closing-end: calc(var(--photo-left) - var(--optical-left) + var(--photo-overlap));
+      --closing-cut: calc(100% - var(--photo-overlap));
+      --closing-gap: clamp(0px, calc(var(--photo-height) - var(--display) * 3.2 - 20px), calc(var(--display) * 45 / 176));
       padding-block: 30px 25px;
     }
-    .hero:not([data-stacked]) .header { margin-bottom: 52px; }
+    .hero:not([data-stacked]) .header { display: grid; grid-template-columns: minmax(0, 1fr) max-content minmax(max-content, 24cqw); margin-bottom: 52px; }
+    .hero:not([data-stacked]) .wordmark { justify-self: start; }
     .hero:not([data-stacked]) .wordmark { font-size: 1.5625rem; }
-    .hero:not([data-stacked]) .descriptor { display: block; margin: -3.2px 10cqw -3.2px auto; font-size: .8125rem; line-height: 1.4; }
+    .hero:not([data-stacked]) .descriptor { display: block; margin: -3.2px 0; font-size: .8125rem; line-height: 1.4; }
     .hero:not([data-stacked]) .chapter {
-      /* Retain the approved header column while its contents become an edition indicator. */
-      inline-size: 12.4140625rem; margin-left: 0; font-size: .8125rem;
+      justify-self: end; margin-left: 0; font-size: .8125rem;
     }
-    .hero:not([data-stacked]) h1 { display: block; grid-area: 1 / 1 / 2 / -1; z-index: 1; align-self: start; margin: 20px 0 0 var(--optical-left); }
-    .hero:not([data-stacked]) .opening { margin: 0; }
-    .hero:not([data-stacked]) .closing { margin: calc(var(--display) * 45 / 176) 0 0; padding: 0; width: fit-content; font-size: inherit; color: transparent; background: linear-gradient(to right, var(--graphite) 0, var(--graphite) calc(var(--photo-left) - var(--optical-left)), var(--chalk) calc(var(--photo-left) - var(--optical-left)), var(--chalk) 100%); background-clip: text; }
+    .hero:not([data-stacked]) h1 { display: grid; grid-template-columns: minmax(0, var(--closing-end)) minmax(0, 1fr); grid-area: 1 / 1 / 2 / -1; z-index: 1; align-self: start; margin: 20px 0 0 var(--optical-left); }
+    .hero:not([data-stacked]) .opening { grid-area: auto / 1 / auto / -1; margin: 0; }
+    .hero:not([data-stacked]) .closing { grid-area: auto / 1; justify-self: end; margin: var(--closing-gap) 0 0; padding: 0; width: max-content; max-width: calc(100cqw - var(--gutter) * 2); font-size: inherit; color: transparent; background: linear-gradient(to right, var(--absence-ink) 0, var(--absence-ink) var(--closing-cut), var(--chalk) var(--closing-cut), var(--chalk) 100%); background-clip: text; }
     .hero:not([data-stacked]) .photo { grid-area: 1 / 2; margin: 0; }
     .hero:not([data-stacked]) .details { display: grid; grid-template-columns: var(--photo-left) var(--photo-width) var(--gutter); margin: 21px 0 0; }
     .hero:not([data-stacked]) .intro { grid-area: 1 / 1; margin: 7px var(--gutter) 0; font-size: 1rem; }
@@ -90,62 +105,10 @@
     .hero:not([data-stacked]) .footer { display: grid; grid-template-columns: 1fr 1fr 1fr; flex-wrap: wrap; gap: 16px; margin: auto var(--gutter) 0; padding-top: 22px; font-size: .75rem; line-height: 1.4; }
     .hero:not([data-stacked]) .footer span:nth-child(2) { text-align: center; }
   }
+  /* Bound blur surfaces to their glyph content instead of the entire viewport. */
+  .line-motion { display: block; width: fit-content; max-width: 100%; }
 </style>
 
 <script>
-  // Layout enhancement only: no motion and no text fitting or scaling.
-  const hero = document.querySelector<HTMLElement>('.hero');
-  const page = document.querySelector<HTMLElement>('.page');
-  if (hero && page) {
-    const opening = hero.querySelector<HTMLElement>('.around')!;
-    const closing = hero.querySelector<HTMLElement>('.closing')!;
-    const photo = hero.querySelector<HTMLElement>('.photo')!;
-    const header = hero.querySelector<HTMLElement>('.header')!;
-    const note = hero.querySelector<HTMLElement>('.image-note')!;
-    const image = hero.querySelector<HTMLImageElement>('img')!;
-    const rangeWidth = (element: HTMLElement) => {
-      const range = document.createRange();
-      range.selectNodeContents(element);
-      return range.getBoundingClientRect().width;
-    };
-    const assess = () => {
-      hero.removeAttribute('data-stacked');
-      note.removeAttribute('data-wrap');
-      if (page.clientWidth >= 1024) {
-        const x = opening.getBoundingClientRect().left;
-        const frame = photo.getBoundingClientRect();
-        const columns = [...header.children].map(el => el.getBoundingClientRect());
-        if (x + rangeWidth(opening) > frame.left - 8 ||
-            x + rangeWidth(closing) <= frame.left ||
-            x + rangeWidth(closing) > frame.left + frame.width / 2 - 16 ||
-            columns.some((col, i) => i > 0 && col.left - columns[i - 1].right < 24)) {
-          hero.setAttribute('data-stacked', '');
-        }
-      }
-      const subject = note.querySelector<HTMLElement>('.subject')!;
-      const credit = note.querySelector<HTMLElement>('.credit')!;
-      if (rangeWidth(subject) + rangeWidth(credit) + 16 > note.clientWidth) note.setAttribute('data-wrap', '');
-    };
-    let scheduled = false;
-    const schedule = () => {
-      if (scheduled) return;
-      scheduled = true;
-      requestAnimationFrame(() => { scheduled = false; assess(); });
-    };
-    // Observe only sizing inputs, never the stage that the guard changes.
-    const observer = new ResizeObserver(schedule);
-    observer.observe(page);
-    observer.observe(header.querySelector('.wordmark')!);
-    document.fonts.ready.then(schedule);
-    document.fonts.addEventListener('loadingdone', schedule);
-    const imageFailed = () => {
-      image.hidden = true;
-      // The image's original alt text remains available in no-JS failure mode.
-      image.style.display = 'none';
-      hero.querySelector<HTMLElement>('.image-failure')!.hidden = false;
-    };
-    image.addEventListener('error', imageFailed, { once: true });
-    if (image.complete && !image.naturalWidth) imageFailed();
-    assess();
-  }
+  import '../scripts/hero';
 </script>

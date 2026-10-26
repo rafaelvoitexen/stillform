@@ -1,0 +1,17 @@
+[
+  {
+    "recording": "desktop",
+    "identical": true,
+    "bbox": null
+  },
+  {
+    "recording": "tablet",
+    "identical": true,
+    "bbox": null
+  },
+  {
+    "recording": "mobile",
+    "identical": true,
+    "bbox": null
+  }
+]

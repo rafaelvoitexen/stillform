@@ -1,0 +1,1142 @@
+{
+  "results": [
+    {
+      "case": "fresh",
+      "entry": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 148.89999999850988
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 78.79999999701977,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 160.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 161.39999999850988,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "overlays": 2,
+      "masks": 3,
+      "lines": [
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        }
+      ]
+    },
+    {
+      "case": "reload",
+      "entry": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 51.900000002235174
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 26.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 102.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 103,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "overlays": 2,
+      "masks": 3,
+      "lines": [
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        }
+      ]
+    },
+    {
+      "case": "new-navigation-after-away",
+      "entry": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 67.60000000149012
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 72.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 73.20000000298023,
+          "detail": {
+            "entry": 1
+          }
+        }
+      ],
+      "overlays": 2,
+      "masks": 3,
+      "lines": [
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        }
+      ]
+    },
+    {
+      "case": "history-top",
+      "entry": 2,
+      "state": {
+        "heroEntry": "2",
+        "heroState": "running"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 67.60000000149012
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4169.70000000298
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4390.70000000298
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 72.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 73.20000000298023,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3183.60000000149,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000029802,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 4391.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 4422,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 4422.800000000745,
+          "detail": {
+            "entry": 2
+          }
+        }
+      ],
+      "overlays": 2,
+      "masks": 3,
+      "lines": [
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        }
+      ]
+    },
+    {
+      "case": "history-away",
+      "entry": 3,
+      "state": {
+        "heroEntry": "3",
+        "heroState": "static-final",
+        "heroReason": "history-away-from-top"
+      },
+      "scroll": 45,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 67.60000000149012
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4169.70000000298
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4390.70000000298
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8658.300000000745
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8878.300000000745
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 72.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 73.20000000298023,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3183.60000000149,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000029802,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 4391.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 4422,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 4422.800000000745,
+          "detail": {
+            "entry": 2
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 7578.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8017,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8878.5,
+          "detail": "history-away-from-top"
+        }
+      ],
+      "overlays": 0,
+      "masks": 0,
+      "lines": [
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "case": "same-entry-return-top",
+      "entry": 3,
+      "state": {
+        "heroEntry": "3",
+        "heroState": "static-final",
+        "heroReason": "history-away-from-top"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 67.60000000149012
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4169.70000000298
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4390.70000000298
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8658.300000000745
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8878.300000000745
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 72.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 73.20000000298023,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3183.60000000149,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000029802,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 4391.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 4422,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 4422.800000000745,
+          "detail": {
+            "entry": 2
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 7578.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8017,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8878.5,
+          "detail": "history-away-from-top"
+        }
+      ],
+      "overlays": 0,
+      "masks": 0,
+      "lines": [
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "case": "history-new-entry-at-top",
+      "entry": 4,
+      "state": {
+        "heroEntry": "4",
+        "heroState": "running"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 67.60000000149012
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4169.70000000298
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4390.70000000298
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8658.300000000745
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8878.300000000745
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 10240.10000000149
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 10461.900000002235
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 72.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 73.20000000298023,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3183.60000000149,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000029802,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 4391.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 4422,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 4422.800000000745,
+          "detail": {
+            "entry": 2
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 7578.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8017,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8878.5,
+          "detail": "history-away-from-top"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 10462.800000000745,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 10522.400000002235,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 10522.800000000745,
+          "detail": {
+            "entry": 4
+          }
+        }
+      ],
+      "overlays": 2,
+      "masks": 3,
+      "lines": [
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        }
+      ]
+    },
+    {
+      "case": "scroll-interruption",
+      "entry": 4,
+      "state": {
+        "heroEntry": "4",
+        "heroState": "settled",
+        "heroReason": "scroll"
+      },
+      "scroll": 45,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 67.60000000149012
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4169.70000000298
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4390.70000000298
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8658.300000000745
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8878.300000000745
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 10240.10000000149
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 10461.900000002235
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 72.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 73.20000000298023,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3183.60000000149,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000029802,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 4391.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 4422,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 4422.800000000745,
+          "detail": {
+            "entry": 2
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 7578.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8017,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8878.5,
+          "detail": "history-away-from-top"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 10462.800000000745,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 10522.400000002235,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 10522.800000000745,
+          "detail": {
+            "entry": 4
+          }
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 11163,
+          "detail": "scroll"
+        }
+      ],
+      "overlays": 0,
+      "masks": 0,
+      "lines": [
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "case": "scroll-top-does-not-replay",
+      "entry": 4,
+      "state": {
+        "heroEntry": "4",
+        "heroState": "settled",
+        "heroReason": "scroll"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 0,
+          "time": 67.60000000149012
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4169.70000000298
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 4390.70000000298
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8658.300000000745
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 45,
+          "time": 8878.300000000745
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 10240.10000000149
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 10461.900000002235
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 16.600000001490116,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 72.70000000298023,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 73.20000000298023,
+          "detail": {
+            "entry": 1
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3183.60000000149,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000029802,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 4391.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 4422,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 4422.800000000745,
+          "detail": {
+            "entry": 2
+          }
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 7578.5,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8017,
+          "detail": "complete"
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 8878.5,
+          "detail": "history-away-from-top"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 10462.800000000745,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 10522.400000002235,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 10522.800000000745,
+          "detail": {
+            "entry": 4
+          }
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 11163,
+          "detail": "scroll"
+        }
+      ],
+      "overlays": 0,
+      "masks": 0,
+      "lines": [
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "case": "history-away-native-restoration",
+      "entry": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "static-final",
+        "heroReason": "history-away-from-top"
+      },
+      "scroll": 45,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 45,
+          "time": 25.399999998509884
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 14.099999997764826,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 26.899999998509884,
+          "detail": "history-away-from-top"
+        }
+      ],
+      "overlays": 0,
+      "masks": 0,
+      "lines": [
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        }
+      ]
+    },
+    {
+      "case": "history-forward-top",
+      "entry": 2,
+      "state": {
+        "heroEntry": "2",
+        "heroState": "running"
+      },
+      "scroll": 0,
+      "events": [
+        {
+          "type": "pageshow",
+          "persisted": false,
+          "scroll": 45,
+          "time": 25.399999998509884
+        },
+        {
+          "type": "pagehide",
+          "persisted": true,
+          "scroll": 0,
+          "time": 807.5999999977648
+        },
+        {
+          "type": "pageshow",
+          "persisted": true,
+          "scroll": 0,
+          "time": 1003.5
+        }
+      ],
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 14.099999997764826,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 26.899999998509884,
+          "detail": "history-away-from-top"
+        },
+        {
+          "name": "stillform:hero:reserved",
+          "time": 1004.5999999977648,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 1036.199999999255,
+          "detail": null
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 1036.5,
+          "detail": {
+            "entry": 2
+          }
+        }
+      ],
+      "overlays": 2,
+      "masks": 3,
+      "lines": [
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        },
+        {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, -32, 0)",
+          "filter": "blur(2px)"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "bfcache": [
+    {
+      "loaderId": "7A784A46763C1E25823E78A052B0D520",
+      "frameId": "CA84DF582359E1CE2679C6AF0897CA08",
+      "notRestoredExplanations": [
+        {
+          "type": "Circumstantial",
+          "reason": "BrowsingInstanceNotSwapped"
+        },
+        {
+          "type": "PageSupportNeeded",
+          "reason": "UnloadHandlerExistsInMainFrame"
+        }
+      ],
+      "notRestoredExplanationsTree": {
+        "url": "http://127.0.0.1:4324/",
+        "explanations": [
+          {
+            "type": "Circumstantial",
+            "reason": "BrowsingInstanceNotSwapped"
+          }
+        ],
+        "children": []
+      }
+    },
+    {
+      "loaderId": "2C265751AA7E58DF7F9555692CEDC874",
+      "frameId": "CA84DF582359E1CE2679C6AF0897CA08",
+      "notRestoredExplanations": [
+        {
+          "type": "Circumstantial",
+          "reason": "SchemeNotHTTPOrHTTPS"
+        }
+      ],
+      "notRestoredExplanationsTree": {
+        "url": "chrome://version/",
+        "explanations": [
+          {
+            "type": "Circumstantial",
+            "reason": "SchemeNotHTTPOrHTTPS"
+          }
+        ],
+        "children": []
+      }
+    }
+  ]
+}

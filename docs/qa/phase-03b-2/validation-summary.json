@@ -1,0 +1,189 @@
+{
+  "cases": [
+    {
+      "case": "complete",
+      "state": "settled",
+      "reason": "complete",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "scroll",
+      "state": "settled",
+      "reason": "scroll",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "scroll-return-no-replay",
+      "state": "settled",
+      "reason": "scroll",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "focus",
+      "state": "running",
+      "readable": false,
+      "starts": 1
+    },
+    {
+      "case": "wordmark-activation",
+      "state": "settled",
+      "reason": "pointer",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "resize",
+      "state": "settled",
+      "reason": "resize",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "text-resize-running",
+      "state": "settled",
+      "reason": "text-resize",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "motion-change",
+      "state": "settled",
+      "reason": "motion-preference",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "reduced-motion-load",
+      "state": "static-final",
+      "reason": "reduced-motion",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "javascript-disabled",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "keyboard-reserved",
+      "state": "static-final",
+      "reason": "keyboard",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "text-resize-reserved",
+      "state": "static-final",
+      "reason": "text-resize",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "runtime-delayed",
+      "state": "static-final",
+      "reason": "reservation-deadline",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "late-runtime-no-rehide",
+      "state": "static-final",
+      "reason": "reservation-deadline",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "runtime-failure",
+      "state": "static-final",
+      "reason": "reservation-deadline",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "slow-assets",
+      "state": "static-final",
+      "reason": "reservation-deadline",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "late-assets",
+      "state": "static-final",
+      "reason": "reservation-deadline",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "image-failure",
+      "state": "static-final",
+      "reason": "image-decode-failure",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "font-failure",
+      "state": "static-final",
+      "reason": "font-failure",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "csp-bootstrap-blocked",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "decode-rejection",
+      "state": "static-final",
+      "reason": "image-decode-failure",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "setup-exception",
+      "state": "static-final",
+      "reason": "setup-failure",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "css-reservation-safety",
+      "state": "reserved",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "css-running-safety",
+      "state": "running",
+      "readable": true,
+      "starts": 1
+    },
+    {
+      "case": "reload-during-initialization",
+      "state": "static-final",
+      "reason": "reservation-deadline",
+      "readable": true,
+      "starts": 0
+    },
+    {
+      "case": "history-return",
+      "state": "settled",
+      "reason": "pagehide",
+      "readable": true,
+      "starts": 1
+    }
+  ],
+  "nativeFocus": {
+    "state": {
+      "heroState": "settled",
+      "heroReason": "focus"
+    },
+    "focused": true,
+    "active": "E Vos",
+    "outline": "solid"
+  },
+  "runtimeErrors": 0
+}

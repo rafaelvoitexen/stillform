@@ -1,0 +1,54 @@
+{
+  "state": {
+    "heroEntry": "1",
+    "heroState": "settled",
+    "heroReason": "complete"
+  },
+  "marks": [
+    {
+      "name": "stillform:hero:reserved",
+      "time": 30.600000001490116,
+      "detail": null
+    },
+    {
+      "name": "stillform:hero:ready",
+      "time": 131.80000000074506,
+      "detail": null
+    },
+    {
+      "name": "stillform:hero:start",
+      "time": 138.20000000298023,
+      "detail": {
+        "entry": 1
+      }
+    },
+    {
+      "name": "stillform:hero:transfer",
+      "time": 4118.400000002235,
+      "detail": null
+    },
+    {
+      "name": "stillform:hero:end",
+      "time": 4552,
+      "detail": "complete"
+    }
+  ],
+  "overlays": 0,
+  "lines": [
+    {
+      "opacity": "1",
+      "transform": "none",
+      "filter": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none",
+      "filter": "none"
+    },
+    {
+      "opacity": "1",
+      "transform": "none",
+      "filter": "none"
+    }
+  ]
+}

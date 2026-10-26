@@ -1,0 +1,17 @@
+{
+  "before": {
+    "state": {
+      "heroState": "running"
+    },
+    "focused": true
+  },
+  "after": {
+    "state": {
+      "heroState": "settled",
+      "heroReason": "focus"
+    },
+    "focused": true,
+    "active": "E Vos",
+    "outline": "solid"
+  }
+}

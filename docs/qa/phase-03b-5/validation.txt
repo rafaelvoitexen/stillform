@@ -1,0 +1,34 @@
+✔ ten independent reload entries reset scroll and admit a fresh timeline (12.1266ms)
+✔ ordinary interaction does not finish or replay the active entry (2.057ms)
+✔ fresh top navigation is admitted; ordinary away navigation preserves position (2.5371ms)
+✔ history scroll restoration is not replaced by reload policy (4.2532ms)
+✔ BFCache top return receives a new entry; away return stays static (2.5106ms)
+✔ reduced motion, failed assets and real deadlines remain fail-open (5.0028ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 140.9798
+TypeScript strict: PASS
+Admission syntax: PASS
+18:24:48 [types] Generated 105ms
+18:24:48 [build] output: "static"
+18:24:48 [build] mode: "static"
+18:24:48 [build] directory: C:\Users\Rafael\Documents\Projetos\STILLFORM\stillform\dist\
+18:24:48 [build] Collecting build info...
+18:24:48 [build] ✓ Completed in 127ms.
+18:24:48 [build] Building static entrypoints...
+18:24:49 [vite] ✓ built in 309ms
+18:24:49 [vite] ✓ built in 72ms
+18:24:49 [build] Rearranging server assets...
+
+ generating static routes 
+18:24:49   ├─ /index.html (+15ms) 
+18:24:49 ✓ Completed in 32ms.
+
+18:24:49 [build] ✓ Completed in 487ms.
+18:24:49 [build] 1 page(s) built in 628ms
+18:24:49 [build] Complete!

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "desktop",
+    "centerDriftPx": 0,
+    "scale1": "translate3d(-356.391px, 13px, 0px) scale(0.916466)",
+    "scale2": "translate3d(-356.391px, 13px, 0px) scale(0.942799)",
+    "reservationMs": 72.90000000037253,
+    "handoffMs": 4059.2000000001863,
+    "totalMs": 5554.0999999996275
+  },
+  {
+    "name": "tablet",
+    "centerDriftPx": 0.0000152587890625,
+    "scale1": "translate3d(-51.1875px, -132.078px, 0px) scale(0.930709)",
+    "scale2": "translate3d(-51.1875px, -132.078px, 0px) scale(0.956139)",
+    "reservationMs": 75,
+    "handoffMs": 3540.4000000003725,
+    "totalMs": 4723.9000000003725
+  },
+  {
+    "name": "mobile",
+    "centerDriftPx": 0,
+    "scale1": "translate3d(-25.9844px, -57.8594px, 0px) scale(0.948449)",
+    "scale2": "translate3d(-25.9844px, -57.8594px, 0px) scale(0.957531)",
+    "reservationMs": 43.60000000055879,
+    "handoffMs": 3185.5999999996275,
+    "totalMs": 4369.5
+  }
+]

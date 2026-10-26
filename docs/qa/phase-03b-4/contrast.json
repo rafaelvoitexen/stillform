@@ -1,0 +1,18 @@
+[
+  {
+    "variant": "a",
+    "color": "#787c79",
+    "graphite_equivalent": 0.58,
+    "contrast_on_mineral": 3.4278588407196136,
+    "large_text_AA": true,
+    "normal_text_AA": false
+  },
+  {
+    "variant": "b",
+    "color": "#656966",
+    "graphite_equivalent": 0.68,
+    "contrast_on_mineral": 4.5128231531490925,
+    "large_text_AA": true,
+    "normal_text_AA": true
+  }
+]

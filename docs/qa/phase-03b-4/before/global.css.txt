@@ -1,0 +1,17 @@
+:root {
+  --mineral: #e5e8e4;
+  --graphite: #292d2b;
+  --chalk: #f7f8f5;
+  --moss: #35463d;
+  color: var(--graphite);
+  background: var(--mineral);
+  font-family: Onest, Arial, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+* { box-sizing: border-box; }
+body, h1, p, figure { margin: 0; }
+a { color: inherit; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--moss); outline-offset: 4px; }
+.page { max-width: 1440px; margin-inline: auto; container-type: inline-size; }

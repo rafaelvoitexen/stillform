@@ -1,0 +1,178 @@
+[
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 112
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 112
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 68
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 68
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 60
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 56
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 56
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 64
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 64
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 60
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  },
+  {
+    "state": {
+      "astroCidGe2uvauf": "",
+      "entrance": "skipped",
+      "entranceReason": "already-painted"
+    },
+    "marks": [],
+    "paint": [
+      {
+        "name": "first-paint",
+        "time": 60
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 60
+      }
+    ],
+    "font": [
+      "loaded"
+    ],
+    "ready": true
+  }
+]

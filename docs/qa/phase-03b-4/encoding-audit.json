@@ -1,0 +1,57 @@
+[
+  {
+    "name": "desktop",
+    "sourceFrames": 237,
+    "sourceSpanSeconds": 4.340363025665283,
+    "encodedFrames": 304,
+    "fps": 60,
+    "expectedDuration": 5.066666666666666,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  },
+  {
+    "name": "large",
+    "sourceFrames": 63,
+    "sourceSpanSeconds": 4.520785093307495,
+    "encodedFrames": 315,
+    "fps": 60,
+    "expectedDuration": 5.25,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  },
+  {
+    "name": "ultrawide",
+    "sourceFrames": 57,
+    "sourceSpanSeconds": 4.527924060821533,
+    "encodedFrames": 315,
+    "fps": 60,
+    "expectedDuration": 5.25,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  },
+  {
+    "name": "ultrawide-review",
+    "sourceFrames": 202,
+    "sourceSpanSeconds": 4.486454963684082,
+    "encodedFrames": 313,
+    "fps": 60,
+    "expectedDuration": 5.216666666666667,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  },
+  {
+    "name": "mobile",
+    "sourceFrames": 342,
+    "sourceSpanSeconds": 3.645659923553467,
+    "encodedFrames": 262,
+    "fps": 60,
+    "expectedDuration": 4.366666666666666,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  }
+]

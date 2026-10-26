@@ -1,0 +1,14 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": [
+      "vite/client"
+    ],
+    "skipLibCheck": true
+  },
+  "include": [
+    "../../../src/scripts/hero.ts",
+    "../../../src/scripts/hero-entrance.ts"
+  ]
+}

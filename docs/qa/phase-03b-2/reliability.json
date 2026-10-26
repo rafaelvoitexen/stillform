@@ -1,0 +1,626 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.800000000745058,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 76.30000000074506,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 76.5,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.299999999813735,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 75.3999999994412,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 75.59999999962747,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 17.09999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 69.69999999925494,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 70,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.399999999441206,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 60.700000000186265,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 60.799999999813735,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 17.40000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 64.70000000018626,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 64.79999999981374,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.799999999813735,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 85,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 85.20000000018626,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 68.69999999925494,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 68.8999999994412,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.299999999813735,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 65.3999999994412,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 65.59999999962747,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 14.899999999441206,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 86.09999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 86.20000000018626,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 21,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 86.19999999925494,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 86.29999999981374,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.09999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 60.09999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 60.299999999813735,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.200000000186265,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 56.39999999944121,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 56.5,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 14.299999999813735,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 68.8999999994412,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 69,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 15.100000000558794,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 74.30000000074506,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 74.5,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 19.59999999962747,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 68.19999999925494,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 68.3999999994412,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 14.699999999254942,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 61.299999999813735,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 61.5,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 19.40000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 88.79999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 88.90000000037253,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 14.700000000186265,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.20000000018626,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.699999999254942,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 61.19999999925494,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 61.39999999944121,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 15.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 58.90000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 59.200000000186265,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "cold",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 16.300000000745058,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 72.6000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 72.70000000018626,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "cold",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 15,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 68.90000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 69.09999999962747,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "warm",
+    "sample": 0,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 17.299999999813735,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 69.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 69.59999999962747,
+        "detail": null
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "cache": "warm",
+    "sample": 1,
+    "state": {
+      "heroState": "running"
+    },
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 74.29999999981374,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 74.3999999994412,
+        "detail": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,2855 @@
+{
+  "records": [
+    {
+      "name": "desktop",
+      "admitted": true,
+      "frameCount": 125,
+      "states": [
+        {
+          "label": "01-slit",
+          "requested": 0.12,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793033997822.2,
+          "now": 370,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 392.40625,
+              "y": 125,
+              "width": 655.1875,
+              "height": 650,
+              "top": 125,
+              "right": 1047.59375,
+              "bottom": 775,
+              "left": 392.40625
+            },
+            "transform": "translate3d(-356.391px, 13px, 0px) scale(1)",
+            "clip": "inset(0px 46% 80.1467%)",
+            "inner": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -45,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1364.984375,
+                "bottom": 311.515625,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1364.984375,
+                "bottom": 491.03125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 751.890625,
+                "bottom": 715.53125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(100px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-100px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(100px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-100px, 0px, 0px)",
+              "opacity": "0"
+            }
+          ]
+        },
+        {
+          "label": "02-still",
+          "requested": 0.55,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793033997822.2,
+          "now": 986.7999999988824,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 392.40625,
+              "y": 125,
+              "width": 655.1875,
+              "height": 650,
+              "top": 125,
+              "right": 1047.59375,
+              "bottom": 775,
+              "left": 392.40625
+            },
+            "transform": "translate3d(-356.391px, 13px, 0px) scale(1)",
+            "clip": "inset(0px 45.2463% 0%)",
+            "inner": "matrix(1.0015, 0, 0, 1.0015, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -45,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1364.984375,
+                "bottom": 311.515625,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1364.984375,
+                "bottom": 491.03125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 751.890625,
+                "bottom": 715.53125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(6.49186px, 0px, 0px)",
+              "opacity": "0.935081"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-39.7451px, 0px, 0px)",
+              "opacity": "0.602549"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(6.49186px, 0px, 0px)",
+              "opacity": "0.935081"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-39.7451px, 0px, 0px)",
+              "opacity": "0.602549"
+            }
+          ]
+        },
+        {
+          "label": "03-form",
+          "requested": 0.98,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793033997822.2,
+          "now": 1415.2999999988824,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 392.40625,
+              "y": 125,
+              "width": 655.1875,
+              "height": 650,
+              "top": 125,
+              "right": 1047.59375,
+              "bottom": 775,
+              "left": 392.40625
+            },
+            "transform": "translate3d(-356.391px, 13px, 0px) scale(1)",
+            "clip": "inset(0px 6.68783% 0%)",
+            "inner": "matrix(1.024, 0, 0, 1.024, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -45,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1364.984375,
+                "bottom": 311.515625,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1364.984375,
+                "bottom": 491.03125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 751.890625,
+                "bottom": 715.53125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0.000292px, 0px, 0px)",
+              "opacity": "0.999997"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-4.20059px, 0px, 0px)",
+              "opacity": "0.957994"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0.000292px, 0px, 0px)",
+              "opacity": "0.999997"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-4.20059px, 0px, 0px)",
+              "opacity": "0.957994"
+            }
+          ]
+        },
+        {
+          "label": "04-inner-zoom",
+          "requested": 1.85,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793033997822.2,
+          "now": 2289.9000000003725,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 392.40625,
+              "y": 125,
+              "width": 655.1875,
+              "height": 650,
+              "top": 125,
+              "right": 1047.59375,
+              "bottom": 775,
+              "left": 392.40625
+            },
+            "transform": "translate3d(-356.391px, 13px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0799, 0, 0, 1.0799, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -45,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1364.984375,
+                "bottom": 311.515625,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1364.984375,
+                "bottom": 491.03125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 751.890625,
+                "bottom": 715.53125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.980731"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.980731"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.980731"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.980731"
+            }
+          ]
+        },
+        {
+          "label": "05-identity-exit",
+          "requested": 2.32,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793033997822.2,
+          "now": 2888.5999999996275,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 396.62506103515625,
+              "y": 124.84609985351562,
+              "width": 655.1874389648438,
+              "height": 650,
+              "top": 124.84609985351562,
+              "right": 1051.8125,
+              "bottom": 774.8460998535156,
+              "left": 396.62506103515625
+            },
+            "transform": "translate3d(-352.172px, 12.8461px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.062, 0, 0, 1.062, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -6.756649017333984,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1403.227725982666,
+                "bottom": 311.515625,
+                "left": -6.756649017333984
+              },
+              "opacity": "0.509911",
+              "transform": "matrix(1, 0, 0, 1, -36.7566, 0)",
+              "filter": "blur(1.96036px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1364.984375,
+                "bottom": 491.03125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            },
+            {
+              "rect": {
+                "x": -45,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 751.890625,
+                "bottom": 715.53125,
+                "left": -45
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -75, 0)",
+              "filter": "blur(4px)"
+            }
+          ],
+          "identity": []
+        },
+        {
+          "label": "06-transfer-headline",
+          "requested": 3,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793033997822.2,
+          "now": 3514.0999999996275,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 651.569091796875,
+              "y": 115.54656982421875,
+              "width": 655.1875,
+              "height": 650,
+              "top": 115.54656982421875,
+              "right": 1306.756591796875,
+              "bottom": 765.5465698242188,
+              "left": 651.569091796875
+            },
+            "transform": "translate3d(-97.2278px, 3.54656px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0193, 0, 0, 1.0193, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 29.841156005859375,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1439.8255310058594,
+                "bottom": 311.515625,
+                "left": 29.841156005859375
+              },
+              "opacity": "0.997882",
+              "transform": "matrix(1, 0, 0, 1, -0.158844, 0)",
+              "filter": "blur(0.008472px)"
+            },
+            {
+              "rect": {
+                "x": 23.426029205322266,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1433.4104042053223,
+                "bottom": 491.03125,
+                "left": 23.426029205322266
+              },
+              "opacity": "0.912347",
+              "transform": "matrix(1, 0, 0, 1, -6.57397, 0)",
+              "filter": "blur(0.350612px)"
+            },
+            {
+              "rect": {
+                "x": -2.923198699951172,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 793.9674263000488,
+                "bottom": 715.53125,
+                "left": -2.923198699951172
+              },
+              "opacity": "0.561024",
+              "transform": "matrix(1, 0, 0, 1, -32.9232, 0)",
+              "filter": "blur(1.7559px)"
+            }
+          ],
+          "identity": []
+        },
+        {
+          "label": "07-moving-intersection",
+          "requested": 3.55,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793033997822.2,
+          "now": 3990.5999999996275,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 748.3372802734375,
+              "y": 112.01675415039062,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112.01675415039062,
+              "right": 1403.5247802734375,
+              "bottom": 762.0167541503906,
+              "left": 748.3372802734375
+            },
+            "transform": "translate3d(-0.459638px, 0.016766px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0006, 0, 0, 1.0006, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 30,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1439.984375,
+                "bottom": 311.515625,
+                "left": 30
+              },
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "filter": "blur(0px)"
+            },
+            {
+              "rect": {
+                "x": 30,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1439.984375,
+                "bottom": 491.03125,
+                "left": 30
+              },
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "filter": "blur(0px)"
+            },
+            {
+              "rect": {
+                "x": 28.69774627685547,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 825.5883712768555,
+                "bottom": 715.53125,
+                "left": 28.69774627685547
+              },
+              "opacity": "0.982637",
+              "transform": "matrix(1, 0, 0, 1, -1.30225, 0)",
+              "filter": "blur(0.069454px)"
+            }
+          ],
+          "identity": []
+        },
+        {
+          "label": "08-settled",
+          "requested": 4.8,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "settled",
+            "heroReason": "complete"
+          },
+          "origin": 1793033997822.2,
+          "now": 5118.299999998882,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 22.40000000037253,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 113.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 118.59999999962747,
+              "detail": {
+                "entry": 1
+              }
+            },
+            {
+              "name": "stillform:hero:transfer",
+              "time": 4067.4000000003725,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:end",
+              "time": 4497.9000000003725,
+              "detail": "complete"
+            }
+          ],
+          "photo": null,
+          "image": {
+            "rect": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "top": 112,
+              "right": 1403.984375,
+              "bottom": 762,
+              "left": 748.796875
+            },
+            "opacity": "1"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 30,
+                "y": 132,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 132,
+                "right": 1439.984375,
+                "bottom": 311.515625,
+                "left": 30
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            },
+            {
+              "rect": {
+                "x": 30,
+                "y": 311.515625,
+                "width": 1409.984375,
+                "height": 179.515625,
+                "top": 311.515625,
+                "right": 1439.984375,
+                "bottom": 491.03125,
+                "left": 30
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            },
+            {
+              "rect": {
+                "x": 30,
+                "y": 536.015625,
+                "width": 796.890625,
+                "height": 179.515625,
+                "top": 536.015625,
+                "right": 826.890625,
+                "bottom": 715.53125,
+                "left": 30
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            }
+          ],
+          "identity": []
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "admitted": true,
+      "frameCount": 199,
+      "states": [
+        {
+          "label": "01-slit",
+          "requested": 0.12,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034003133.4,
+          "now": 298.09999999962747,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 75.203125,
+              "y": 262,
+              "width": 617.59375,
+              "height": 500,
+              "top": 262,
+              "right": 692.796875,
+              "bottom": 762,
+              "left": 75.203125
+            },
+            "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(1)",
+            "clip": "inset(0px 46% 88.5217%)",
+            "inner": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -24,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 722.984375,
+                "bottom": 229.53125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 722.984375,
+                "bottom": 360.078125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 722.984375,
+                "bottom": 1009.28125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(55px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-55px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(55px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-55px, 0px, 0px)",
+              "opacity": "0"
+            }
+          ]
+        },
+        {
+          "label": "02-still",
+          "requested": 0.45,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034003133.4,
+          "now": 605.9000000003725,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 75.203125,
+              "y": 262,
+              "width": 617.59375,
+              "height": 500,
+              "top": 262,
+              "right": 692.796875,
+              "bottom": 762,
+              "left": 75.203125
+            },
+            "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(1)",
+            "clip": "inset(0px 46% 3.50457%)",
+            "inner": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -24,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 722.984375,
+                "bottom": 229.53125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 722.984375,
+                "bottom": 360.078125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 722.984375,
+                "bottom": 1009.28125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(17.1614px, 0px, 0px)",
+              "opacity": "0.687974"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-55px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(17.1614px, 0px, 0px)",
+              "opacity": "0.687974"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-55px, 0px, 0px)",
+              "opacity": "0"
+            }
+          ]
+        },
+        {
+          "label": "03-form",
+          "requested": 0.85,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034003133.4,
+          "now": 1051.800000000745,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 75.203125,
+              "y": 262,
+              "width": 617.59375,
+              "height": 500,
+              "top": 262,
+              "right": 692.796875,
+              "bottom": 762,
+              "left": 75.203125
+            },
+            "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(1)",
+            "clip": "inset(0px 26.9902% 0%)",
+            "inner": "matrix(1.0072, 0, 0, 1.0072, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -24,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 722.984375,
+                "bottom": 229.53125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 722.984375,
+                "bottom": 360.078125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 722.984375,
+                "bottom": 1009.28125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0.447213px, 0px, 0px)",
+              "opacity": "0.991869"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-9.09648px, 0px, 0px)",
+              "opacity": "0.834609"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0.447213px, 0px, 0px)",
+              "opacity": "0.991869"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-9.09648px, 0px, 0px)",
+              "opacity": "0.834609"
+            }
+          ]
+        },
+        {
+          "label": "04-inner-zoom",
+          "requested": 1.6,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034003133.4,
+          "now": 1867.9000000003725,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 75.203125,
+              "y": 262,
+              "width": 617.59375,
+              "height": 500,
+              "top": 262,
+              "right": 692.796875,
+              "bottom": 762,
+              "left": 75.203125
+            },
+            "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0556, 0, 0, 1.0556, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -24,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 722.984375,
+                "bottom": 229.53125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 722.984375,
+                "bottom": 360.078125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 722.984375,
+                "bottom": 1009.28125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "label": "05-identity-exit",
+          "requested": 1.98,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034003133.4,
+          "now": 2298.0999999996275,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 75.203125,
+              "y": 262,
+              "width": 617.59375,
+              "height": 500,
+              "top": 262,
+              "right": 692.796875,
+              "bottom": 762,
+              "left": 75.203125
+            },
+            "transform": "translate3d(-51.1875px, -132.078px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.057, 0, 0, 1.057, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -24,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 722.984375,
+                "bottom": 229.53125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 722.984375,
+                "bottom": 360.078125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 722.984375,
+                "bottom": 1009.28125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1.3e-05"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1.3e-05"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1.3e-05"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "1.3e-05"
+            }
+          ]
+        },
+        {
+          "label": "06-transfer-headline",
+          "requested": 2.5,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034003133.4,
+          "now": 2783.5999999996275,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 91.23651123046875,
+              "y": 303.37066650390625,
+              "width": 617.59375,
+              "height": 500,
+              "top": 303.37066650390625,
+              "right": 708.8302612304688,
+              "bottom": 803.3706665039062,
+              "left": 91.23651123046875
+            },
+            "transform": "translate3d(-35.1541px, -90.7074px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0288, 0, 0, 1.0288, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 18.119998931884766,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 765.1043739318848,
+                "bottom": 229.53125,
+                "left": 18.119998931884766
+              },
+              "opacity": "0.936",
+              "transform": "matrix(1, 0, 0, 1, -2.88, 0)",
+              "filter": "blur(0.128px)"
+            },
+            {
+              "rect": {
+                "x": 3.5468215942382812,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 750.5311965942383,
+                "bottom": 360.078125,
+                "left": 3.5468215942382812
+              },
+              "opacity": "0.612152",
+              "transform": "matrix(1, 0, 0, 1, -17.4532, 0)",
+              "filter": "blur(0.775697px)"
+            },
+            {
+              "rect": {
+                "x": -24,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 722.984375,
+                "bottom": 1009.28125,
+                "left": -24
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -45, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": []
+        },
+        {
+          "label": "07-moving-intersection",
+          "requested": 3,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034003133.4,
+          "now": 3289,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 125.93624877929688,
+              "y": 392.9057312011719,
+              "width": 617.59375,
+              "height": 500.0000305175781,
+              "top": 392.9057312011719,
+              "right": 743.5299987792969,
+              "bottom": 892.90576171875,
+              "left": 125.93624877929688
+            },
+            "transform": "translate3d(-0.454364px, -1.17239px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0018, 0, 0, 1.0018, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 21,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 767.984375,
+                "bottom": 229.53125,
+                "left": 21
+              },
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "filter": "blur(0px)"
+            },
+            {
+              "rect": {
+                "x": 20.940502166748047,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 767.924877166748,
+                "bottom": 360.078125,
+                "left": 20.940502166748047
+              },
+              "opacity": "0.998678",
+              "transform": "matrix(1, 0, 0, 1, -0.059497, 0)",
+              "filter": "blur(0.002644px)"
+            },
+            {
+              "rect": {
+                "x": 16.86594581604004,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 763.85032081604,
+                "bottom": 1009.28125,
+                "left": 16.86594581604004
+              },
+              "opacity": "0.908132",
+              "transform": "matrix(1, 0, 0, 1, -4.13405, 0)",
+              "filter": "blur(0.183736px)"
+            }
+          ],
+          "identity": []
+        },
+        {
+          "label": "08-settled",
+          "requested": 4.1,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "settled",
+            "heroReason": "complete"
+          },
+          "origin": 1793034003133.4,
+          "now": 4322.5,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24.5,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 91.70000000111759,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 92.09999999962747,
+              "detail": {
+                "entry": 1
+              }
+            },
+            {
+              "name": "stillform:hero:transfer",
+              "time": 3433.0999999996275,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:end",
+              "time": 3884.5999999996275,
+              "detail": "complete"
+            }
+          ],
+          "photo": null,
+          "image": {
+            "rect": {
+              "x": 126.390625,
+              "y": 394.078125,
+              "width": 617.59375,
+              "height": 500,
+              "top": 394.078125,
+              "right": 743.984375,
+              "bottom": 894.078125,
+              "left": 126.390625
+            },
+            "opacity": "1"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 21,
+                "y": 98.984375,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 98.984375,
+                "right": 767.984375,
+                "bottom": 229.53125,
+                "left": 21
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            },
+            {
+              "rect": {
+                "x": 21,
+                "y": 229.53125,
+                "width": 746.984375,
+                "height": 130.546875,
+                "top": 229.53125,
+                "right": 767.984375,
+                "bottom": 360.078125,
+                "left": 21
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            },
+            {
+              "rect": {
+                "x": 21,
+                "y": 886.078125,
+                "width": 746.984375,
+                "height": 123.203125,
+                "top": 886.078125,
+                "right": 767.984375,
+                "bottom": 1009.28125,
+                "left": 21
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            }
+          ],
+          "identity": []
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "admitted": true,
+      "frameCount": 215,
+      "states": [
+        {
+          "label": "01-slit",
+          "requested": 0.12,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034007706,
+          "now": 275.1000000014901,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 46,
+              "y": 222,
+              "width": 298,
+              "height": 400,
+              "top": 222,
+              "right": 344,
+              "bottom": 622,
+              "left": 46
+            },
+            "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(1)",
+            "clip": "inset(0px 46% 88.3477%)",
+            "inner": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -15,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 357.984375,
+                "bottom": 172.421875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 357.984375,
+                "bottom": 245.859375,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 357.984375,
+                "bottom": 741.21875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(32px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-32px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(32px, 0px, 0px)",
+              "opacity": "0"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-32px, 0px, 0px)",
+              "opacity": "0"
+            }
+          ]
+        },
+        {
+          "label": "02-still",
+          "requested": 0.45,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034007706,
+          "now": 620.3000000007451,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 46,
+              "y": 222,
+              "width": 298,
+              "height": 400,
+              "top": 222,
+              "right": 344,
+              "bottom": 622,
+              "left": 46
+            },
+            "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(1)",
+            "clip": "inset(0px 46% 1.50067%)",
+            "inner": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -15,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 357.984375,
+                "bottom": 172.421875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 357.984375,
+                "bottom": 245.859375,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 357.984375,
+                "bottom": 741.21875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(7.85519px, 0px, 0px)",
+              "opacity": "0.754525"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-31.0282px, 0px, 0px)",
+              "opacity": "0.030369"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(7.85519px, 0px, 0px)",
+              "opacity": "0.754525"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-31.0282px, 0px, 0px)",
+              "opacity": "0.030369"
+            }
+          ]
+        },
+        {
+          "label": "03-form",
+          "requested": 0.85,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034007706,
+          "now": 1052.9000000003725,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 46,
+              "y": 222,
+              "width": 298,
+              "height": 400,
+              "top": 222,
+              "right": 344,
+              "bottom": 622,
+              "left": 46
+            },
+            "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(1)",
+            "clip": "inset(0px 20.5452% 0%)",
+            "inner": "matrix(1.0076, 0, 0, 1.0076, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -15,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 357.984375,
+                "bottom": 172.421875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 357.984375,
+                "bottom": 245.859375,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 357.984375,
+                "bottom": 741.21875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0.067754px, 0px, 0px)",
+              "opacity": "0.997883"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-3.81211px, 0px, 0px)",
+              "opacity": "0.880872"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0.067754px, 0px, 0px)",
+              "opacity": "0.997883"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(-3.81211px, 0px, 0px)",
+              "opacity": "0.880872"
+            }
+          ]
+        },
+        {
+          "label": "04-inner-zoom",
+          "requested": 1.5,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034007706,
+          "now": 1721.4000000003725,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 46,
+              "y": 222,
+              "width": 298,
+              "height": 400,
+              "top": 222,
+              "right": 344,
+              "bottom": 622,
+              "left": 46
+            },
+            "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0408, 0, 0, 1.0408, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -15,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 357.984375,
+                "bottom": 172.421875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 357.984375,
+                "bottom": 245.859375,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 357.984375,
+                "bottom": 741.21875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.999998"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.999998"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.999998"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.999998"
+            }
+          ]
+        },
+        {
+          "label": "05-identity-exit",
+          "requested": 1.82,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034007706,
+          "now": 2019.300000000745,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 46,
+              "y": 222,
+              "width": 298,
+              "height": 400,
+              "top": 222,
+              "right": 344,
+              "bottom": 622,
+              "left": 46
+            },
+            "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0448, 0, 0, 1.0448, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": -15,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 357.984375,
+                "bottom": 172.421875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 357.984375,
+                "bottom": 245.859375,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 357.984375,
+                "bottom": 741.21875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": [
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.058824"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.058824"
+            },
+            {
+              "text": "STILL",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.058824"
+            },
+            {
+              "text": "FORM",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "opacity": "0.058824"
+            }
+          ]
+        },
+        {
+          "label": "06-transfer-headline",
+          "requested": 2.3,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034007706,
+          "now": 2503.4000000003725,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 50.49113464355469,
+              "y": 232.00039672851562,
+              "width": 298,
+              "height": 399.9999694824219,
+              "top": 232.00039672851562,
+              "right": 348.4911346435547,
+              "bottom": 632.0003662109375,
+              "left": 50.49113464355469
+            },
+            "transform": "translate3d(-21.4932px, -47.859px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0275, 0, 0, 1.0275, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 12.565128326416016,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 385.549503326416,
+                "bottom": 172.421875,
+                "left": 12.565128326416016
+              },
+              "opacity": "0.86141",
+              "transform": "matrix(1, 0, 0, 1, -4.43487, 0)",
+              "filter": "blur(0.277179px)"
+            },
+            {
+              "rect": {
+                "x": -1.2971839904785156,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 371.6871910095215,
+                "bottom": 245.859375,
+                "left": -1.2971839904785156
+              },
+              "opacity": "0.428213",
+              "transform": "matrix(1, 0, 0, 1, -18.2972, 0)",
+              "filter": "blur(1.14357px)"
+            },
+            {
+              "rect": {
+                "x": -15,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 357.984375,
+                "bottom": 741.21875,
+                "left": -15
+              },
+              "opacity": "0",
+              "transform": "matrix(1, 0, 0, 1, -32, 0)",
+              "filter": "blur(2px)"
+            }
+          ],
+          "identity": []
+        },
+        {
+          "label": "07-moving-intersection",
+          "requested": 2.75,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "running"
+          },
+          "origin": 1793034007706,
+          "now": 2951.2000000011176,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            }
+          ],
+          "photo": {
+            "rect": {
+              "x": 70.49800109863281,
+              "y": 276.5496826171875,
+              "width": 298,
+              "height": 400,
+              "top": 276.5496826171875,
+              "right": 368.4980010986328,
+              "bottom": 676.5496826171875,
+              "left": 70.49800109863281
+            },
+            "transform": "translate3d(-1.48637px, -3.30971px, 0px) scale(1)",
+            "clip": "inset(0px 0% 0%)",
+            "inner": "matrix(1.0049, 0, 0, 1.0049, 0, 0)"
+          },
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "0"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 17,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 389.984375,
+                "bottom": 172.421875,
+                "left": 17
+              },
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "filter": "blur(0px)"
+            },
+            {
+              "rect": {
+                "x": 16.36135482788086,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 389.34572982788086,
+                "bottom": 245.859375,
+                "left": 16.36135482788086
+              },
+              "opacity": "0.980042",
+              "transform": "matrix(1, 0, 0, 1, -0.638645, 0)",
+              "filter": "blur(0.039915px)"
+            },
+            {
+              "rect": {
+                "x": 9.781168937683105,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 382.7655439376831,
+                "bottom": 741.21875,
+                "left": 9.781168937683105
+              },
+              "opacity": "0.774412",
+              "transform": "matrix(1, 0, 0, 1, -7.21883, 0)",
+              "filter": "blur(0.451177px)"
+            }
+          ],
+          "identity": []
+        },
+        {
+          "label": "08-settled",
+          "requested": 3.9,
+          "state": {
+            "heroEntry": "1",
+            "heroState": "settled",
+            "heroReason": "complete"
+          },
+          "origin": 1793034007706,
+          "now": 4057.60000000149,
+          "marks": [
+            {
+              "name": "stillform:hero:reserved",
+              "time": 24,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:ready",
+              "time": 82.10000000149012,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:start",
+              "time": 82.5,
+              "detail": {
+                "entry": 1
+              }
+            },
+            {
+              "name": "stillform:hero:transfer",
+              "time": 3226.800000000745,
+              "detail": null
+            },
+            {
+              "name": "stillform:hero:end",
+              "time": 3660.4000000003725,
+              "detail": "complete"
+            }
+          ],
+          "photo": null,
+          "image": {
+            "rect": {
+              "x": 71.984375,
+              "y": 279.859375,
+              "width": 298,
+              "height": 400,
+              "top": 279.859375,
+              "right": 369.984375,
+              "bottom": 679.859375,
+              "left": 71.984375
+            },
+            "opacity": "1"
+          },
+          "overflow": false,
+          "lines": [
+            {
+              "rect": {
+                "x": 17,
+                "y": 98.984375,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 98.984375,
+                "right": 389.984375,
+                "bottom": 172.421875,
+                "left": 17
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            },
+            {
+              "rect": {
+                "x": 17,
+                "y": 172.421875,
+                "width": 372.984375,
+                "height": 73.4375,
+                "top": 172.421875,
+                "right": 389.984375,
+                "bottom": 245.859375,
+                "left": 17
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            },
+            {
+              "rect": {
+                "x": 17,
+                "y": 671.859375,
+                "width": 372.984375,
+                "height": 69.359375,
+                "top": 671.859375,
+                "right": 389.984375,
+                "bottom": 741.21875,
+                "left": 17
+              },
+              "opacity": "1",
+              "transform": "none",
+              "filter": "none"
+            }
+          ],
+          "identity": []
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

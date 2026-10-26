@@ -1,0 +1,35 @@
+---
+import Hero from '../components/Hero.astro';
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="STILLFORM — An archive of spatial observations. Built around absence." />
+    <link rel="preload" href="/fonts/Onest-Latin-Variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/images/tulach-e-vos.jpg" as="image" fetchpriority="high" />
+    <style is:inline>
+@font-face {
+  font-family: Onest;
+  src: url('/fonts/Onest-Latin-Variable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+    </style>
+    <script is:inline>
+      // The parser-side Hero admission closes this lease before its next rendering opportunity.
+      const image = new Image();
+      image.src = '/images/tulach-e-vos.jpg';
+      window.__stillformHeroPaint = {
+        open: true,
+        font: document.fonts.load('500 176px Onest').then(faces => { performance.mark('stillform:font:ready'); return faces; }, () => []),
+        decoded: image.decode().then(() => { performance.mark('stillform:image:decoded'); return true; }, () => false),
+      };
+    </script>
+    <title>STILLFORM — Built around absence.</title>
+  </head>
+  <body><div class="page"><Hero /></div></body>
+</html>

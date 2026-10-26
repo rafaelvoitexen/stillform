@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import {send,evaluate,delay,target,ws,out} from './cdp.mjs';
+await send('Page.bringToFront');
+await send('Emulation.setDeviceMetricsOverride',{width:1440,height:900,deviceScaleFactor:1,mobile:false});
+await send('Page.navigate',{url:'http://127.0.0.1:4324/'});await delay(350);
+const before=await evaluate('({state:{...document.documentElement.dataset},focused:document.hasFocus()})');
+await evaluate('document.querySelector(".credit a").focus()');await delay(70);
+const after=await evaluate('({state:{...document.documentElement.dataset},focused:document.hasFocus(),active:document.activeElement.textContent,outline:getComputedStyle(document.activeElement).outlineStyle})');
+console.log({before,after});await fs.writeFile(new URL('focus.json',out),JSON.stringify({before,after},null,2));
+await fetch('http://127.0.0.1:9223/json/close/'+target.id);ws.close();

@@ -1,0 +1,20 @@
+[
+  {
+    "viewport": "1440x900",
+    "changedPixels": 295,
+    "fraction": 0.00022762345679012345,
+    "maxChannelDelta": 2
+  },
+  {
+    "viewport": "2560x1440",
+    "changedPixels": 527,
+    "fraction": 0.00014295789930555557,
+    "maxChannelDelta": 3
+  },
+  {
+    "viewport": "3440x1440",
+    "changedPixels": 116,
+    "fraction": 2.3417312661498708e-05,
+    "maxChannelDelta": 2
+  }
+]

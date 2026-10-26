@@ -1,0 +1,55 @@
+  // Layout enhancement only: no motion and no text fitting or scaling.
+  const hero = document.querySelector<HTMLElement>('.hero');
+  const page = document.querySelector<HTMLElement>('.page');
+  if (hero && page) {
+    const opening = hero.querySelector<HTMLElement>('.around')!;
+    const closing = hero.querySelector<HTMLElement>('.closing')!;
+    const photo = hero.querySelector<HTMLElement>('.photo')!;
+    const header = hero.querySelector<HTMLElement>('.header')!;
+    const note = hero.querySelector<HTMLElement>('.image-note')!;
+    const image = hero.querySelector<HTMLImageElement>('img')!;
+    const rangeWidth = (element: HTMLElement) => {
+      const range = document.createRange();
+      range.selectNodeContents(element);
+      return range.getBoundingClientRect().width;
+    };
+    const assess = () => {
+      hero.removeAttribute('data-stacked');
+      note.removeAttribute('data-wrap');
+      if (page.clientWidth >= 1024) {
+        const x = opening.getBoundingClientRect().left;
+        const frame = photo.getBoundingClientRect();
+        const columns = [...header.children].map(el => el.getBoundingClientRect());
+        if (x + rangeWidth(opening) > frame.left - 8 ||
+            x + rangeWidth(closing) <= frame.left ||
+            x + rangeWidth(closing) > frame.left + frame.width / 2 - 16 ||
+            columns.some((col, i) => i > 0 && col.left - columns[i - 1].right < 24)) {
+          hero.setAttribute('data-stacked', '');
+        }
+      }
+      const subject = note.querySelector<HTMLElement>('.subject')!;
+      const credit = note.querySelector<HTMLElement>('.credit')!;
+      if (rangeWidth(subject) + rangeWidth(credit) + 16 > note.clientWidth) note.setAttribute('data-wrap', '');
+    };
+    let scheduled = false;
+    const schedule = () => {
+      if (scheduled) return;
+      scheduled = true;
+      requestAnimationFrame(() => { scheduled = false; assess(); });
+    };
+    // Observe only sizing inputs, never the stage that the guard changes.
+    const observer = new ResizeObserver(schedule);
+    observer.observe(page);
+    observer.observe(header.querySelector('.wordmark')!);
+    document.fonts.ready.then(schedule);
+    document.fonts.addEventListener('loadingdone', schedule);
+    const imageFailed = () => {
+      image.hidden = true;
+      // The image's original alt text remains available in no-JS failure mode.
+      image.style.display = 'none';
+      hero.querySelector<HTMLElement>('.image-failure')!.hidden = false;
+    };
+    image.addEventListener('error', imageFailed, { once: true });
+    if (image.complete && !image.naturalWidth) imageFailed();
+    assess();
+  }

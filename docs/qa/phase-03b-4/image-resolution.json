@@ -1,0 +1,189 @@
+[
+  {
+    "viewport": "360x780",
+    "frame": {
+      "x": 67.984375,
+      "y": 268.578125,
+      "width": 272,
+      "height": 365.09375,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.03,
+    "sourcePixelsPerCssPixel": 3.829313025564487,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": true,
+    "rgbaFrameMiB": 0.37882041931152344
+  },
+  {
+    "viewport": "390x844",
+    "frame": {
+      "x": 71.984375,
+      "y": 279.859375,
+      "width": 298,
+      "height": 400,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.03,
+    "sourcePixelsPerCssPixel": 3.4951456310679605,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": true,
+    "rgbaFrameMiB": 0.4547119140625
+  },
+  {
+    "viewport": "768x1024",
+    "frame": {
+      "x": 126.390625,
+      "y": 394.078125,
+      "width": 617.59375,
+      "height": 500,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.04,
+    "sourcePixelsPerCssPixel": 2.769230769230769,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": true,
+    "rgbaFrameMiB": 1.177966594696045
+  },
+  {
+    "viewport": "1024x768",
+    "frame": {
+      "x": 532.46875,
+      "y": 112,
+      "width": 465.90625,
+      "height": 462.21875,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 2.939064168292039,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": true,
+    "rgbaFrameMiB": 0.8214973621070385
+  },
+  {
+    "viewport": "1280x800",
+    "frame": {
+      "x": 665.59375,
+      "y": 112,
+      "width": 582.390625,
+      "height": 577.765625,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 2.3512831280637987,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": true,
+    "rgbaFrameMiB": 1.2835894906893373
+  },
+  {
+    "viewport": "1440x900",
+    "frame": {
+      "x": 748.796875,
+      "y": 112,
+      "width": 655.1875,
+      "height": 650,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 2.0899854862119014,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": true,
+    "rgbaFrameMiB": 1.6245722770690918
+  },
+  {
+    "viewport": "1600x1000",
+    "frame": {
+      "x": 832,
+      "y": 112,
+      "width": 728,
+      "height": 722.21875,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 1.8809959808406191,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": false,
+    "rgbaFrameMiB": 2.005673408508301
+  },
+  {
+    "viewport": "1920x1080",
+    "frame": {
+      "x": 1035.359375,
+      "y": 112,
+      "width": 836.625,
+      "height": 830,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 1.6367356217322118,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": false,
+    "rgbaFrameMiB": 2.648921012878418
+  },
+  {
+    "viewport": "2560x1440",
+    "frame": {
+      "x": 1331.1875,
+      "y": 112,
+      "width": 1164.796875,
+      "height": 1155.546875,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 1.1756256673168155,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": false,
+    "rgbaFrameMiB": 5.134496265091002
+  },
+  {
+    "viewport": "3440x1440",
+    "frame": {
+      "x": 2154.46875,
+      "y": 112,
+      "width": 1199.515625,
+      "height": 1190,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 1.1415887109560805,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": false,
+    "rgbaFrameMiB": 5.445188879966736
+  },
+  {
+    "viewport": "3840x1600",
+    "frame": {
+      "x": 2400,
+      "y": 112,
+      "width": 1344,
+      "height": 1333.328125,
+      "fontSize": "16px",
+      "weight": "400",
+      "display": "block"
+    },
+    "finalZoom": 1.06,
+    "sourcePixelsPerCssPixel": 1.0188719044966787,
+    "sufficientAtDpr1": true,
+    "sufficientAtDpr2": false,
+    "rgbaFrameMiB": 6.835910797119141
+  }
+]

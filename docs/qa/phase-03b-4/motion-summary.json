@@ -1,0 +1,128 @@
+[
+  {
+    "name": "desktop",
+    "samples": 188,
+    "monotonic": true,
+    "zoomMin": 1,
+    "zoomMax": 1.06,
+    "lastProxyZoom": 1.06,
+    "finalZoom": 1.06,
+    "realFinalZoom": 1.06,
+    "frameWidthSpread": 0,
+    "whiteMaxDelta": 0,
+    "headlineDuringTransfer": true,
+    "runningOverflow": false,
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "overlays": 0,
+    "masks": 0
+  },
+  {
+    "name": "wide",
+    "samples": 190,
+    "monotonic": true,
+    "zoomMin": 1,
+    "zoomMax": 1.06,
+    "lastProxyZoom": 1.06,
+    "finalZoom": 1.06,
+    "realFinalZoom": 1.06,
+    "frameWidthSpread": 0,
+    "whiteMaxDelta": 0.0001220703125,
+    "headlineDuringTransfer": true,
+    "runningOverflow": false,
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "overlays": 0,
+    "masks": 0
+  },
+  {
+    "name": "large",
+    "samples": 176,
+    "monotonic": true,
+    "zoomMin": 1,
+    "zoomMax": 1.06,
+    "lastProxyZoom": 1.06,
+    "finalZoom": 1.06,
+    "realFinalZoom": 1.06,
+    "frameWidthSpread": 0,
+    "whiteMaxDelta": 0.000003814697265625,
+    "headlineDuringTransfer": true,
+    "runningOverflow": false,
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "overlays": 0,
+    "masks": 0
+  },
+  {
+    "name": "ultrawide",
+    "samples": 180,
+    "monotonic": true,
+    "zoomMin": 1,
+    "zoomMax": 1.06,
+    "lastProxyZoom": 1.06,
+    "finalZoom": 1.06,
+    "realFinalZoom": 1.06,
+    "frameWidthSpread": 0.0001220703125,
+    "whiteMaxDelta": 0.000244140625,
+    "headlineDuringTransfer": true,
+    "runningOverflow": false,
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "overlays": 0,
+    "masks": 0
+  },
+  {
+    "name": "tablet",
+    "samples": 165,
+    "monotonic": true,
+    "zoomMin": 1,
+    "zoomMax": 1.04,
+    "lastProxyZoom": 1.04,
+    "finalZoom": 1.04,
+    "realFinalZoom": 1.04,
+    "frameWidthSpread": 0,
+    "whiteMaxDelta": 0.00006103515625,
+    "headlineDuringTransfer": true,
+    "runningOverflow": false,
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "overlays": 0,
+    "masks": 0
+  },
+  {
+    "name": "mobile",
+    "samples": 160,
+    "monotonic": true,
+    "zoomMin": 1,
+    "zoomMax": 1.03,
+    "lastProxyZoom": 1.03,
+    "finalZoom": 1.03,
+    "realFinalZoom": 1.03,
+    "frameWidthSpread": 0,
+    "whiteMaxDelta": 0,
+    "headlineDuringTransfer": true,
+    "runningOverflow": false,
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "overlays": 0,
+    "masks": 0
+  }
+]

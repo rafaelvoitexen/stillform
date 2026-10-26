@@ -1,0 +1,370 @@
+[
+  {
+    "label": "01-slit",
+    "requested": 0.12,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028250262.7,
+    "now": 319.70000000018626,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.1000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 425.1656188964844,
+        "y": 157.5,
+        "width": 589.668701171875,
+        "height": 585,
+        "top": 157.5,
+        "right": 1014.8343200683594,
+        "bottom": 742.5,
+        "left": 425.1656188964844
+      },
+      "transform": "translate3d(-356.391px, 13px, 0px) scale(0.9)",
+      "clip": "inset(0px 46% 86.7386%)"
+    },
+    "image": {
+      "rect": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "02-identity-in",
+    "requested": 0.55,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028250262.7,
+    "now": 773.2999999998137,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.1000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 425.1656188964844,
+        "y": 157.5,
+        "width": 589.668701171875,
+        "height": 585,
+        "top": 157.5,
+        "right": 1014.8343200683594,
+        "bottom": 742.5,
+        "left": 425.1656188964844
+      },
+      "transform": "translate3d(-356.391px, 13px, 0px) scale(0.9)",
+      "clip": "inset(0px 46% 0.430756%)"
+    },
+    "image": {
+      "rect": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "03-expanded",
+    "requested": 1.65,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028250262.7,
+    "now": 1942.7000000001863,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.1000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 419.7714538574219,
+        "y": 152.1485595703125,
+        "width": 600.45703125,
+        "height": 595.702880859375,
+        "top": 152.1485595703125,
+        "right": 1020.2284851074219,
+        "bottom": 747.8514404296875,
+        "left": 419.7714538574219
+      },
+      "transform": "translate3d(-356.391px, 13px, 0px) scale(0.916466)",
+      "clip": "inset(0px 0% 0%)"
+    },
+    "image": {
+      "rect": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "04-scale",
+    "requested": 2.2,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028250262.7,
+    "now": 2515.600000000559,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.1000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 411.14495849609375,
+        "y": 143.59033203125,
+        "width": 617.7100219726562,
+        "height": 612.8193359375,
+        "top": 143.59033203125,
+        "right": 1028.85498046875,
+        "bottom": 756.40966796875,
+        "left": 411.14495849609375
+      },
+      "transform": "translate3d(-356.391px, 13px, 0px) scale(0.942799)",
+      "clip": "inset(0px 0% 0%)"
+    },
+    "image": {
+      "rect": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "05-transfer",
+    "requested": 3.3249999999999997,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028250262.7,
+    "now": 3650.100000000559,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.1000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      }
+    ],
+    "photo": {
+      "rect": {
+        "x": 702.29833984375,
+        "y": 115.9796142578125,
+        "width": 650.747314453125,
+        "height": 645.594970703125,
+        "top": 115.9796142578125,
+        "right": 1353.045654296875,
+        "bottom": 761.5745849609375,
+        "left": 702.29833984375
+      },
+      "transform": "translate3d(-48.7186px, 1.7771px, 0px) scale(0.993223)",
+      "clip": "inset(0px 0% 0%)"
+    },
+    "image": {
+      "rect": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "opacity": "0"
+    },
+    "overflow": false
+  },
+  {
+    "label": "06-headline",
+    "requested": 4.6499999999999995,
+    "state": {
+      "heroState": "running"
+    },
+    "origin": 1793028250262.7,
+    "now": 5032.9000000003725,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.1000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:transfer",
+        "time": 4150.600000000559,
+        "detail": null
+      }
+    ],
+    "photo": null,
+    "image": {
+      "rect": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "opacity": "1"
+    },
+    "overflow": false
+  },
+  {
+    "label": "07-settled",
+    "requested": 5.75,
+    "state": {
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "origin": 1793028250262.7,
+    "now": 5996.5,
+    "marks": [
+      {
+        "name": "stillform:hero:reserved",
+        "time": 18.5,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:ready",
+        "time": 91.1000000005588,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:start",
+        "time": 91.40000000037253,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:transfer",
+        "time": 4150.600000000559,
+        "detail": null
+      },
+      {
+        "name": "stillform:hero:end",
+        "time": 5645.5,
+        "detail": "complete"
+      }
+    ],
+    "photo": null,
+    "image": {
+      "rect": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "opacity": "1"
+    },
+    "overflow": false
+  }
+]

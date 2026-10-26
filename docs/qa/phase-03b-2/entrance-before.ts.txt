@@ -1,0 +1,146 @@
+import { gsap } from 'gsap';
+
+declare global {
+  interface Window {
+    __stillformHeroPaint?: {
+      open: boolean;
+      font: Promise<FontFace[]>;
+      decoded: Promise<boolean>;
+      deadline?: ReturnType<typeof setTimeout>;
+      release?: () => void;
+    };
+  }
+}
+
+/** One optional entrance per document. No late asset readiness may conceal painted content. */
+export function createHeroEntrance(hero: HTMLElement) {
+  const image = hero.querySelector<HTMLImageElement>('.photo img')!;
+  const photo = hero.querySelector<HTMLElement>('.photo')!;
+  const lines = [...hero.querySelectorAll<HTMLElement>('.line-motion')];
+  const details = hero.querySelector<HTMLElement>('.details')!;
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  const events = new AbortController();
+  let context: gsap.Context | undefined;
+  let timeline: gsap.core.Timeline | undefined;
+  let shutters: HTMLElement | undefined;
+  let disposed = false;
+  let attempted = false;
+  let watchdog: ReturnType<typeof setTimeout> | undefined;
+
+  const settle = () => {
+    if (hero.dataset.entrance !== 'running') return;
+    timeline?.kill();
+    context?.revert();
+    context = undefined;
+    timeline = undefined;
+    shutters?.remove();
+    shutters = undefined;
+    clearTimeout(watchdog);
+    hero.dataset.entrance = 'settled';
+    performance.mark('stillform:hero:end');
+  };
+
+  const skip = (reason: string) => {
+    hero.dataset.entrance = 'skipped';
+    hero.dataset.entranceReason = reason;
+  };
+
+  const canStart = () => {
+    if (document.visibilityState !== 'visible') return 'background';
+    if (reducedMotion.matches) return 'reduced-motion';
+    if (scrollY > 1 || (location.hash && location.hash !== '#top')) return 'away-from-top';
+    const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined;
+    if (navigation?.type === 'back_forward') return 'history';
+    if (!document.fonts.check('500 176px Onest') ||
+        ![...document.fonts].some(face => face.family === 'Onest' && face.status === 'loaded')) return 'font-not-ready';
+    if (!image.complete || !image.naturalWidth) return 'image-not-ready';
+    return null;
+  };
+
+  const attempt = async () => {
+    if (attempted || disposed || hero.dataset.entrance !== 'prepared') return;
+    attempted = true;
+    window.__stillformHeroPaint?.release?.();
+    const reason = canStart();
+    if (reason) return skip(reason);
+    try {
+      // The parser-side admission already decoded the image before its first visible paint.
+      if (disposed) return;
+      const lateReason = canStart();
+      if (lateReason) return skip(lateReason);
+
+      const heights = lines.map(line => line.getBoundingClientRect().height);
+      if (lines.some((line, index) => heights[index] > parseFloat(getComputedStyle(line).lineHeight) + 1)) {
+        return skip('text-reflow');
+      }
+      const stacked = getComputedStyle(hero.querySelector('h1')!).display === 'contents';
+      const duration = stacked ? .9 : 1.1;
+      const start = stacked ? .45 : .55;
+      const offset = stacked ? .07 : .08;
+      const textDuration = stacked ? .55 : .65;
+
+      shutters = document.createElement('div');
+      shutters.setAttribute('aria-hidden', 'true');
+      shutters.className = 'hero-shutters';
+      Object.assign(shutters.style, { position: 'absolute', inset: '0', overflow: 'clip', pointerEvents: 'none' });
+      const covers = ['left', 'right'].map(side => {
+        const cover = document.createElement('span');
+        Object.assign(cover.style, {
+          position: 'absolute', top: '0', bottom: '0', [side]: '0',
+          width: '46%', background: 'var(--mineral)', willChange: 'transform',
+        });
+        shutters!.append(cover);
+        return cover;
+      });
+      photo.append(shutters);
+      hero.dataset.entrance = 'running';
+      performance.mark('stillform:hero:start');
+
+      context = gsap.context(() => {
+        gsap.set(lines, {
+          y: index => heights[index] * (stacked ? .18 : .25),
+          opacity: 0, willChange: 'transform, opacity',
+        });
+        // Opacity retains the semantic heading. Focus settles the whole sequence immediately.
+        gsap.set(details, { opacity: 0, willChange: 'opacity' });
+        timeline = gsap.timeline({ paused: true, defaults: { ease: 'power3.out' }, onComplete: settle });
+        timeline.addLabel('discovery', 0)
+          .addLabel('expansion', 0)
+          .addLabel('typography', start)
+          .addLabel('attribution', stacked ? .94 : 1.1)
+          .to(covers[0], { xPercent: -100, duration, ease: 'power3.inOut' }, 'expansion')
+          .to(covers[1], { xPercent: 100, duration, ease: 'power3.inOut' }, 'expansion')
+          .call(() => shutters?.remove(), [], duration);
+        lines.forEach((line, index) => {
+          timeline!.to(line, { y: 0, opacity: 1, duration: textDuration }, start + index * offset);
+        });
+        timeline.to(details, { opacity: 1, duration: .2, ease: 'power1.out' }, 'attribution');
+      }, hero);
+      // An exception or stalled runtime can never leave a concealed Hero indefinitely.
+      watchdog = setTimeout(settle, 1800);
+      timeline!.play(0);
+    } catch {
+      settle();
+      if (!disposed && hero.dataset.entrance !== 'settled') skip('preparation-failed');
+    }
+  };
+
+  const options = { signal: events.signal };
+  hero.addEventListener('stillform:hero-ready', () => { void attempt(); }, options);
+  window.addEventListener('scroll', () => { if (scrollY > 1) settle(); }, { ...options, passive: true });
+  window.addEventListener('resize', settle, options);
+  document.addEventListener('visibilitychange', () => { if (document.hidden) settle(); }, options);
+  hero.addEventListener('click', settle, options);
+  hero.addEventListener('focusin', settle, options);
+  reducedMotion.addEventListener('change', settle, options);
+
+  return {
+    attempt,
+    settle,
+    dispose: () => {
+      disposed = true;
+      settle();
+      events.abort();
+    },
+  };
+}

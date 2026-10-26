@@ -1,0 +1,124 @@
+[
+  {
+    "case": "desktop-css-running-expiry",
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "overlays": [
+      {
+        "visibility": "hidden",
+        "display": "block",
+        "opacity": "0"
+      },
+      {
+        "visibility": "hidden",
+        "display": "block",
+        "opacity": "0"
+      }
+    ],
+    "mask": 3,
+    "lines": [
+      {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "color": "rgb(41, 45, 43)",
+        "background": "none"
+      },
+      {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "color": "rgb(41, 45, 43)",
+        "background": "none"
+      },
+      {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "linear-gradient(to right, rgb(41, 45, 43) 0px, rgb(41, 45, 43) 718.8px, rgb(247, 248, 245) 718.8px, rgb(247, 248, 245) 100%)"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "case": "desktop-reduced-motion-css-immediate",
+    "state": {
+      "heroEntry": "1",
+      "heroState": "running"
+    },
+    "overlays": [
+      {
+        "visibility": "visible",
+        "display": "none",
+        "opacity": "1"
+      },
+      {
+        "visibility": "visible",
+        "display": "none",
+        "opacity": "1"
+      }
+    ],
+    "mask": 3,
+    "lines": [
+      {
+        "opacity": "1",
+        "transform": "none",
+        "filter": "none",
+        "color": "rgb(41, 45, 43)",
+        "background": "none"
+      },
+      {
+        "opacity": "1",
+        "transform": "none",
+        "filter": "none",
+        "color": "rgb(41, 45, 43)",
+        "background": "none"
+      },
+      {
+        "opacity": "1",
+        "transform": "none",
+        "filter": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "linear-gradient(to right, rgb(41, 45, 43) 0px, rgb(41, 45, 43) 718.8px, rgb(247, 248, 245) 718.8px, rgb(247, 248, 245) 100%)"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "case": "unsupported-mask",
+    "state": {
+      "heroEntry": "1",
+      "heroState": "static-final",
+      "heroReason": "mask-unsupported"
+    },
+    "overlays": [],
+    "mask": 0,
+    "lines": [
+      {
+        "opacity": "1",
+        "transform": "none",
+        "filter": "none",
+        "color": "rgb(41, 45, 43)",
+        "background": "none"
+      },
+      {
+        "opacity": "1",
+        "transform": "none",
+        "filter": "none",
+        "color": "rgb(41, 45, 43)",
+        "background": "none"
+      },
+      {
+        "opacity": "1",
+        "transform": "none",
+        "filter": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "none"
+      }
+    ],
+    "overflow": false
+  }
+]

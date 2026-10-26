@@ -1,0 +1,38 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "variant": "a",
+    "color": "#787c79"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "variant": "b",
+    "color": "#656966"
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "variant": "a",
+    "color": "#787c79"
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "variant": "b",
+    "color": "#656966"
+  },
+  {
+    "width": 2560,
+    "height": 1440,
+    "variant": "a",
+    "color": "#787c79"
+  },
+  {
+    "width": 2560,
+    "height": 1440,
+    "variant": "b",
+    "color": "#656966"
+  }
+]

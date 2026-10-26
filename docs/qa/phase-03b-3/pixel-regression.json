@@ -1,0 +1,182 @@
+[
+  {
+    "file": "1024x768-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "file": "1024x768.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1024,
+      768
+    ]
+  },
+  {
+    "file": "1280x800-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1280,
+      828
+    ]
+  },
+  {
+    "file": "1280x800.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  {
+    "file": "1440x900-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "1440x900.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "1600x1000-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1600,
+      1000
+    ]
+  },
+  {
+    "file": "1600x1000.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      1600,
+      1000
+    ]
+  },
+  {
+    "file": "320x780-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      320,
+      780
+    ]
+  },
+  {
+    "file": "320x780.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      320,
+      780
+    ]
+  },
+  {
+    "file": "360x780-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      360,
+      838
+    ]
+  },
+  {
+    "file": "360x780.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      360,
+      780
+    ]
+  },
+  {
+    "file": "390x844-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      390,
+      889
+    ]
+  },
+  {
+    "file": "390x844.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "600x900-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      600,
+      1061
+    ]
+  },
+  {
+    "file": "600x900.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      600,
+      900
+    ]
+  },
+  {
+    "file": "768x1024-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      768,
+      1157
+    ]
+  },
+  {
+    "file": "768x1024.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      768,
+      1024
+    ]
+  },
+  {
+    "file": "900x900-full.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      900,
+      1157
+    ]
+  },
+  {
+    "file": "900x900.png",
+    "identical": true,
+    "bbox": null,
+    "size": [
+      900,
+      900
+    ]
+  }
+]

@@ -1,0 +1,270 @@
+{
+  "records": [
+    {
+      "name": "desktop",
+      "time": 0.15,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 425.1656188964844,
+          "y": 157.5,
+          "width": 589.668701171875,
+          "height": 585,
+          "top": 157.5,
+          "right": 1014.8343200683594,
+          "bottom": 742.5,
+          "left": 425.1656188964844
+        },
+        "transform": "translate3d(-356.391px, 13px, 0px) scale(0.9)",
+        "clip": "inset(0px 46% 71.6682%)"
+      }
+    },
+    {
+      "name": "desktop",
+      "time": 0.65,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 425.1656188964844,
+          "y": 157.5,
+          "width": 589.668701171875,
+          "height": 585,
+          "top": 157.5,
+          "right": 1014.8343200683594,
+          "bottom": 742.5,
+          "left": 425.1656188964844
+        },
+        "transform": "translate3d(-356.391px, 13px, 0px) scale(0.9)",
+        "clip": "inset(0px 45.9434% 0%)"
+      }
+    },
+    {
+      "name": "desktop",
+      "time": 1.5,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 421.52606201171875,
+          "y": 153.88925170898438,
+          "width": 596.9478759765625,
+          "height": 592.221435546875,
+          "top": 153.88925170898438,
+          "right": 1018.4739379882812,
+          "bottom": 746.1106872558594,
+          "left": 421.52606201171875
+        },
+        "transform": "translate3d(-356.391px, 13px, 0px) scale(0.91111)",
+        "clip": "inset(0px 0% 0%)"
+      }
+    },
+    {
+      "name": "desktop",
+      "time": 2.15,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 412.2417297363281,
+          "y": 144.67843627929688,
+          "width": 615.5166015625,
+          "height": 610.64306640625,
+          "top": 144.67843627929688,
+          "right": 1027.7583312988281,
+          "bottom": 755.3215026855469,
+          "left": 412.2417297363281
+        },
+        "transform": "translate3d(-356.391px, 13px, 0px) scale(0.939451)",
+        "clip": "inset(0px 0% 0%)"
+      }
+    },
+    {
+      "name": "desktop",
+      "time": 2.8,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 453.1219177246094,
+          "y": 131.76498413085938,
+          "width": 637.7266845703125,
+          "height": 632.677490234375,
+          "top": 131.76498413085938,
+          "right": 1090.8486022949219,
+          "bottom": 764.4424743652344,
+          "left": 453.1219177246094
+        },
+        "transform": "translate3d(-304.405px, 11.1037px, 0px) scale(0.97335)",
+        "clip": "inset(0px 0% 0%)"
+      }
+    },
+    {
+      "name": "desktop",
+      "time": 3.55,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 740.5706176757812,
+          "y": 113.05010986328125,
+          "width": 653.7290649414062,
+          "height": 648.5531005859375,
+          "top": 113.05010986328125,
+          "right": 1394.2996826171875,
+          "bottom": 761.6032104492188,
+          "left": 740.5706176757812
+        },
+        "transform": "translate3d(-8.95549px, 0.326668px, 0px) scale(0.997774)",
+        "clip": "inset(0px 0% 0%)"
+      }
+    },
+    {
+      "name": "desktop",
+      "time": 4.3,
+      "state": {
+        "heroState": "settled",
+        "heroReason": "spatial-pass-complete"
+      },
+      "photo": null
+    },
+    {
+      "name": "tablet",
+      "state": {
+        "heroState": "static-final",
+        "heroReason": "layout-change"
+      }
+    },
+    {
+      "name": "mobile",
+      "time": 0.15,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 54.94000244140625,
+          "y": 234,
+          "width": 280.1199951171875,
+          "height": 376,
+          "top": 234,
+          "right": 335.05999755859375,
+          "bottom": 610,
+          "left": 54.94000244140625
+        },
+        "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(0.94)",
+        "clip": "inset(0px 46% 88.1721%)"
+      }
+    },
+    {
+      "name": "mobile",
+      "time": 0.65,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 54.94000244140625,
+          "y": 234,
+          "width": 280.1199951171875,
+          "height": 376,
+          "top": 234,
+          "right": 335.05999755859375,
+          "bottom": 610,
+          "left": 54.94000244140625
+        },
+        "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(0.94)",
+        "clip": "inset(0px 45.9111% 0%)"
+      }
+    },
+    {
+      "name": "mobile",
+      "time": 1.5,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 53.30487060546875,
+          "y": 231.80520629882812,
+          "width": 283.3902587890625,
+          "height": 380.3896179199219,
+          "top": 231.80520629882812,
+          "right": 336.69512939453125,
+          "bottom": 612.19482421875,
+          "left": 53.30487060546875
+        },
+        "transform": "translate3d(-25.9844px, -57.8594px, 0px) scale(0.950974)",
+        "clip": "inset(0px 0% 0%)"
+      }
+    },
+    {
+      "name": "mobile",
+      "time": 2.15,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 50.26036071777344,
+          "y": 228.40896606445312,
+          "width": 291.04046630859375,
+          "height": 390.6584167480469,
+          "top": 228.40896606445312,
+          "right": 341.3008270263672,
+          "bottom": 619.0673828125,
+          "left": 50.26036071777344
+        },
+        "transform": "translate3d(-25.2038px, -56.1212px, 0px) scale(0.976646)",
+        "clip": "inset(0px 0% 0%)"
+      }
+    },
+    {
+      "name": "mobile",
+      "time": 2.8,
+      "state": {
+        "heroState": "running"
+      },
+      "photo": {
+        "rect": {
+          "x": 70.52976989746094,
+          "y": 276.244140625,
+          "width": 297.149169921875,
+          "height": 398.8580322265625,
+          "top": 276.244140625,
+          "right": 367.67893981933594,
+          "bottom": 675.1021728515625,
+          "left": 70.52976989746094
+        },
+        "transform": "translate3d(-1.88001px, -4.18622px, 0px) scale(0.997145)",
+        "clip": "inset(0px 0% 0%)"
+      }
+    },
+    {
+      "name": "mobile",
+      "time": 3.55,
+      "state": {
+        "heroState": "settled",
+        "heroReason": "spatial-pass-complete"
+      },
+      "photo": null
+    },
+    {
+      "name": "mobile",
+      "time": 4.3,
+      "state": {
+        "heroState": "settled",
+        "heroReason": "spatial-pass-complete"
+      },
+      "photo": null
+    }
+  ],
+  "errors": []
+}

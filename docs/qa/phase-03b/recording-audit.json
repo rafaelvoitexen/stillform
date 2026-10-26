@@ -1,0 +1,1219 @@
+[
+  {
+    "name": "desktop",
+    "attempt": 0,
+    "admitted": true,
+    "frameCount": 79,
+    "states": [
+      {
+        "state": "running",
+        "now": 212.79999999701977,
+        "marks": [
+          {
+            "name": "stillform:hero:prepared",
+            "time": 50.79999999701977
+          },
+          {
+            "name": "stillform:hero:start",
+            "time": 55.29999999701977
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "time": 80
+          },
+          {
+            "name": "first-contentful-paint",
+            "time": 80
+          }
+        ],
+        "geometry": {
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 900,
+          "stacked": false,
+          "font": true,
+          "fontStatus": [
+            {
+              "family": "Onest",
+              "status": "loaded"
+            }
+          ],
+          "image": 1920,
+          "heading": "BUILT AROUND ABSENCE.",
+          "elements": {
+            ".header": {
+              "x": 36,
+              "y": 33,
+              "width": 1368,
+              "height": 30,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".opening": {
+              "x": 30,
+              "y": 132,
+              "width": 1409.984375,
+              "height": 359.03125,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "inline"
+            },
+            ".around": {
+              "x": 30,
+              "y": 311.515625,
+              "width": 1409.984375,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".closing": {
+              "x": 30,
+              "y": 536.015625,
+              "width": 796.890625,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".photo": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".intro": {
+              "x": 36,
+              "y": 790,
+              "width": 340.46875,
+              "height": 46.375,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".image-note": {
+              "x": 748.796875,
+              "y": 783,
+              "width": 655.1875,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".credit": {
+              "x": 1286.21875,
+              "y": 783,
+              "width": 117.765625,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".footer": {
+              "x": 36,
+              "y": 836.375,
+              "width": 1368,
+              "height": 38.796875,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "grid"
+            }
+          },
+          "overflow": []
+        },
+        "elapsed": 160.20000000298023
+      },
+      {
+        "state": "running",
+        "now": 721.6999999955297,
+        "marks": [
+          {
+            "name": "stillform:hero:prepared",
+            "time": 50.79999999701977
+          },
+          {
+            "name": "stillform:hero:start",
+            "time": 55.29999999701977
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "time": 80
+          },
+          {
+            "name": "first-contentful-paint",
+            "time": 80
+          }
+        ],
+        "geometry": {
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 900,
+          "stacked": false,
+          "font": true,
+          "fontStatus": [
+            {
+              "family": "Onest",
+              "status": "loaded"
+            }
+          ],
+          "image": 1920,
+          "heading": "BUILT AROUND ABSENCE.",
+          "elements": {
+            ".header": {
+              "x": 36,
+              "y": 33,
+              "width": 1368,
+              "height": 30,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".opening": {
+              "x": 30,
+              "y": 132,
+              "width": 1409.984375,
+              "height": 359.03125,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "inline"
+            },
+            ".around": {
+              "x": 30,
+              "y": 311.515625,
+              "width": 1409.984375,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".closing": {
+              "x": 30,
+              "y": 536.015625,
+              "width": 796.890625,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".photo": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".intro": {
+              "x": 36,
+              "y": 790,
+              "width": 340.46875,
+              "height": 46.375,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".image-note": {
+              "x": 748.796875,
+              "y": 783,
+              "width": 655.1875,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".credit": {
+              "x": 1286.21875,
+              "y": 783,
+              "width": 117.765625,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".footer": {
+              "x": 36,
+              "y": 836.375,
+              "width": 1368,
+              "height": 38.796875,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "grid"
+            }
+          },
+          "overflow": [
+            ""
+          ]
+        },
+        "elapsed": 674.3999999985099
+      },
+      {
+        "state": "running",
+        "now": 977.8999999985099,
+        "marks": [
+          {
+            "name": "stillform:hero:prepared",
+            "time": 50.79999999701977
+          },
+          {
+            "name": "stillform:hero:start",
+            "time": 55.29999999701977
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "time": 80
+          },
+          {
+            "name": "first-contentful-paint",
+            "time": 80
+          }
+        ],
+        "geometry": {
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 900,
+          "stacked": false,
+          "font": true,
+          "fontStatus": [
+            {
+              "family": "Onest",
+              "status": "loaded"
+            }
+          ],
+          "image": 1920,
+          "heading": "BUILT AROUND ABSENCE.",
+          "elements": {
+            ".header": {
+              "x": 36,
+              "y": 33,
+              "width": 1368,
+              "height": 30,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".opening": {
+              "x": 30,
+              "y": 132,
+              "width": 1409.984375,
+              "height": 359.03125,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "inline"
+            },
+            ".around": {
+              "x": 30,
+              "y": 311.515625,
+              "width": 1409.984375,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".closing": {
+              "x": 30,
+              "y": 536.015625,
+              "width": 796.890625,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".photo": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".intro": {
+              "x": 36,
+              "y": 790,
+              "width": 340.46875,
+              "height": 46.375,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".image-note": {
+              "x": 748.796875,
+              "y": 783,
+              "width": 655.1875,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".credit": {
+              "x": 1286.21875,
+              "y": 783,
+              "width": 117.765625,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".footer": {
+              "x": 36,
+              "y": 836.375,
+              "width": 1368,
+              "height": 38.796875,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "grid"
+            }
+          },
+          "overflow": [
+            ""
+          ]
+        },
+        "elapsed": 927.8999999985099
+      },
+      {
+        "state": "running",
+        "now": 1289.5999999940395,
+        "marks": [
+          {
+            "name": "stillform:hero:prepared",
+            "time": 50.79999999701977
+          },
+          {
+            "name": "stillform:hero:start",
+            "time": 55.29999999701977
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "time": 80
+          },
+          {
+            "name": "first-contentful-paint",
+            "time": 80
+          }
+        ],
+        "geometry": {
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 900,
+          "stacked": false,
+          "font": true,
+          "fontStatus": [
+            {
+              "family": "Onest",
+              "status": "loaded"
+            }
+          ],
+          "image": 1920,
+          "heading": "BUILT AROUND ABSENCE.",
+          "elements": {
+            ".header": {
+              "x": 36,
+              "y": 33,
+              "width": 1368,
+              "height": 30,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".opening": {
+              "x": 30,
+              "y": 132,
+              "width": 1409.984375,
+              "height": 359.03125,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "inline"
+            },
+            ".around": {
+              "x": 30,
+              "y": 311.515625,
+              "width": 1409.984375,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".closing": {
+              "x": 30,
+              "y": 536.015625,
+              "width": 796.890625,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".photo": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".intro": {
+              "x": 36,
+              "y": 790,
+              "width": 340.46875,
+              "height": 46.375,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".image-note": {
+              "x": 748.796875,
+              "y": 783,
+              "width": 655.1875,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".credit": {
+              "x": 1286.21875,
+              "y": 783,
+              "width": 117.765625,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".footer": {
+              "x": 36,
+              "y": 836.375,
+              "width": 1368,
+              "height": 38.796875,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "grid"
+            }
+          },
+          "overflow": []
+        },
+        "elapsed": 1242.8999999985099
+      },
+      {
+        "state": "settled",
+        "now": 1724.2999999970198,
+        "marks": [
+          {
+            "name": "stillform:hero:prepared",
+            "time": 50.79999999701977
+          },
+          {
+            "name": "stillform:hero:start",
+            "time": 55.29999999701977
+          },
+          {
+            "name": "stillform:hero:end",
+            "time": 1421.5
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "time": 80
+          },
+          {
+            "name": "first-contentful-paint",
+            "time": 80
+          }
+        ],
+        "geometry": {
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "scrollHeight": 900,
+          "stacked": false,
+          "font": true,
+          "fontStatus": [
+            {
+              "family": "Onest",
+              "status": "loaded"
+            }
+          ],
+          "image": 1920,
+          "heading": "BUILT AROUND ABSENCE.",
+          "elements": {
+            ".header": {
+              "x": 36,
+              "y": 33,
+              "width": 1368,
+              "height": 30,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".opening": {
+              "x": 30,
+              "y": 132,
+              "width": 1409.984375,
+              "height": 359.03125,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "inline"
+            },
+            ".around": {
+              "x": 30,
+              "y": 311.515625,
+              "width": 1409.984375,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".closing": {
+              "x": 30,
+              "y": 536.015625,
+              "width": 796.890625,
+              "height": 179.515625,
+              "fontSize": "176px",
+              "weight": "500",
+              "display": "block"
+            },
+            ".photo": {
+              "x": 748.796875,
+              "y": 112,
+              "width": 655.1875,
+              "height": 650,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".intro": {
+              "x": 36,
+              "y": 790,
+              "width": 340.46875,
+              "height": 46.375,
+              "fontSize": "16px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".image-note": {
+              "x": 748.796875,
+              "y": 783,
+              "width": 655.1875,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "flex"
+            },
+            ".credit": {
+              "x": 1286.21875,
+              "y": 783,
+              "width": 117.765625,
+              "height": 53.375,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "block"
+            },
+            ".footer": {
+              "x": 36,
+              "y": 836.375,
+              "width": 1368,
+              "height": 38.796875,
+              "fontSize": "12px",
+              "weight": "400",
+              "display": "grid"
+            }
+          },
+          "overflow": []
+        },
+        "elapsed": 1670.7000000029802
+      }
+    ]
+  },
+  {
+    "name": "mobile",
+    "attempt": 0,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 45.399999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 1,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 43.69999999552965,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 2,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 52,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 3,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 39.599999994039536,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 4,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 38.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 5,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 43.399999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 6,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 38.5,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 7,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 43,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 8,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 54.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 9,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 42.20000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 10,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 35.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 11,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 31,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 12,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 38.899999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 13,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 38.5,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 14,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 37.5,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 15,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 41.70000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 16,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 41.80000000447035,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 17,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 44.100000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 18,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 31.5,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 19,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 44.399999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 20,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 55.5,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 21,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 30.80000000447035,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 22,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 51.30000000447035,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 23,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 36.70000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 24,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 33.70000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 25,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 28.69999999552965,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 26,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 32.29999999701977,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 27,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 38.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 28,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 40.70000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 29,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 54.20000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 30,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 39,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "mobile",
+    "attempt": 31,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 40.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 0,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 46.20000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 1,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 33.19999999552965,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 2,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 43.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 3,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 39.899999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 4,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 42.29999999701977,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 5,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 40,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 6,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 55,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 7,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 29,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 8,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 46.69999999552965,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 9,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 32.100000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 10,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 40,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 11,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 45.399999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 12,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 40.899999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 13,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 43.69999999552965,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 14,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 50.29999999701977,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 15,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 37.399999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 16,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 41.19999999552965,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 17,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 30.099999994039536,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 18,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 40.79999999701977,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 19,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 38.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 20,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 56.19999999552965,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 21,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 39.899999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 22,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 41.5,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 23,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 33,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 24,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 41.099999994039536,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 25,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 41.20000000298023,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 26,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 55.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 27,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 43.899999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 28,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 43.600000001490116,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 29,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 39.30000000447035,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 30,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 40.899999998509884,
+    "marks": [],
+    "paint": []
+  },
+  {
+    "name": "tablet",
+    "attempt": 31,
+    "state": "skipped",
+    "reason": "already-painted",
+    "now": 41.899999998509884,
+    "marks": [],
+    "paint": []
+  }
+]

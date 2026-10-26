@@ -1,0 +1,99 @@
+[
+  {
+    "name": "desktop",
+    "samples": 196,
+    "measuredDuration": 4.387,
+    "zoomRange": [
+      1,
+      1.08
+    ],
+    "lastProxyZoom": 1,
+    "outerWidthUntilTransfer": [
+      655.1875,
+      655.1875610351562
+    ],
+    "outerHeightUntilTransfer": [
+      650,
+      650
+    ],
+    "whiteMaxDelta": 0,
+    "headlineWhileProxy": true,
+    "runningOverflow": false,
+    "preStylesheetOverflow": [
+      {
+        "state": "reserved",
+        "time": 17.800000000745058
+      }
+    ],
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "finalMasks": 0,
+    "finalOverlays": 0
+  },
+  {
+    "name": "tablet",
+    "samples": 171,
+    "measuredDuration": 3.78889999999851,
+    "zoomRange": [
+      1,
+      1.06
+    ],
+    "lastProxyZoom": 1.0001,
+    "outerWidthUntilTransfer": [
+      617.59375,
+      617.59375
+    ],
+    "outerHeightUntilTransfer": [
+      500,
+      500
+    ],
+    "whiteMaxDelta": 0,
+    "headlineWhileProxy": true,
+    "runningOverflow": false,
+    "preStylesheetOverflow": [
+      {
+        "state": "reserved",
+        "time": 25.800000000745058
+      }
+    ],
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "finalMasks": 0,
+    "finalOverlays": 0
+  },
+  {
+    "name": "mobile",
+    "samples": 163,
+    "measuredDuration": 3.591699999999255,
+    "zoomRange": [
+      1,
+      1.045
+    ],
+    "lastProxyZoom": 1.0001,
+    "outerWidthUntilTransfer": [
+      298,
+      298
+    ],
+    "outerHeightUntilTransfer": [
+      400,
+      400
+    ],
+    "whiteMaxDelta": 0,
+    "headlineWhileProxy": true,
+    "runningOverflow": false,
+    "preStylesheetOverflow": [],
+    "final": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "heroReason": "complete"
+    },
+    "finalMasks": 0,
+    "finalOverlays": 0
+  }
+]
