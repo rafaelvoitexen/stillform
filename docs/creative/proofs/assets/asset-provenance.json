@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-25",
+  "license": {
+    "name": "Unsplash License",
+    "url": "https://unsplash.com/license",
+    "verification": "Each individual source page displayed free use under Unsplash License in live browser; not Unsplash+.",
+    "scope": "Photographic license identified; no assertion of exhaustive third-party rights clearance."
+  },
+  "assets": [
+    {
+      "file": "tulach-e-vos.jpg",
+      "photographer": "E Vos",
+      "profile": "https://unsplash.com/@ecvirl",
+      "page": "https://unsplash.com/photos/dark-concrete-hallway-with-bright-light-at-the-end-ela0A8rSxbw",
+      "download": "https://images.unsplash.com/photo-1766322088147-2dae20085266?fm=jpg&q=88&w=1920&fit=max",
+      "offeredOriginal": [
+        4242,
+        3181
+      ],
+      "local": [
+        1920,
+        1440
+      ],
+      "building": "Tulach a’ tSolais",
+      "sourceLocation": "Wexford, Ireland",
+      "usedInProofs": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "file": "passage-anastashia-angkasa.jpg",
+      "photographer": "Anastashia Nadya Angkasa",
+      "profile": "https://unsplash.com/@nadyangkasa",
+      "page": "https://unsplash.com/photos/modern-architectural-passage-with-sunlight-and-shadows-XnAubvnRnYU",
+      "download": "https://images.unsplash.com/photo-1773549760309-9ed383225d68?fm=jpg&q=85&w=1600&fit=max",
+      "offeredOriginal": [
+        2652,
+        3991
+      ],
+      "local": [
+        1600,
+        2408
+      ],
+      "building": "Setre Marina Lake Biwako (photographer's location)",
+      "usedInProofs": []
+    },
+    {
+      "file": "curved-mattia-revelant.jpg",
+      "photographer": "Mattia Revelant",
+      "profile": "https://unsplash.com/@vez02",
+      "page": "https://unsplash.com/photos/curved-concrete-walls-in-park-wWFy4g4iOHs",
+      "download": "https://images.unsplash.com/photo-1787228164960-2f08d4419f9d?fm=jpg&q=85&w=1600&fit=max",
+      "offeredOriginal": [
+        4160,
+        6240
+      ],
+      "local": [
+        1600,
+        2400
+      ],
+      "building": null,
+      "buildingStatus": "Not identified on inspected source page",
+      "usedInProofs": []
+    }
+  ],
+  "verification": {
+    "originalDimensions": "Visible download-size menus in browser",
+    "localDimensions": "System.Drawing.Image metadata",
+    "visual": "Each candidate visually inspected in live Unsplash page before downloading",
+    "changes": "CDN resize/compression only; proof crops are CSS object-fit and editorial overlays. No generated pixels or color filters."
+  }
+}

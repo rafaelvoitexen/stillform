@@ -1,0 +1,23 @@
+.variant-b .photo{left:53%;right:36px;top:108px;height:665px}
+.variant-b .photo img{object-position:50% 50%}
+.variant-b .title-field{position:absolute;left:28px;top:113px;z-index:2;right:30px;pointer-events:none}
+.variant-b h1{font-size:228px;line-height:.88;letter-spacing:-.072em}
+.variant-b h1 span{display:block;width:max-content}
+.variant-b h1 .last{margin-top:43px;color:transparent;background:linear-gradient(to right,var(--ink) 0px,var(--ink) calc(53vw - 28px),var(--chalk) calc(53vw - 28px),var(--chalk) 100%);background-clip:text;-webkit-background-clip:text}
+.variant-b .intro{position:absolute;left:36px;top:778px;max-width:370px;font-size:17px;line-height:1.35}
+.variant-b .image-note{position:absolute;left:53%;right:36px;top:791px;display:flex;justify-content:space-between;gap:24px}
+.variant-b .image-note .subject{font-size:14px;display:block}.variant-b .image-note .location{font-size:12px;display:block;margin-top:3px}
+.variant-b .image-note .credit{text-align:right;max-width:150px}
+@media(min-width:701px) and (max-width:1100px){.variant-b h1{font-size:15vw}.variant-b .title-field{top:160px}.variant-b h1 .last{margin-top:75px}.variant-b .image-note .credit{max-width:110px}}
+@media(max-width:700px){
+.variant-b .photo{left:80px;right:20px;top:288px;height:420px}
+.variant-b .title-field{left:16px;top:89px;right:16px}
+.variant-b h1{font-size:96px;line-height:.92;letter-spacing:-.075em}
+.variant-b h1 .last{position:absolute;top:551px;margin:0;font-size:84px;background:var(--mineral);color:var(--ink);padding:8px 0 3px;width:calc(100vw - 16px);background-clip:border-box;-webkit-background-clip:border-box}
+.variant-b .intro{left:20px;top:736px;font-size:14px;max-width:245px;line-height:1.35}
+.variant-b .image-note{left:20px;right:20px;top:797px;display:flex;align-items:end;gap:10px}
+.variant-b .image-note .subject{font-size:11px}.variant-b .image-note .location{display:none}.variant-b .image-note .credit{font-size:10px}
+.variant-b .chapter-line{display:none}.variant-b .chapter-line .edition{display:none}
+.variant-b .chapter-line .down{display:none}
+}
+

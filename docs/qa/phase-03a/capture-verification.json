@@ -1,0 +1,39 @@
+{
+  "dims": [
+    {
+      "file": "1440x900.png",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "1280x800.png",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "file": "1024x768.png",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "768x1024.png",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "390x844.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "360x780.png",
+      "width": 360,
+      "height": 780
+    }
+  ],
+  "hashes": {
+    "390x844-full": "96091214118d930e5ec3597f54eaecad28165f37e1cd504e6a0c3ddbc0c9ded3",
+    "no-js-full": "96091214118d930e5ec3597f54eaecad28165f37e1cd504e6a0c3ddbc0c9ded3",
+    "reduced-motion-full": "96091214118d930e5ec3597f54eaecad28165f37e1cd504e6a0c3ddbc0c9ded3"
+  }
+}

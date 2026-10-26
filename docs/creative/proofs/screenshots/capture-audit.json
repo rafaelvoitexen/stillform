@@ -1,0 +1,98 @@
+{
+  "captured": "2026-10-25",
+  "method": "Browser screenshot fullPage; document dimensions equal requested viewport",
+  "captures": [
+    {
+      "name": "variant-a-desktop",
+      "document": [
+        1440,
+        900
+      ],
+      "fontFaces": [],
+      "fonts": "loaded",
+      "images": [
+        {
+          "complete": true,
+          "height": 1440,
+          "src": "assets/tulach-e-vos.jpg",
+          "width": 1920
+        }
+      ],
+      "scriptCount": 0,
+      "viewport": [
+        1440,
+        900
+      ],
+      "bytes": 80821
+    },
+    {
+      "name": "variant-b-desktop",
+      "document": [
+        1440,
+        900
+      ],
+      "fontFaces": [],
+      "fonts": "loaded",
+      "images": [
+        {
+          "complete": true,
+          "height": 1440,
+          "src": "assets/tulach-e-vos.jpg",
+          "width": 1920
+        }
+      ],
+      "scriptCount": 0,
+      "viewport": [
+        1440,
+        900
+      ],
+      "bytes": 93571
+    },
+    {
+      "name": "variant-a-mobile",
+      "document": [
+        390,
+        844
+      ],
+      "fontFaces": [],
+      "fonts": "loaded",
+      "images": [
+        {
+          "complete": true,
+          "height": 1440,
+          "src": "assets/tulach-e-vos.jpg",
+          "width": 1920
+        }
+      ],
+      "scriptCount": 0,
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 35237
+    },
+    {
+      "name": "variant-b-mobile",
+      "document": [
+        390,
+        844
+      ],
+      "fontFaces": [],
+      "fonts": "loaded",
+      "images": [
+        {
+          "complete": true,
+          "height": 1440,
+          "src": "assets/tulach-e-vos.jpg",
+          "width": 1920
+        }
+      ],
+      "scriptCount": 0,
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 30536
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "viewport": "360x780",
+      "dimensionsCorrect": true,
+      "noOverflow": true
+    },
+    {
+      "viewport": "390x844",
+      "dimensionsCorrect": true,
+      "noOverflow": true
+    },
+    {
+      "viewport": "768x1024",
+      "dimensionsCorrect": true,
+      "noOverflow": true
+    },
+    {
+      "viewport": "1024x768",
+      "dimensionsCorrect": true,
+      "noOverflow": true,
+      "desktopGeometryPreserved": true
+    },
+    {
+      "viewport": "1280x800",
+      "dimensionsCorrect": true,
+      "noOverflow": true,
+      "desktopGeometryPreserved": true
+    },
+    {
+      "viewport": "1440x900",
+      "dimensionsCorrect": true,
+      "noOverflow": true,
+      "desktopGeometryPreserved": true
+    },
+    {
+      "viewport": "1600x1000",
+      "dimensionsCorrect": true,
+      "noOverflow": true,
+      "desktopGeometryPreserved": true
+    },
+    {
+      "viewport": "320x780",
+      "dimensionsCorrect": true,
+      "noOverflow": true
+    },
+    {
+      "viewport": "600x900",
+      "dimensionsCorrect": true,
+      "noOverflow": true
+    },
+    {
+      "viewport": "900x900",
+      "dimensionsCorrect": true,
+      "noOverflow": true
+    }
+  ],
+  "parity": {
+    "390x844-full": "75f4a0cd62339f15c518676fae89004d0e18fa73324934a39c7f836168a00333",
+    "no-js-full": "75f4a0cd62339f15c518676fae89004d0e18fa73324934a39c7f836168a00333",
+    "reduced-motion-full": "75f4a0cd62339f15c518676fae89004d0e18fa73324934a39c7f836168a00333"
+  },
+  "validationOverflowPassed": true
+}

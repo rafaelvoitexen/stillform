@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-25",
+  "captures": [
+    {
+      "document": [
+        1440,
+        900
+      ],
+      "font": "Onest, Arial, sans-serif",
+      "fontCheck": true,
+      "imageLoaded": true,
+      "outsideViewport": [],
+      "photo": {
+        "height": 650,
+        "width": 655.2000122070312,
+        "x": 748.7999877929688,
+        "y": 112
+      },
+      "scriptCount": 0,
+      "size": "176px",
+      "viewport": [
+        1440,
+        900
+      ],
+      "weight": "500",
+      "name": "study-1-desktop"
+    },
+    {
+      "document": [
+        1440,
+        900
+      ],
+      "font": "Onest, Arial, sans-serif",
+      "fontCheck": true,
+      "imageLoaded": true,
+      "outsideViewport": [],
+      "photo": {
+        "height": 650,
+        "width": 770.4000244140625,
+        "x": 633.6000366210938,
+        "y": 112
+      },
+      "scriptCount": 0,
+      "size": "144px",
+      "viewport": [
+        1440,
+        900
+      ],
+      "weight": "450",
+      "name": "study-2-desktop"
+    },
+    {
+      "document": [
+        390,
+        844
+      ],
+      "font": "Onest, Arial, sans-serif",
+      "fontCheck": true,
+      "imageLoaded": true,
+      "outsideViewport": [],
+      "photo": {
+        "height": 400,
+        "width": 298.3999938964844,
+        "x": 72,
+        "y": 280
+      },
+      "scriptCount": 0,
+      "size": "72.0678px",
+      "viewport": [
+        390,
+        844
+      ],
+      "weight": "500",
+      "name": "study-1-mobile"
+    },
+    {
+      "document": [
+        390,
+        844
+      ],
+      "font": "Onest, Arial, sans-serif",
+      "fontCheck": true,
+      "imageLoaded": true,
+      "outsideViewport": [],
+      "photo": {
+        "height": 395,
+        "width": 350.3999938964844,
+        "x": 20,
+        "y": 320
+      },
+      "scriptCount": 0,
+      "size": "65.0797px",
+      "viewport": [
+        390,
+        844
+      ],
+      "weight": "450",
+      "name": "study-2-mobile"
+    }
+  ]
+}

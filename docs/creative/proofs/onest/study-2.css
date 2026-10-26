@@ -1,0 +1,5 @@
+.study-2{--photo-x:44%}.study-2 h1{top:140px;font-size:144px;font-weight:450;line-height:1.03;letter-spacing:-.045em}.study-2 h1 .last{margin-top:196px;background:linear-gradient(to right,var(--ink) 0,var(--ink) calc(44vw - 30px),var(--chalk) calc(44vw - 30px),var(--chalk) 100%);background-clip:text;-webkit-background-clip:text}.study-2 .photo{height:650px}.study-2 .intro{top:482px}.study-2 .footer{bottom:25px}
+@media(min-width:701px) and (max-width:1200px){.study-2 h1{font-size:9.3vw}.study-2 h1 .last{margin-top:250px}}
+@media(max-width:700px){.study-2{--photo-x:20px}.study-2 h1{left:17px;top:98px;font-size:clamp(52px,16.67vw,92px);font-weight:450;line-height:1.02;letter-spacing:-.045em}.study-2 h1 .last{position:static;margin-top:7px;font-size:inherit;padding:0;width:max-content;background:none;color:var(--ink)}.study-2 .photo{top:320px;height:395px}.study-2 .intro{top:744px}.study-2 .image-note{top:800px}}
+
+

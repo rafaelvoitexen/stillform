@@ -1,0 +1,142 @@
+<main id="top" class="hero">
+  <header class="header">
+    <a class="wordmark" href="#top" aria-label="STILLFORM">STILL<span>FORM</span></a>
+    <p class="descriptor">An archive of<br />spatial observations</p>
+    <nav aria-label="Chapters — forthcoming"><span>Manifesto</span><span>Archive</span><span>Notes</span></nav>
+  </header>
+  <div class="stage">
+    <h1 aria-label="Built around absence."><span class="opening"><span class="built">BUILT</span> <span class="around">AROUND</span></span> <span class="closing">ABSENCE.</span></h1>
+    <figure class="photo">
+      <img src="/images/tulach-e-vos.jpg" width="1920" height="1440" fetchpriority="high" loading="eager" alt="Two concrete masses frame a narrow shaft of daylight at Tulach a’ tSolais." />
+      <p class="image-failure" hidden>Photograph unavailable.</p>
+    </figure>
+  </div>
+  <div class="details">
+    <p class="intro">Architecture defines<br />the space that is not built.</p>
+    <div class="image-note">
+      <p class="subject">Tulach a’ tSolais<span class="location">Oulart Hill, Ireland</span></p>
+      <p class="credit">Photograph by <a href="https://unsplash.com/photos/dark-concrete-hallway-with-bright-light-at-the-end-ela0A8rSxbw">E Vos</a><br />on Unsplash</p>
+    </div>
+  </div>
+  <footer class="footer"><span>First edition — The occupied void</span><span>Light. Mass. Interval.</span><span>Scroll to read</span></footer>
+</main>
+
+<style>
+
+  .hero {
+    --gutter: clamp(20px, 3.125cqw, 24px);
+    --photo-left: calc(var(--gutter) + 13.333333cqw);
+    --optical-left: calc(var(--gutter) - 3px);
+    --photo-width: calc(100cqw - var(--photo-left) - var(--gutter));
+    --photo-height: min(650px, var(--photo-width) * 400 / 298);
+    --display: clamp(3rem, calc(4.5rem + 18.4615cqw - 72px), 8rem);
+    --closing-display: clamp(2.75rem, calc(4.25rem + 17.4359cqw - 68px), 7.55rem);
+    display: flex; flex-direction: column; min-height: 100svh; padding-block: 24px;
+  }
+  .header { position: relative; top: 3px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-inline: var(--gutter); margin-bottom: 48.6px; }
+  .wordmark { flex-shrink: 0; max-width: 100%; position: relative; font-size: 1.375rem; line-height: 1.2; font-weight: 550; letter-spacing: -.045em; text-decoration: none; overflow-wrap: anywhere; }
+  .wordmark::after { content: ''; position: absolute; inset: -9px 0; }
+  .wordmark span { margin-left: .12em; }
+  .descriptor { display: none; }
+  nav { display: flex; margin-left: auto; gap: 28px; font-size: .875rem; line-height: 1.4; }
+  nav span:not(:nth-child(2)) { display: none; }
+  .stage { display: grid; grid-template-columns: var(--photo-left) var(--photo-width) var(--gutter); }
+  h1 { display: contents; font-size: var(--display); font-weight: 500; line-height: 1.02; letter-spacing: -.055em; overflow-wrap: anywhere; }
+  .opening { grid-area: 1 / 1 / 2 / -1; margin-left: var(--optical-left); }
+  .built, .around, .closing { display: block; }
+  .closing { grid-area: 3 / 1 / 4 / -1; z-index: 1; margin: calc(-1 * min(24px, var(--photo-height) * .06)) 0 0 var(--optical-left); padding-block: 8px 4px; font-size: var(--closing-display); background: var(--mineral); }
+  .photo { grid-area: 2 / 2; margin-top: 34px; height: var(--photo-height); position: relative; background: var(--mineral); }
+  .photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+  .image-failure { position: absolute; inset: 24px; font-size: .9375rem; }
+  .details { margin: 20px var(--gutter) 0; }
+  .intro { font-size: .9375rem; line-height: 1.45; letter-spacing: -.015em; max-width: 32ch; }
+  .image-note { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; margin-top: 20px; font-size: .75rem; line-height: 1.5; }
+  .subject { font-weight: 500; }
+  .location { display: none; font-weight: 400; }
+  .credit { text-align: right; }
+  .image-note[data-wrap] { flex-direction: column; }
+  .image-note[data-wrap] .credit { text-align: left; }
+  .footer { display: none; }
+  @container (min-width: 1024px) {
+    .hero:not([data-stacked]) {
+      --gutter: clamp(24px, 2.5cqw, 36px);
+      --photo-left: 52cqw;
+      --optical-left: calc(var(--gutter) - 6px);
+      --photo-height: min(650px, var(--photo-width) * 650 / 655.2);
+      --display: clamp(6rem, calc(11rem + 12.222222cqw - 176px), 11rem);
+      padding-block: 30px 25px;
+    }
+    .hero:not([data-stacked]) .header { margin-bottom: 52px; }
+    .hero:not([data-stacked]) .wordmark { font-size: 1.5625rem; }
+    .hero:not([data-stacked]) .descriptor { display: block; margin: -3.2px 10cqw -3.2px auto; font-size: .8125rem; line-height: 1.4; }
+    .hero:not([data-stacked]) nav { margin-left: 0; font-size: .8125rem; }
+    .hero:not([data-stacked]) nav span { display: block; }
+    .hero:not([data-stacked]) h1 { display: block; grid-area: 1 / 1 / 2 / -1; z-index: 1; align-self: start; margin: 20px 0 0 var(--optical-left); }
+    .hero:not([data-stacked]) .opening { margin: 0; }
+    .hero:not([data-stacked]) .closing { margin: calc(var(--display) * 45 / 176) 0 0; padding: 0; width: fit-content; font-size: inherit; color: transparent; background: linear-gradient(to right, var(--graphite) 0, var(--graphite) calc(var(--photo-left) - var(--optical-left)), var(--chalk) calc(var(--photo-left) - var(--optical-left)), var(--chalk) 100%); background-clip: text; }
+    .hero:not([data-stacked]) .photo { grid-area: 1 / 2; margin: 0; }
+    .hero:not([data-stacked]) .details { display: grid; grid-template-columns: var(--photo-left) var(--photo-width) var(--gutter); margin: 21px 0 0; }
+    .hero:not([data-stacked]) .intro { grid-area: 1 / 1; margin: 7px var(--gutter) 0; font-size: 1rem; }
+    .hero:not([data-stacked]) .image-note { grid-area: 1 / 2; margin: 0; }
+    .hero:not([data-stacked]) .location { display: block; }
+    .hero:not([data-stacked]) .footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin: auto var(--gutter) 0; padding-top: 22px; font-size: .75rem; line-height: 1.4; }
+  }
+</style>
+
+<script>
+  // Layout enhancement only: no motion and no text fitting or scaling.
+  const hero = document.querySelector<HTMLElement>('.hero');
+  const page = document.querySelector<HTMLElement>('.page');
+  if (hero && page) {
+    const opening = hero.querySelector<HTMLElement>('.around')!;
+    const closing = hero.querySelector<HTMLElement>('.closing')!;
+    const photo = hero.querySelector<HTMLElement>('.photo')!;
+    const header = hero.querySelector<HTMLElement>('.header')!;
+    const note = hero.querySelector<HTMLElement>('.image-note')!;
+    const image = hero.querySelector<HTMLImageElement>('img')!;
+    const rangeWidth = (element: HTMLElement) => {
+      const range = document.createRange();
+      range.selectNodeContents(element);
+      return range.getBoundingClientRect().width;
+    };
+    const assess = () => {
+      hero.removeAttribute('data-stacked');
+      note.removeAttribute('data-wrap');
+      if (page.clientWidth >= 1024) {
+        const x = opening.getBoundingClientRect().left;
+        const frame = photo.getBoundingClientRect();
+        const columns = [...header.children].map(el => el.getBoundingClientRect());
+        if (x + rangeWidth(opening) > frame.left - 8 ||
+            x + rangeWidth(closing) <= frame.left ||
+            x + rangeWidth(closing) > frame.left + frame.width / 2 - 16 ||
+            columns.some((col, i) => i > 0 && col.left - columns[i - 1].right < 24)) {
+          hero.setAttribute('data-stacked', '');
+        }
+      }
+      const subject = note.querySelector<HTMLElement>('.subject')!;
+      const credit = note.querySelector<HTMLElement>('.credit')!;
+      if (rangeWidth(subject) + rangeWidth(credit) + 16 > note.clientWidth) note.setAttribute('data-wrap', '');
+    };
+    let scheduled = false;
+    const schedule = () => {
+      if (scheduled) return;
+      scheduled = true;
+      requestAnimationFrame(() => { scheduled = false; assess(); });
+    };
+    // Observe only sizing inputs, never the stage that the guard changes.
+    const observer = new ResizeObserver(schedule);
+    observer.observe(page);
+    observer.observe(header.querySelector('.wordmark')!);
+    document.fonts.ready.then(schedule);
+    document.fonts.addEventListener('loadingdone', schedule);
+    const imageFailed = () => {
+      image.hidden = true;
+      // The image's original alt text remains available in no-JS failure mode.
+      image.style.display = 'none';
+      hero.querySelector<HTMLElement>('.image-failure')!.hidden = false;
+    };
+    image.addEventListener('error', imageFailed, { once: true });
+    if (image.complete && !image.naturalWidth) imageFailed();
+    assess();
+  }
+</script>

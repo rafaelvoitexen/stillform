@@ -1,0 +1,98 @@
+{
+  "studyDate": "2026-10-24",
+  "method": "Text source snapshot via connected GitHub fetch API; not a git clone. Images, vendor minified files and package-lock omitted. No dependencies installed and no source executed.",
+  "atelier": {
+    "repository": "https://github.com/codrops/atelier-north",
+    "commit": "6703fc3f15ec92979964070814a99855d0baa38f",
+    "localDirectory": "C:/Users/Rafael/.codex/visualizations/2026/10/24/01a16fb4-9e2b-7842-a505-f62f179ecdce/references/atelier-north",
+    "files": [
+      {
+        "path": "README.md",
+        "gitBlob": "bbb16ec4b17569623d85749d5c6e270709136021"
+      },
+      {
+        "path": "astro.config.mjs",
+        "gitBlob": "0d6d3b81fabbc995e70fb3dad88b6410485334b3"
+      },
+      {
+        "path": "package.json",
+        "gitBlob": "7b1d27e59f31f69142e0903f635c8fbbc3773bd0"
+      },
+      {
+        "path": "src/components/Footer.astro",
+        "gitBlob": "218ebc0719741fa7ffa7035d85a1d4febfa554b3"
+      },
+      {
+        "path": "src/components/Head.astro",
+        "gitBlob": "22f77610c72defe76ad5fab1e52e1eec684c63cd"
+      },
+      {
+        "path": "src/components/Header.astro",
+        "gitBlob": "ea051698997728797a80ce3cac0bf06d867c4d76"
+      },
+      {
+        "path": "src/components/ProjectCard.astro",
+        "gitBlob": "46c04f920abbab39cef6eed49106292150474af0"
+      },
+      {
+        "path": "src/layouts/Layout.astro",
+        "gitBlob": "cf5bf395b36698b873619fd113a6a2e971d66022"
+      },
+      {
+        "path": "src/pages/index.astro",
+        "gitBlob": "c447539ff938c37642dc6ba0a32e97406ea9f430"
+      },
+      {
+        "path": "src/scripts/global.js",
+        "gitBlob": "14f11aac4e044a0a53ddae94bb65074edea6901b"
+      },
+      {
+        "path": "src/styles/global.scss",
+        "gitBlob": "db478546e504b3c74026e2725fbd28843a9d6d3c"
+      },
+      {
+        "path": "src/styles/top.scss",
+        "gitBlob": "a1dbac406eaf1fc4c8d2e9ede540e49e8d629e82"
+      },
+      {
+        "path": "src/styles/variable.scss",
+        "gitBlob": "6ebe7c5bfc6ef797f4ae646c4f3cf5863fc2b304"
+      },
+      {
+        "path": "tsconfig.json",
+        "gitBlob": "8bf91d3bb997dfb0ea4a592b849545656f0fcebe"
+      }
+    ]
+  },
+  "mask": {
+    "repository": "https://github.com/Hiro-kiii/Scroll-Transition",
+    "commit": "6bb67c598f767a014ac595c904d85b86119670ee",
+    "localDirectory": "C:/Users/Rafael/.codex/visualizations/2026/10/24/01a16fb4-9e2b-7842-a505-f62f179ecdce/references/svg-mask",
+    "files": [
+      {
+        "path": "js/script.js",
+        "gitBlob": "c4613d16d99091c34dc3c09d1f59785a9a9a6983"
+      },
+      {
+        "path": "js/script2.js",
+        "gitBlob": "746d766dff7ff2066a9d124ae3453adebe44a114"
+      },
+      {
+        "path": "js/script3.js",
+        "gitBlob": "edcef807fc81add67832a2a0517f63b4aba734d2"
+      },
+      {
+        "path": "js/script4.js",
+        "gitBlob": "cbfa78b58e539a7a1cb5624d42159960826b2159"
+      },
+      {
+        "path": "css/style.css",
+        "gitBlob": "23d9a0fe72c53256858da81dd4bfb2832209f993"
+      },
+      {
+        "path": "index.html",
+        "gitBlob": "a2741f0751c25d2420b95abfa193ea4f282a4901"
+      }
+    ]
+  }
+}

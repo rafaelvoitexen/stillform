@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "loaded": true,
+      "weight": 450
+    },
+    {
+      "loaded": true,
+      "weight": 500
+    },
+    {
+      "loaded": true,
+      "weight": 550
+    },
+    {
+      "loaded": true,
+      "weight": 600
+    }
+  ],
+  "samples": [
+    {
+      "family": "Onest, Arial, sans-serif",
+      "text": "BUILT AROUND ABSENCE.",
+      "weight": "450",
+      "width": 803.0750122070312
+    },
+    {
+      "family": "Onest, Arial, sans-serif",
+      "text": "BUILT AROUND ABSENCE.",
+      "weight": "500",
+      "width": 807.5625
+    },
+    {
+      "family": "Onest, Arial, sans-serif",
+      "text": "BUILT AROUND ABSENCE.",
+      "weight": "550",
+      "width": 812.2999877929688
+    },
+    {
+      "family": "Onest, Arial, sans-serif",
+      "text": "BUILT AROUND ABSENCE.",
+      "weight": "600",
+      "width": 816.7125244140625
+    },
+    {
+      "family": "Arial, sans-serif",
+      "text": "BUILT AROUND ABSENCE.",
+      "weight": "500",
+      "width": 804.9750366210938
+    }
+  ],
+  "scripts": 0,
+  "status": "loaded",
+  "stylesheets": [
+    "http://127.0.0.1:4179/onest/shared.css",
+    null
+  ]
+}

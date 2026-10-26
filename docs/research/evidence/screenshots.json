@@ -1,0 +1,191 @@
+[
+  {
+    "file": "atelier-desktop-02-about.jpg",
+    "width": 1265,
+    "height": 712,
+    "bytes": 36153,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-desktop-03-about-filled.jpg",
+    "width": 1265,
+    "height": 712,
+    "bytes": 40976,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-desktop-04-projects-entry.jpg",
+    "width": 1265,
+    "height": 712,
+    "bytes": 53710,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-desktop-05-projects-settled.jpg",
+    "width": 1265,
+    "height": 712,
+    "bytes": 43667,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-desktop-06-transition-entry.jpg",
+    "width": 1265,
+    "height": 712,
+    "bytes": 25558,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-desktop-07-members.jpg",
+    "width": 1265,
+    "height": 712,
+    "bytes": 43833,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-mobile-01-hero.jpg",
+    "width": 375,
+    "height": 812,
+    "bytes": 30999,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-mobile-02-menu.jpg",
+    "width": 375,
+    "height": 812,
+    "bytes": 28204,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-mobile-03-members.jpg",
+    "width": 375,
+    "height": 812,
+    "bytes": 24921,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-mobile-04-projects.jpg",
+    "width": 375,
+    "height": 812,
+    "bytes": 37529,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "atelier-wide-01-hero.jpg",
+    "width": 1265,
+    "height": 712,
+    "bytes": 53405,
+    "source": "https://atelier-north.crnacura.workers.dev/"
+  },
+  {
+    "file": "mask-desktop-01-entry.jpg",
+    "width": 1253,
+    "height": 705,
+    "bytes": 54098,
+    "source": "https://tympanus.net/Tutorials/SVGMaskScrollTransition/"
+  },
+  {
+    "file": "mask-desktop-02-settled.jpg",
+    "width": 1253,
+    "height": 705,
+    "bytes": 57991,
+    "source": "https://tympanus.net/Tutorials/SVGMaskScrollTransition/"
+  },
+  {
+    "file": "mask-desktop-03-progress.jpg",
+    "width": 1253,
+    "height": 705,
+    "bytes": 54456,
+    "source": "https://tympanus.net/Tutorials/SVGMaskScrollTransition/"
+  },
+  {
+    "file": "mask-desktop-04-transition.jpg",
+    "width": 1253,
+    "height": 705,
+    "bytes": 75450,
+    "source": "https://tympanus.net/Tutorials/SVGMaskScrollTransition/"
+  },
+  {
+    "file": "oh-desktop-01-hero.jpg",
+    "width": 893,
+    "height": 702,
+    "bytes": 103206,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-desktop-02-scroll.jpg",
+    "width": 893,
+    "height": 702,
+    "bytes": 60009,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-mobile-01-hero.jpg",
+    "width": 375,
+    "height": 812,
+    "bytes": 34858,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-mobile-02-works.jpg",
+    "width": 375,
+    "height": 812,
+    "bytes": 41591,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-01-hero.jpg",
+    "width": 1425,
+    "height": 891,
+    "bytes": 191174,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-02-about-entry.jpg",
+    "width": 1425,
+    "height": 891,
+    "bytes": 70745,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-03-studio.jpg",
+    "width": 1425,
+    "height": 891,
+    "bytes": 139529,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-04-works.jpg",
+    "width": 1425,
+    "height": 891,
+    "bytes": 129770,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-05-process.jpg",
+    "width": 1425,
+    "height": 891,
+    "bytes": 50690,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-06-process-settled.jpg",
+    "width": 1425,
+    "height": 891,
+    "bytes": 121846,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-07-menu-entry.jpg",
+    "width": 1440,
+    "height": 900,
+    "bytes": 125620,
+    "source": "https://www.oharchitecture.com.au/"
+  },
+  {
+    "file": "oh-wide-08-menu-open.jpg",
+    "width": 1440,
+    "height": 900,
+    "bytes": 38933,
+    "source": "https://www.oharchitecture.com.au/"
+  }
+]
