@@ -1,0 +1,13 @@
+from pathlib import Path
+p=Path('docs/creative/GLOBAL_INTERFACE.md');s=p.read_text(encoding='utf-8')
+s=s.replace('Phase 04B.4 · 27 October 2026 · Header/static composition approved; pointer correction implemented for review.', 'Phase 04B.5 · 27 October 2026 · Focused release and UI polish implemented for review.')
+s=s.replace('`site-header.ts` owns chapter state and descriptor/pagination transforms.', '`site-header.ts` owns chapter state and descriptor/current-numeral transforms. The static ` / 04` is outside the numeral clipping window and never receives a chapter-roll transform. A fixed 2ch tabular numeral slot handles one/two-digit labels without moving the denominator; one hidden complete status remains accessible.')
+s=s.replace('The rendered circle is constrained to that area while progress is nonzero: there is no independent photo-clearance opacity gate. Release contracts safely, then resumes normal tracking from the actual last painted coordinate.', 'Phase 04B.5 keeps free pointer tracking active throughout engagement and release. Rendering interpolates between the freely tracked point and the safe magnetic projection using reveal progress. Attraction therefore decreases while the portal contracts, with no positional handoff or retarget in onComplete. The photograph itself is clipped to the existing stationary interval window so the moving circle cannot paint photography over nearby text. No region boundary, maximum diameter or release duration changes.')
+s=s.replace('Scaling the aperture does not attach or distort the image.', 'Scaling the aperture does not attach or distort the image.')
+s=s.replace('## Future transition integration', 'Display typography, temporary Hero lettering, descriptor/pagination and decorative footer labels use feature-scoped user-select:none. Reading paragraphs, meaningful closing copy, photo credits and links keep their native selection/navigation behavior.\n\n## Future transition integration')
+s=s.replace('[Current pointer correction and evidence](../qa/phase-04b-4/README.md).', '[Current release/UI polish and evidence](../qa/phase-04b-5/README.md). [Previous pointer correction](../qa/phase-04b-4/README.md).')
+p.write_text(s,encoding='utf-8')
+p=Path('src/scripts/pointer.ts');s=p.read_text(encoding='utf-8')
+s=s.replace('// One progress owns size and both inks. Geometry never suppresses only the photo.', '// One progress owns size and layer opacity; the stationary window clips the photograph.')
+s=s.replace("ease: 'power2.out', onUpdate: render,\n\n      });", "ease: 'power2.out', onUpdate: render,\n      });")
+p.write_text(s,encoding='utf-8')

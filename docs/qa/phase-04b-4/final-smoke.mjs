@@ -1,0 +1,6 @@
+import fs from'node:fs/promises';import{send,evaluate,delay,shot,target,ws,out}from'./cdp.mjs';
+const results=[];await send('Page.bringToFront');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:900,deviceScaleFactor:1,mobile:false});await send('Page.navigate',{url:'http://127.0.0.1:4326/?review=04b4#manifesto'});await delay(600);const r=await evaluate('__stillformPointer.snapshot().region');
+for(let n=0;n<90;n++){await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:r.left+40+3*Math.sin(n),y:(r.top+r.bottom)/2});await delay(8);}results.push({name:'moving-edge',...await evaluate('__stillformPointer.snapshot()')});await shot('after-edge');
+await evaluate('scrollTo(0,0)');await delay(260);results.push({name:'header-reverse-mid',rows:await evaluate("[...document.querySelectorAll('.label-row')].map(e=>e.style.transform)")});await delay(350);results.push({name:'header-reverse-end',chapter:await evaluate('document.documentElement.dataset.activeChapter')});
+await fs.writeFile(new URL('final-smoke.json',out),JSON.stringify(results,null,2));console.log(results.map(r=>({name:r.name,mode:r.mode,progress:r.progress,image:r.imageOpacity,negative:r.negativeOpacity,chapter:r.chapter})));
+await fetch('http://127.0.0.1:9231/json/close/'+target.id);ws.close();

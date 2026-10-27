@@ -7,6 +7,10 @@ html:is([data-hero-state="reserved"], [data-hero-state="running"]) .hero :is(.wo
 html[data-hero-state="reserved"] .hero :is(.wordmark, .descriptor, .chapter, .built, .around, [data-headline-base-mask], .line-motion, .closing, .photo, .details, .footer) { animation: sf-reserved-open 0s 450ms forwards; }
 html[data-hero-state="running"] .hero :is(.wordmark, .descriptor, .chapter, .built, .around, [data-headline-base-mask], .line-motion, .closing, .photo, .details, .footer) { animation: sf-running-open 0s 6200ms forwards; }
 html[data-hero-state="running"] [data-hero-overlay] { animation: sf-overlay-open 0s 6200ms forwards; }
+/* The one page-level header still belongs to the entrance's original timing. */
+html:is([data-hero-state="reserved"], [data-hero-state="running"]) .site-header :is(.wordmark, .descriptor, .chapter) { opacity: 0; }
+html[data-hero-state="reserved"] .site-header :is(.wordmark, .descriptor, .chapter) { animation: sf-reserved-open 0s 450ms forwards; }
+html[data-hero-state="running"] .site-header :is(.wordmark, .descriptor, .chapter) { animation: sf-running-open 0s 6200ms forwards; }
 
 /* Animations affect children only AT expiry. Until then inline GSAP values own motion. */
 @keyframes sf-reserved-open { to { opacity: 1; filter: none; transform: none; clip-path: none; } }
@@ -31,6 +35,7 @@ html[data-hero-state="running"] .hero :is(.built, .around, .closing) { clip-path
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .site-header :is(.wordmark, .descriptor, .chapter) { opacity: 1 !important; filter: none !important; }
   html:is([data-hero-state="reserved"], [data-hero-state="running"]) .hero :is(.wordmark, .descriptor, .chapter, .built, .around, [data-headline-base-mask], .line-motion, .closing, .photo, .details, .footer) {
     opacity: 1 !important; filter: none !important; transform: none !important; clip-path: none !important;
   }

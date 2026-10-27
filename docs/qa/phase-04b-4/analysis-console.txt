@@ -1,0 +1,56 @@
+[
+  {
+    "name": "1440",
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.2999999998137355,
+    "imageResponseMs": 7.0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0
+  },
+  {
+    "name": "1920",
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.39999999944120646,
+    "imageResponseMs": 0.0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0
+  },
+  {
+    "name": "2560",
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.7000000001862645,
+    "imageResponseMs": 0.0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0
+  },
+  {
+    "name": "3440",
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.30000000074505806,
+    "imageResponseMs": 0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0
+  },
+  {
+    "name": "natural",
+    "transitionCount": 4,
+    "sameInputClassificationMaxDelayMs": 0.40000000037252903,
+    "imageResponseMs": 6.899999999999864,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0
+  },
+  {
+    "name": "stress",
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.30000000074505806,
+    "imageResponseMs": null,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0
+  }
+]

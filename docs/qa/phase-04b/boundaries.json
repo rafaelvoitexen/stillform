@@ -1,0 +1,42 @@
+[
+  {
+    "name": "portal",
+    "rect": {
+      "x": 775.6640625,
+      "y": 609.484375,
+      "width": 144,
+      "height": 144,
+      "top": 609.484375,
+      "right": 919.6640625,
+      "bottom": 753.484375,
+      "left": 775.6640625
+    }
+  },
+  {
+    "name": "pointer-leave",
+    "negative": "0",
+    "portal": "0"
+  },
+  {
+    "name": "keyboard",
+    "focus": {
+      "tag": "A",
+      "label": "STILLFORM",
+      "outline": "solid"
+    }
+  },
+  {
+    "name": "font-failure",
+    "width": 390,
+    "copy": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+    "overflow": false,
+    "heading": "What we leave open lets us see."
+  },
+  {
+    "name": "font-failure",
+    "width": 1440,
+    "copy": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+    "overflow": false,
+    "heading": "What we leave open lets us see."
+  }
+]

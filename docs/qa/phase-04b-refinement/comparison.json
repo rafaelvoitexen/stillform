@@ -1,0 +1,32 @@
+[
+  {
+    "width": 1440,
+    "changedPixels": 2944,
+    "maxChannelDelta": 1,
+    "pixelsOver3": 0
+  },
+  {
+    "width": 2560,
+    "changedPixels": 9331,
+    "maxChannelDelta": 2,
+    "pixelsOver3": 0
+  },
+  {
+    "width": 3440,
+    "changedPixels": 9604,
+    "maxChannelDelta": 2,
+    "pixelsOver3": 0
+  },
+  {
+    "width": 768,
+    "changedPixels": 1800,
+    "maxChannelDelta": 1,
+    "pixelsOver3": 0
+  },
+  {
+    "width": 390,
+    "changedPixels": 1070,
+    "maxChannelDelta": 1,
+    "pixelsOver3": 0
+  }
+]

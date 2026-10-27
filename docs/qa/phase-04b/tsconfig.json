@@ -1,0 +1,1 @@
+{"extends":"../../../tsconfig.json","include":["../../../src/scripts/**/*.ts"],"compilerOptions":{"types":["vite/client"],"skipLibCheck":true}}

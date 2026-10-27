@@ -1,0 +1,59 @@
+[
+  {
+    "name": "moving-edge",
+    "raw": {
+      "x": 637.5489501953125,
+      "y": 681.5,
+      "input": 90
+    },
+    "visual": {
+      "x": 695.166462,
+      "y": 681.5
+    },
+    "target": {
+      "x": 696.381181640625,
+      "y": 681.5
+    },
+    "region": {
+      "left": 594.96875,
+      "right": 1100.359375,
+      "top": 576.703125,
+      "bottom": 786.296875
+    },
+    "safeBounds": {
+      "left": 693.765625,
+      "right": 1001.5625,
+      "top": 675.5,
+      "bottom": 687.5
+    },
+    "mode": "MAGNETIC_REVEAL",
+    "progress": 1,
+    "diameter": 197.59375,
+    "imageOpacity": 1,
+    "negativeOpacity": 0,
+    "magneticInfluence": 0.28,
+    "imageReady": true,
+    "geometryRevision": 3,
+    "geometryDirty": false,
+    "transitions": 1,
+    "tweens": {
+      "x": true,
+      "y": true,
+      "reveal": false,
+      "visibility": false
+    }
+  },
+  {
+    "name": "header-reverse-mid",
+    "rows": [
+      "translateY(-55.5502%)",
+      "translateY(44.4498%)",
+      "translateY(-55.5502%)",
+      "translateY(44.4498%)"
+    ]
+  },
+  {
+    "name": "header-reverse-end",
+    "chapter": "hero"
+  }
+]

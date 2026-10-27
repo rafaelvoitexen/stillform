@@ -1,0 +1,590 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "name": "temporary-type",
+      "value": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "hero",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      }
+    },
+    {
+      "width": 1440,
+      "name": "hero-selection",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1440,
+      "name": "pagination",
+      "down": {
+        "chapter": "manifesto",
+        "total": {
+          "x": 1373.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1404,
+          "bottom": 57.28125,
+          "left": 1373.296875
+        },
+        "current": {
+          "x": 1356.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1373.296875,
+          "bottom": 57.28125,
+          "left": 1356.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-100%)",
+          "translateY(0%)"
+        ]
+      },
+      "mid": {
+        "chapter": "hero",
+        "total": {
+          "x": 1373.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1404,
+          "bottom": 57.28125,
+          "left": 1373.296875
+        },
+        "current": {
+          "x": 1356.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1373.296875,
+          "bottom": 57.28125,
+          "left": 1356.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-55.0146%)",
+          "translateY(44.9854%)"
+        ]
+      },
+      "up": {
+        "chapter": "hero",
+        "total": {
+          "x": 1373.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1404,
+          "bottom": 57.28125,
+          "left": 1373.296875
+        },
+        "current": {
+          "x": 1356.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1373.296875,
+          "bottom": 57.28125,
+          "left": 1356.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(0%)",
+          "translateY(100%)"
+        ]
+      },
+      "downAgain": {
+        "chapter": "manifesto",
+        "total": {
+          "x": 1373.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1404,
+          "bottom": 57.28125,
+          "left": 1373.296875
+        },
+        "current": {
+          "x": 1356.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1373.296875,
+          "bottom": 57.28125,
+          "left": 1356.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-100%)",
+          "translateY(0%)"
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "name": "selection",
+      "selector": ".line-one",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1440,
+      "name": "selection",
+      "selector": ".descriptor",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1440,
+      "name": "selection",
+      "selector": ".chapter",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1440,
+      "name": "selection",
+      "selector": ".reading",
+      "selection": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "css": "auto"
+    },
+    {
+      "width": 1440,
+      "name": "selection",
+      "selector": ".footnote",
+      "selection": "We collect the moments when\nan absence becomes perceptible",
+      "css": "auto"
+    },
+    {
+      "width": 1440,
+      "name": "keyboard",
+      "tag": "A",
+      "outline": "solid",
+      "native": "auto"
+    },
+    {
+      "width": 1920,
+      "name": "temporary-type",
+      "value": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "width": 1920,
+      "name": "hero",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "photo": {
+        "x": 1035.359375,
+        "y": 112,
+        "width": 836.625,
+        "height": 830,
+        "top": 112,
+        "right": 1871.984375,
+        "bottom": 942,
+        "left": 1035.359375
+      }
+    },
+    {
+      "width": 1920,
+      "name": "hero-selection",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1920,
+      "name": "pagination",
+      "down": {
+        "chapter": "manifesto",
+        "total": {
+          "x": 1841.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1872,
+          "bottom": 57.28125,
+          "left": 1841.296875
+        },
+        "current": {
+          "x": 1824.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1841.296875,
+          "bottom": 57.28125,
+          "left": 1824.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-100%)",
+          "translateY(0%)"
+        ]
+      },
+      "mid": {
+        "chapter": "hero",
+        "total": {
+          "x": 1841.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1872,
+          "bottom": 57.28125,
+          "left": 1841.296875
+        },
+        "current": {
+          "x": 1824.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1841.296875,
+          "bottom": 57.28125,
+          "left": 1824.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-56.6085%)",
+          "translateY(43.3915%)"
+        ]
+      },
+      "up": {
+        "chapter": "hero",
+        "total": {
+          "x": 1841.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1872,
+          "bottom": 57.28125,
+          "left": 1841.296875
+        },
+        "current": {
+          "x": 1824.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1841.296875,
+          "bottom": 57.28125,
+          "left": 1824.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(0%)",
+          "translateY(100%)"
+        ]
+      },
+      "downAgain": {
+        "chapter": "manifesto",
+        "total": {
+          "x": 1841.296875,
+          "y": 39.09375,
+          "width": 30.703125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1872,
+          "bottom": 57.28125,
+          "left": 1841.296875
+        },
+        "current": {
+          "x": 1824.015625,
+          "y": 39.09375,
+          "width": 17.28125,
+          "height": 18.1875,
+          "top": 39.09375,
+          "right": 1841.296875,
+          "bottom": 57.28125,
+          "left": 1824.015625
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-100%)",
+          "translateY(0%)"
+        ]
+      }
+    },
+    {
+      "width": 1920,
+      "name": "selection",
+      "selector": ".line-one",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1920,
+      "name": "selection",
+      "selector": ".descriptor",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1920,
+      "name": "selection",
+      "selector": ".chapter",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 1920,
+      "name": "selection",
+      "selector": ".reading",
+      "selection": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "css": "auto"
+    },
+    {
+      "width": 1920,
+      "name": "selection",
+      "selector": ".footnote",
+      "selection": "We collect the moments when\nan absence becomes perceptible",
+      "css": "auto"
+    },
+    {
+      "width": 1920,
+      "name": "keyboard",
+      "tag": "A",
+      "outline": "solid",
+      "native": "auto"
+    },
+    {
+      "width": 390,
+      "name": "temporary-type",
+      "value": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "width": 390,
+      "name": "hero",
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "photo": {
+        "x": 71.984375,
+        "y": 279.875,
+        "width": 298,
+        "height": 400,
+        "top": 279.875,
+        "right": 369.984375,
+        "bottom": 679.875,
+        "left": 71.984375
+      }
+    },
+    {
+      "width": 390,
+      "name": "hero-selection",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 390,
+      "name": "pagination",
+      "down": {
+        "chapter": "manifesto",
+        "total": {
+          "x": 341.65625,
+          "y": 33.09375,
+          "width": 28.34375,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 370,
+          "bottom": 49.28125,
+          "left": 341.65625
+        },
+        "current": {
+          "x": 325.703125,
+          "y": 33.09375,
+          "width": 15.953125,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 341.65625,
+          "bottom": 49.28125,
+          "left": 325.703125
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-100%)",
+          "translateY(0%)"
+        ]
+      },
+      "mid": {
+        "chapter": "hero",
+        "total": {
+          "x": 341.65625,
+          "y": 33.09375,
+          "width": 28.34375,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 370,
+          "bottom": 49.28125,
+          "left": 341.65625
+        },
+        "current": {
+          "x": 325.703125,
+          "y": 33.09375,
+          "width": 15.953125,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 341.65625,
+          "bottom": 49.28125,
+          "left": 325.703125
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-59.1804%)",
+          "translateY(40.8196%)"
+        ]
+      },
+      "up": {
+        "chapter": "hero",
+        "total": {
+          "x": 341.65625,
+          "y": 33.09375,
+          "width": 28.34375,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 370,
+          "bottom": 49.28125,
+          "left": 341.65625
+        },
+        "current": {
+          "x": 325.703125,
+          "y": 33.09375,
+          "width": 15.953125,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 341.65625,
+          "bottom": 49.28125,
+          "left": 325.703125
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(0%)",
+          "translateY(100%)"
+        ]
+      },
+      "downAgain": {
+        "chapter": "manifesto",
+        "total": {
+          "x": 341.65625,
+          "y": 33.09375,
+          "width": 28.34375,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 370,
+          "bottom": 49.28125,
+          "left": 341.65625
+        },
+        "current": {
+          "x": 325.703125,
+          "y": 33.09375,
+          "width": 15.953125,
+          "height": 16.1875,
+          "top": 33.09375,
+          "right": 341.65625,
+          "bottom": 49.28125,
+          "left": 325.703125
+        },
+        "totalTransform": "none",
+        "rows": [
+          "translateY(-100%)",
+          "translateY(0%)"
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "name": "selection",
+      "selector": ".line-one",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 390,
+      "name": "selection",
+      "selector": ".descriptor",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 390,
+      "name": "selection",
+      "selector": ".chapter",
+      "selection": "",
+      "css": "none"
+    },
+    {
+      "width": 390,
+      "name": "selection",
+      "selector": ".reading",
+      "selection": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "css": "auto"
+    },
+    {
+      "width": 390,
+      "name": "selection",
+      "selector": ".footnote",
+      "selection": "We collect the moments when\nan absence becomes perceptible.",
+      "css": "auto"
+    },
+    {
+      "width": 390,
+      "name": "keyboard",
+      "tag": "A",
+      "outline": "solid",
+      "native": "auto"
+    }
+  ],
+  "errors": []
+}

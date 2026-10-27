@@ -1,0 +1,41 @@
+TypeScript strict: PASS
+✔ ten independent reload entries reset scroll and admit a fresh timeline (7.977ms)
+✔ ordinary interaction does not finish or replay the active entry (0.9248ms)
+✔ fresh top navigation is admitted; ordinary away navigation preserves position (1.4579ms)
+✔ history scroll restoration is not replaced by reload policy (2.9529ms)
+✔ BFCache top return receives a new entry; away return stays static (2.2043ms)
+✔ reduced motion, failed assets and real deadlines remain fail-open (3.9063ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 83.0793
+10:11:05 [types] Generated 50ms
+10:11:05 [build] output: "static"
+10:11:05 [build] mode: "static"
+10:11:05 [build] directory: C:\Users\Rafael\Documents\Projetos\STILLFORM\stillform\dist\
+10:11:05 [build] Collecting build info...
+10:11:05 [build] ✓ Completed in 75ms.
+10:11:05 [build] Building static entrypoints...
+10:11:05 [vite] ✓ built in 118ms
+10:11:05 [vite] ✓ built in 46ms
+10:11:05 [build] Rearranging server assets...
+
+ generating static routes 
+10:11:05   ├─ /index.html (+11ms) 
+10:11:05 ✓ Completed in 22ms.
+
+10:11:05 [build] ✓ Completed in 235ms.
+10:11:05 [build] 1 page(s) built in 313ms
+10:11:05 [build] Complete!
+warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Hero.astro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/index.astro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/scripts/hero-entrance.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/scripts/hero.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles/global.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles/hero-critical.css', LF will be replaced by CRLF the next time Git touches it
+Production/candidate hash match: True

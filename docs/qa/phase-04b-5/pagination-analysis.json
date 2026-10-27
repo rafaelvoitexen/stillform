@@ -1,0 +1,35 @@
+[
+  {
+    "width": 1440,
+    "maxXDelta": 0.0,
+    "maxYDelta": 0.0,
+    "transforms": [
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  {
+    "width": 1920,
+    "maxXDelta": 0.0,
+    "maxYDelta": 0.0,
+    "transforms": [
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  {
+    "width": 390,
+    "maxXDelta": 0.0,
+    "maxYDelta": 0.0,
+    "transforms": [
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  }
+]

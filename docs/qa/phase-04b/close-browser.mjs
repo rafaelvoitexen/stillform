@@ -1,0 +1,1 @@
+const v=await(await fetch('http://127.0.0.1:9229/json/version')).json();const ws=new WebSocket(v.webSocketDebuggerUrl);await new Promise(r=>ws.addEventListener('open',r,{once:true}));ws.send(JSON.stringify({id:1,method:'Browser.close'}));await new Promise(r=>ws.addEventListener('close',r,{once:true}));console.log('Closed the dedicated Phase 03B.4 QA Chrome.');

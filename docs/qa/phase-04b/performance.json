@@ -1,0 +1,22 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "frames": 543,
+    "median": 6.900000000000546,
+    "p95": 7.199999999998909,
+    "gapsOver33": 0,
+    "layoutReads": 0,
+    "longTasks": []
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "frames": 544,
+    "median": 6.900000000000546,
+    "p95": 7.100000000000364,
+    "gapsOver33": 0,
+    "layoutReads": 0,
+    "longTasks": []
+  }
+]

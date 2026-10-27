@@ -1,0 +1,24 @@
+[
+  {
+    "name": "natural",
+    "sourceFrames": 1120,
+    "sourceSpanSeconds": 11.659448862075806,
+    "encodedFrames": 743,
+    "fps": 60,
+    "expectedDuration": 12.383333333333333,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  },
+  {
+    "name": "stress",
+    "sourceFrames": 981,
+    "sourceSpanSeconds": 10.214927911758423,
+    "encodedFrames": 656,
+    "fps": 60,
+    "expectedDuration": 10.933333333333334,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  }
+]

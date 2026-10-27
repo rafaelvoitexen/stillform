@@ -1,0 +1,25 @@
+TypeScript strict: PASS
+13:02:53 [types] Generated 58ms
+13:02:53 [build] output: "static"
+13:02:53 [build] mode: "static"
+13:02:53 [build] directory: C:\Users\Rafael\Documents\Projetos\STILLFORM\stillform\dist\
+13:02:53 [build] Collecting build info...
+13:02:53 [build] ✓ Completed in 83ms.
+13:02:53 [build] Building static entrypoints...
+13:02:53 [vite] ✓ built in 138ms
+13:02:54 [vite] ✓ built in 50ms
+13:02:54 [build] Rearranging server assets...
+
+ generating static routes 
+13:02:54   ├─ /index.html (+13ms) 
+13:02:54 ✓ Completed in 24ms.
+
+13:02:54 [build] ✓ Completed in 263ms.
+13:02:54 [build] 1 page(s) built in 352ms
+13:02:54 [build] Complete!
+warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/index.astro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/scripts/hero-entrance.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/scripts/hero.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles/global.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles/hero-critical.css', LF will be replaced by CRLF the next time Git touches it

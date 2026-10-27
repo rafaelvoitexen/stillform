@@ -1,0 +1,173 @@
+[
+  {
+    "name": "1440",
+    "frames": 2137,
+    "sourceVideoFrames": 0,
+    "end": {
+      "raw": {
+        "x": 354.96875,
+        "y": 581.5,
+        "input": 1041
+      },
+      "visual": {
+        "x": 356.021297,
+        "y": 583.078823
+      },
+      "target": {
+        "x": 354.96875,
+        "y": 581.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "constraintStrength": 0,
+      "normalPosition": {
+        "x": 356.021297,
+        "y": 583.078823
+      },
+      "magneticPosition": {
+        "x": 693.765625,
+        "y": 675.5
+      },
+      "imageReady": true,
+      "geometryRevision": 3,
+      "geometryDirty": false,
+      "transitions": 14,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  },
+  {
+    "name": "1920",
+    "frames": 2135,
+    "sourceVideoFrames": 0,
+    "end": {
+      "raw": {
+        "x": 488.65625,
+        "y": 699.84375,
+        "input": 1041
+      },
+      "visual": {
+        "x": 489.744872,
+        "y": 701.476685
+      },
+      "target": {
+        "x": 488.65625,
+        "y": 699.84375
+      },
+      "region": {
+        "left": 728.65625,
+        "right": 1504.34375,
+        "top": 672.46875,
+        "bottom": 927.21875
+      },
+      "safeBounds": {
+        "left": 850.03125,
+        "right": 1382.96875,
+        "top": 793.84375,
+        "bottom": 805.84375
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "constraintStrength": 0,
+      "normalPosition": {
+        "x": 489.744872,
+        "y": 701.476685
+      },
+      "magneticPosition": {
+        "x": 850.03125,
+        "y": 793.84375
+      },
+      "imageReady": true,
+      "geometryRevision": 4,
+      "geometryDirty": false,
+      "transitions": 14,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  },
+  {
+    "name": "demonstration",
+    "frames": 2526,
+    "sourceVideoFrames": 1656,
+    "end": {
+      "raw": {
+        "x": 354.96875,
+        "y": 581.5,
+        "input": 1041
+      },
+      "visual": {
+        "x": 355.548586,
+        "y": 582.369757
+      },
+      "target": {
+        "x": 354.96875,
+        "y": 581.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "constraintStrength": 0,
+      "normalPosition": {
+        "x": 355.548586,
+        "y": 582.369757
+      },
+      "magneticPosition": {
+        "x": 693.765625,
+        "y": 675.5
+      },
+      "imageReady": true,
+      "geometryRevision": 4,
+      "geometryDirty": false,
+      "transitions": 14,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  }
+]

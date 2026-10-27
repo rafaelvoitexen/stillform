@@ -1,0 +1,24 @@
+[
+  {
+    "name": "header",
+    "sourceFrames": 236,
+    "sourceSpanSeconds": 5.368422985076904,
+    "encodedFrames": 366,
+    "fps": 60,
+    "expectedDuration": 6.1,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  },
+  {
+    "name": "interaction",
+    "sourceFrames": 932,
+    "sourceSpanSeconds": 10.69141697883606,
+    "encodedFrames": 685,
+    "fps": 60,
+    "expectedDuration": 11.416666666666666,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  }
+]

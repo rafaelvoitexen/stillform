@@ -1,5 +1,9 @@
 ---
 import Hero from '../components/Hero.astro';
+import Manifesto from '../components/Manifesto.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import GlobalPointer from '../components/GlobalPointer.astro';
 import '../styles/global.css';
 import critical from '../styles/hero-critical.css?raw';
 import admission from '../scripts/hero-admission.js?raw';
@@ -25,5 +29,5 @@ import admission from '../scripts/hero-admission.js?raw';
     <script is:inline set:html={admission}></script>
     <title>STILLFORM — Built around absence.</title>
   </head>
-  <body><div class="page"><Hero /></div></body>
+  <body><div class="page"><Hero /><Manifesto /></div><SiteHeader /><SiteFooter /><GlobalPointer /></body>
 </html>

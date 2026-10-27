@@ -1,0 +1,15 @@
+<div data-global-pointer aria-hidden="true">
+  <div class="global-negative"></div>
+  <div class="global-portal"></div>
+</div>
+<style>
+  .global-negative, .global-portal { position: fixed; left: 0; top: 0; pointer-events: none; opacity: 0; visibility: hidden; }
+  .global-negative { z-index: 100; width: 34px; height: 34px; border-radius: 50%; background: #fff; mix-blend-mode: difference; transform-origin: center; }
+  .global-portal { z-index: 101; width: 320px; height: 320px; overflow: hidden; clip-path: circle(17px at 50% 50%); filter: grayscale(1); }
+  :global(html[data-cursor-active] body), :global(html[data-cursor-active] body *) { cursor: none !important; }
+  @media (hover: none), (pointer: coarse), (max-width: 1023px), (prefers-reduced-motion: reduce) {
+    .global-negative, .global-portal { display: none; }
+    :global(html[data-cursor-active] body), :global(html[data-cursor-active] body *) { cursor: revert !important; }
+  }
+</style>
+<script>import '../scripts/pointer';</script>

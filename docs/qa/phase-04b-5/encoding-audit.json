@@ -1,0 +1,13 @@
+[
+  {
+    "name": "release",
+    "sourceFrames": 1656,
+    "sourceSpanSeconds": 17.76343297958374,
+    "encodedFrames": 1109,
+    "fps": 60,
+    "expectedDuration": 18.483333333333334,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  }
+]

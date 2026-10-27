@@ -49,6 +49,7 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
       const lines = [...hero.querySelectorAll<HTMLElement>('.line-motion')];
       const image = hero.querySelector<HTMLImageElement>('.photo img')!;
       const photo = hero.querySelector<HTMLElement>('.photo')!;
+      const header = document.querySelector<HTMLElement>('.site-header')!;
       let finalZoom = parseFloat(getComputedStyle(hero).getPropertyValue('--photo-zoom'));
       if (!Number.isFinite(finalZoom) || finalZoom < 1) return settle('geometry-unavailable');
       if (!image.complete || !image.naturalWidth) return settle('image-not-ready');
@@ -61,7 +62,7 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
       const viewport = window.visualViewport;
       let vw = viewport?.width ?? innerWidth, vh = viewport?.height ?? innerHeight;
       let vx = viewport?.offsetLeft ?? 0, vy = viewport?.offsetTop ?? 0;
-      let gutter = parseFloat(getComputedStyle(hero.querySelector('.header')!).marginLeft);
+      let gutter = parseFloat(getComputedStyle(header).left);
       let composition = hero.getBoundingClientRect();
       let usable = composition.width - gutter * 2;
       let fit = Math.min(1, (vw - gutter * 2) / rect.width, (vh - gutter * 2) / rect.height);
@@ -235,8 +236,8 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
         // The authored mineral backing must occlude both proxy and real photograph.
         // Lift the existing page stacking context; no additional covering layer is needed.
         gsap.set(hero.closest('.page'), { position: 'relative', zIndex: 21 });
-        const secondary = [...hero.querySelectorAll<HTMLElement>('.details, .descriptor, .chapter, .footer')];
-        gsap.set([...lines, photo, hero.querySelector('.closing'), hero.querySelector('.wordmark'), ...secondary], { opacity: 0 });
+        const secondary = [...hero.querySelectorAll<HTMLElement>('.details, .footer'), ...header.querySelectorAll<HTMLElement>('.descriptor, .chapter')];
+        gsap.set([...lines, photo, hero.querySelector('.closing'), header.querySelector('.wordmark'), ...secondary], { opacity: 0 });
         gsap.set(lines, { x: -headlineTravel, y: 0, filter: `blur(${stacked ? 2 : 4}px)`, color: 'var(--graphite)', backgroundImage: 'none', willChange: 'transform, opacity, filter' });
         gsap.set(lines[2], { color: 'var(--absence-ink)' });
         gsap.set(baseMasks, { clipPath: 'inset(-30px -120px)' });
@@ -263,7 +264,7 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
         lines.forEach((line, index) => {
           timeline!.to(lineMotion[index], { x: 0, opacity: 1, blur: 0, duration: lineDuration, ease: 'power2.out' }, headline + offsets[index]);
         });
-        const wordmark = hero.querySelector('.wordmark');
+        const wordmark = header.querySelector('.wordmark');
         gsap.set(wordmark, { filter: 'blur(2px)' });
         gsap.set(secondary, { filter: `blur(${stacked ? 1 : 1.5}px)` });
         timeline.to(wordmark, { opacity: 1, filter: 'blur(0px)', duration: stacked ? .5 : .6, ease: 'power2.out' }, 'wordmark')
@@ -279,7 +280,7 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
         vw = viewport?.width ?? innerWidth; vh = viewport?.height ?? innerHeight;
         vx = viewport?.offsetLeft ?? 0; vy = viewport?.offsetTop ?? 0;
         composition = hero.getBoundingClientRect();
-        gutter = parseFloat(getComputedStyle(hero.querySelector('.header')!).marginLeft);
+        gutter = parseFloat(getComputedStyle(header).left);
         usable = composition.width - gutter * 2;
         fit = Math.min(1, (vw - gutter * 2) / rect.width, (vh - gutter * 2) / rect.height);
         lineRects = lines.map(line => line.getBoundingClientRect());

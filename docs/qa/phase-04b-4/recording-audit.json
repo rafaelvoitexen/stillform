@@ -1,0 +1,109 @@
+{
+  "audits": [
+    {
+      "name": "natural",
+      "width": 1440,
+      "height": 900,
+      "video": true,
+      "events": 809,
+      "frames": 1120,
+      "transitions": 4,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 809
+        },
+        "visual": {
+          "x": 300,
+          "y": 200
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 594.96875,
+          "right": 1100.359375,
+          "top": 576.703125,
+          "bottom": 786.296875
+        },
+        "safeBounds": {
+          "left": 693.765625,
+          "right": 1001.5625,
+          "top": 675.5,
+          "bottom": 687.5
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 3,
+        "geometryDirty": false,
+        "transitions": 4,
+        "tweens": {
+          "x": false,
+          "y": false,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    },
+    {
+      "name": "stress",
+      "width": 1440,
+      "height": 900,
+      "video": true,
+      "events": 701,
+      "frames": 981,
+      "transitions": 42,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 701
+        },
+        "visual": {
+          "x": 300,
+          "y": 200
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 594.96875,
+          "right": 1100.359375,
+          "top": 576.703125,
+          "bottom": 786.296875
+        },
+        "safeBounds": {
+          "left": 693.765625,
+          "right": 1001.5625,
+          "top": 675.5,
+          "bottom": 687.5
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 4,
+        "geometryDirty": false,
+        "transitions": 42,
+        "tweens": {
+          "x": false,
+          "y": false,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    }
+  ],
+  "errors": []
+}

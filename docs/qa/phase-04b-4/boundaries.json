@@ -1,0 +1,30 @@
+[
+  {
+    "width": 1440,
+    "minProgress": 1,
+    "maxSafetyError": 0,
+    "extraTransitions": 0,
+    "mode": "MAGNETIC_REVEAL"
+  },
+  {
+    "width": 1920,
+    "minProgress": 1,
+    "maxSafetyError": 0,
+    "extraTransitions": 0,
+    "mode": "MAGNETIC_REVEAL"
+  },
+  {
+    "width": 2560,
+    "minProgress": 1,
+    "maxSafetyError": 0,
+    "extraTransitions": 0,
+    "mode": "MAGNETIC_REVEAL"
+  },
+  {
+    "width": 3440,
+    "minProgress": 1,
+    "maxSafetyError": 0,
+    "extraTransitions": 0,
+    "mode": "MAGNETIC_REVEAL"
+  }
+]

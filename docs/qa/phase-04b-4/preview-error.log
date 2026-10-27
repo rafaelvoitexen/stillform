@@ -1,0 +1,11 @@
+Another astro preview server is already running.
+
+  URL:  http://127.0.0.1:4326
+  PID:  23628
+
+Run `astro preview stop` to stop it, or use `astro preview --force` to replace it.
+  Location:
+    C:\Users\Rafael\Documents\Projetos\STILLFORM\stillform\node_modules\astro\dist\cli\preview\index.js:123:9
+  Stack trace:
+    at preview (file:///C:/Users/Rafael/Documents/Projetos/STILLFORM/stillform/node_modules/astro/dist/cli/preview/index.js:123:9)
+    at async runCommand (file:///C:/Users/Rafael/Documents/Projetos/STILLFORM/stillform/node_modules/astro/dist/cli/index.js:183:19)

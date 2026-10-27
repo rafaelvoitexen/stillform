@@ -1,0 +1,1729 @@
+{
+  "results": [
+    {
+      "name": "brand-timing",
+      "time": 0.2,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running",
+        "activeChapter": "hero"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 12.699999999720603
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 74.10000000009313
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 76.6999999997206
+        }
+      ],
+      "scroll": 0,
+      "brand": "0",
+      "overflow": false,
+      "proxies": 2,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.375,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.375,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": "z-index: 21; position: relative;"
+    },
+    {
+      "name": "brand-timing",
+      "time": 2.65,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running",
+        "activeChapter": "hero"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 12.699999999720603
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 74.10000000009313
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 76.6999999997206
+        }
+      ],
+      "scroll": 0,
+      "brand": "0",
+      "overflow": false,
+      "proxies": 2,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.375,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.375,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": "z-index: 21; position: relative;"
+    },
+    {
+      "name": "brand-timing",
+      "time": 3.1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "running",
+        "activeChapter": "hero"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 12.699999999720603
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 74.10000000009313
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 76.6999999997206
+        }
+      ],
+      "scroll": 0,
+      "brand": "0.9466",
+      "overflow": false,
+      "proxies": 2,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.375,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.375,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": "z-index: 21; position: relative;"
+    },
+    {
+      "name": "brand-timing",
+      "time": 4.6,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 12.699999999720603
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 74.10000000009313
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 76.6999999997206
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4023.399999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4455.899999999907
+        }
+      ],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.375,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.375,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "CDP-reload",
+      "width": 1440,
+      "n": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 10.600000000093132
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.3000000002794
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4040.600000000093
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4471.800000000279
+        }
+      ],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.375,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.375,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "CDP-reload",
+      "width": 1440,
+      "n": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 15
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 40.89999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 41.1999999997206
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4044.2999999998137
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4468.0999999996275
+        }
+      ],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.375,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.375,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "CDP-reload",
+      "width": 1440,
+      "n": 2,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 11.800000000279397
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 47.700000000186265
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 51
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 4041.600000000093
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 4472.600000000093
+        }
+      ],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.375,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.375,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": 112,
+        "width": 655.1875,
+        "height": 650,
+        "top": 112,
+        "right": 1403.984375,
+        "bottom": 762,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "CDP-reload",
+      "width": 390,
+      "n": 0,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 9.5
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 55.89999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 56.1999999997206
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3199.7999999998137
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3638
+        }
+      ],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 350,
+        "height": 32.375,
+        "top": 25,
+        "right": 370,
+        "bottom": 57.375,
+        "left": 20
+      },
+      "photo": {
+        "x": 71.984375,
+        "y": 279.875,
+        "width": 298,
+        "height": 400,
+        "top": 279.875,
+        "right": 369.984375,
+        "bottom": 679.875,
+        "left": 71.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "CDP-reload",
+      "width": 390,
+      "n": 1,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 15.799999999813735
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 39.700000000186265
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 39.89999999990687
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3189.600000000093
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3627.7000000001863
+        }
+      ],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 350,
+        "height": 32.375,
+        "top": 25,
+        "right": 370,
+        "bottom": 57.375,
+        "left": 20
+      },
+      "photo": {
+        "x": 71.984375,
+        "y": 279.875,
+        "width": 298,
+        "height": 400,
+        "top": 279.875,
+        "right": 369.984375,
+        "bottom": 679.875,
+        "left": 71.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "CDP-reload",
+      "width": 390,
+      "n": 2,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 350,
+        "height": 32.375,
+        "top": 25,
+        "right": 370,
+        "bottom": 57.375,
+        "left": 20
+      },
+      "photo": {
+        "x": 71.984375,
+        "y": 279.875,
+        "width": 298,
+        "height": 400,
+        "top": 279.875,
+        "right": 369.984375,
+        "bottom": 679.875,
+        "left": 71.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 320,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 900,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 280,
+        "height": 32.375,
+        "top": 25,
+        "right": 300,
+        "bottom": 57.375,
+        "left": 20
+      },
+      "photo": {
+        "x": 62.65625,
+        "y": -646.5,
+        "width": 237.328125,
+        "height": 318.5625,
+        "top": -646.5,
+        "right": 299.984375,
+        "bottom": -327.9375,
+        "left": 62.65625
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "text-200",
+      "width": 320,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1574,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 280,
+        "height": 388.6875,
+        "top": 25,
+        "right": 300,
+        "bottom": 413.6875,
+        "left": 20
+      },
+      "photo": {
+        "x": 62.65625,
+        "y": -879.859375,
+        "width": 237.328125,
+        "height": 318.5625,
+        "top": -879.859375,
+        "right": 299.984375,
+        "bottom": -561.296875,
+        "left": 62.65625
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 360,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1664,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 320,
+        "height": 388.6875,
+        "top": 25,
+        "right": 340,
+        "bottom": 413.6875,
+        "left": 20
+      },
+      "photo": {
+        "x": 67.984375,
+        "y": -939.671875,
+        "width": 272,
+        "height": 365.09375,
+        "top": -939.671875,
+        "right": 339.984375,
+        "bottom": -574.578125,
+        "left": 67.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 390,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1584,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 350,
+        "height": 388.6875,
+        "top": 25,
+        "right": 370,
+        "bottom": 413.6875,
+        "left": 20
+      },
+      "photo": {
+        "x": 71.984375,
+        "y": -983.984375,
+        "width": 298,
+        "height": 400,
+        "top": -983.984375,
+        "right": 369.984375,
+        "bottom": -583.984375,
+        "left": 71.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "text-200",
+      "width": 390,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1584,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 350,
+        "height": 388.6875,
+        "top": 25,
+        "right": 370,
+        "bottom": 413.6875,
+        "left": 20
+      },
+      "photo": {
+        "x": 71.984375,
+        "y": -983.984375,
+        "width": 298,
+        "height": 400,
+        "top": -983.984375,
+        "right": 369.984375,
+        "bottom": -583.984375,
+        "left": 71.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 600,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1745,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 560,
+        "height": 64.78125,
+        "top": 25,
+        "right": 580,
+        "bottom": 89.78125,
+        "left": 20
+      },
+      "photo": {
+        "x": 99.984375,
+        "y": -1026.390625,
+        "width": 480,
+        "height": 455.546875,
+        "top": -1026.390625,
+        "right": 579.984375,
+        "bottom": -570.84375,
+        "left": 99.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 768,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1944,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 24,
+        "y": 25,
+        "width": 720,
+        "height": 64.78125,
+        "top": 25,
+        "right": 744,
+        "bottom": 89.78125,
+        "left": 24
+      },
+      "photo": {
+        "x": 126.390625,
+        "y": -1130.46875,
+        "width": 617.59375,
+        "height": 500,
+        "top": -1130.46875,
+        "right": 743.984375,
+        "bottom": -630.46875,
+        "left": 126.390625
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "text-200",
+      "width": 768,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1944,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 24,
+        "y": 25,
+        "width": 720,
+        "height": 64.78125,
+        "top": 25,
+        "right": 744,
+        "bottom": 89.78125,
+        "left": 24
+      },
+      "photo": {
+        "x": 126.390625,
+        "y": -1130.46875,
+        "width": 617.59375,
+        "height": 500,
+        "top": -1130.46875,
+        "right": 743.984375,
+        "bottom": -630.46875,
+        "left": 126.390625
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 900,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 2066,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 24,
+        "y": 25,
+        "width": 852,
+        "height": 64.78125,
+        "top": 25,
+        "right": 876,
+        "bottom": 89.78125,
+        "left": 24
+      },
+      "photo": {
+        "x": 143.984375,
+        "y": -1177.890625,
+        "width": 732,
+        "height": 500,
+        "top": -1177.890625,
+        "right": 875.984375,
+        "bottom": -677.890625,
+        "left": 143.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 1024,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 2305,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 25.59375,
+        "y": 30,
+        "width": 972.8125,
+        "height": 72.78125,
+        "top": 30,
+        "right": 998.40625,
+        "bottom": 102.78125,
+        "left": 25.59375
+      },
+      "photo": {
+        "x": 160.53125,
+        "y": -1362.28125,
+        "width": 839.453125,
+        "height": 650,
+        "top": -1362.28125,
+        "right": 999.984375,
+        "bottom": -712.28125,
+        "left": 160.53125
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 1280,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 2043,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 32,
+        "y": 30,
+        "width": 1216,
+        "height": 72.78125,
+        "top": 30,
+        "right": 1248,
+        "bottom": 102.78125,
+        "left": 32
+      },
+      "photo": {
+        "x": 194.65625,
+        "y": -1361.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1361.390625,
+        "right": 1061.3125,
+        "bottom": -711.390625,
+        "left": 194.65625
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 1440,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 2043,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 72.78125,
+        "top": 30,
+        "right": 1404,
+        "bottom": 102.78125,
+        "left": 36
+      },
+      "photo": {
+        "x": 215.984375,
+        "y": -1361.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1361.390625,
+        "right": 1082.640625,
+        "bottom": -711.390625,
+        "left": 215.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "text-200",
+      "width": 1440,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 2043,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 72.78125,
+        "top": 30,
+        "right": 1404,
+        "bottom": 102.78125,
+        "left": 36
+      },
+      "photo": {
+        "x": 215.984375,
+        "y": -1361.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1361.390625,
+        "right": 1082.640625,
+        "bottom": -711.390625,
+        "left": 215.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 1600,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1797,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 40,
+        "y": 30,
+        "width": 1520,
+        "height": 72.78125,
+        "top": 30,
+        "right": 1560,
+        "bottom": 102.78125,
+        "left": 40
+      },
+      "photo": {
+        "x": 237.328125,
+        "y": -1115.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1115.390625,
+        "right": 1103.984375,
+        "bottom": -465.390625,
+        "left": 237.328125
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 1920,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1797,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 48,
+        "y": 30,
+        "width": 1824,
+        "height": 72.78125,
+        "top": 30,
+        "right": 1872,
+        "bottom": 102.78125,
+        "left": 48
+      },
+      "photo": {
+        "x": 279.984375,
+        "y": -1115.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1115.390625,
+        "right": 1146.640625,
+        "bottom": -465.390625,
+        "left": 279.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 2560,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1797,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 64,
+        "y": 30,
+        "width": 2432,
+        "height": 72.78125,
+        "top": 30,
+        "right": 2496,
+        "bottom": 102.78125,
+        "left": 64
+      },
+      "photo": {
+        "x": 365.328125,
+        "y": -1115.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1115.390625,
+        "right": 1231.984375,
+        "bottom": -465.390625,
+        "left": 365.328125
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 3440,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1797,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 86,
+        "y": 30,
+        "width": 3268,
+        "height": 72.78125,
+        "top": 30,
+        "right": 3354,
+        "bottom": 102.78125,
+        "left": 86
+      },
+      "photo": {
+        "x": 482.65625,
+        "y": -1115.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1115.390625,
+        "right": 1349.3125,
+        "bottom": -465.390625,
+        "left": 482.65625
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "text-200",
+      "width": 3440,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1797,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 86,
+        "y": 30,
+        "width": 3268,
+        "height": 72.78125,
+        "top": 30,
+        "right": 3354,
+        "bottom": 102.78125,
+        "left": 86
+      },
+      "photo": {
+        "x": 482.65625,
+        "y": -1115.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1115.390625,
+        "right": 1349.3125,
+        "bottom": -465.390625,
+        "left": 482.65625
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "static-reduced",
+      "width": 3840,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "marks": [
+        {
+          "name": "stillform:hero:reserved",
+          "time": 13
+        },
+        {
+          "name": "stillform:hero:ready",
+          "time": 46.39999999990687
+        },
+        {
+          "name": "stillform:hero:start",
+          "time": 46.700000000186265
+        },
+        {
+          "name": "stillform:hero:transfer",
+          "time": 3187.899999999907
+        },
+        {
+          "name": "stillform:hero:end",
+          "time": 3624.7000000001863
+        }
+      ],
+      "scroll": 1797,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 96,
+        "y": 30,
+        "width": 3648,
+        "height": 72.78125,
+        "top": 30,
+        "right": 3744,
+        "bottom": 102.78125,
+        "left": 96
+      },
+      "photo": {
+        "x": 535.984375,
+        "y": -1115.390625,
+        "width": 866.65625,
+        "height": 650,
+        "top": -1115.390625,
+        "right": 1402.640625,
+        "bottom": -465.390625,
+        "left": 535.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": ""
+    },
+    {
+      "name": "JS-disabled",
+      "state": {},
+      "marks": [],
+      "scroll": 0,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 20,
+        "y": 25,
+        "width": 350,
+        "height": 32.390625,
+        "top": 25,
+        "right": 370,
+        "bottom": 57.390625,
+        "left": 20
+      },
+      "photo": {
+        "x": 71.984375,
+        "y": 279.875,
+        "width": 298,
+        "height": 400,
+        "top": 279.875,
+        "right": 369.984375,
+        "bottom": 679.875,
+        "left": 71.984375
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": null
+    },
+    {
+      "name": "boundary-jitter",
+      "changes": [],
+      "state": {},
+      "marks": [],
+      "scroll": 593,
+      "brand": "1",
+      "overflow": false,
+      "proxies": 0,
+      "header": {
+        "x": 36,
+        "y": 30,
+        "width": 1368,
+        "height": 36.390625,
+        "top": 30,
+        "right": 1404,
+        "bottom": 66.390625,
+        "left": 36
+      },
+      "photo": {
+        "x": 748.796875,
+        "y": -481,
+        "width": 655.1875,
+        "height": 650,
+        "top": -481,
+        "right": 1403.984375,
+        "bottom": 169,
+        "left": 748.796875
+      },
+      "text": "Light enters where mass stops.\nAn opening gives the eye a passage, and the body a sense of scale.",
+      "styles": null
+    }
+  ],
+  "errors": []
+}

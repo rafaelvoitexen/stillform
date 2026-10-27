@@ -1,0 +1,992 @@
+[
+  {
+    "s": {
+      "raw": {
+        "x": 847.6640625,
+        "y": 681.5,
+        "input": 1
+      },
+      "visual": {
+        "x": 847.664063,
+        "y": 681.5
+      },
+      "target": {
+        "x": 847.6640625,
+        "y": 681.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 0.077328,
+      "diameter": 46.6503775,
+      "imageOpacity": 0.016126522416,
+      "negativeOpacity": 0.19242047758400002,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": true,
+        "visibility": true
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 985.43115234375,
+        "y": 705.4712524414062,
+        "input": 5
+      },
+      "visual": {
+        "x": 906.090962,
+        "y": 686.26293
+      },
+      "target": {
+        "x": 946.8563671875,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 0.459242,
+      "diameter": 109.12912093749999,
+      "imageOpacity": 0.41002411637599995,
+      "negativeOpacity": 0.48280388362400006,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": true,
+        "visibility": true
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 1039.630615234375,
+        "y": 723.5735473632812,
+        "input": 9
+      },
+      "visual": {
+        "x": 968.533875,
+        "y": 687.329683
+      },
+      "target": {
+        "x": 985.87998046875,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 0.725375,
+      "diameter": 152.66681640625,
+      "imageOpacity": 0.7253742746249999,
+      "negativeOpacity": 0.274624725375,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": true,
+        "visibility": true
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.9785461425781,
+      "width": 505.390625,
+      "height": 379.0312194824219,
+      "top": 491.9785461425781,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 977.3856811523438,
+        "y": 731.374755859375,
+        "input": 13
+      },
+      "visual": {
+        "x": 962.96347,
+        "y": 687.475751
+      },
+      "target": {
+        "x": 941.0636279296875,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 0.883618,
+      "diameter": 178.5543821875,
+      "imageOpacity": 0.883618,
+      "negativeOpacity": 0.11638199999999999,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": true,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.9785461425781,
+      "width": 505.390625,
+      "height": 379.0312194824219,
+      "top": 491.9785461425781,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 836.453369140625,
+        "y": 726.96484375,
+        "input": 17
+      },
+      "visual": {
+        "x": 887.621538,
+        "y": 687.496661
+      },
+      "target": {
+        "x": 839.59236328125,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 0.966136,
+      "diameter": 192.05381125,
+      "imageOpacity": 0.966136,
+      "negativeOpacity": 0.033864000000000005,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": true,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.9784851074219,
+      "width": 505.390625,
+      "height": 379.0312805175781,
+      "top": 491.9784851074219,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 702.3213500976562,
+        "y": 711.423583984375,
+        "input": 21
+      },
+      "visual": {
+        "x": 789.19774,
+        "y": 687.499525
+      },
+      "target": {
+        "x": 743.0173095703125,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 0.995767,
+      "diameter": 196.90125765624998,
+      "imageOpacity": 0.995767,
+      "negativeOpacity": 0.004233000000000042,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": true,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 656.3522338867188,
+        "y": 688.5560302734375,
+        "input": 25
+      },
+      "visual": {
+        "x": 725.712958,
+        "y": 687.303405
+      },
+      "target": {
+        "x": 709.9195458984375,
+        "y": 686.580341796875
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 726.4302978515625,
+        "y": 663.9608154296875,
+        "input": 29
+      },
+      "visual": {
+        "x": 735.961814,
+        "y": 678.715748
+      },
+      "target": {
+        "x": 760.375751953125,
+        "y": 675.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 870.0471801757812,
+        "y": 643.6598510742188,
+        "input": 33
+      },
+      "visual": {
+        "x": 814.170612,
+        "y": 675.941851
+      },
+      "target": {
+        "x": 863.7799072265625,
+        "y": 675.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.9784851074219,
+      "width": 505.390625,
+      "height": 379.0312805175781,
+      "top": 491.9784851074219,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 1000.0867309570312,
+        "y": 632.6234741210938,
+        "input": 37
+      },
+      "visual": {
+        "x": 912.081406,
+        "y": 675.563035
+      },
+      "target": {
+        "x": 957.4083837890626,
+        "y": 675.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 1037.6688232421875,
+        "y": 633.5537719726562,
+        "input": 41
+      },
+      "visual": {
+        "x": 971.844131,
+        "y": 675.508661
+      },
+      "target": {
+        "x": 984.467490234375,
+        "y": 675.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 959.9965209960938,
+        "y": 646.2229614257812,
+        "input": 45
+      },
+      "visual": {
+        "x": 955.136718,
+        "y": 675.501192
+      },
+      "target": {
+        "x": 928.5434326171875,
+        "y": 675.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.9785461425781,
+      "width": 505.390625,
+      "height": 379.0312194824219,
+      "top": 491.9785461425781,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 814.1848754882812,
+        "y": 667.5292358398438,
+        "input": 49
+      },
+      "visual": {
+        "x": 873.973506,
+        "y": 675.50017
+      },
+      "target": {
+        "x": 823.5590478515625,
+        "y": 675.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 688.6812744140625,
+        "y": 692.2559814453125,
+        "input": 53
+      },
+      "visual": {
+        "x": 775.794694,
+        "y": 681.929572
+      },
+      "target": {
+        "x": 733.196455078125,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 659.614501953125,
+        "y": 714.3493041992188,
+        "input": 57
+      },
+      "visual": {
+        "x": 722.050028,
+        "y": 686.707189
+      },
+      "target": {
+        "x": 712.2683789062501,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.9785461425781,
+      "width": 505.390625,
+      "height": 379.0312194824219,
+      "top": 491.9785461425781,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 744.6160888671875,
+        "y": 728.4000244140625,
+        "input": 61
+      },
+      "visual": {
+        "x": 743.831745,
+        "y": 687.391066
+      },
+      "target": {
+        "x": 773.469521484375,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 892.1251831054688,
+        "y": 730.9678955078125,
+        "input": 65
+      },
+      "visual": {
+        "x": 828.437744,
+        "y": 687.484459
+      },
+      "target": {
+        "x": 879.6760693359375,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.9784851074219,
+      "width": 505.390625,
+      "height": 379.0312805175781,
+      "top": 491.9784851074219,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  },
+  {
+    "s": {
+      "raw": {
+        "x": 1012.6647338867188,
+        "y": 721.4243774414062,
+        "input": 69
+      },
+      "visual": {
+        "x": 925.134863,
+        "y": 687.497865
+      },
+      "target": {
+        "x": 966.4645458984374,
+        "y": 687.5
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "MAGNETIC_REVEAL",
+      "progress": 1,
+      "diameter": 197.59375,
+      "imageOpacity": 1,
+      "negativeOpacity": 0,
+      "magneticInfluence": 0.28,
+      "imageReady": true,
+      "geometryRevision": 7,
+      "geometryDirty": false,
+      "transitions": 1,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    },
+    "image": {
+      "x": 594.96875,
+      "y": 491.978515625,
+      "width": 505.390625,
+      "height": 379.03125,
+      "top": 491.978515625,
+      "right": 1100.359375,
+      "bottom": 871.009765625,
+      "left": 594.96875
+    }
+  }
+]

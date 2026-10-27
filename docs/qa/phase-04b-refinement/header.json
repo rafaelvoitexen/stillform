@@ -1,0 +1,1208 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "position": "hero",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 36,
+      "y": 30,
+      "width": 1368,
+      "height": 36.375,
+      "top": 30,
+      "right": 1404,
+      "bottom": 66.375,
+      "left": 36
+    },
+    "photo": {
+      "x": 748.796875,
+      "y": 112,
+      "width": 655.1875,
+      "height": 650,
+      "top": 112,
+      "right": 1403.984375,
+      "bottom": 762,
+      "left": 748.796875
+    },
+    "heading": {
+      "x": 30,
+      "y": 132,
+      "width": 1409.984375,
+      "height": 359.03125,
+      "top": 132,
+      "right": 1439.984375,
+      "bottom": 491.03125,
+      "left": 30
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 1440,
+    "position": "mid-roll",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 36,
+      "y": 30,
+      "width": 1368,
+      "height": 36.375,
+      "top": 30,
+      "right": 1404,
+      "bottom": 66.375,
+      "left": 36
+    },
+    "photo": {
+      "x": 748.796875,
+      "y": -788,
+      "width": 655.1875,
+      "height": 650,
+      "top": -788,
+      "right": 1403.984375,
+      "bottom": -138,
+      "left": 748.796875
+    },
+    "heading": {
+      "x": 30,
+      "y": -768,
+      "width": 1409.984375,
+      "height": 359.03125,
+      "top": -768,
+      "right": 1439.984375,
+      "bottom": -408.96875,
+      "left": 30
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-49.4253%)",
+      "translateY(50.5747%)",
+      "translateY(-49.4253%)",
+      "translateY(50.5747%)"
+    ]
+  },
+  {
+    "width": 1440,
+    "position": "manifesto",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 36,
+      "y": 30,
+      "width": 1368,
+      "height": 36.375,
+      "top": 30,
+      "right": 1404,
+      "bottom": 66.375,
+      "left": 36
+    },
+    "photo": {
+      "x": 748.796875,
+      "y": -788,
+      "width": 655.1875,
+      "height": 650,
+      "top": -788,
+      "right": 1403.984375,
+      "bottom": -138,
+      "left": 748.796875
+    },
+    "heading": {
+      "x": 30,
+      "y": -768,
+      "width": 1409.984375,
+      "height": 359.03125,
+      "top": -768,
+      "right": 1439.984375,
+      "bottom": -408.96875,
+      "left": 30
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-100%)",
+      "translateY(0%)",
+      "translateY(-100%)",
+      "translateY(0%)"
+    ]
+  },
+  {
+    "width": 1440,
+    "position": "reverse",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 36,
+      "y": 30,
+      "width": 1368,
+      "height": 36.375,
+      "top": 30,
+      "right": 1404,
+      "bottom": 66.375,
+      "left": 36
+    },
+    "photo": {
+      "x": 748.796875,
+      "y": 112,
+      "width": 655.1875,
+      "height": 650,
+      "top": 112,
+      "right": 1403.984375,
+      "bottom": 762,
+      "left": 748.796875
+    },
+    "heading": {
+      "x": 30,
+      "y": 132,
+      "width": 1409.984375,
+      "height": 359.03125,
+      "top": 132,
+      "right": 1439.984375,
+      "bottom": 491.03125,
+      "left": 30
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "position": "hero",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 48,
+      "y": 30,
+      "width": 1824,
+      "height": 36.375,
+      "top": 30,
+      "right": 1872,
+      "bottom": 66.375,
+      "left": 48
+    },
+    "photo": {
+      "x": 1035.359375,
+      "y": 112,
+      "width": 836.625,
+      "height": 830,
+      "top": 112,
+      "right": 1871.984375,
+      "bottom": 942,
+      "left": 1035.359375
+    },
+    "heading": {
+      "x": 42,
+      "y": 132,
+      "width": 1877.984375,
+      "height": 478.71875,
+      "top": 132,
+      "right": 1919.984375,
+      "bottom": 610.71875,
+      "left": 42
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 1920,
+    "position": "mid-roll",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 48,
+      "y": 30,
+      "width": 1824,
+      "height": 36.375,
+      "top": 30,
+      "right": 1872,
+      "bottom": 66.375,
+      "left": 48
+    },
+    "photo": {
+      "x": 1035.359375,
+      "y": -968,
+      "width": 836.625,
+      "height": 830,
+      "top": -968,
+      "right": 1871.984375,
+      "bottom": -138,
+      "left": 1035.359375
+    },
+    "heading": {
+      "x": 42,
+      "y": -948,
+      "width": 1877.984375,
+      "height": 478.71875,
+      "top": -948,
+      "right": 1919.984375,
+      "bottom": -469.28125,
+      "left": 42
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)",
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)"
+    ]
+  },
+  {
+    "width": 1920,
+    "position": "manifesto",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 48,
+      "y": 30,
+      "width": 1824,
+      "height": 36.375,
+      "top": 30,
+      "right": 1872,
+      "bottom": 66.375,
+      "left": 48
+    },
+    "photo": {
+      "x": 1035.359375,
+      "y": -968,
+      "width": 836.625,
+      "height": 830,
+      "top": -968,
+      "right": 1871.984375,
+      "bottom": -138,
+      "left": 1035.359375
+    },
+    "heading": {
+      "x": 42,
+      "y": -948,
+      "width": 1877.984375,
+      "height": 478.71875,
+      "top": -948,
+      "right": 1919.984375,
+      "bottom": -469.28125,
+      "left": 42
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-100%)",
+      "translateY(0%)",
+      "translateY(-100%)",
+      "translateY(0%)"
+    ]
+  },
+  {
+    "width": 1920,
+    "position": "reverse",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 48,
+      "y": 30,
+      "width": 1824,
+      "height": 36.375,
+      "top": 30,
+      "right": 1872,
+      "bottom": 66.375,
+      "left": 48
+    },
+    "photo": {
+      "x": 1035.359375,
+      "y": 112,
+      "width": 836.625,
+      "height": 830,
+      "top": 112,
+      "right": 1871.984375,
+      "bottom": 942,
+      "left": 1035.359375
+    },
+    "heading": {
+      "x": 42,
+      "y": 132,
+      "width": 1877.984375,
+      "height": 478.71875,
+      "top": 132,
+      "right": 1919.984375,
+      "bottom": 610.71875,
+      "left": 42
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 2560,
+    "height": 1440,
+    "position": "hero",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 64,
+      "y": 30,
+      "width": 2432,
+      "height": 36.375,
+      "top": 30,
+      "right": 2496,
+      "bottom": 66.375,
+      "left": 64
+    },
+    "photo": {
+      "x": 1331.1875,
+      "y": 112,
+      "width": 1164.796875,
+      "height": 1155.546875,
+      "top": 112,
+      "right": 2495.984375,
+      "bottom": 1267.546875,
+      "left": 1331.1875
+    },
+    "heading": {
+      "x": 58,
+      "y": 132,
+      "width": 2501.984375,
+      "height": 638.28125,
+      "top": 132,
+      "right": 2559.984375,
+      "bottom": 770.28125,
+      "left": 58
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 2560,
+    "position": "mid-roll",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 64,
+      "y": 30,
+      "width": 2432,
+      "height": 36.375,
+      "top": 30,
+      "right": 2496,
+      "bottom": 66.375,
+      "left": 64
+    },
+    "photo": {
+      "x": 1331.1875,
+      "y": -1328,
+      "width": 1164.796875,
+      "height": 1155.546875,
+      "top": -1328,
+      "right": 2495.984375,
+      "bottom": -172.453125,
+      "left": 1331.1875
+    },
+    "heading": {
+      "x": 58,
+      "y": -1308,
+      "width": 2501.984375,
+      "height": 638.28125,
+      "top": -1308,
+      "right": 2559.984375,
+      "bottom": -669.71875,
+      "left": 58
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)",
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)"
+    ]
+  },
+  {
+    "width": 2560,
+    "position": "manifesto",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 64,
+      "y": 30,
+      "width": 2432,
+      "height": 36.375,
+      "top": 30,
+      "right": 2496,
+      "bottom": 66.375,
+      "left": 64
+    },
+    "photo": {
+      "x": 1331.1875,
+      "y": -1328,
+      "width": 1164.796875,
+      "height": 1155.546875,
+      "top": -1328,
+      "right": 2495.984375,
+      "bottom": -172.453125,
+      "left": 1331.1875
+    },
+    "heading": {
+      "x": 58,
+      "y": -1308,
+      "width": 2501.984375,
+      "height": 638.28125,
+      "top": -1308,
+      "right": 2559.984375,
+      "bottom": -669.71875,
+      "left": 58
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-100%)",
+      "translateY(0%)",
+      "translateY(-100%)",
+      "translateY(0%)"
+    ]
+  },
+  {
+    "width": 2560,
+    "position": "reverse",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 64,
+      "y": 30,
+      "width": 2432,
+      "height": 36.375,
+      "top": 30,
+      "right": 2496,
+      "bottom": 66.375,
+      "left": 64
+    },
+    "photo": {
+      "x": 1331.1875,
+      "y": 112,
+      "width": 1164.796875,
+      "height": 1155.546875,
+      "top": 112,
+      "right": 2495.984375,
+      "bottom": 1267.546875,
+      "left": 1331.1875
+    },
+    "heading": {
+      "x": 58,
+      "y": 132,
+      "width": 2501.984375,
+      "height": 638.28125,
+      "top": 132,
+      "right": 2559.984375,
+      "bottom": 770.28125,
+      "left": 58
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "position": "hero",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 86,
+      "y": 30,
+      "width": 3268,
+      "height": 36.375,
+      "top": 30,
+      "right": 3354,
+      "bottom": 66.375,
+      "left": 86
+    },
+    "photo": {
+      "x": 2154.46875,
+      "y": 112,
+      "width": 1199.515625,
+      "height": 1190,
+      "top": 112,
+      "right": 3353.984375,
+      "bottom": 1302,
+      "left": 2154.46875
+    },
+    "heading": {
+      "x": 80,
+      "y": 132,
+      "width": 3359.984375,
+      "height": 752.5625,
+      "top": 132,
+      "right": 3439.984375,
+      "bottom": 884.5625,
+      "left": 80
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 3440,
+    "position": "mid-roll",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 86,
+      "y": 30,
+      "width": 3268,
+      "height": 36.375,
+      "top": 30,
+      "right": 3354,
+      "bottom": 66.375,
+      "left": 86
+    },
+    "photo": {
+      "x": 2154.46875,
+      "y": -1328,
+      "width": 1199.515625,
+      "height": 1190,
+      "top": -1328,
+      "right": 3353.984375,
+      "bottom": -138,
+      "left": 2154.46875
+    },
+    "heading": {
+      "x": 80,
+      "y": -1308,
+      "width": 3359.984375,
+      "height": 752.5625,
+      "top": -1308,
+      "right": 3439.984375,
+      "bottom": -555.4375,
+      "left": 80
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-48.2891%)",
+      "translateY(51.7109%)",
+      "translateY(-48.2891%)",
+      "translateY(51.7109%)"
+    ]
+  },
+  {
+    "width": 3440,
+    "position": "manifesto",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 86,
+      "y": 30,
+      "width": 3268,
+      "height": 36.375,
+      "top": 30,
+      "right": 3354,
+      "bottom": 66.375,
+      "left": 86
+    },
+    "photo": {
+      "x": 2154.46875,
+      "y": -1328,
+      "width": 1199.515625,
+      "height": 1190,
+      "top": -1328,
+      "right": 3353.984375,
+      "bottom": -138,
+      "left": 2154.46875
+    },
+    "heading": {
+      "x": 80,
+      "y": -1308,
+      "width": 3359.984375,
+      "height": 752.5625,
+      "top": -1308,
+      "right": 3439.984375,
+      "bottom": -555.4375,
+      "left": 80
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-100%)",
+      "translateY(0%)",
+      "translateY(-100%)",
+      "translateY(0%)"
+    ]
+  },
+  {
+    "width": 3440,
+    "position": "reverse",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 86,
+      "y": 30,
+      "width": 3268,
+      "height": 36.375,
+      "top": 30,
+      "right": 3354,
+      "bottom": 66.375,
+      "left": 86
+    },
+    "photo": {
+      "x": 2154.46875,
+      "y": 112,
+      "width": 1199.515625,
+      "height": 1190,
+      "top": 112,
+      "right": 3353.984375,
+      "bottom": 1302,
+      "left": 2154.46875
+    },
+    "heading": {
+      "x": 80,
+      "y": 132,
+      "width": 3359.984375,
+      "height": 752.5625,
+      "top": 132,
+      "right": 3439.984375,
+      "bottom": 884.5625,
+      "left": 80
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "position": "hero",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 24,
+      "y": 25,
+      "width": 720,
+      "height": 32.375,
+      "top": 25,
+      "right": 744,
+      "bottom": 57.375,
+      "left": 24
+    },
+    "photo": {
+      "x": 126.390625,
+      "y": 394.09375,
+      "width": 617.59375,
+      "height": 500,
+      "top": 394.09375,
+      "right": 743.984375,
+      "bottom": 894.09375,
+      "left": 126.390625
+    },
+    "heading": {
+      "x": 21,
+      "y": 99,
+      "width": 746.984375,
+      "height": 261.09375,
+      "top": 99,
+      "right": 767.984375,
+      "bottom": 360.09375,
+      "left": 21
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 768,
+    "position": "mid-roll",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 24,
+      "y": 25,
+      "width": 720,
+      "height": 32.375,
+      "top": 25,
+      "right": 744,
+      "bottom": 57.375,
+      "left": 24
+    },
+    "photo": {
+      "x": 126.390625,
+      "y": -762.90625,
+      "width": 617.59375,
+      "height": 500,
+      "top": -762.90625,
+      "right": 743.984375,
+      "bottom": -262.90625,
+      "left": 126.390625
+    },
+    "heading": {
+      "x": 21,
+      "y": -1058,
+      "width": 746.984375,
+      "height": 261.09375,
+      "top": -1058,
+      "right": 767.984375,
+      "bottom": -796.90625,
+      "left": 21
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)",
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)"
+    ]
+  },
+  {
+    "width": 768,
+    "position": "manifesto",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 24,
+      "y": 25,
+      "width": 720,
+      "height": 32.375,
+      "top": 25,
+      "right": 744,
+      "bottom": 57.375,
+      "left": 24
+    },
+    "photo": {
+      "x": 126.390625,
+      "y": -762.90625,
+      "width": 617.59375,
+      "height": 500,
+      "top": -762.90625,
+      "right": 743.984375,
+      "bottom": -262.90625,
+      "left": 126.390625
+    },
+    "heading": {
+      "x": 21,
+      "y": -1058,
+      "width": 746.984375,
+      "height": 261.09375,
+      "top": -1058,
+      "right": 767.984375,
+      "bottom": -796.90625,
+      "left": 21
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-100%)",
+      "translateY(0%)",
+      "translateY(-100%)",
+      "translateY(0%)"
+    ]
+  },
+  {
+    "width": 768,
+    "position": "reverse",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 24,
+      "y": 25,
+      "width": 720,
+      "height": 32.375,
+      "top": 25,
+      "right": 744,
+      "bottom": 57.375,
+      "left": 24
+    },
+    "photo": {
+      "x": 126.390625,
+      "y": 394.09375,
+      "width": 617.59375,
+      "height": 500,
+      "top": 394.09375,
+      "right": 743.984375,
+      "bottom": 894.09375,
+      "left": 126.390625
+    },
+    "heading": {
+      "x": 21,
+      "y": 99,
+      "width": 746.984375,
+      "height": 261.09375,
+      "top": 99,
+      "right": 767.984375,
+      "bottom": 360.09375,
+      "left": 21
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "position": "hero",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 20,
+      "y": 25,
+      "width": 350,
+      "height": 32.375,
+      "top": 25,
+      "right": 370,
+      "bottom": 57.375,
+      "left": 20
+    },
+    "photo": {
+      "x": 71.984375,
+      "y": 279.875,
+      "width": 298,
+      "height": 400,
+      "top": 279.875,
+      "right": 369.984375,
+      "bottom": 679.875,
+      "left": 71.984375
+    },
+    "heading": {
+      "x": 17,
+      "y": 99,
+      "width": 372.984375,
+      "height": 146.875,
+      "top": 99,
+      "right": 389.984375,
+      "bottom": 245.875,
+      "left": 17
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  },
+  {
+    "width": 390,
+    "position": "mid-roll",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 20,
+      "y": 25,
+      "width": 350,
+      "height": 32.375,
+      "top": 25,
+      "right": 370,
+      "bottom": 57.375,
+      "left": 20
+    },
+    "photo": {
+      "x": 71.984375,
+      "y": -609.125,
+      "width": 298,
+      "height": 400,
+      "top": -609.125,
+      "right": 369.984375,
+      "bottom": -209.125,
+      "left": 71.984375
+    },
+    "heading": {
+      "x": 17,
+      "y": -790,
+      "width": 372.984375,
+      "height": 146.875,
+      "top": -790,
+      "right": 389.984375,
+      "bottom": -643.125,
+      "left": 17
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)",
+      "translateY(-50.5747%)",
+      "translateY(49.4253%)"
+    ]
+  },
+  {
+    "width": 390,
+    "position": "manifesto",
+    "chapter": "manifesto",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "manifesto",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 20,
+      "y": 25,
+      "width": 350,
+      "height": 32.375,
+      "top": 25,
+      "right": 370,
+      "bottom": 57.375,
+      "left": 20
+    },
+    "photo": {
+      "x": 71.984375,
+      "y": -609.125,
+      "width": 298,
+      "height": 400,
+      "top": -609.125,
+      "right": 369.984375,
+      "bottom": -209.125,
+      "left": 71.984375
+    },
+    "heading": {
+      "x": 17,
+      "y": -790,
+      "width": 372.984375,
+      "height": 146.875,
+      "top": -790,
+      "right": 389.984375,
+      "bottom": -643.125,
+      "left": 17
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(-100%)",
+      "translateY(0%)",
+      "translateY(-100%)",
+      "translateY(0%)"
+    ]
+  },
+  {
+    "width": 390,
+    "position": "reverse",
+    "chapter": "hero",
+    "hero": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "header": {
+      "x": 20,
+      "y": 25,
+      "width": 350,
+      "height": 32.375,
+      "top": 25,
+      "right": 370,
+      "bottom": 57.375,
+      "left": 20
+    },
+    "photo": {
+      "x": 71.984375,
+      "y": 279.875,
+      "width": 298,
+      "height": 400,
+      "top": 279.875,
+      "right": 369.984375,
+      "bottom": 679.875,
+      "left": 71.984375
+    },
+    "heading": {
+      "x": 17,
+      "y": 99,
+      "width": 372.984375,
+      "height": 146.875,
+      "top": 99,
+      "right": 389.984375,
+      "bottom": 245.875,
+      "left": 17
+    },
+    "brand": "1",
+    "blend": "difference",
+    "overflow": false,
+    "rows": [
+      "translateY(0%)",
+      "translateY(100%)",
+      "translateY(0%)",
+      "translateY(100%)"
+    ]
+  }
+]

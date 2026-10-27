@@ -1,0 +1,174 @@
+[
+  {
+    "name": "1440",
+    "releases": [
+      {
+        "phase": "slow-release",
+        "startProgress": 1,
+        "movementWhileContracting": 132.72683715820662,
+        "activeSamples": 30,
+        "firstFrameMs": 6.80000000037262
+      },
+      {
+        "phase": "fast-release",
+        "startProgress": 1,
+        "movementWhileContracting": 260.6148249265784,
+        "activeSamples": 29,
+        "firstFrameMs": 6.900000000745422
+      },
+      {
+        "phase": "diagonal-release",
+        "startProgress": 1,
+        "movementWhileContracting": 307.89304509137685,
+        "activeSamples": 30,
+        "firstFrameMs": 6.800000000745058
+      },
+      {
+        "phase": "unfinished-release",
+        "startProgress": 0.319894,
+        "movementWhileContracting": 198.30595058867513,
+        "activeSamples": 28,
+        "firstFrameMs": 6.800000000745058
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 1,
+        "movementWhileContracting": 85.48702036652433,
+        "activeSamples": 38,
+        "firstFrameMs": 6.899999999626743
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 0.523066,
+        "movementWhileContracting": 45.5401306152446,
+        "activeSamples": 38,
+        "firstFrameMs": 6.800000000745058
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 0.882841,
+        "movementWhileContracting": 250.25273147647005,
+        "activeSamples": 29,
+        "firstFrameMs": 6.700000000000728
+      }
+    ],
+    "actualVsDiagnosticMaxError": 7.109251309038548e-05,
+    "endpointNormalResidual": 0.0,
+    "blendError": 0.0
+  },
+  {
+    "name": "1920",
+    "releases": [
+      {
+        "phase": "slow-release",
+        "startProgress": 1,
+        "movementWhileContracting": 157.04501342773733,
+        "activeSamples": 30,
+        "firstFrameMs": 4.2999999996275164
+      },
+      {
+        "phase": "fast-release",
+        "startProgress": 1,
+        "movementWhileContracting": 289.25886593289096,
+        "activeSamples": 30,
+        "firstFrameMs": 3.728928277269006e-10
+      },
+      {
+        "phase": "diagonal-release",
+        "startProgress": 1,
+        "movementWhileContracting": 323.2195559537569,
+        "activeSamples": 30,
+        "firstFrameMs": 6.700000000744694
+      },
+      {
+        "phase": "unfinished-release",
+        "startProgress": 0.326695,
+        "movementWhileContracting": 204.91252249935724,
+        "activeSamples": 28,
+        "firstFrameMs": 6.700000000371801
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 1,
+        "movementWhileContracting": 101.03608444351823,
+        "activeSamples": 38,
+        "firstFrameMs": 6.499999999627107
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 0.517747,
+        "movementWhileContracting": 121.93121337892153,
+        "activeSamples": 38,
+        "firstFrameMs": 6.699999999627835
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 0.91227,
+        "movementWhileContracting": 316.4106406096573,
+        "activeSamples": 30,
+        "firstFrameMs": 6.800000000745058
+      }
+    ],
+    "actualVsDiagnosticMaxError": 8.10295600286827e-05,
+    "endpointNormalResidual": 0.0,
+    "blendError": 0.0
+  },
+  {
+    "name": "demonstration",
+    "releases": [
+      {
+        "phase": "slow-release",
+        "startProgress": 1,
+        "movementWhileContracting": 127.79122924805051,
+        "activeSamples": 30,
+        "firstFrameMs": 6.700000000745149
+      },
+      {
+        "phase": "fast-release",
+        "startProgress": 1,
+        "movementWhileContracting": 256.7094233221757,
+        "activeSamples": 30,
+        "firstFrameMs": 6.099999999254578
+      },
+      {
+        "phase": "diagonal-release",
+        "startProgress": 1,
+        "movementWhileContracting": 306.75016335064385,
+        "activeSamples": 30,
+        "firstFrameMs": 6.3999999992556695
+      },
+      {
+        "phase": "unfinished-release",
+        "startProgress": 0.453365,
+        "movementWhileContracting": 211.5589529575435,
+        "activeSamples": 29,
+        "firstFrameMs": 6.399999999999636
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 1,
+        "movementWhileContracting": 51.54037364156006,
+        "activeSamples": 38,
+        "firstFrameMs": 6.200000000744694
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 0.507036,
+        "movementWhileContracting": 122.7626953125,
+        "activeSamples": 39,
+        "firstFrameMs": 6.099999999254578
+      },
+      {
+        "phase": "reentry-release",
+        "startProgress": 0.903434,
+        "movementWhileContracting": 250.27848402446276,
+        "activeSamples": 30,
+        "firstFrameMs": 6.499999999254214
+      }
+    ],
+    "actualVsDiagnosticMaxError": 8.469951409036789e-05,
+    "endpointNormalResidual": 0.0,
+    "blendError": 0.0
+  }
+]
+pagination [{'width': 1440, 'maxXDelta': 0.0, 'maxYDelta': 0.0, 'transforms': ['none', 'none', 'none', 'none']}, {'width': 1920, 'maxXDelta': 0.0, 'maxYDelta': 0.0, 'transforms': ['none', 'none', 'none', 'none']}, {'width': 390, 'maxXDelta': 0.0, 'maxYDelta': 0.0, 'transforms': ['none', 'none', 'none', 'none']}]

@@ -1,0 +1,726 @@
+[
+  {
+    "name": "1440",
+    "phases": [
+      {
+        "phase": "ordinary",
+        "inputs": 54,
+        "maxSpeed": 726.2166341676298,
+        "maxProgress": 0,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "A-fast-crossings",
+        "inputs": 150,
+        "maxSpeed": 3231.9913170610284,
+        "maxProgress": 0.938757,
+        "fullFrames": 0,
+        "stateChanges": 20
+      },
+      {
+        "phase": "B-moving-expansion",
+        "inputs": 96,
+        "maxSpeed": 718.2746665413237,
+        "maxProgress": 1,
+        "fullFrames": 127,
+        "stateChanges": 1
+      },
+      {
+        "phase": "C-continuous-inside",
+        "inputs": 288,
+        "maxSpeed": 2537.2589523706106,
+        "maxProgress": 1,
+        "fullFrames": 577,
+        "stateChanges": 0
+      },
+      {
+        "phase": "D-boundary-hysteresis",
+        "inputs": 111,
+        "maxSpeed": 2307.599612136421,
+        "maxProgress": 1,
+        "fullFrames": 222,
+        "stateChanges": 0
+      },
+      {
+        "phase": "E-rapid-reversal",
+        "inputs": 126,
+        "maxSpeed": 719.8221369618979,
+        "maxProgress": 1,
+        "fullFrames": 22,
+        "stateChanges": 17
+      },
+      {
+        "phase": "F-slow-release",
+        "inputs": 102,
+        "maxSpeed": 566.491415317943,
+        "maxProgress": 1,
+        "fullFrames": 121,
+        "stateChanges": 2
+      },
+      {
+        "phase": "F-normal-moving",
+        "inputs": 66,
+        "maxSpeed": 132.67625398876015,
+        "maxProgress": 0.001,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "F-fast-release",
+        "inputs": 92,
+        "maxSpeed": 2845.6182065601474,
+        "maxProgress": 0.895787,
+        "fullFrames": 0,
+        "stateChanges": 2
+      }
+    ],
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.2999999998137355,
+    "imageResponseMs": 7.0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0,
+    "end": {
+      "raw": {
+        "x": 300,
+        "y": 200,
+        "input": 1085
+      },
+      "visual": {
+        "x": 305.007469,
+        "y": 217.051808
+      },
+      "target": {
+        "x": 300,
+        "y": 200
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "imageReady": true,
+      "geometryRevision": 4,
+      "geometryDirty": false,
+      "transitions": 42,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  },
+  {
+    "name": "1920",
+    "phases": [
+      {
+        "phase": "ordinary",
+        "inputs": 54,
+        "maxSpeed": 574.0889562320617,
+        "maxProgress": 0,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "A-fast-crossings",
+        "inputs": 150,
+        "maxSpeed": 5854.157092417606,
+        "maxProgress": 0.974855,
+        "fullFrames": 0,
+        "stateChanges": 20
+      },
+      {
+        "phase": "B-moving-expansion",
+        "inputs": 96,
+        "maxSpeed": 1110.495058829881,
+        "maxProgress": 1,
+        "fullFrames": 133,
+        "stateChanges": 1
+      },
+      {
+        "phase": "C-continuous-inside",
+        "inputs": 288,
+        "maxSpeed": 3969.0471129314205,
+        "maxProgress": 1,
+        "fullFrames": 577,
+        "stateChanges": 0
+      },
+      {
+        "phase": "D-boundary-hysteresis",
+        "inputs": 111,
+        "maxSpeed": 3657.0562895651456,
+        "maxProgress": 1,
+        "fullFrames": 222,
+        "stateChanges": 0
+      },
+      {
+        "phase": "E-rapid-reversal",
+        "inputs": 126,
+        "maxSpeed": 836.5500510556658,
+        "maxProgress": 1,
+        "fullFrames": 22,
+        "stateChanges": 17
+      },
+      {
+        "phase": "F-slow-release",
+        "inputs": 102,
+        "maxSpeed": 754.3760357374612,
+        "maxProgress": 1,
+        "fullFrames": 132,
+        "stateChanges": 2
+      },
+      {
+        "phase": "F-normal-moving",
+        "inputs": 66,
+        "maxSpeed": 134.86456648965398,
+        "maxProgress": 0.038443,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "F-fast-release",
+        "inputs": 92,
+        "maxSpeed": 3939.136106740759,
+        "maxProgress": 0.941483,
+        "fullFrames": 0,
+        "stateChanges": 2
+      }
+    ],
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.39999999944120646,
+    "imageResponseMs": 0.0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0,
+    "end": {
+      "raw": {
+        "x": 300,
+        "y": 200,
+        "input": 1085
+      },
+      "visual": {
+        "x": 310.763472,
+        "y": 222.069385
+      },
+      "target": {
+        "x": 300,
+        "y": 200
+      },
+      "region": {
+        "left": 728.65625,
+        "right": 1504.34375,
+        "top": 672.46875,
+        "bottom": 927.21875
+      },
+      "safeBounds": {
+        "left": 850.03125,
+        "right": 1382.96875,
+        "top": 793.84375,
+        "bottom": 805.84375
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "imageReady": true,
+      "geometryRevision": 4,
+      "geometryDirty": false,
+      "transitions": 42,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  },
+  {
+    "name": "2560",
+    "phases": [
+      {
+        "phase": "ordinary",
+        "inputs": 54,
+        "maxSpeed": 574.0889562722618,
+        "maxProgress": 0,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "A-fast-crossings",
+        "inputs": 150,
+        "maxSpeed": 7345.120614395124,
+        "maxProgress": 0.986901,
+        "fullFrames": 0,
+        "stateChanges": 20
+      },
+      {
+        "phase": "B-moving-expansion",
+        "inputs": 96,
+        "maxSpeed": 1691.5470573359135,
+        "maxProgress": 1,
+        "fullFrames": 137,
+        "stateChanges": 1
+      },
+      {
+        "phase": "C-continuous-inside",
+        "inputs": 288,
+        "maxSpeed": 5681.026687515188,
+        "maxProgress": 1,
+        "fullFrames": 577,
+        "stateChanges": 0
+      },
+      {
+        "phase": "D-boundary-hysteresis",
+        "inputs": 111,
+        "maxSpeed": 5207.628038320048,
+        "maxProgress": 1,
+        "fullFrames": 222,
+        "stateChanges": 0
+      },
+      {
+        "phase": "E-rapid-reversal",
+        "inputs": 126,
+        "maxSpeed": 736.9607592059081,
+        "maxProgress": 1,
+        "fullFrames": 22,
+        "stateChanges": 17
+      },
+      {
+        "phase": "F-slow-release",
+        "inputs": 102,
+        "maxSpeed": 1014.3125146993557,
+        "maxProgress": 1,
+        "fullFrames": 142,
+        "stateChanges": 2
+      },
+      {
+        "phase": "F-normal-moving",
+        "inputs": 66,
+        "maxSpeed": 132.67533299068054,
+        "maxProgress": 0.131355,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "F-fast-release",
+        "inputs": 92,
+        "maxSpeed": 5756.16107732294,
+        "maxProgress": 0.972198,
+        "fullFrames": 0,
+        "stateChanges": 2
+      }
+    ],
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.7000000001862645,
+    "imageResponseMs": 0.0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0,
+    "end": {
+      "raw": {
+        "x": 300,
+        "y": 200,
+        "input": 1085
+      },
+      "visual": {
+        "x": 318.585665,
+        "y": 231.790101
+      },
+      "target": {
+        "x": 300,
+        "y": 200
+      },
+      "region": {
+        "left": 906.921875,
+        "right": 2042.9375,
+        "top": 820.5,
+        "bottom": 1219.96875
+      },
+      "safeBounds": {
+        "left": 1056.921875,
+        "right": 1892.9375,
+        "top": 970.5,
+        "bottom": 1069.96875
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "imageReady": true,
+      "geometryRevision": 4,
+      "geometryDirty": false,
+      "transitions": 42,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  },
+  {
+    "name": "3440",
+    "phases": [
+      {
+        "phase": "ordinary",
+        "inputs": 54,
+        "maxSpeed": 578.4381150156369,
+        "maxProgress": 0,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "A-fast-crossings",
+        "inputs": 150,
+        "maxSpeed": 10922.220865885416,
+        "maxProgress": 0.986882,
+        "fullFrames": 0,
+        "stateChanges": 20
+      },
+      {
+        "phase": "B-moving-expansion",
+        "inputs": 96,
+        "maxSpeed": 2583.122196934693,
+        "maxProgress": 1,
+        "fullFrames": 141,
+        "stateChanges": 1
+      },
+      {
+        "phase": "C-continuous-inside",
+        "inputs": 288,
+        "maxSpeed": 9292.860493769906,
+        "maxProgress": 1,
+        "fullFrames": 576,
+        "stateChanges": 0
+      },
+      {
+        "phase": "D-boundary-hysteresis",
+        "inputs": 111,
+        "maxSpeed": 8528.246801879728,
+        "maxProgress": 1,
+        "fullFrames": 223,
+        "stateChanges": 0
+      },
+      {
+        "phase": "E-rapid-reversal",
+        "inputs": 126,
+        "maxSpeed": 719.8221369618979,
+        "maxProgress": 1,
+        "fullFrames": 22,
+        "stateChanges": 17
+      },
+      {
+        "phase": "F-slow-release",
+        "inputs": 102,
+        "maxSpeed": 1676.3255634989966,
+        "maxProgress": 1,
+        "fullFrames": 148,
+        "stateChanges": 2
+      },
+      {
+        "phase": "F-normal-moving",
+        "inputs": 66,
+        "maxSpeed": 137.13500805355363,
+        "maxProgress": 0.244141,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "F-fast-release",
+        "inputs": 92,
+        "maxSpeed": 7874.068648726852,
+        "maxProgress": 0.97138,
+        "fullFrames": 0,
+        "stateChanges": 2
+      }
+    ],
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.30000000074505806,
+    "imageResponseMs": 0,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0,
+    "end": {
+      "raw": {
+        "x": 300,
+        "y": 200,
+        "input": 1085
+      },
+      "visual": {
+        "x": 322.99059,
+        "y": 234.010748
+      },
+      "target": {
+        "x": 300,
+        "y": 200
+      },
+      "region": {
+        "left": 1011.5,
+        "right": 2857.5,
+        "top": 865.359375,
+        "bottom": 1287.171875
+      },
+      "safeBounds": {
+        "left": 1161.5,
+        "right": 2707.5,
+        "top": 1015.359375,
+        "bottom": 1137.171875
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "imageReady": true,
+      "geometryRevision": 4,
+      "geometryDirty": false,
+      "transitions": 42,
+      "tweens": {
+        "x": true,
+        "y": true,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  },
+  {
+    "name": "natural",
+    "phases": [
+      {
+        "phase": "ordinary",
+        "inputs": 54,
+        "maxSpeed": 644.1219163977581,
+        "maxProgress": 0,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "B-moving-expansion",
+        "inputs": 96,
+        "maxSpeed": 1175.46606184757,
+        "maxProgress": 1,
+        "fullFrames": 109,
+        "stateChanges": 1
+      },
+      {
+        "phase": "C-continuous-inside",
+        "inputs": 288,
+        "maxSpeed": 2501.269463652411,
+        "maxProgress": 1,
+        "fullFrames": 589,
+        "stateChanges": 0
+      },
+      {
+        "phase": "D-boundary-hysteresis",
+        "inputs": 111,
+        "maxSpeed": 2360.0450578334917,
+        "maxProgress": 1,
+        "fullFrames": 226,
+        "stateChanges": 0
+      },
+      {
+        "phase": "F-slow-release",
+        "inputs": 102,
+        "maxSpeed": 614.0957359794667,
+        "maxProgress": 1,
+        "fullFrames": 179,
+        "stateChanges": 1
+      },
+      {
+        "phase": "F-normal-moving",
+        "inputs": 66,
+        "maxSpeed": 131.60171406657633,
+        "maxProgress": 0.000355,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "F-fast-release",
+        "inputs": 92,
+        "maxSpeed": 3067.9321289508944,
+        "maxProgress": 0.897729,
+        "fullFrames": 0,
+        "stateChanges": 2
+      }
+    ],
+    "transitionCount": 4,
+    "sameInputClassificationMaxDelayMs": 0.40000000037252903,
+    "imageResponseMs": 6.899999999999864,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0,
+    "end": {
+      "raw": {
+        "x": 300,
+        "y": 200,
+        "input": 809
+      },
+      "visual": {
+        "x": 300,
+        "y": 200
+      },
+      "target": {
+        "x": 300,
+        "y": 200
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "imageReady": true,
+      "geometryRevision": 3,
+      "geometryDirty": false,
+      "transitions": 4,
+      "tweens": {
+        "x": false,
+        "y": false,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  },
+  {
+    "name": "stress",
+    "phases": [
+      {
+        "phase": "ordinary",
+        "inputs": 54,
+        "maxSpeed": 596.5143061269735,
+        "maxProgress": 0,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "A-fast-crossings",
+        "inputs": 150,
+        "maxSpeed": 3335.419921875,
+        "maxProgress": 0.969578,
+        "fullFrames": 0,
+        "stateChanges": 20
+      },
+      {
+        "phase": "D-boundary-hysteresis",
+        "inputs": 111,
+        "maxSpeed": 560.8449825953721,
+        "maxProgress": 1,
+        "fullFrames": 153,
+        "stateChanges": 1
+      },
+      {
+        "phase": "E-rapid-reversal",
+        "inputs": 126,
+        "maxSpeed": 793.6500483981556,
+        "maxProgress": 1,
+        "fullFrames": 23,
+        "stateChanges": 17
+      },
+      {
+        "phase": "F-slow-release",
+        "inputs": 102,
+        "maxSpeed": 599.0000240046867,
+        "maxProgress": 1,
+        "fullFrames": 125,
+        "stateChanges": 2
+      },
+      {
+        "phase": "F-normal-moving",
+        "inputs": 66,
+        "maxSpeed": 130.54890035796575,
+        "maxProgress": 7.2e-05,
+        "fullFrames": 0,
+        "stateChanges": 0
+      },
+      {
+        "phase": "F-fast-release",
+        "inputs": 92,
+        "maxSpeed": 2908.8541666666665,
+        "maxProgress": 0.897729,
+        "fullFrames": 0,
+        "stateChanges": 2
+      }
+    ],
+    "transitionCount": 42,
+    "sameInputClassificationMaxDelayMs": 0.30000000074505806,
+    "imageResponseMs": null,
+    "safetyViolations": 0,
+    "largeBlackFrames": 0,
+    "maxOpacityProgressError": 0,
+    "end": {
+      "raw": {
+        "x": 300,
+        "y": 200,
+        "input": 701
+      },
+      "visual": {
+        "x": 300,
+        "y": 200
+      },
+      "target": {
+        "x": 300,
+        "y": 200
+      },
+      "region": {
+        "left": 594.96875,
+        "right": 1100.359375,
+        "top": 576.703125,
+        "bottom": 786.296875
+      },
+      "safeBounds": {
+        "left": 693.765625,
+        "right": 1001.5625,
+        "top": 675.5,
+        "bottom": 687.5
+      },
+      "mode": "NORMAL",
+      "progress": 0,
+      "diameter": 34,
+      "imageOpacity": 0,
+      "negativeOpacity": 1,
+      "magneticInfluence": 0,
+      "imageReady": true,
+      "geometryRevision": 4,
+      "geometryDirty": false,
+      "transitions": 42,
+      "tweens": {
+        "x": false,
+        "y": false,
+        "reveal": false,
+        "visibility": false
+      }
+    }
+  }
+]

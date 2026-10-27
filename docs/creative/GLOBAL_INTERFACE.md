@@ -1,0 +1,46 @@
+# STILLFORM — Global interface ownership
+
+Phase 04B.5 · 27 October 2026 · Focused release and UI polish implemented for review.
+
+The approved Hero and Manifesto remain in normal document flow. This refinement introduces the shared header and pointer; it does not implement a scroll transition or additional chapters. Historical studies and QA remain intact.
+
+## Header
+
+`SiteHeader.astro` renders one fixed header at body level, outside `.page` and the isolated Manifesto. White source lettering with `mix-blend-mode: difference` blends against the composed page. It has no backdrop or background panel. Shared gutters, the existing Onest wordmark and three information regions remain; mobile allows natural wrapping when text grows. The old section headers are removed, rather than hidden or duplicated. Section lead-in padding preserves the approved photo/headline geometry. Measured clearance protects enlarged text; CSS provides a conservative fallback without JavaScript.
+
+`site-header.ts` owns chapter state and descriptor/current-numeral transforms. The static ` / 04` is outside the numeral clipping window and never receives a chapter-roll transform. A fixed 2ch tabular numeral slot handles one/two-digit labels without moving the denominator; one hidden complete status remains accessible. Both label windows reserve the measured maximum of their two labels. A single normalized progress value moves both pairs vertically over 0.52s with power2.inOut. Reversing a transition starts from current progress, without resetting labels or creating concurrent animations. Reduced motion updates immediately. Hidden visual rows are decorative; one current descriptor and chapter status remain accessible without live announcements on every scroll.
+
+Normal section tracking compares cached Manifesto document top with a reading line at 35% of viewport height. A 24px hysteresis band prevents boundary flicker. Scroll checks use cached geometry; resize, content-size and font changes refresh it. Native scroll positions are never written by this controller.
+
+The Hero entrance **retains exclusive ownership of wordmark opacity/filter** at its original label. Its existing secondary-information timing controls descriptor/pagination viewport opacity/filter. Only those explicit targets migrate to the shared header; the entrance's photographic and headline choreography does not change. Critical reserved/running deadlines and reduced-motion fallback now include the shared targets. The chapter controller owns inner label translation only.
+
+## Pointer
+
+`GlobalPointer.astro` provides two decorative fixed layers outside page containers: a white difference circle and an unblended photographic aperture. `pointer.ts` is the sole pointer controller. It replaces the old Manifesto-specific controller; the prior source is preserved in the refinement QA folder.
+
+Admission requires ≥1024px, fine pointer, hover, no reduced-motion preference and supported blend/clip features. A successful rendered mouse position enables `data-cursor-active` on html; only then does CSS hide the native cursor. Viewport exit, blur, keyboard Tab/Escape, media cleanup and navigation restore native behavior. No pointer coordinates or click/selection events are modified or prevented.
+
+The ordinary circle is 34px. Phase 04B.4 uses two logical modes, NORMAL and MAGNETIC_REVEAL, classified synchronously from raw pointer coordinates. One reveal progress drives diameter, photograph opacity and inverse negative-layer opacity. Only a logical state change retargets its tween: 0.34s expansion / 0.24s release, power2.out. Pointer events continue to retarget position only, using 0.12s power3.out tracking. A 28% center-relative contraction plus safe bounds makes magnetic resistance perceptible throughout the interval. A 16px exit hysteresis band prevents edge flicker. Tuning values are grouped at the top of pointer.ts; no extra motion library or permanent custom animation loop exists.
+
+The measured LETS US / SEE. gap supplies horizontal bounds. The reading passage, observation, upper statement and footer supply vertical clearance; the visible viewport and fixed header also bound the safe area. The target diameter starts from clamp(190px, 14.5vw, 300px), then is reduced to fit. Phase 04B.5 keeps free pointer tracking active throughout engagement and release. Rendering interpolates between the freely tracked point and the safe magnetic projection using reveal progress. Attraction therefore decreases while the portal contracts, with no positional handoff or retarget in onComplete. The photograph itself is clipped to the existing stationary interval window so the moving circle cannot paint photography over nearby text. No region boundary, maximum diameter or release duration changes. A stationary image plane is translated inversely using that actual rendered position inside the fixed 320px clipping surface. Geometry reads occur on layout/scroll changes, not pointer ticks. A missing image retains the normal cursor and never enters a large unexplained black state.
+
+The local E Vos photograph is a **placeholder for this interaction**, reused under the existing asset/license record and credited in Hero. No new asset or download is introduced. Its eventual replacement is a separate artistic decision.
+
+Diagnostics are available without changing the interaction through `window.__stillformPointer.snapshot()`, `.transitions()` and `.tuning`. Snapshots expose raw/visual/target coordinates, region/safe bounds, mode, progress, diameter, both opacities, influence, geometry revision and tween activity. The transition ring is bounded to 80 entries. No production console or telemetry logging is added. The API is removed when the controller is ineligible/disposed.
+
+Display typography, temporary Hero lettering, descriptor/pagination and decorative footer labels use feature-scoped user-select:none. Reading paragraphs, meaningful closing copy, photo credits and links keep their native selection/navigation behavior.
+
+## Editorial footer and magnetic geometry — Phase 04B.6
+
+`SiteFooter.astro` is mounted at body level beside the header. The existing `site-header.ts` chapter controller drives its left/right rolling rows with the same normalized progress, 0.52s duration and easing; there is no second chapter detector. Desktop visibility is suppressed during the initial Hero and when cached content rectangles intersect the footer labels. Measured footer clearance protects section endings. Below 1024px the footer remains in normal flow with the Manifesto copy, independent of the header's currently visible chapter. Hero information stays in its authored composition, including the nonpersistent centered edition label. Editorial sizing and line-height use shared CSS variables. Future chapter labels extend the footer's chapter data and existing chapter state.
+
+Pointer geometry no longer reads a local Manifesto footer. Raw hit testing uses a separate interaction region derived from the LETS US / SEE. interval, upper statement, section content and viewport clearance; editorial copy is excluded. The visual safe region permits more vertical travel, uses soft bounds and circular clearance around reading/annotation rectangles, and limits the portal to available space. Diameter is fluid (225px at 1440px, 279px at 1920px, capped at 320px). The stationary photographic plane clips out editorial rectangles even during release. The two logical modes, single reveal progress and simultaneous spatial/size release from Phase 04B.5 are retained. Reduced motion, touch and missing-image fallbacks remain native. Historical geometry descriptions above document earlier phases; this paragraph supersedes their footer dependency and size limits.
+
+## Future transition integration
+
+- Import `getActiveChapter()` / `setChapterOverride(chapter | null)` from `site-header.ts`. An explicit override wins over scroll tracking. Release it with null after the transition and on disposal. Do not independently animate label rows or maintain a second active-chapter store. `stillform:chapterchange` on document and `html.dataset.activeChapter` expose current state.
+- Set `manifesto.dataset.revealReady = 'false'` during the future chapter transition. This changes the logical mode immediately and contracts the photo over the release duration while retaining the global cursor. Wait for snapshot progress 0 if a transition needs the photographic layer fully clear. Restore true only when the Manifesto is settled. Do not create another mouse follower.
+- Wait until `html.dataset.heroState` is settled/static-final before acquiring entrance targets. A coordinator can observe that attribute; the performance end mark is diagnostic, not a DOM event. Never force the entrance to settle or replay, lock scroll, or introduce a late pin when the visitor has already passed.
+- Header layout remains fixed; future chapter definitions extend the existing state union/label data. Archive and Outro do not exist yet. No ScrollTrigger dependency or transition timeline is added by this phase.
+
+[Current release/UI polish and evidence](../qa/phase-04b-5/README.md). [Previous pointer correction](../qa/phase-04b-4/README.md). [Historical header/refinement evidence](../qa/phase-04b-refinement/README.md).

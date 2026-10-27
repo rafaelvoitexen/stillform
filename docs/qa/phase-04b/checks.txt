@@ -1,0 +1,35 @@
+TypeScript strict: PASS
+✔ ten independent reload entries reset scroll and admit a fresh timeline (8.0302ms)
+✔ ordinary interaction does not finish or replay the active entry (1.5707ms)
+✔ fresh top navigation is admitted; ordinary away navigation preserves position (1.8905ms)
+✔ history scroll restoration is not replaced by reload policy (2.1336ms)
+✔ BFCache top return receives a new entry; away return stays static (1.5663ms)
+✔ reduced motion, failed assets and real deadlines remain fail-open (3.2315ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 90.5596
+22:18:27 [types] Generated 70ms
+22:18:27 [build] output: "static"
+22:18:27 [build] mode: "static"
+22:18:27 [build] directory: C:\Users\Rafael\Documents\Projetos\STILLFORM\stillform\dist\
+22:18:27 [build] Collecting build info...
+22:18:27 [build] ✓ Completed in 100ms.
+22:18:27 [build] Building static entrypoints...
+22:18:28 [vite] ✓ built in 149ms
+22:18:28 [vite] ✓ built in 55ms
+22:18:28 [build] Rearranging server assets...
+
+ generating static routes 
+22:18:28   ├─ /index.html (+13ms) 
+22:18:28 ✓ Completed in 25ms.
+
+22:18:28 [build] ✓ Completed in 289ms.
+22:18:28 [build] 1 page(s) built in 395ms
+22:18:28 [build] Complete!
+warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/index.astro', LF will be replaced by CRLF the next time Git touches it

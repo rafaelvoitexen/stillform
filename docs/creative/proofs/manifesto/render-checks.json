@@ -1,0 +1,73 @@
+[
+  {
+    "direction": "a",
+    "family": "Onest, Arial, sans-serif",
+    "font": true,
+    "h": 900,
+    "heading": "148.8px",
+    "sh": 900,
+    "sw": 1440,
+    "w": 1440
+  },
+  {
+    "direction": "b",
+    "family": "Onest, Arial, sans-serif",
+    "font": true,
+    "h": 900,
+    "heading": "91.04px",
+    "sh": 900,
+    "sw": 1440,
+    "w": 1440
+  },
+  {
+    "direction": "a",
+    "family": "Onest, Arial, sans-serif",
+    "font": true,
+    "h": 844,
+    "heading": "49.35px",
+    "sh": 844,
+    "sw": 390,
+    "w": 390
+  },
+  {
+    "direction": "b",
+    "family": "Onest, Arial, sans-serif",
+    "font": true,
+    "h": 844,
+    "heading": "51.1px",
+    "sh": 844,
+    "sw": 390,
+    "w": 390
+  },
+  {
+    "direction": "a",
+    "family": "Onest, Arial, sans-serif",
+    "font": true,
+    "h": 1024,
+    "heading": "85.76px",
+    "sh": 1024,
+    "sw": 768,
+    "w": 768
+  },
+  {
+    "direction": "a",
+    "family": "Onest, Arial, sans-serif",
+    "font": true,
+    "h": 1080,
+    "heading": "182.4px",
+    "sh": 1080,
+    "sw": 1920,
+    "w": 1920
+  },
+  {
+    "direction": "a",
+    "w": 3440,
+    "h": 1440,
+    "sw": 3440,
+    "sh": 1440,
+    "font": true,
+    "family": "Onest, Arial, sans-serif",
+    "heading": "250px",
+    "capture": "Native capture 3440x1387 is clipped; fullPage and clip APIs failed. Final CSS has no page overflow."
+  }
+]

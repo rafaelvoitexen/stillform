@@ -1,0 +1,317 @@
+{
+  "audits": [
+    {
+      "name": "1440",
+      "width": 1440,
+      "height": 900,
+      "video": false,
+      "events": 1085,
+      "frames": 0,
+      "transitions": 42,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 1085
+        },
+        "visual": {
+          "x": 305.007469,
+          "y": 217.051808
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 594.96875,
+          "right": 1100.359375,
+          "top": 576.703125,
+          "bottom": 786.296875
+        },
+        "safeBounds": {
+          "left": 693.765625,
+          "right": 1001.5625,
+          "top": 675.5,
+          "bottom": 687.5
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 4,
+        "geometryDirty": false,
+        "transitions": 42,
+        "tweens": {
+          "x": true,
+          "y": true,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    },
+    {
+      "name": "1920",
+      "width": 1920,
+      "height": 1080,
+      "video": false,
+      "events": 1085,
+      "frames": 0,
+      "transitions": 42,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 1085
+        },
+        "visual": {
+          "x": 310.763472,
+          "y": 222.069385
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 728.65625,
+          "right": 1504.34375,
+          "top": 672.46875,
+          "bottom": 927.21875
+        },
+        "safeBounds": {
+          "left": 850.03125,
+          "right": 1382.96875,
+          "top": 793.84375,
+          "bottom": 805.84375
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 4,
+        "geometryDirty": false,
+        "transitions": 42,
+        "tweens": {
+          "x": true,
+          "y": true,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    },
+    {
+      "name": "2560",
+      "width": 2560,
+      "height": 1440,
+      "video": false,
+      "events": 1085,
+      "frames": 0,
+      "transitions": 42,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 1085
+        },
+        "visual": {
+          "x": 318.585665,
+          "y": 231.790101
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 906.921875,
+          "right": 2042.9375,
+          "top": 820.5,
+          "bottom": 1219.96875
+        },
+        "safeBounds": {
+          "left": 1056.921875,
+          "right": 1892.9375,
+          "top": 970.5,
+          "bottom": 1069.96875
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 4,
+        "geometryDirty": false,
+        "transitions": 42,
+        "tweens": {
+          "x": true,
+          "y": true,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    },
+    {
+      "name": "3440",
+      "width": 3440,
+      "height": 1440,
+      "video": false,
+      "events": 1085,
+      "frames": 0,
+      "transitions": 42,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 1085
+        },
+        "visual": {
+          "x": 322.99059,
+          "y": 234.010748
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 1011.5,
+          "right": 2857.5,
+          "top": 865.359375,
+          "bottom": 1287.171875
+        },
+        "safeBounds": {
+          "left": 1161.5,
+          "right": 2707.5,
+          "top": 1015.359375,
+          "bottom": 1137.171875
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 4,
+        "geometryDirty": false,
+        "transitions": 42,
+        "tweens": {
+          "x": true,
+          "y": true,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    },
+    {
+      "name": "natural",
+      "width": 1440,
+      "height": 900,
+      "video": true,
+      "events": 809,
+      "frames": 1122,
+      "transitions": 4,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 809
+        },
+        "visual": {
+          "x": 300,
+          "y": 200
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 594.96875,
+          "right": 1100.359375,
+          "top": 576.703125,
+          "bottom": 786.296875
+        },
+        "safeBounds": {
+          "left": 693.765625,
+          "right": 1001.5625,
+          "top": 675.5,
+          "bottom": 687.5
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 5,
+        "geometryDirty": false,
+        "transitions": 4,
+        "tweens": {
+          "x": false,
+          "y": false,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    },
+    {
+      "name": "stress",
+      "width": 1440,
+      "height": 900,
+      "video": true,
+      "events": 701,
+      "frames": 968,
+      "transitions": 42,
+      "end": {
+        "raw": {
+          "x": 300,
+          "y": 200,
+          "input": 701
+        },
+        "visual": {
+          "x": 300,
+          "y": 200
+        },
+        "target": {
+          "x": 300,
+          "y": 200
+        },
+        "region": {
+          "left": 594.96875,
+          "right": 1100.359375,
+          "top": 576.703125,
+          "bottom": 786.296875
+        },
+        "safeBounds": {
+          "left": 693.765625,
+          "right": 1001.5625,
+          "top": 675.5,
+          "bottom": 687.5
+        },
+        "mode": "NORMAL",
+        "progress": 0,
+        "diameter": 34,
+        "imageOpacity": 0,
+        "negativeOpacity": 1,
+        "magneticInfluence": 0,
+        "imageReady": true,
+        "geometryRevision": 4,
+        "geometryDirty": false,
+        "transitions": 42,
+        "tweens": {
+          "x": false,
+          "y": false,
+          "reveal": false,
+          "visibility": false
+        }
+      }
+    }
+  ],
+  "errors": []
+}

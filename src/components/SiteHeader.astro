@@ -1,0 +1,42 @@
+<header class="site-header" aria-label="STILLFORM">
+  <a class="wordmark" href="#top" aria-label="STILLFORM">STILL<span>FORM</span></a>
+  <p class="descriptor">
+    <span class="sr-only" data-chapter-description>An archive of spatial observations</span>
+    <span class="label-row" aria-hidden="true"><span>An archive of<br />spatial observations</span></span>
+    <span class="label-row" aria-hidden="true"><span>Manifesto</span></span>
+  </p>
+  <p class="chapter">
+    <span class="sr-only" data-chapter-status>Section 1 of 4</span>
+    <span class="chapter-current" aria-hidden="true">
+      <span class="label-row"><span>01</span></span>
+      <span class="label-row"><span>02</span></span>
+    </span><span class="chapter-total" aria-hidden="true"> / 04</span>
+  </p>
+</header>
+
+<style>
+  .site-header { position: fixed; z-index: 50; top: 30px; left: var(--page-gutter); right: var(--page-gutter); display: grid; grid-template-columns: minmax(0, 1fr) max-content minmax(max-content, 24vw); align-items: center; gap: 24px; color: #fff; mix-blend-mode: difference; pointer-events: none; }
+  .wordmark { justify-self: start; pointer-events: auto; max-width: 100%; font-size: 1.5625rem; line-height: 1.2; font-weight: 550; letter-spacing: -.045em; text-decoration: none; overflow-wrap: anywhere; position: relative; }
+  .wordmark span { margin-left: .12em; }
+  .wordmark::after { content: ''; position: absolute; inset: -9px 0; }
+  .wordmark:focus-visible { opacity: 1 !important; outline-color: #fff; }
+  .descriptor, .chapter { position: relative; overflow: clip; height: var(--label-height, 2.275rem); font-size: .8125rem; line-height: 1.4; }
+  .descriptor { width: max-content; min-width: 9.7em; }
+  .chapter { justify-self: end; min-width: 4em; text-align: right; display: flex; justify-content: flex-end; align-items: center; font-variant-numeric: tabular-nums; }
+  .chapter-current { position: relative; display: block; overflow: clip; flex: 0 0 2ch; width: 2ch; height: 100%; }
+  .chapter-total { white-space: pre; }
+  .descriptor, .chapter { -webkit-user-select: none; user-select: none; }
+  .label-row { position: absolute; inset: 0; display: flex; align-items: center; }
+  .chapter .label-row { justify-content: flex-end; }
+  .label-row + .label-row { transform: translateY(100%); }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  @media (max-width: 1023px) {
+    .site-header { top: 25px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .wordmark { font-size: clamp(1.125rem, 5vw, 1.375rem); margin-right: auto; flex-shrink: 0; }
+    .descriptor, .chapter { font-size: .75rem; line-height: 1.35; height: var(--label-height, 2.025rem); }
+    .descriptor { max-width: 100%; }
+    .chapter { flex-shrink: 0; margin-left: auto; }
+  }
+</style>
+
+<script>import '../scripts/site-header';</script>

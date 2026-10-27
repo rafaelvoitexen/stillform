@@ -1,0 +1,18 @@
+12:47:38 [types] Generated 79ms
+12:47:38 [build] output: "static"
+12:47:38 [build] mode: "static"
+12:47:38 [build] directory: C:\Users\Rafael\Documents\Projetos\STILLFORM\stillform\dist\
+12:47:38 [build] Collecting build info...
+12:47:38 [build] ✓ Completed in 91ms.
+12:47:38 [build] Building static entrypoints...
+12:47:38 [vite] ✓ built in 264ms
+12:47:38 [vite] ✓ built in 66ms
+12:47:38 [build] Rearranging server assets...
+
+ generating static routes 
+12:47:38   ├─ /index.html (+12ms) 
+12:47:38 ✓ Completed in 24ms.
+
+12:47:38 [build] ✓ Completed in 405ms.
+12:47:38 [build] 1 page(s) built in 500ms
+12:47:38 [build] Complete!

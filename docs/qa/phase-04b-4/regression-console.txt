@@ -1,0 +1,273 @@
+[
+  {
+    width: 1440,
+    name: 'hero-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'hero'
+  },
+  {
+    width: 1440,
+    name: 'manifesto-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 1440,
+    name: 'portal',
+    native: 'none',
+    portal: '1',
+    diameter: 197.59375,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 1440,
+    name: 'approach',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 1440,
+    name: 'release',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 1920,
+    name: 'hero-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'hero'
+  },
+  {
+    width: 1920,
+    name: 'manifesto-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 1920,
+    name: 'portal',
+    native: 'none',
+    portal: '1',
+    diameter: 242.75,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 1920,
+    name: 'approach',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 1920,
+    name: 'release',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 2560,
+    name: 'hero-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'hero'
+  },
+  {
+    width: 2560,
+    name: 'manifesto-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 2560,
+    name: 'portal',
+    native: 'none',
+    portal: '1',
+    diameter: 300,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 2560,
+    name: 'approach',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 2560,
+    name: 'release',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 3440,
+    name: 'hero-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'hero'
+  },
+  {
+    width: 3440,
+    name: 'manifesto-negative',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 3440,
+    name: 'portal',
+    native: 'none',
+    portal: '1',
+    diameter: 300,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 3440,
+    name: 'approach',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 3440,
+    name: 'release',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 768,
+    name: 'hero-negative',
+    native: 'auto',
+    portal: '0',
+    diameter: 0,
+    overflow: false,
+    chapter: 'hero'
+  },
+  {
+    width: 768,
+    name: 'manifesto-negative',
+    native: 'auto',
+    portal: '0',
+    diameter: 0,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: 390,
+    name: 'hero-negative',
+    native: 'auto',
+    portal: '0',
+    diameter: 0,
+    overflow: false,
+    chapter: 'hero'
+  },
+  {
+    width: 390,
+    name: 'manifesto-negative',
+    native: 'auto',
+    portal: '0',
+    diameter: 0,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: undefined,
+    name: 'deep-link',
+    native: 'auto',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: undefined,
+    name: 'viewport-exit',
+    native: 'auto',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: undefined,
+    name: 'keyboard',
+    native: 'auto',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: undefined,
+    name: 'gate',
+    native: 'none',
+    portal: '0',
+    diameter: 34,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: undefined,
+    name: 'reduced',
+    native: 'auto',
+    portal: '0',
+    diameter: 0,
+    overflow: false,
+    chapter: 'manifesto'
+  },
+  {
+    width: undefined,
+    name: 'coarse-pointer-desktop',
+    native: 'auto',
+    portal: '0',
+    diameter: 0,
+    overflow: false,
+    chapter: 'manifesto'
+  }
+]
+errors 0

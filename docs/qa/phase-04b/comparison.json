@@ -1,0 +1,83 @@
+{
+  "hero": [
+    {
+      "size": "1440x900",
+      "changedPixels": 295,
+      "maxChannelDifference": 2,
+      "pixelsOver3": 0,
+      "bbox": [
+        38,
+        156,
+        733,
+        682
+      ]
+    },
+    {
+      "size": "2560x1440",
+      "changedPixels": 527,
+      "maxChannelDifference": 3,
+      "pixelsOver3": 0,
+      "bbox": [
+        71,
+        174,
+        1305,
+        1116
+      ]
+    },
+    {
+      "size": "3440x1440",
+      "changedPixels": 116,
+      "maxChannelDifference": 2,
+      "pixelsOver3": 0,
+      "bbox": [
+        263,
+        204,
+        1967,
+        1198
+      ]
+    },
+    {
+      "size": "768x1024",
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "pixelsOver3": 0,
+      "bbox": null
+    },
+    {
+      "size": "390x844",
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "pixelsOver3": 0,
+      "bbox": null
+    },
+    {
+      "size": "360x780",
+      "changedPixels": 0,
+      "maxChannelDifference": 0,
+      "pixelsOver3": 0,
+      "bbox": null
+    }
+  ],
+  "headings": [
+    {
+      "role": "heading",
+      "name": "Built around absence."
+    },
+    {
+      "role": "heading",
+      "name": "What we leave open lets us see."
+    }
+  ],
+  "portal": {
+    "changedBounds": [
+      35,
+      34,
+      1404,
+      870
+    ],
+    "pixelsOutsideAperture": 13176,
+    "pixelsOutsideApertureAndTextFringes": 0,
+    "edgeTolerance": 1.5,
+    "note": "Difference blending changes Chrome text antialiasing when promoted. Exclude a 2px text fringe to distinguish rerasterization from photographic leakage."
+  }
+}

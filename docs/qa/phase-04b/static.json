@@ -1,0 +1,1528 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "scroll": 900,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0.171875,
+      "width": 1440,
+      "height": 900,
+      "top": 0.171875,
+      "right": 1440,
+      "bottom": 900.171875,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 36,
+          "y": 136.953125,
+          "width": 1367.984375,
+          "height": 145.8125,
+          "top": 136.953125,
+          "right": 1403.984375,
+          "bottom": 282.765625,
+          "left": 36
+        },
+        "font": "148.8px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 267.328125,
+          "y": 282.765625,
+          "width": 1136.65625,
+          "height": 145.8125,
+          "top": 282.765625,
+          "right": 1403.984375,
+          "bottom": 428.578125,
+          "left": 267.328125
+        },
+        "font": "148.8px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 36,
+          "y": 428.578125,
+          "width": 1367.984375,
+          "height": 180,
+          "top": 428.578125,
+          "right": 1403.984375,
+          "bottom": 608.578125,
+          "left": 36
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 36,
+          "y": 608.578125,
+          "width": 1367.984375,
+          "height": 145.8125,
+          "top": 608.578125,
+          "right": 1403.984375,
+          "bottom": 754.390625,
+          "left": 36
+        },
+        "font": "148.8px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 961.328125,
+          "y": 476.453125,
+          "width": 373.25,
+          "height": 84.234375,
+          "top": 476.453125,
+          "right": 1334.578125,
+          "bottom": 560.6875,
+          "left": 961.328125
+        },
+        "font": "18.72px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 267.328125,
+          "y": 500.578125,
+          "width": 327,
+          "height": 36,
+          "top": 500.578125,
+          "right": 594.328125,
+          "bottom": 536.578125,
+          "left": 267.328125
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 36,
+          "y": 813.390625,
+          "width": 1368,
+          "height": 58.78125,
+          "top": 813.390625,
+          "right": 1404,
+          "bottom": 872.171875,
+          "left": 36
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "scroll": 1080,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0.171875,
+      "width": 1920,
+      "height": 1080,
+      "top": 0.171875,
+      "right": 1920,
+      "bottom": 1080.171875,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 48,
+          "y": 136.953125,
+          "width": 1824,
+          "height": 178.75,
+          "top": 136.953125,
+          "right": 1872,
+          "bottom": 315.703125,
+          "left": 48
+        },
+        "font": "182.4px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 355.328125,
+          "y": 315.703125,
+          "width": 1516.671875,
+          "height": 178.75,
+          "top": 315.703125,
+          "right": 1872,
+          "bottom": 494.453125,
+          "left": 355.328125
+        },
+        "font": "182.4px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 48,
+          "y": 494.453125,
+          "width": 1824,
+          "height": 216,
+          "top": 494.453125,
+          "right": 1872,
+          "bottom": 710.453125,
+          "left": 48
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 48,
+          "y": 710.453125,
+          "width": 1824,
+          "height": 178.75,
+          "top": 710.453125,
+          "right": 1872,
+          "bottom": 889.203125,
+          "left": 48
+        },
+        "font": "182.4px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 1277.328125,
+          "y": 548.453125,
+          "width": 478.796875,
+          "height": 108,
+          "top": 548.453125,
+          "right": 1756.125,
+          "bottom": 656.453125,
+          "left": 1277.328125
+        },
+        "font": "24px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 355.328125,
+          "y": 584.453125,
+          "width": 441,
+          "height": 36,
+          "top": 584.453125,
+          "right": 796.328125,
+          "bottom": 620.453125,
+          "left": 355.328125
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 48,
+          "y": 993.390625,
+          "width": 1824,
+          "height": 58.78125,
+          "top": 993.390625,
+          "right": 1872,
+          "bottom": 1052.171875,
+          "left": 48
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 2560,
+    "height": 1440,
+    "scroll": 1440,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0,
+      "width": 2560,
+      "height": 1440,
+      "top": 0,
+      "right": 2560,
+      "bottom": 1440,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 64,
+          "y": 146.78125,
+          "width": 2431.984375,
+          "height": 222.65625,
+          "top": 146.78125,
+          "right": 2495.984375,
+          "bottom": 369.4375,
+          "left": 64
+        },
+        "font": "227.2px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 472.65625,
+          "y": 369.4375,
+          "width": 2023.328125,
+          "height": 222.65625,
+          "top": 369.4375,
+          "right": 2495.984375,
+          "bottom": 592.09375,
+          "left": 472.65625
+        },
+        "font": "227.2px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 64,
+          "y": 592.09375,
+          "width": 2431.984375,
+          "height": 316.796875,
+          "top": 592.09375,
+          "right": 2495.984375,
+          "bottom": 908.890625,
+          "left": 64
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 64,
+          "y": 908.890625,
+          "width": 2431.984375,
+          "height": 222.65625,
+          "top": 908.890625,
+          "right": 2495.984375,
+          "bottom": 1131.546875,
+          "left": 64
+        },
+        "font": "227.2px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 1698.65625,
+          "y": 696.484375,
+          "width": 446.875,
+          "height": 108,
+          "top": 696.484375,
+          "right": 2145.53125,
+          "bottom": 804.484375,
+          "left": 1698.65625
+        },
+        "font": "24px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 472.65625,
+          "y": 732.484375,
+          "width": 593,
+          "height": 36,
+          "top": 732.484375,
+          "right": 1065.65625,
+          "bottom": 768.484375,
+          "left": 472.65625
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 64,
+          "y": 1353.21875,
+          "width": 2432,
+          "height": 58.78125,
+          "top": 1353.21875,
+          "right": 2496,
+          "bottom": 1412,
+          "left": 64
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "scroll": 1440,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0.171875,
+      "width": 3440,
+      "height": 1440,
+      "top": 0.171875,
+      "right": 3440,
+      "bottom": 1440.171875,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 86,
+          "y": 146.953125,
+          "width": 3268,
+          "height": 245,
+          "top": 146.953125,
+          "right": 3354,
+          "bottom": 391.953125,
+          "left": 86
+        },
+        "font": "250px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 634,
+          "y": 391.953125,
+          "width": 2720,
+          "height": 245,
+          "top": 391.953125,
+          "right": 3354,
+          "bottom": 636.953125,
+          "left": 634
+        },
+        "font": "250px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 86,
+          "y": 636.953125,
+          "width": 3268,
+          "height": 316.796875,
+          "top": 636.953125,
+          "right": 3354,
+          "bottom": 953.75,
+          "left": 86
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 86,
+          "y": 953.75,
+          "width": 3268,
+          "height": 245,
+          "top": 953.75,
+          "right": 3354,
+          "bottom": 1198.75,
+          "left": 86
+        },
+        "font": "250px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 2278,
+          "y": 741.34375,
+          "width": 446.875,
+          "height": 108,
+          "top": 741.34375,
+          "right": 2724.875,
+          "bottom": 849.34375,
+          "left": 2278
+        },
+        "font": "24px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 634,
+          "y": 777.34375,
+          "width": 802,
+          "height": 36,
+          "top": 777.34375,
+          "right": 1436,
+          "bottom": 813.34375,
+          "left": 634
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 86,
+          "y": 1353.390625,
+          "width": 3268,
+          "height": 58.78125,
+          "top": 1353.390625,
+          "right": 3354,
+          "bottom": 1412.171875,
+          "left": 86
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "scroll": 1157,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": -0.21875,
+      "width": 768,
+      "height": 1024,
+      "top": -0.21875,
+      "right": 768,
+      "bottom": 1023.78125,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 24,
+          "y": 159.5625,
+          "width": 720,
+          "height": 84.046875,
+          "top": 159.5625,
+          "right": 744,
+          "bottom": 243.609375,
+          "left": 24
+        },
+        "font": "85.76px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 85,
+          "y": 243.609375,
+          "width": 659,
+          "height": 84.046875,
+          "top": 243.609375,
+          "right": 744,
+          "bottom": 327.65625,
+          "left": 85
+        },
+        "font": "85.76px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 24,
+          "y": 327.65625,
+          "width": 720,
+          "height": 260,
+          "top": 327.65625,
+          "right": 744,
+          "bottom": 587.65625,
+          "left": 24
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 24,
+          "y": 587.65625,
+          "width": 720,
+          "height": 84.046875,
+          "top": 587.65625,
+          "right": 744,
+          "bottom": 671.703125,
+          "left": 24
+        },
+        "font": "85.76px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 390,
+          "y": 419.40625,
+          "width": 339.140625,
+          "height": 76.5,
+          "top": 419.40625,
+          "right": 729.140625,
+          "bottom": 495.90625,
+          "left": 390
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 85,
+          "y": 439.65625,
+          "width": 171,
+          "height": 36,
+          "top": 439.65625,
+          "right": 256,
+          "bottom": 475.65625,
+          "left": 85
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 24,
+          "y": 913,
+          "width": 720,
+          "height": 82.78125,
+          "top": 913,
+          "right": 744,
+          "bottom": 995.78125,
+          "left": 24
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "scroll": 889,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": -0.28125,
+      "width": 390,
+      "height": 844,
+      "top": -0.28125,
+      "right": 390,
+      "bottom": 843.71875,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 20,
+          "y": 124.109375,
+          "width": 349.984375,
+          "height": 51.3125,
+          "top": 124.109375,
+          "right": 369.984375,
+          "bottom": 175.421875,
+          "left": 20
+        },
+        "font": "49.35px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 49.15625,
+          "y": 180.421875,
+          "width": 320.828125,
+          "height": 51.3125,
+          "top": 180.421875,
+          "right": 369.984375,
+          "bottom": 231.734375,
+          "left": 49.15625
+        },
+        "font": "49.35px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 20,
+          "y": 231.734375,
+          "width": 349.984375,
+          "height": 260,
+          "top": 231.734375,
+          "right": 369.984375,
+          "bottom": 491.734375,
+          "left": 20
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 20,
+          "y": 491.734375,
+          "width": 349.984375,
+          "height": 107.625,
+          "top": 491.734375,
+          "right": 369.984375,
+          "bottom": 599.359375,
+          "left": 20
+        },
+        "font": "49.35px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 107.484375,
+          "y": 349.8125,
+          "width": 262.5,
+          "height": 98.5625,
+          "top": 349.8125,
+          "right": 369.984375,
+          "bottom": 448.375,
+          "left": 107.484375
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 49.15625,
+          "y": 266.734375,
+          "width": 320.828125,
+          "height": 36,
+          "top": 266.734375,
+          "right": 369.984375,
+          "bottom": 302.734375,
+          "left": 49.15625
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 20,
+          "y": 726.15625,
+          "width": 350,
+          "height": 93.5625,
+          "top": 726.15625,
+          "right": 370,
+          "bottom": 819.71875,
+          "left": 20
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 360,
+    "height": 780,
+    "scroll": 838,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0.25,
+      "width": 360,
+      "height": 780,
+      "top": 0.25,
+      "right": 360,
+      "bottom": 780.25,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 20,
+          "y": 124.640625,
+          "width": 319.984375,
+          "height": 49.296875,
+          "top": 124.640625,
+          "right": 339.984375,
+          "bottom": 173.9375,
+          "left": 20
+        },
+        "font": "47.4px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 46.65625,
+          "y": 178.9375,
+          "width": 293.328125,
+          "height": 49.296875,
+          "top": 178.9375,
+          "right": 339.984375,
+          "bottom": 228.234375,
+          "left": 46.65625
+        },
+        "font": "47.4px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 20,
+          "y": 228.234375,
+          "width": 319.984375,
+          "height": 260,
+          "top": 228.234375,
+          "right": 339.984375,
+          "bottom": 488.234375,
+          "left": 20
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 20,
+          "y": 488.234375,
+          "width": 319.984375,
+          "height": 103.59375,
+          "top": 488.234375,
+          "right": 339.984375,
+          "bottom": 591.828125,
+          "left": 20
+        },
+        "font": "47.4px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 99.984375,
+          "y": 346.3125,
+          "width": 240,
+          "height": 98.5625,
+          "top": 346.3125,
+          "right": 339.984375,
+          "bottom": 444.875,
+          "left": 99.984375
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 46.65625,
+          "y": 263.234375,
+          "width": 293.328125,
+          "height": 36,
+          "top": 263.234375,
+          "right": 339.984375,
+          "bottom": 299.234375,
+          "left": 46.65625
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 20,
+          "y": 662.6875,
+          "width": 320,
+          "height": 93.5625,
+          "top": 662.6875,
+          "right": 340,
+          "bottom": 756.25,
+          "left": 20
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 320,
+    "height": 780,
+    "scroll": 780,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 780,
+      "top": 0,
+      "right": 320,
+      "bottom": 780,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 20,
+          "y": 124.390625,
+          "width": 280,
+          "height": 46.578125,
+          "top": 124.390625,
+          "right": 300,
+          "bottom": 170.96875,
+          "left": 20
+        },
+        "font": "44.8px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 43.328125,
+          "y": 175.96875,
+          "width": 256.671875,
+          "height": 46.578125,
+          "top": 175.96875,
+          "right": 300,
+          "bottom": 222.546875,
+          "left": 43.328125
+        },
+        "font": "44.8px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 20,
+          "y": 222.546875,
+          "width": 280,
+          "height": 260,
+          "top": 222.546875,
+          "right": 300,
+          "bottom": 482.546875,
+          "left": 20
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 20,
+          "y": 482.546875,
+          "width": 280,
+          "height": 98.15625,
+          "top": 482.546875,
+          "right": 300,
+          "bottom": 580.703125,
+          "left": 20
+        },
+        "font": "44.8px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 90,
+          "y": 322.140625,
+          "width": 210,
+          "height": 123.203125,
+          "top": 322.140625,
+          "right": 300,
+          "bottom": 445.34375,
+          "left": 90
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 43.328125,
+          "y": 257.546875,
+          "width": 256.671875,
+          "height": 36,
+          "top": 257.546875,
+          "right": 300,
+          "bottom": 293.546875,
+          "left": 43.328125
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 20,
+          "y": 662.4375,
+          "width": 280,
+          "height": 93.5625,
+          "top": 662.4375,
+          "right": 300,
+          "bottom": 756,
+          "left": 20
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 600,
+    "height": 900,
+    "scroll": 1061,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": -0.34375,
+      "width": 600,
+      "height": 900,
+      "top": -0.34375,
+      "right": 600,
+      "bottom": 899.65625,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 20,
+          "y": 159.4375,
+          "width": 560,
+          "height": 72.515625,
+          "top": 159.4375,
+          "right": 580,
+          "bottom": 231.953125,
+          "left": 20
+        },
+        "font": "74px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 67.65625,
+          "y": 231.953125,
+          "width": 512.34375,
+          "height": 72.515625,
+          "top": 231.953125,
+          "right": 580,
+          "bottom": 304.46875,
+          "left": 67.65625
+        },
+        "font": "74px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 20,
+          "y": 304.46875,
+          "width": 560,
+          "height": 260,
+          "top": 304.46875,
+          "right": 580,
+          "bottom": 564.46875,
+          "left": 20
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 20,
+          "y": 564.46875,
+          "width": 560,
+          "height": 72.515625,
+          "top": 564.46875,
+          "right": 580,
+          "bottom": 636.984375,
+          "left": 20
+        },
+        "font": "74px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 306,
+          "y": 383.46875,
+          "width": 274,
+          "height": 102,
+          "top": 383.46875,
+          "right": 580,
+          "bottom": 485.46875,
+          "left": 306
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 67.65625,
+          "y": 407.46875,
+          "width": 131,
+          "height": 54,
+          "top": 407.46875,
+          "right": 198.65625,
+          "bottom": 461.46875,
+          "left": 67.65625
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 20,
+          "y": 788.875,
+          "width": 560,
+          "height": 82.78125,
+          "top": 788.875,
+          "right": 580,
+          "bottom": 871.65625,
+          "left": 20
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 900,
+    "height": 900,
+    "scroll": 1157,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": -0.21875,
+      "width": 900,
+      "height": 900,
+      "top": -0.21875,
+      "right": 900,
+      "bottom": 899.78125,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 24,
+          "y": 159.5625,
+          "width": 852,
+          "height": 93.09375,
+          "top": 159.5625,
+          "right": 876,
+          "bottom": 252.65625,
+          "left": 24
+        },
+        "font": "95px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 96,
+          "y": 252.65625,
+          "width": 780,
+          "height": 93.09375,
+          "top": 252.65625,
+          "right": 876,
+          "bottom": 345.75,
+          "left": 96
+        },
+        "font": "95px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 24,
+          "y": 345.75,
+          "width": 852,
+          "height": 260,
+          "top": 345.75,
+          "right": 876,
+          "bottom": 605.75,
+          "left": 24
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 24,
+          "y": 605.75,
+          "width": 852,
+          "height": 93.09375,
+          "top": 605.75,
+          "right": 876,
+          "bottom": 698.84375,
+          "left": 24
+        },
+        "font": "95px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 456,
+          "y": 437.5,
+          "width": 339.140625,
+          "height": 76.5,
+          "top": 437.5,
+          "right": 795.140625,
+          "bottom": 514,
+          "left": 456
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 96,
+          "y": 457.75,
+          "width": 204,
+          "height": 36,
+          "top": 457.75,
+          "right": 300,
+          "bottom": 493.75,
+          "left": 96
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 24,
+          "y": 789,
+          "width": 852,
+          "height": 82.78125,
+          "top": 789,
+          "right": 876,
+          "bottom": 871.78125,
+          "left": 24
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "scroll": 768,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 768,
+      "top": 0,
+      "right": 1024,
+      "bottom": 768,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 25.59375,
+          "y": 136.78125,
+          "width": 972.8125,
+          "height": 117.28125,
+          "top": 136.78125,
+          "right": 998.40625,
+          "bottom": 254.0625,
+          "left": 25.59375
+        },
+        "font": "119.68px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 191.0625,
+          "y": 254.0625,
+          "width": 807.34375,
+          "height": 117.28125,
+          "top": 254.0625,
+          "right": 998.40625,
+          "bottom": 371.34375,
+          "left": 191.0625
+        },
+        "font": "119.68px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 25.59375,
+          "y": 371.34375,
+          "width": 972.8125,
+          "height": 153.59375,
+          "top": 371.34375,
+          "right": 998.40625,
+          "bottom": 524.9375,
+          "left": 25.59375
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 25.59375,
+          "y": 524.9375,
+          "width": 972.8125,
+          "height": 117.28125,
+          "top": 524.9375,
+          "right": 998.40625,
+          "bottom": 642.21875,
+          "left": 25.59375
+        },
+        "font": "119.68px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 687.46875,
+          "y": 409.890625,
+          "width": 310.9375,
+          "height": 76.5,
+          "top": 409.890625,
+          "right": 998.40625,
+          "bottom": 486.390625,
+          "left": 687.46875
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 191.0625,
+          "y": 430.140625,
+          "width": 228.203125,
+          "height": 36,
+          "top": 430.140625,
+          "right": 419.265625,
+          "bottom": 466.140625,
+          "left": 191.0625
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 25.59375,
+          "y": 681.21875,
+          "width": 972.8125,
+          "height": 58.78125,
+          "top": 681.21875,
+          "right": 998.40625,
+          "bottom": 740,
+          "left": 25.59375
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 1280,
+    "height": 800,
+    "scroll": 828,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": -0.0625,
+      "width": 1280,
+      "height": 816.046875,
+      "top": -0.0625,
+      "right": 1280,
+      "bottom": 815.984375,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 32,
+          "y": 136.71875,
+          "width": 1216,
+          "height": 134.828125,
+          "top": 136.71875,
+          "right": 1248,
+          "bottom": 271.546875,
+          "left": 32
+        },
+        "font": "137.6px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 238,
+          "y": 271.546875,
+          "width": 1010,
+          "height": 134.828125,
+          "top": 271.546875,
+          "right": 1248,
+          "bottom": 406.375,
+          "left": 238
+        },
+        "font": "137.6px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 32,
+          "y": 406.375,
+          "width": 1216,
+          "height": 160,
+          "top": 406.375,
+          "right": 1248,
+          "bottom": 566.375,
+          "left": 32
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 32,
+          "y": 566.375,
+          "width": 1216,
+          "height": 134.828125,
+          "top": 566.375,
+          "right": 1248,
+          "bottom": 701.203125,
+          "left": 32
+        },
+        "font": "137.6px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 856,
+          "y": 448.125,
+          "width": 339.140625,
+          "height": 76.5,
+          "top": 448.125,
+          "right": 1195.140625,
+          "bottom": 524.625,
+          "left": 856
+        },
+        "font": "17px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 238,
+          "y": 468.375,
+          "width": 289,
+          "height": 36,
+          "top": 468.375,
+          "right": 527,
+          "bottom": 504.375,
+          "left": 238
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 32,
+          "y": 729.203125,
+          "width": 1216,
+          "height": 58.78125,
+          "top": 729.203125,
+          "right": 1248,
+          "bottom": 787.984375,
+          "left": 32
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 1600,
+    "height": 1000,
+    "scroll": 1000,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1000,
+      "top": 0,
+      "right": 1600,
+      "bottom": 1000,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 40,
+          "y": 136.78125,
+          "width": 1520,
+          "height": 156.796875,
+          "top": 136.78125,
+          "right": 1560,
+          "bottom": 293.578125,
+          "left": 40
+        },
+        "font": "160px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 296.65625,
+          "y": 293.578125,
+          "width": 1263.34375,
+          "height": 156.796875,
+          "top": 293.578125,
+          "right": 1560,
+          "bottom": 450.375,
+          "left": 296.65625
+        },
+        "font": "160px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 40,
+          "y": 450.375,
+          "width": 1520,
+          "height": 200,
+          "top": 450.375,
+          "right": 1560,
+          "bottom": 650.375,
+          "left": 40
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 40,
+          "y": 650.375,
+          "width": 1520,
+          "height": 156.796875,
+          "top": 650.375,
+          "right": 1560,
+          "bottom": 807.171875,
+          "left": 40
+        },
+        "font": "160px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 1066.65625,
+          "y": 503.59375,
+          "width": 414.953125,
+          "height": 93.5625,
+          "top": 503.59375,
+          "right": 1481.609375,
+          "bottom": 597.15625,
+          "left": 1066.65625
+        },
+        "font": "20.8px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 296.65625,
+          "y": 532.375,
+          "width": 365,
+          "height": 36,
+          "top": 532.375,
+          "right": 661.65625,
+          "bottom": 568.375,
+          "left": 296.65625
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 40,
+          "y": 913.21875,
+          "width": 1520,
+          "height": 58.78125,
+          "top": 913.21875,
+          "right": 1560,
+          "bottom": 972,
+          "left": 40
+        },
+        "font": "12px"
+      }
+    }
+  },
+  {
+    "width": 3840,
+    "height": 1600,
+    "scroll": 1600,
+    "overflow": false,
+    "section": {
+      "x": 0,
+      "y": 0,
+      "width": 3840,
+      "height": 1600,
+      "top": 0,
+      "right": 3840,
+      "bottom": 1600,
+      "left": 0
+    },
+    "elements": {
+      ".line-one": {
+        "rect": {
+          "x": 96,
+          "y": 146.78125,
+          "width": 3648,
+          "height": 245,
+          "top": 146.78125,
+          "right": 3744,
+          "bottom": 391.78125,
+          "left": 96
+        },
+        "font": "250px"
+      },
+      ".line-two": {
+        "rect": {
+          "x": 707.328125,
+          "y": 391.78125,
+          "width": 3036.671875,
+          "height": 245,
+          "top": 391.78125,
+          "right": 3744,
+          "bottom": 636.78125,
+          "left": 707.328125
+        },
+        "font": "250px"
+      },
+      ".interval": {
+        "rect": {
+          "x": 96,
+          "y": 636.78125,
+          "width": 3648,
+          "height": 352,
+          "top": 636.78125,
+          "right": 3744,
+          "bottom": 988.78125,
+          "left": 96
+        },
+        "font": "16px"
+      },
+      ".line-three": {
+        "rect": {
+          "x": 96,
+          "y": 988.78125,
+          "width": 3648,
+          "height": 245,
+          "top": 988.78125,
+          "right": 3744,
+          "bottom": 1233.78125,
+          "left": 96
+        },
+        "font": "250px"
+      },
+      ".reading": {
+        "rect": {
+          "x": 2541.328125,
+          "y": 758.78125,
+          "width": 446.875,
+          "height": 108,
+          "top": 758.78125,
+          "right": 2988.203125,
+          "bottom": 866.78125,
+          "left": 2541.328125
+        },
+        "font": "24px"
+      },
+      ".annotation": {
+        "rect": {
+          "x": 707.328125,
+          "y": 794.78125,
+          "width": 897,
+          "height": 36,
+          "top": 794.78125,
+          "right": 1604.328125,
+          "bottom": 830.78125,
+          "left": 707.328125
+        },
+        "font": "12px"
+      },
+      ".manifesto-footer": {
+        "rect": {
+          "x": 96,
+          "y": 1513.21875,
+          "width": 3648,
+          "height": 58.78125,
+          "top": 1513.21875,
+          "right": 3744,
+          "bottom": 1572,
+          "left": 96
+        },
+        "font": "12px"
+      }
+    }
+  }
+]

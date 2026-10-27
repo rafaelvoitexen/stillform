@@ -1,0 +1,132 @@
+[
+  {
+    width: 1440,
+    name: 'hero-selection',
+    selector: undefined,
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1440,
+    name: 'selection',
+    selector: '.line-one',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1440,
+    name: 'selection',
+    selector: '.descriptor',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1440,
+    name: 'selection',
+    selector: '.chapter',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1440,
+    name: 'selection',
+    selector: '.reading',
+    selection: 'Light enters where mass stops.\n' +
+      'An opening gives the eye a passage, and the body a sense of scale.',
+    css: 'auto'
+  },
+  {
+    width: 1440,
+    name: 'selection',
+    selector: '.footnote',
+    selection: 'We collect the moments when\nan absence becomes perceptible',
+    css: 'auto'
+  },
+  {
+    width: 1920,
+    name: 'hero-selection',
+    selector: undefined,
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1920,
+    name: 'selection',
+    selector: '.line-one',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1920,
+    name: 'selection',
+    selector: '.descriptor',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1920,
+    name: 'selection',
+    selector: '.chapter',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 1920,
+    name: 'selection',
+    selector: '.reading',
+    selection: 'Light enters where mass stops.\n' +
+      'An opening gives the eye a passage, and the body a sense of scale.',
+    css: 'auto'
+  },
+  {
+    width: 1920,
+    name: 'selection',
+    selector: '.footnote',
+    selection: 'We collect the moments when\nan absence becomes perceptible',
+    css: 'auto'
+  },
+  {
+    width: 390,
+    name: 'hero-selection',
+    selector: undefined,
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 390,
+    name: 'selection',
+    selector: '.line-one',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 390,
+    name: 'selection',
+    selector: '.descriptor',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 390,
+    name: 'selection',
+    selector: '.chapter',
+    selection: '',
+    css: 'none'
+  },
+  {
+    width: 390,
+    name: 'selection',
+    selector: '.reading',
+    selection: 'Light enters where mass stops.\n' +
+      'An opening gives the eye a passage, and the body a sense of scale.',
+    css: 'auto'
+  },
+  {
+    width: 390,
+    name: 'selection',
+    selector: '.footnote',
+    selection: 'We collect the moments when\nan absence becomes perceptible.',
+    css: 'auto'
+  }
+]
+errors 0

@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';import {send,evaluate,delay,shot,target,ws,out} from './cdp.mjs';
+const results=[];await send('Page.bringToFront');await send('Emulation.setDeviceMetricsOverride',{width:1440,height:900,deviceScaleFactor:1,mobile:false});
+await send('Page.navigate',{url:'http://127.0.0.1:4326/'});await delay(4700);await evaluate("document.querySelector('#manifesto').scrollIntoView()");await delay(150);await shot('portal-before');
+const gap=await evaluate("document.querySelector('.revealing-void').getBoundingClientRect().toJSON()");await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:gap.x+gap.width/2,y:gap.y+gap.height/2});await delay(350);await shot('portal-isolation');
+results.push({name:'portal',rect:await evaluate("document.querySelector('.void-portal').getBoundingClientRect().toJSON()")});
+await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:-10,y:400});await delay(300);
+results.push({name:'pointer-leave',...await evaluate("({negative:getComputedStyle(document.querySelector('.void-negative')).opacity,portal:getComputedStyle(document.querySelector('.void-portal')).opacity})")});
+await evaluate('scrollTo(0,0)');await delay(100);await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Tab',code:'Tab',windowsVirtualKeyCode:9});await send('Input.dispatchKeyEvent',{type:'keyUp',key:'Tab',code:'Tab',windowsVirtualKeyCode:9});results.push({name:'keyboard',focus:await evaluate("({tag:document.activeElement.tagName,label:document.activeElement.getAttribute('aria-label'),outline:getComputedStyle(document.activeElement).outlineStyle})")});
+await send('Network.setBlockedURLs',{urls:['*Onest-Latin-Variable.woff2*']});await send('Network.setCacheDisabled',{cacheDisabled:true});
+for(const width of[390,1440]){await send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:false});await send('Page.navigate',{url:'http://127.0.0.1:4326/'});await delay(650);results.push({name:'font-failure',width,...await evaluate("({copy:document.querySelector('.reading').innerText,overflow:document.documentElement.scrollWidth>innerWidth,heading:document.querySelector('h2').getAttribute('aria-label')})")});}
+await fs.writeFile(new URL('boundaries.json',out),JSON.stringify(results,null,2));console.log(results);await fetch('http://127.0.0.1:9229/json/close/'+target.id);ws.close();

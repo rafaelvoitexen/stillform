@@ -1,0 +1,36 @@
+---
+const chapters = [
+  { id: 'hero', left: ['Architecture defines', 'the space that is not built.'], right: 'Light / Mass / Interval' },
+  { id: 'manifesto', left: ['We collect the moments when', 'an absence becomes perceptible.'], right: 'Light / Mass / Perception' },
+];
+---
+<footer class="site-footer" aria-label="Editorial information">
+  <p class="sr-only" data-editorial-status>Architecture defines the space that is not built. Light / Mass / Interval</p>
+  <p class="editorial-left" data-editorial-window aria-hidden="true">
+    <span class="editorial-motion">{chapters.map(chapter => <span class="label-row" data-chapter={chapter.id} data-editorial-label={chapter.left.join(' ')}><span>{chapter.left[0]}<br />{chapter.left[1]}</span></span>)}</span>
+  </p>
+  <p class="editorial-right" data-editorial-window aria-hidden="true">
+    <span class="editorial-motion">{chapters.map(chapter => <span class="label-row" data-chapter={chapter.id} data-editorial-label={chapter.right}><span>{chapter.right}</span></span>)}</span>
+  </p>
+</footer>
+<noscript><style is:inline>.site-footer { visibility: visible; } .editorial-motion { transform: none; }</style></noscript>
+
+<style>
+  .site-footer { position: fixed; z-index: 49; left: var(--page-gutter); right: var(--page-gutter); bottom: var(--editorial-bottom); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); gap: 24px; color: #bcbbb9; mix-blend-mode: difference; visibility: hidden; pointer-events: none; font-family: inherit; font-weight: 400; font-size: var(--editorial-size); line-height: var(--editorial-leading); letter-spacing: normal; }
+  :global(html[data-editorial-visible]) .site-footer { visibility: visible; }
+  .editorial-left { pointer-events: auto; }
+  [data-editorial-window] { position: relative; height: var(--label-height, 2.9em); overflow: clip; }
+  /* Difference source resolves to the same graphite as the Hero edition on mineral. */
+  .editorial-motion { position: absolute; inset: 0; overflow: clip; transform: translateY(100%); }
+  .label-row { position: absolute; inset: 0; display: flex; align-items: center; }
+  .label-row + .label-row { transform: translateY(100%); }
+  .editorial-right { grid-column: -2 / -1; text-align: right; -webkit-user-select: none; user-select: none; }
+  .editorial-right .label-row { justify-content: flex-end; }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  @media (max-width: 1023px) {
+    .site-footer { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  }
+  @media (max-width: 599px) {
+    .site-footer { display: none; }
+  }
+</style>

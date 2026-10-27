@@ -1,0 +1,75 @@
+{
+  "states": [
+    {
+      "time": 5918.199999999953,
+      "negative": "1",
+      "portal": "0",
+      "overflow": false
+    },
+    {
+      "time": 6729.099999999977,
+      "negative": "1",
+      "portal": "0",
+      "overflow": false
+    },
+    {
+      "time": 7512.79999999993,
+      "negative": "1",
+      "portal": "0",
+      "overflow": false
+    },
+    {
+      "time": 8325.400000000023,
+      "negative": "1",
+      "portal": "0",
+      "overflow": false
+    },
+    {
+      "time": 9413.199999999953,
+      "negative": "0",
+      "portal": "1",
+      "overflow": false
+    },
+    {
+      "time": 10230.79999999993,
+      "negative": "0",
+      "portal": "1",
+      "overflow": false
+    },
+    {
+      "time": 11017.79999999993,
+      "negative": "0",
+      "portal": "1",
+      "overflow": false
+    },
+    {
+      "time": 11811,
+      "negative": "1",
+      "portal": "0",
+      "overflow": false
+    },
+    {
+      "time": 12588.099999999977,
+      "negative": "1",
+      "portal": "0",
+      "overflow": false
+    },
+    {
+      "time": 13394.5,
+      "negative": "1",
+      "portal": "0",
+      "overflow": false
+    }
+  ],
+  "frames": 724,
+  "gap": {
+    "x": 594.96875,
+    "y": 608.578125,
+    "width": 505.390625,
+    "height": 145.8125,
+    "top": 608.578125,
+    "right": 1100.359375,
+    "bottom": 754.390625,
+    "left": 594.96875
+  }
+}

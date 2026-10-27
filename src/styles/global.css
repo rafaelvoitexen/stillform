@@ -3,6 +3,10 @@
   --graphite: #292d2b;
   --chalk: #f7f8f5;
   --moss: #35463d;
+  --editorial-size: .8125rem;
+  --editorial-leading: 1.45;
+  --editorial-bottom: 25px;
+  --editorial-clearance: 96px;
   --page-gutter: clamp(24px, 2.5cqw, 96px);
   color: var(--graphite);
   background: var(--mineral);
@@ -17,5 +21,5 @@ a { color: inherit; text-underline-offset: 3px; }
 a:focus-visible { outline: 2px solid var(--moss); outline-offset: 4px; }
 .page { inline-size: 100%; container-type: inline-size; }
 @media (max-width: 1023px) {
-  :root { --page-gutter: clamp(20px, 3.125cqw, 24px); }
+  :root { --page-gutter: clamp(20px, 3.125cqw, 24px); --header-content-clearance: max(0px, calc(18rem - 288px)); }
 }

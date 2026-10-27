@@ -1,0 +1,1036 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "hero-negative",
+      "chapter": "hero",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 559,
+          "y": 133,
+          "width": 34,
+          "height": 34,
+          "top": 133,
+          "right": 593,
+          "bottom": 167,
+          "left": 559
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 59.59999999962747
+    },
+    {
+      "width": 1440,
+      "name": "manifesto-negative",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 487,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 521,
+          "bottom": 217,
+          "left": 487
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 59.59999999962747
+    },
+    {
+      "width": 1440,
+      "name": "portal",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 748.8671875,
+          "y": 582.703125,
+          "width": 197.59375,
+          "height": 197.59375,
+          "top": 582.703125,
+          "right": 946.4609375,
+          "bottom": 780.296875,
+          "left": 748.8671875
+        }
+      },
+      "portal": {
+        "opacity": "1",
+        "clip": "circle(98.7969px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 59.59999999962747
+    },
+    {
+      "width": 1440,
+      "name": "approach",
+      "pointer": {
+        "x": 524.96875,
+        "y": 681.5
+      },
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 507.96875,
+          "y": 664.5,
+          "width": 34,
+          "height": 34,
+          "top": 664.5,
+          "right": 541.96875,
+          "bottom": 698.5,
+          "left": 507.96875
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 59.59999999962747
+    },
+    {
+      "width": 1440,
+      "name": "release",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 183,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 217,
+          "bottom": 217,
+          "left": 183
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 59.59999999962747
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "name": "hero-negative",
+      "chapter": "hero",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 751,
+          "y": 133,
+          "width": 34,
+          "height": 34,
+          "top": 133,
+          "right": 785,
+          "bottom": 167,
+          "left": 751
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 47.10000000055879
+    },
+    {
+      "width": 1920,
+      "name": "manifesto-negative",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 655,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 689,
+          "bottom": 217,
+          "left": 655
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 47.10000000055879
+    },
+    {
+      "width": 1920,
+      "name": "portal",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 995.125,
+          "y": 678.46875,
+          "width": 242.75,
+          "height": 242.75,
+          "top": 678.46875,
+          "right": 1237.875,
+          "bottom": 921.21875,
+          "left": 995.125
+        }
+      },
+      "portal": {
+        "opacity": "1",
+        "clip": "circle(121.375px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 47.10000000055879
+    },
+    {
+      "width": 1920,
+      "name": "approach",
+      "pointer": {
+        "x": 658.65625,
+        "y": 799.84375
+      },
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 641.65625,
+          "y": 782.84375,
+          "width": 34,
+          "height": 34,
+          "top": 782.84375,
+          "right": 675.65625,
+          "bottom": 816.84375,
+          "left": 641.65625
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 47.10000000055879
+    },
+    {
+      "width": 1920,
+      "name": "release",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 183,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 217,
+          "bottom": 217,
+          "left": 183
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 47.10000000055879
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "name": "hero-negative",
+      "chapter": "hero",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 1007,
+          "y": 133,
+          "width": 34,
+          "height": 34,
+          "top": 133,
+          "right": 1041,
+          "bottom": 167,
+          "left": 1007
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 43.5
+    },
+    {
+      "width": 2560,
+      "name": "manifesto-negative",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 879,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 913,
+          "bottom": 217,
+          "left": 879
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 43.5
+    },
+    {
+      "width": 2560,
+      "name": "portal",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 1324.9296875,
+          "y": 870.234375,
+          "width": 300,
+          "height": 300,
+          "top": 870.234375,
+          "right": 1624.9296875,
+          "bottom": 1170.234375,
+          "left": 1324.9296875
+        }
+      },
+      "portal": {
+        "opacity": "1",
+        "clip": "circle(150px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 43.5
+    },
+    {
+      "width": 2560,
+      "name": "approach",
+      "pointer": {
+        "x": 836.921875,
+        "y": 1020.234375
+      },
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 819.921875,
+          "y": 1003.234375,
+          "width": 34,
+          "height": 34,
+          "top": 1003.234375,
+          "right": 853.921875,
+          "bottom": 1037.234375,
+          "left": 819.921875
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 43.5
+    },
+    {
+      "width": 2560,
+      "name": "release",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 183,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 217,
+          "bottom": 217,
+          "left": 183
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 43.5
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "name": "hero-negative",
+      "chapter": "hero",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 1359,
+          "y": 133,
+          "width": 34,
+          "height": 34,
+          "top": 133,
+          "right": 1393,
+          "bottom": 167,
+          "left": 1359
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 65.8999999994412
+    },
+    {
+      "width": 3440,
+      "name": "manifesto-negative",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 1187,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 1221,
+          "bottom": 217,
+          "left": 1187
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 65.8999999994412
+    },
+    {
+      "width": 3440,
+      "name": "portal",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 1784.5,
+          "y": 926.265625,
+          "width": 300,
+          "height": 300,
+          "top": 926.265625,
+          "right": 2084.5,
+          "bottom": 1226.265625,
+          "left": 1784.5
+        }
+      },
+      "portal": {
+        "opacity": "1",
+        "clip": "circle(150px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 65.8999999994412
+    },
+    {
+      "width": 3440,
+      "name": "approach",
+      "pointer": {
+        "x": 941.5,
+        "y": 1076.265625
+      },
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 924.5,
+          "y": 1059.265625,
+          "width": 34,
+          "height": 34,
+          "top": 1059.265625,
+          "right": 958.5,
+          "bottom": 1093.265625,
+          "left": 924.5
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 65.8999999994412
+    },
+    {
+      "width": 3440,
+      "name": "release",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 183,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 217,
+          "bottom": 217,
+          "left": 183
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 65.8999999994412
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "hero-negative",
+      "chapter": "hero",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "",
+        "image": false
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 40.90000000037253
+    },
+    {
+      "width": 768,
+      "name": "manifesto-negative",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "",
+        "image": false
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 40.90000000037253
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "hero-negative",
+      "chapter": "hero",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "hero",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "",
+        "image": false
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    },
+    {
+      "width": 390,
+      "name": "manifesto-negative",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "",
+        "image": false
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    },
+    {
+      "name": "deep-link",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 34,
+          "height": 34,
+          "top": 0,
+          "right": 34,
+          "bottom": 34,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    },
+    {
+      "name": "viewport-exit",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 483,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 517,
+          "bottom": 217,
+          "left": 483
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    },
+    {
+      "name": "keyboard",
+      "focus": {
+        "label": "STILLFORM",
+        "outline": "solid"
+      },
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 483,
+          "y": 183,
+          "width": 34,
+          "height": 34,
+          "top": 183,
+          "right": 517,
+          "bottom": 217,
+          "left": 483
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    },
+    {
+      "name": "gate",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete",
+        "cursorActive": ""
+      },
+      "native": "none",
+      "negative": {
+        "opacity": "1",
+        "rect": {
+          "x": 833,
+          "y": 663,
+          "width": 34,
+          "height": 34,
+          "top": 663,
+          "right": 867,
+          "bottom": 697,
+          "left": 833
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "circle(17px at 50% 50%)",
+        "image": true
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    },
+    {
+      "name": "reduced",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "",
+        "image": false
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    },
+    {
+      "name": "coarse-pointer-desktop",
+      "chapter": "manifesto",
+      "hero": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "activeChapter": "manifesto",
+        "heroReason": "complete"
+      },
+      "native": "auto",
+      "negative": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "clip": "",
+        "image": false
+      },
+      "headers": 1,
+      "overflow": false,
+      "mark": 39.700000000186265
+    }
+  ],
+  "errors": []
+}

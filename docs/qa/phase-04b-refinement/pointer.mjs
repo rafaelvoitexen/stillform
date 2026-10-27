@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';import {send,evaluate,delay,shot,target,ws,out} from './cdp.mjs';
+const results=[],errors=[];await fs.mkdir(new URL('final/',out),{recursive:true});await send('Page.bringToFront');
+ws.addEventListener('message',({data})=>{const e=JSON.parse(data);if(e.method==='Runtime.exceptionThrown')errors.push(e.params);});
+const state=()=>evaluate(`({chapter:document.documentElement.dataset.activeChapter,hero:{...document.documentElement.dataset},native:getComputedStyle(document.body).cursor,negative:{opacity:getComputedStyle(document.querySelector('.global-negative')).opacity,rect:document.querySelector('.global-negative').getBoundingClientRect().toJSON()},portal:{opacity:getComputedStyle(document.querySelector('.global-portal')).opacity,clip:document.querySelector('.global-portal').style.clipPath,image:!!document.querySelector('.global-portal img')},headers:document.querySelectorAll('header').length,overflow:document.documentElement.scrollWidth>innerWidth,mark:performance.getEntriesByName('stillform:hero:start')[0]?.startTime})`);
+const move=async(x,y)=>{await send('Input.dispatchMouseEvent',{type:'mouseMoved',x,y});await delay(650);};
+for(const[width,height]of[[1440,900],[1920,1080],[2560,1440],[3440,1440],[768,1024],[390,844]]){
+ await send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:false});await send('Page.navigate',{url:'http://127.0.0.1:4326/'});await delay(4800);
+ await move(width*.4,150);results.push({width,height,name:'hero-negative',...await state()});await shot('final/'+width+'-hero');
+ await evaluate("document.querySelector('#manifesto').scrollIntoView()");await delay(700);await move(width*.35,200);results.push({width,name:'manifesto-negative',...await state()});await shot('final/'+width+'-manifesto');
+ if(width>=1024){const g=await evaluate("document.querySelector('.revealing-void').getBoundingClientRect().toJSON()");await move(g.x+g.width/2,g.y+g.height/2);results.push({width,name:'portal',...await state()});await shot('final/'+width+'-portal');await move(g.x-70,g.y+g.height/2);results.push({width,name:'approach',pointer:{x:g.x-70,y:g.y+g.height/2},...await state()});await move(200,200);results.push({width,name:'release',...await state()});}
+}
+await send('Emulation.setDeviceMetricsOverride',{width:1440,height:900,deviceScaleFactor:1,mobile:false});await send('Page.navigate',{url:'http://127.0.0.1:4326/#manifesto'});await delay(800);results.push({name:'deep-link',...await state()});
+await move(500,200);await send('Input.dispatchMouseEvent',{type:'mouseMoved',x:-10,y:200});await delay(200);results.push({name:'viewport-exit',...await state()});
+await move(500,200);await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Tab',code:'Tab',windowsVirtualKeyCode:9});await send('Input.dispatchKeyEvent',{type:'keyUp',key:'Tab',code:'Tab',windowsVirtualKeyCode:9});await delay(150);results.push({name:'keyboard',focus:await evaluate("({label:document.activeElement.getAttribute('aria-label'),outline:getComputedStyle(document.activeElement).outlineStyle})"),...await state()});
+await move(850,680);await evaluate("document.querySelector('#manifesto').dataset.revealReady='false'");await delay(650);results.push({name:'gate',...await state()});
+await send('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});await delay(200);results.push({name:'reduced',...await state()});
+await send('Emulation.setEmulatedMedia',{features:[]});await send('Emulation.setDeviceMetricsOverride',{width:1440,height:900,deviceScaleFactor:1,mobile:true});await send('Emulation.setTouchEmulationEnabled',{enabled:true});await delay(200);results.push({name:'coarse-pointer-desktop',...await state()});
+await fs.writeFile(new URL('pointer.json',out),JSON.stringify({results,errors},null,2));console.log(results.map(r=>({width:r.width,name:r.name,native:r.native,portal:r.portal.opacity,diameter:r.negative.rect.width,overflow:r.overflow,chapter:r.chapter})));console.log('errors',errors.length);
+await fetch('http://127.0.0.1:9230/json/close/'+target.id);ws.close();
+

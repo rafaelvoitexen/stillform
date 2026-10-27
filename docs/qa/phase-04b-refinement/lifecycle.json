@@ -1,0 +1,36 @@
+[
+  {
+    "name": "reload-hash",
+    "state": {
+      "heroEntry": "1",
+      "heroState": "settled",
+      "activeChapter": "hero",
+      "heroReason": "complete"
+    },
+    "scroll": 0
+  },
+  {
+    "name": "real-link-click",
+    "hash": "#top",
+    "scroll": 0,
+    "chapter": "hero"
+  },
+  {
+    "name": "history-return",
+    "chapter": "manifesto",
+    "scroll": 900,
+    "header": 1,
+    "pointers": 1
+  },
+  {
+    "name": "failed-image",
+    "native": "none",
+    "negative": "1",
+    "portal": "0"
+  },
+  {
+    "name": "unsupported",
+    "native": "auto",
+    "active": false
+  }
+]

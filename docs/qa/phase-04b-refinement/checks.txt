@@ -1,0 +1,41 @@
+TypeScript strict: PASS
+✔ ten independent reload entries reset scroll and admit a fresh timeline (10.0143ms)
+✔ ordinary interaction does not finish or replay the active entry (0.9463ms)
+✔ fresh top navigation is admitted; ordinary away navigation preserves position (1.4099ms)
+✔ history scroll restoration is not replaced by reload policy (2.4858ms)
+✔ BFCache top return receives a new entry; away return stays static (1.6784ms)
+✔ reduced motion, failed assets and real deadlines remain fail-open (2.8305ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 92.8834
+23:24:42 [types] Generated 80ms
+23:24:42 [build] output: "static"
+23:24:42 [build] mode: "static"
+23:24:42 [build] directory: C:\Users\Rafael\Documents\Projetos\STILLFORM\stillform\dist\
+23:24:42 [build] Collecting build info...
+23:24:42 [build] ✓ Completed in 98ms.
+23:24:42 [build] Building static entrypoints...
+23:24:43 [vite] ✓ built in 170ms
+23:24:43 [vite] ✓ built in 59ms
+23:24:43 [build] Rearranging server assets...
+
+ generating static routes 
+23:24:43   ├─ /index.html (+12ms) 
+23:24:43 ✓ Completed in 28ms.
+
+23:24:43 [build] ✓ Completed in 329ms.
+23:24:43 [build] 1 page(s) built in 438ms
+23:24:43 [build] Complete!
+warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Hero.astro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/index.astro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/scripts/hero-entrance.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/scripts/hero.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles/global.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles/hero-critical.css', LF will be replaced by CRLF the next time Git touches it
+Final stylesheet guard: strict TypeScript PASS; production build PASS (final-build.txt).

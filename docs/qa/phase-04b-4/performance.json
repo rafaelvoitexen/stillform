@@ -1,0 +1,42 @@
+[
+  {
+    "width": 1440,
+    "mode": "ordinary",
+    "frames": 361,
+    "median": 7,
+    "p95": 7.100000000000136,
+    "over33": 0,
+    "reads": 0,
+    "longTasks": []
+  },
+  {
+    "width": 1440,
+    "mode": "magnetic",
+    "frames": 361,
+    "median": 6.900000000000546,
+    "p95": 7.100000000000364,
+    "over33": 0,
+    "reads": 0,
+    "longTasks": []
+  },
+  {
+    "width": 3440,
+    "mode": "ordinary",
+    "frames": 366,
+    "median": 6.900000000001455,
+    "p95": 7.199999999999818,
+    "over33": 0,
+    "reads": 0,
+    "longTasks": []
+  },
+  {
+    "width": 3440,
+    "mode": "magnetic",
+    "frames": 363,
+    "median": 6.900000000001455,
+    "p95": 7.100000000000364,
+    "over33": 0,
+    "reads": 0,
+    "longTasks": []
+  }
+]

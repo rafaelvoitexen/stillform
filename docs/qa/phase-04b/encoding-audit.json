@@ -1,0 +1,13 @@
+[
+  {
+    "name": "desktop",
+    "sourceFrames": 724,
+    "sourceSpanSeconds": 8.320945978164673,
+    "encodedFrames": 543,
+    "fps": 60,
+    "expectedDuration": 9.05,
+    "maxTimestampQuantizationMs": 16.666666666666668,
+    "interpolation": false,
+    "method": "Hold original captured JPEG until its next timestamp; quantize to 60fps, then hold settled frame for 700ms."
+  }
+]

@@ -11,7 +11,7 @@ function initializeHero() {
   const opening = hero.querySelector<HTMLElement>('.around')!;
   const closing = hero.querySelector<HTMLElement>('.closing')!;
   const photo = hero.querySelector<HTMLElement>('.photo')!;
-  const header = hero.querySelector<HTMLElement>('.header')!;
+  const header = document.querySelector<HTMLElement>('.site-header')!;
   const note = hero.querySelector<HTMLElement>('.image-note')!;
   const image = hero.querySelector<HTMLImageElement>('img')!;
   const entrance = createHeroEntrance(hero, () => assess());

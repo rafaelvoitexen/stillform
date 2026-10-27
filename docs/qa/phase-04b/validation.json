@@ -1,0 +1,187 @@
+{
+  "results": [
+    {
+      "name": "hero",
+      "width": 1440,
+      "height": 900,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overlays": 0,
+      "mask": 0,
+      "zoom": "matrix(1.06, 0, 0, 1.06, 0, 0)",
+      "page": "",
+      "overflow": false
+    },
+    {
+      "name": "hero",
+      "width": 2560,
+      "height": 1440,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overlays": 0,
+      "mask": 0,
+      "zoom": "matrix(1.06, 0, 0, 1.06, 0, 0)",
+      "page": "",
+      "overflow": false
+    },
+    {
+      "name": "hero",
+      "width": 3440,
+      "height": 1440,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overlays": 0,
+      "mask": 0,
+      "zoom": "matrix(1.06, 0, 0, 1.06, 0, 0)",
+      "page": "",
+      "overflow": false
+    },
+    {
+      "name": "hero",
+      "width": 768,
+      "height": 1024,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overlays": 0,
+      "mask": 0,
+      "zoom": "matrix(1.04, 0, 0, 1.04, 0, 0)",
+      "page": "",
+      "overflow": false
+    },
+    {
+      "name": "hero",
+      "width": 390,
+      "height": 844,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overlays": 0,
+      "mask": 0,
+      "zoom": "matrix(1.03, 0, 0, 1.03, 0, 0)",
+      "page": "",
+      "overflow": false
+    },
+    {
+      "name": "hero",
+      "width": 360,
+      "height": 780,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overlays": 0,
+      "mask": 0,
+      "zoom": "matrix(1.03, 0, 0, 1.03, 0, 0)",
+      "page": "",
+      "overflow": false
+    },
+    {
+      "name": "text-200-percent",
+      "width": 320,
+      "overflow": false,
+      "section": {
+        "x": 0,
+        "y": 0.375,
+        "width": 320,
+        "height": 1134.265625,
+        "top": 0.375,
+        "right": 320,
+        "bottom": 1134.640625,
+        "left": 0
+      },
+      "outliers": [],
+      "image": false
+    },
+    {
+      "name": "text-200-percent",
+      "width": 390,
+      "overflow": false,
+      "section": {
+        "x": 0,
+        "y": 0.140625,
+        "width": 390,
+        "height": 967.890625,
+        "top": 0.140625,
+        "right": 390,
+        "bottom": 968.03125,
+        "left": 0
+      },
+      "outliers": [],
+      "image": false
+    },
+    {
+      "name": "text-200-percent",
+      "width": 768,
+      "overflow": false,
+      "section": {
+        "x": 0,
+        "y": 0.40625,
+        "width": 768,
+        "height": 916.78125,
+        "top": 0.40625,
+        "right": 768,
+        "bottom": 917.1875,
+        "left": 0
+      },
+      "outliers": [],
+      "image": false
+    },
+    {
+      "name": "text-200-percent",
+      "width": 1440,
+      "overflow": false,
+      "section": {
+        "x": 0,
+        "y": 0.453125,
+        "width": 1440,
+        "height": 1010.140625,
+        "top": 0.453125,
+        "right": 1440,
+        "bottom": 1010.59375,
+        "left": 0
+      },
+      "outliers": [],
+      "image": false
+    },
+    {
+      "name": "text-200-percent",
+      "width": 3440,
+      "overflow": false,
+      "section": {
+        "x": 0,
+        "y": 0.03125,
+        "width": 3440,
+        "height": 1194.5625,
+        "top": 0.03125,
+        "right": 3440,
+        "bottom": 1194.59375,
+        "left": 0
+      },
+      "outliers": [],
+      "image": false
+    },
+    {
+      "name": "missing-image",
+      "negative": "1",
+      "portal": "0",
+      "copy": "Light enters where mass stops.An opening gives the eye a passage, and the body a sense of scale.",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

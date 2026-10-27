@@ -1,0 +1,341 @@
+{
+  "steps": [
+    {
+      "name": "negative",
+      "media": true,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "negative": {
+        "opacity": "1",
+        "blend": "difference",
+        "rect": {
+          "x": 228,
+          "y": 128,
+          "width": 144,
+          "height": 144,
+          "top": 128,
+          "right": 372,
+          "bottom": 272,
+          "left": 228
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "rect": {
+          "x": 228,
+          "y": 128,
+          "width": 144,
+          "height": 144,
+          "top": 128,
+          "right": 372,
+          "bottom": 272,
+          "left": 228
+        },
+        "image": true
+      },
+      "gap": {
+        "x": 594.96875,
+        "y": 608.578125,
+        "width": 505.390625,
+        "height": 145.8125,
+        "top": 608.578125,
+        "right": 1100.359375,
+        "bottom": 754.390625,
+        "left": 594.96875
+      }
+    },
+    {
+      "name": "portal",
+      "media": true,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "negative": {
+        "opacity": "0",
+        "blend": "difference",
+        "rect": {
+          "x": 775.6640625,
+          "y": 609.484375,
+          "width": 144,
+          "height": 144,
+          "top": 609.484375,
+          "right": 919.6640625,
+          "bottom": 753.484375,
+          "left": 775.6640625
+        }
+      },
+      "portal": {
+        "opacity": "1",
+        "rect": {
+          "x": 775.6640625,
+          "y": 609.484375,
+          "width": 144,
+          "height": 144,
+          "top": 609.484375,
+          "right": 919.6640625,
+          "bottom": 753.484375,
+          "left": 775.6640625
+        },
+        "image": true
+      },
+      "gap": {
+        "x": 594.96875,
+        "y": 608.578125,
+        "width": 505.390625,
+        "height": 145.8125,
+        "top": 608.578125,
+        "right": 1100.359375,
+        "bottom": 754.390625,
+        "left": 594.96875
+      }
+    },
+    {
+      "name": "portal-moved",
+      "media": true,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "negative": {
+        "opacity": "0",
+        "blend": "difference",
+        "rect": {
+          "x": 876.7421875,
+          "y": 609.484375,
+          "width": 144,
+          "height": 144,
+          "top": 609.484375,
+          "right": 1020.7421875,
+          "bottom": 753.484375,
+          "left": 876.7421875
+        }
+      },
+      "portal": {
+        "opacity": "1",
+        "rect": {
+          "x": 876.7421875,
+          "y": 609.484375,
+          "width": 144,
+          "height": 144,
+          "top": 609.484375,
+          "right": 1020.7421875,
+          "bottom": 753.484375,
+          "left": 876.7421875
+        },
+        "image": true
+      },
+      "gap": {
+        "x": 594.96875,
+        "y": 608.578125,
+        "width": 505.390625,
+        "height": 145.8125,
+        "top": 608.578125,
+        "right": 1100.359375,
+        "bottom": 754.390625,
+        "left": 594.96875
+      }
+    },
+    {
+      "name": "return-negative",
+      "media": true,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "negative": {
+        "opacity": "1",
+        "blend": "difference",
+        "rect": {
+          "x": 878,
+          "y": 428,
+          "width": 144,
+          "height": 144,
+          "top": 428,
+          "right": 1022,
+          "bottom": 572,
+          "left": 878
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "rect": {
+          "x": 878,
+          "y": 428,
+          "width": 144,
+          "height": 144,
+          "top": 428,
+          "right": 1022,
+          "bottom": 572,
+          "left": 878
+        },
+        "image": true
+      },
+      "gap": {
+        "x": 594.96875,
+        "y": 608.578125,
+        "width": 505.390625,
+        "height": 145.8125,
+        "top": 608.578125,
+        "right": 1100.359375,
+        "bottom": 754.390625,
+        "left": 594.96875
+      }
+    },
+    {
+      "name": "gate-disabled",
+      "media": true,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "negative": {
+        "opacity": "0",
+        "blend": "difference",
+        "rect": {
+          "x": 878,
+          "y": 428,
+          "width": 144,
+          "height": 144,
+          "top": 428,
+          "right": 1022,
+          "bottom": 572,
+          "left": 878
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "rect": {
+          "x": 878,
+          "y": 428,
+          "width": 144,
+          "height": 144,
+          "top": 428,
+          "right": 1022,
+          "bottom": 572,
+          "left": 878
+        },
+        "image": true
+      },
+      "gap": {
+        "x": 594.96875,
+        "y": 608.578125,
+        "width": 505.390625,
+        "height": 145.8125,
+        "top": 608.578125,
+        "right": 1100.359375,
+        "bottom": 754.390625,
+        "left": 594.96875
+      }
+    },
+    {
+      "name": "reduced",
+      "media": true,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "negative": {
+        "opacity": "0",
+        "blend": "difference",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "image": false
+      },
+      "gap": {
+        "x": 594.96875,
+        "y": 608.578125,
+        "width": 505.390625,
+        "height": 145.8125,
+        "top": 608.578125,
+        "right": 1100.359375,
+        "bottom": 754.390625,
+        "left": 594.96875
+      }
+    },
+    {
+      "name": "touch-mobile",
+      "media": false,
+      "state": {
+        "heroEntry": "1",
+        "heroState": "settled",
+        "heroReason": "complete"
+      },
+      "overflow": false,
+      "negative": {
+        "opacity": "0",
+        "blend": "difference",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "portal": {
+        "opacity": "0",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "image": false
+      },
+      "gap": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,6 @@
+import fs from 'node:fs/promises';import{send,evaluate,delay,shot,target,ws,out}from'./cdp.mjs';
+const results=[];await send('Page.bringToFront');await send('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
+for(const width of[320,390,768,1440,3440]){
+await send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:false});await send('Page.navigate',{url:'http://127.0.0.1:4326/#manifesto'});await delay(200);await evaluate("document.fonts.ready.then(()=>document.documentElement.style.fontSize='32px')");await delay(300);await evaluate("document.querySelector('#manifesto').scrollIntoView()");await delay(100);
+const r=await evaluate(`({overflow:document.documentElement.scrollWidth>innerWidth,header:document.querySelector('.site-header').getBoundingClientRect().toJSON(),heading:document.querySelector('.line-one').getBoundingClientRect().toJSON(),columns:[...document.querySelector('.site-header').children].map(e=>e.getBoundingClientRect().toJSON())})`);results.push({width,...r});await shot('regression/'+width+'-text');}
+await fs.writeFile(new URL('final-reflow.json',out),JSON.stringify(results,null,2));console.log(results.map(r=>({width:r.width,overflow:r.overflow,headerBottom:r.header.bottom,headingTop:r.heading.top})));await fetch('http://127.0.0.1:9230/json/close/'+target.id);ws.close();
