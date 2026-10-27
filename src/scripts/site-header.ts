@@ -3,9 +3,16 @@ import { gsap } from 'gsap';
 export type Chapter = 'hero' | 'manifesto';
 let active: Chapter = 'hero';
 let override: Chapter | null = null;
+let editorialSuppressed = false;
+let refreshEditorial: (() => void) | undefined;
 let update: (() => void) | undefined;
 let current: { header: HTMLElement; dispose: () => void } | undefined;
 export const getActiveChapter = () => active;
+/** Cross-section motion suppresses footer presentation without changing chapter state. */
+export function setEditorialSuppressed(suppressed: boolean) {
+  if (editorialSuppressed === suppressed) return;
+  editorialSuppressed = suppressed; refreshEditorial?.();
+}
 /** Future transition ownership is explicit; null releases tracking to normal scroll. */
 export function setChapterOverride(chapter: Chapter | null) { override = chapter; update?.(); }
 
@@ -32,7 +39,7 @@ function initializeHeader() {
   let footerShown = false, presenceTween: gsap.core.Tween | undefined;
   const renderPresence = () => footerMotion.forEach(layer => { layer.style.transform = `translateY(${presence.y}%)`; });
   const updateFooterVisibility = (immediate = false) => {
-    const shown = !!footer && innerWidth >= 600 && footerHeight > 0 && scrollY - heroTop >= footerHeight;
+    const shown = !editorialSuppressed && !!footer && innerWidth >= 600 && footerHeight > 0 && scrollY - heroTop >= footerHeight;
     if (shown === footerShown && !immediate) return;
     footerShown = shown;
     presenceTween?.kill();
@@ -51,6 +58,7 @@ function initializeHeader() {
       },
     });
   };
+  refreshEditorial = () => updateFooterVisibility(editorialSuppressed);
   const render = () => rows.forEach(group => {
     // Preserve the current footer labels throughout their exit, including rapid chapter changes.
     if (!footerShown && group[0]?.closest('.site-footer')) return;
@@ -114,7 +122,7 @@ function initializeHeader() {
     delete document.documentElement.dataset.editorialReady;
     delete document.documentElement.dataset.editorialVisible;
     document.documentElement.style.removeProperty('--editorial-clearance');
-    update = undefined; current = undefined;
+    update = undefined; refreshEditorial = undefined; editorialSuppressed = false; current = undefined;
   } };
 }
 const dispose = () => current?.dispose();

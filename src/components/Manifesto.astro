@@ -1,9 +1,9 @@
 <section id="manifesto" class="manifesto" aria-labelledby="manifesto-statement" data-reveal-ready="true">
   <div class="composition">
     <h2 id="manifesto-statement" aria-label="What we leave open lets us see.">
-      <span class="line-one">WHAT WE</span>
-      <span class="line-two">LEAVE OPEN</span>
-      <span class="line-three"><span class="lets">LETS US</span><span class="revealing-void" aria-hidden="true"></span><span class="see">SEE.</span></span>
+      <span class="line-one"><span data-manifesto-word>WHAT</span>{' '}<span data-manifesto-word>WE</span></span>
+      <span class="line-two"><span data-manifesto-word>LEAVE</span>{' '}<span data-manifesto-word>OPEN</span></span>
+      <span class="line-three"><span class="lets"><span data-manifesto-word>LETS</span>{' '}<span data-manifesto-word>US</span></span><span class="revealing-void" aria-hidden="true"></span><span class="see"><span data-manifesto-word>SEE.</span></span></span>
     </h2>
     <div class="interval">
       <p class="annotation">[ THE INHABITED INTERVAL ]<br />Space is never neutral.</p>
@@ -17,6 +17,7 @@
   .composition { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 20px; margin-top: 70px; margin-bottom: 28px; }
   h2 { display: contents; }
   .line-one, .line-two, .line-three { font-size: clamp(80px, calc(3rem + 7cqw), 250px); font-weight: 500; line-height: .98; letter-spacing: -.065em; overflow-wrap: anywhere; }
+  [data-manifesto-word] { display: inline-block; max-width: 100%; }
   .line-one { grid-column: 1 / -1; }
   .line-two { grid-column: 3 / -1; }
   .line-three { grid-column: 1 / -1; grid-row: 4; display: flex; gap: 20px; justify-content: space-between; }
