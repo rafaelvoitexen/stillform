@@ -17,19 +17,21 @@ function initializeOutro() {
   // must initialize too; viewport conditions choose geometry, never motion admission.
   const setup = () => {
     if (disposed) return;
-    media.add({ all: 'all', reduced: '(prefers-reduced-motion: reduce)', wide: '(min-width: 600px)', room: '(min-height: 700px)' }, context => {
+    media.add({ all: 'all', reduced: '(prefers-reduced-motion: reduce)', mobile: '(max-width: 599px)' }, context => {
       const rect = stage.getBoundingClientRect();
       // Deep links/history or delayed initialization must not hide an already visible ending.
-      const preserveVisible = firstSetup && (location.hash === '#outro' || (scrollY > 0 && rect.top < innerHeight && rect.bottom > 0));
+      const preserveVisible = firstSetup && (location.hash === '#outro' || (scrollY > 0 && rect.top < innerHeight && (rect.bottom > 0 || context.conditions?.mobile)));
       firstSetup = false;
       if (context.conditions?.reduced || preserveVisible) {
         setOutroEditorialReady(true);
         return;
       }
+      const mobile = !!context.conditions?.mobile;
       const pinTop = () => Math.max(96, (document.querySelector('.site-header')?.getBoundingClientRect().bottom ?? 64) + 32);
-      const pin = rect.height + pinTop() < innerHeight - 96;
+      const pin = !mobile && rect.height + pinTop() < innerHeight - 96;
       const distance = () => pin ? gsap.utils.clamp(540, 960, innerHeight * .8) : Math.min(560, innerHeight * .65);
-      const displacement = () => pin ? gsap.utils.clamp(innerWidth < 600 ? 40 : 120, 360, innerWidth * .16) : gsap.utils.clamp(40, 100, innerWidth * .1);
+      const displacement = () => mobile ? gsap.utils.clamp(24, 48, innerWidth * .1)
+        : pin ? gsap.utils.clamp(120, 360, innerWidth * .16) : gsap.utils.clamp(40, 100, innerWidth * .1);
       const readingClearance = () => {
         if (!pin) return;
         const spacer = stage.parentElement?.classList.contains('pin-spacer') ? stage.parentElement : null;
@@ -46,9 +48,21 @@ function initializeOutro() {
         setOutroEditorialReady(progress >= .9);
         root.dataset.outroState = progress >= .8 ? 'settled' : 'converging';
       };
-      setOutroEditorialReady(false);
+      setOutroEditorialReady(mobile);
+      if (mobile) root.dataset.outroState = 'waiting';
       const timeline = gsap.timeline({
-        scrollTrigger: {
+        ...(mobile && {
+          onStart: () => { root.dataset.outroState = 'converging'; },
+          onComplete: () => { root.dataset.outroState = 'settled'; },
+        }),
+        scrollTrigger: mobile ? {
+          id: 'outro-convergence', trigger: stage, start: 'top bottom',
+          endTrigger: root, end: 'bottom top',
+          // One timed playback per entry. Reset only once the heading has left
+          // the viewport backward; ordinary reversal inside it never restarts it.
+          toggleActions: 'play complete none reset',
+          onLeaveBack: () => { root.dataset.outroState = 'waiting'; },
+        } : {
           id: 'outro-convergence', trigger: stage,
           start: pin ? () => `top top+=${pinTop()}` : 'top 78%',
           end: () => `+=${distance()}`, pin: pin ? stage : false,
@@ -59,13 +73,15 @@ function initializeOutro() {
           onUpdate: self => coordinate(self.progress), onRefresh: self => coordinate(self.progress),
         },
       });
-      timeline.addLabel('arrival', 0).addLabel('convergence', 0).addLabel('remains', .18).addLabel('settled', .8).addLabel('editorial', .9);
+      timeline.addLabel('arrival', 0).addLabel('convergence', 0).addLabel('remains', mobile ? .2 : .18).addLabel('settled', mobile ? 1.2 : .8).addLabel('editorial', mobile ? 1.2 : .9);
       lines.forEach((line, index) => timeline.fromTo(line, {
-        x: () => displacement() * (index === 0 ? 1 : -1), opacity: 0, filter: 'blur(4px)',
-      }, { x: 0, opacity: 1, filter: 'blur(0px)', duration: .62, ease: 'power1.out' }, index === 0 ? 'convergence' : 'remains'));
+        x: () => displacement() * (index === 0 ? 1 : -1), opacity: 0, ...(!mobile && { filter: 'blur(4px)' }),
+      }, { x: 0, opacity: 1, ...(!mobile && { filter: 'blur(0px)' }), duration: mobile ? 1 : .62, ease: mobile ? 'power2.out' : 'power1.out' }, index === 0 ? 'convergence' : 'remains'));
       // Both lines settle before the shared footer is admitted; retain a normalized range.
-      timeline.to({}, { duration: .2 }, .8);
-      coordinate(timeline.scrollTrigger?.progress ?? 0);
+      if (!mobile) {
+        timeline.to({}, { duration: .2 }, .8);
+        coordinate(timeline.scrollTrigger?.progress ?? 0);
+      }
       return () => { root.style.removeProperty('--outro-tail-clearance'); delete root.dataset.outroState; setOutroEditorialReady(true); };
     }, root);
   };

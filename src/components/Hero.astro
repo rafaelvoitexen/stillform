@@ -2,7 +2,7 @@
   <div class="stage">
     <h1 aria-label="Built around absence."><span class="opening"><span class="built"><span class="line-motion">BUILT</span></span> <span class="around"><span class="line-motion">AROUND</span></span></span> <span class="closing"><span class="line-motion">ABSENCE.</span></span></h1>
     <figure class="photo">
-      <img src="/images/tulach-e-vos.jpg" width="1920" height="1440" fetchpriority="high" loading="eager" alt="Two concrete masses frame a narrow shaft of daylight at Tulach a’ tSolais." />
+      <div class="photo-exit" data-photo-exit><img src="/images/tulach-e-vos.jpg" width="1920" height="1440" fetchpriority="high" loading="eager" alt="Two concrete masses frame a narrow shaft of daylight at Tulach a’ tSolais." /></div>
       <p class="image-failure" hidden>Photograph unavailable.</p>
     </figure>
   </div>
@@ -36,6 +36,7 @@
   .built, .around, .closing { display: block; }
   .closing { grid-area: 3 / 1 / 4 / -1; z-index: 1; margin: calc(-1 * min(12px, var(--photo-height) * .03)) 0 0 var(--optical-left); padding-block: 4px; font-size: var(--closing-display); color: var(--absence-ink); background: var(--mineral); }
   .photo { grid-area: 2 / 2; margin-top: 34px; height: var(--photo-height); position: relative; overflow: clip; background: var(--mineral); }
+  .photo-exit { width: 100%; height: 100%; }
   .photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; transform: scale(var(--photo-zoom)); transform-origin: center; }
   .image-failure { position: absolute; inset: 24px; font-size: .9375rem; }
   .details { margin: 20px var(--gutter) 0; }

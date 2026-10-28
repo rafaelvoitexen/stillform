@@ -15,7 +15,9 @@ function initializeArchive() {
   const records = [...root.querySelectorAll<HTMLElement>('[data-archive-record]')];
   let disposed = false;
   try {
-    media.add('(prefers-reduced-motion: no-preference)', () => {
+    media.add({ motion: '(prefers-reduced-motion: no-preference)', mobile: '(max-width: 599px)' }, context => {
+      if (!context.conditions?.motion) return;
+      const mobile = !!context.conditions?.mobile;
       root.dataset.parallaxReady = 'true';
       records.forEach((record, index) => {
         const figure = record.querySelector<HTMLElement>('.record-entry')!;
@@ -35,22 +37,28 @@ function initializeArchive() {
         });
         // A delayed module must never hide content already reached by the visitor.
         if (record.getBoundingClientRect().top >= innerHeight * .94) {
-          gsap.timeline({ scrollTrigger: { id: `archive-entry-${index}`, trigger: record, start: 'top 94%', once: true } })
-            .fromTo(figure, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .85, ease: 'power2.out', clearProps: 'opacity,transform' })
-            .fromTo(caption, { filter: 'blur(3px)' }, { filter: 'blur(0px)', duration: .7, clearProps: 'filter' }, 0);
+          const entry = gsap.timeline({ scrollTrigger: { id: `archive-entry-${index}`, trigger: record, start: 'top 94%', once: true } })
+            .fromTo(figure, { opacity: 0, y: 20 },
+              { opacity: 1, y: 0, duration: .85, ease: 'power2.out', clearProps: 'opacity,transform' });
+          if (!mobile) entry.fromTo(caption, { filter: 'blur(3px)' }, { filter: 'blur(0px)', duration: .7, clearProps: 'filter' }, 0);
         }
       });
       return () => { delete root.dataset.parallaxReady; };
     }, root);
-    media.add('(prefers-reduced-motion: no-preference) and (max-width: 1023px), (prefers-reduced-motion: no-preference) and (hover: none), (prefers-reduced-motion: no-preference) and (pointer: coarse)', () => {
+    media.add({ observations: '(prefers-reduced-motion: no-preference) and (max-width: 1023px), (prefers-reduced-motion: no-preference) and (hover: none), (prefers-reduced-motion: no-preference) and (pointer: coarse)', mobile: '(max-width: 599px)' }, context => {
+      if (!context.conditions?.observations) return;
+      const blur = !context.conditions?.mobile;
       for (const record of records) {
         const note = record.querySelector<HTMLElement>('.record-observation')!;
         const words = note.querySelectorAll<HTMLElement>('.observation-ink [data-observation-word]');
-        gsap.timeline({ scrollTrigger: {
+        // Narrow mobile uses opacity only after physical Safari isolation.
+        // Tablet retains blur, with no filter left at either resting endpoint.
+        const clearFilters = () => words.forEach(word => word.style.removeProperty('filter'));
+        gsap.timeline({ onComplete: clearFilters, onReverseComplete: clearFilters, scrollTrigger: {
           trigger: note, start: 'top 88%', end: 'bottom 15%',
           toggleActions: 'play reverse play reverse',
-        } }).fromTo(words, { opacity: 0, filter: 'blur(4px)' }, {
-          opacity: 1, filter: 'blur(0px)', duration: .5, stagger: .05, ease: 'power2.out',
+        } }).fromTo(words, { opacity: 0, ...(blur && { filter: 'blur(4px)' }) }, {
+          opacity: 1, ...(blur && { filter: 'blur(0px)' }), duration: .5, stagger: .05, ease: 'power2.out',
         });
       }
     }, root);

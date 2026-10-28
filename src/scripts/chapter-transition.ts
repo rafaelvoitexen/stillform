@@ -25,14 +25,27 @@ function initializeTransition() {
     else manifesto.setAttribute('data-reveal-ready', value);
   };
 
-  media.add({ all: 'all', desktop: '(min-width: 1024px)', reduced: '(prefers-reduced-motion: reduce)' }, context => {
+  media.add({ all: 'all', desktop: '(min-width: 1024px)', mobile: '(max-width: 599px)', reduced: '(prefers-reduced-motion: reduce)' }, context => {
     let disposed = false, timeline: gsap.core.Timeline | undefined;
+    let photoExit: gsap.core.Timeline | undefined, photoLeaving = false;
     let observer: MutationObserver | undefined;
     const layers: HTMLElement[] = [];
     const originalOpacity = image.style.opacity;
     let geometry = { start: 0, end: 1, half: 0, reading: .7 };
     let chosen: Chapter = 'hero', lastOverride: Chapter | null | undefined;
+    const mobile = !!context.conditions?.mobile;
     const desktop = !!context.conditions?.desktop && getComputedStyle(hero.querySelector('h1')!).display !== 'contents';
+    const movePhoto = (away: boolean) => {
+      if (!photoExit) return;
+      if (html.dataset.heroState === 'reserved' || html.dataset.heroState === 'running') {
+        photoExit.pause(0); photoLeaving = false;
+        return;
+      }
+      if (photoLeaving === away) return;
+      photoLeaving = away;
+      // Retarget the same timed animation, including unfinished reverse/re-entry.
+      if (away) photoExit.play(); else photoExit.reverse();
+    };
     const measure = () => {
       const section = manifesto.getBoundingClientRect();
       const frame = photo.getBoundingClientRect();
@@ -55,15 +68,20 @@ function initializeTransition() {
       const nextOverride = underway ? chosen : null;
       if (lastOverride !== nextOverride) { lastOverride = nextOverride; setChapterOverride(nextOverride); }
       // Keep the semantic photograph available to assistive technology during the visual swap.
-      image.style.opacity = progress === 0 ? originalOpacity : '0';
+      // Start near the language beat, leaving the Hero readable until the
+      // Manifesto approaches. A small release band avoids edge chattering.
+      if (mobile) movePhoto(photoLeaving ? progress > .16 : progress >= .2);
+      else image.style.opacity = progress === 0 ? originalOpacity : '0';
       layers.forEach(layer => { layer.style.visibility = progress > 0 && progress < 1 ? 'visible' : 'hidden'; });
       html.dataset.voidState = progress === 0 ? 'ready' : progress === 1 ? 'settled' : 'running';
     };
     const createMotion = () => {
       const state = html.dataset.heroState;
       if (skipped && (state === 'reserved' || state === 'running')) skipped = false;
-      if (disposed || timeline || skipped) return;
-      if (state === 'reserved' || state === 'running' || document.fonts.status !== 'loaded') return;
+      if (disposed) return;
+      if (state === 'reserved' || state === 'running') { movePhoto(false); return; }
+      if (timeline) { if (mobile) coordinate(timeline.scrollTrigger?.progress ?? 0); return; }
+      if (skipped || document.fonts.status !== 'loaded') return;
       if (!CSS.supports('clip-path', 'inset(0)') || parseFloat(getComputedStyle(html).fontSize) > 16.5) {
         html.dataset.voidState = 'static-reflow'; observer?.disconnect(); return;
       }
@@ -73,7 +91,10 @@ function initializeTransition() {
       if (!admitted && scrollY > geometry.start + 2) {
         skipped = true; html.dataset.voidState = 'static-early-scroll'; return;
       }
-      admitted = true; observer?.disconnect();
+      admitted = true;
+      // On mobile retain only this lifecycle observer so replay can reset its
+      // separate exit layer without touching the Hero's entrance properties.
+      if (!mobile) observer?.disconnect();
       const field = (clip: string) => {
         const layer = document.createElement('div');
         layer.setAttribute('aria-hidden', 'true'); layer.dataset.voidField = '';
@@ -96,8 +117,11 @@ function initializeTransition() {
         const left = field('inset(0 50% 0 0)'), right = field('inset(0 0 0 50%)');
         timeline.to(left, { x: () => -geometry.half - 1, duration: .88 }, 'opening')
           .to(right, { x: () => geometry.half + 1, duration: .78 }, 'opening');
-      } else {
+      } else if (!mobile) {
         timeline.to(field('inset(0)'), { yPercent: -100, duration: .76 }, 'opening');
+      } else {
+        photoExit = gsap.timeline({ paused: true }).fromTo(photo.querySelector<HTMLElement>('[data-photo-exit]')!,
+          { y: 0, opacity: 1 }, { y: -56, opacity: 0, duration: .8, ease: 'power2.inOut' });
       }
       // Initialize every word before staggered sub-tweens acquire their own start times.
       timeline.set([...upper, ...lower], { ...headlineFrom, immediateRender: true }, 0)
@@ -130,7 +154,7 @@ function initializeTransition() {
     return () => {
       disposed = true; observer?.disconnect();
       image.removeEventListener('load', createMotion);
-      timeline?.scrollTrigger?.kill(); timeline?.revert(); layers.forEach(layer => layer.remove());
+      timeline?.scrollTrigger?.kill(); timeline?.revert(); photoExit?.revert(); layers.forEach(layer => layer.remove());
       image.style.opacity = originalOpacity;
       readiness(true); setChapterOverride(null);
       delete html.dataset.voidState;
