@@ -113,5 +113,12 @@ const descriptions: Record<string, string> = {
     .record--portrait { width: 82%; }
     .record-observation { margin-top: 20px; }
   }
+  @media (max-width: 1023px), (hover: none), (pointer: coarse) {
+    .record-entry { grid-template-areas: "caption" "photo" "note"; }
+    figcaption { margin: 0 0 20px; }
+    .archive-field { row-gap: clamp(120px, 20cqw, 176px); }
+    .record-observation { margin-top: 24px; max-width: 24ch; font-size: clamp(1.5rem, 3.65cqw, 2rem); font-weight: 500; line-height: 1.12; letter-spacing: -.035em; }
+    [data-observation-word] { display: inline-block; }
+  }
 </style>
 <script>import '../scripts/archive';</script>

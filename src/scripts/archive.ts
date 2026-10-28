@@ -42,6 +42,18 @@ function initializeArchive() {
       });
       return () => { delete root.dataset.parallaxReady; };
     }, root);
+    media.add('(prefers-reduced-motion: no-preference) and (max-width: 1023px), (prefers-reduced-motion: no-preference) and (hover: none), (prefers-reduced-motion: no-preference) and (pointer: coarse)', () => {
+      for (const record of records) {
+        const note = record.querySelector<HTMLElement>('.record-observation')!;
+        const words = note.querySelectorAll<HTMLElement>('.observation-ink [data-observation-word]');
+        gsap.timeline({ scrollTrigger: {
+          trigger: note, start: 'top 88%', end: 'bottom 15%',
+          toggleActions: 'play reverse play reverse',
+        } }).fromTo(words, { opacity: 0, filter: 'blur(4px)' }, {
+          opacity: 1, filter: 'blur(0px)', duration: .5, stagger: .05, ease: 'power2.out',
+        });
+      }
+    }, root);
     media.add(HOVER, () => {
       const hoverEvents = new AbortController();
       const timelines: gsap.core.Timeline[] = [];
