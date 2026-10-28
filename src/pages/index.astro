@@ -6,6 +6,7 @@ import Outro from '../components/Outro.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import GlobalPointer from '../components/GlobalPointer.astro';
+import ReturnTransition from '../components/ReturnTransition.astro';
 import 'lenis/dist/lenis.css';
 import '../styles/global.css';
 import critical from '../styles/hero-critical.css?raw';
@@ -32,5 +33,5 @@ import admission from '../scripts/hero-admission.js?raw';
     <script is:inline set:html={admission}></script>
     <title>STILLFORM — Built around absence.</title>
   </head>
-  <body><div class="page"><Hero /><Manifesto /><Archive /><Outro /></div><SiteHeader /><SiteFooter /><GlobalPointer /><script>import '../scripts/chapter-transition'; import '../scripts/smooth-scroll';</script></body>
+  <body><div class="page"><Hero /><Manifesto /><Archive /><Outro /></div><SiteHeader /><SiteFooter /><GlobalPointer /><ReturnTransition /><script>import '../scripts/chapter-transition'; import '../scripts/smooth-scroll';</script></body>
 </html>

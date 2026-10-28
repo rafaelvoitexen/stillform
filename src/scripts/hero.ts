@@ -1,6 +1,13 @@
 import { createHeroEntrance } from './hero-entrance';
 
-let current: { hero: HTMLElement; dispose: () => void } | undefined;
+let current: { hero: HTMLElement; entrance: ReturnType<typeof createHeroEntrance>; dispose: () => void } | undefined;
+
+export const prepareHeroReplay = () => {
+  if (current) return current.entrance.replay();
+  document.querySelector<HTMLElement>('.hero')?.setAttribute('data-replay-reason', 'controller-unavailable');
+  return Promise.resolve(null);
+};
+export const settleHero = () => current?.entrance.settle('return-static');
 
 function initializeHero() {
   const hero = document.querySelector<HTMLElement>('.hero');
@@ -76,7 +83,7 @@ function initializeHero() {
   assess();
   void entrance.attempt();
 
-  current = { hero, dispose: () => {
+  current = { hero, entrance, dispose: () => {
     disposed = true;
     cancelAnimationFrame(frame);
     observer.disconnect();

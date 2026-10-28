@@ -60,8 +60,9 @@ function initializeTransition() {
       html.dataset.voidState = progress === 0 ? 'ready' : progress === 1 ? 'settled' : 'running';
     };
     const createMotion = () => {
-      if (disposed || timeline || skipped) return;
       const state = html.dataset.heroState;
+      if (skipped && (state === 'reserved' || state === 'running')) skipped = false;
+      if (disposed || timeline || skipped) return;
       if (state === 'reserved' || state === 'running' || document.fonts.status !== 'loaded') return;
       if (!CSS.supports('clip-path', 'inset(0)') || parseFloat(getComputedStyle(html).fontSize) > 16.5) {
         html.dataset.voidState = 'static-reflow'; observer?.disconnect(); return;
@@ -70,7 +71,7 @@ function initializeTransition() {
       measure();
       // Never acquire a scene already passed while the entrance owned its targets.
       if (!admitted && scrollY > geometry.start + 2) {
-        skipped = true; html.dataset.voidState = 'static-early-scroll'; observer?.disconnect(); return;
+        skipped = true; html.dataset.voidState = 'static-early-scroll'; return;
       }
       admitted = true; observer?.disconnect();
       const field = (clip: string) => {

@@ -7,6 +7,18 @@ const TUNING = Object.freeze({ lerp: .12 });
 const ELIGIBILITY = '(min-width: 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)';
 let current: { page: HTMLElement; dispose: () => void } | undefined;
 
+let activeLenis: Lenis | undefined;
+let holds = 0, resume = true;
+export function pauseSmoothScroll() {
+  if (holds++ === 0) { resume = !activeLenis?.isStopped; activeLenis?.stop(); }
+  let released = false;
+  return () => { if (released) return; released = true; if (--holds === 0 && resume) activeLenis?.start(); };
+}
+export function scrollToOpeningImmediately() {
+  if (activeLenis) activeLenis.scrollTo(0, { immediate: true, force: true });
+  else window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+}
+
 function initializeSmoothScroll() {
   const page = document.querySelector<HTMLElement>('.page');
   if (!page || current?.page === page) return;
@@ -21,6 +33,7 @@ function initializeSmoothScroll() {
     const dispose = () => {
       if (disposed) return;
       disposed = true; events.abort(); gsap.ticker.remove(advance); unsubscribe?.();
+      if (activeLenis === lenis) activeLenis = undefined;
       lenis?.destroy(); lenis = undefined;
       // Restore this project's GSAP defaults when native scrolling resumes.
       gsap.ticker.lagSmoothing(500, 33);
@@ -34,6 +47,8 @@ function initializeSmoothScroll() {
         wrapper: window, lerp: TUNING.lerp, smoothWheel: true, syncTouch: false,
         anchors: true, respectReducedMotion: true, autoRaf: false,
       });
+      activeLenis = lenis;
+      if (holds) lenis.stop();
       unsubscribe = lenis.on('scroll', ScrollTrigger.update);
       gsap.ticker.lagSmoothing(0);
       gsap.ticker.add(advance);

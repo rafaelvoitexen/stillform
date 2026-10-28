@@ -2,9 +2,9 @@
 (() => {
   if (window.__stillformHeroEnter) return;
   const html = document.documentElement;
-  const enter = (restored = false) => {
+  const enter = (restored = false, replay = false) => {
     const previous = window.__stillformHero;
-    if (previous && !restored) return previous;
+    if (previous && !restored && !replay) return previous;
     const restoredScroll = previous?.scrollPosition ?? scrollY;
     previous?.finish('new-entry');
     delete html.dataset.heroState;
@@ -12,7 +12,7 @@
     const events = new AbortController();
     const started = performance.now();
     const navigation = performance.getEntriesByType('navigation')[0];
-    const reload = !restored && navigation?.type === 'reload';
+    const reload = !restored && !replay && navigation?.type === 'reload';
     // A reload is a fresh opening, including on naturally taller mobile pages.
     // Do not apply this policy to history entries: their saved scroll belongs to the user.
     const restoration = history.scrollRestoration;
@@ -25,7 +25,7 @@
       history.scrollRestoration = 'manual';
       window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
       window.addEventListener('pageshow', () => {
-        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (!reloadFinished) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
         pageShown = true;
         if (reloadFinished) history.scrollRestoration = restoration;
       }, { once: true });
@@ -47,7 +47,7 @@
         clearTimeout(timer);
         events.abort();
         releaseReloadRestoration();
-        try { lease.cleanup?.(); }
+        try { const cleanup = lease.cleanup; lease.cleanup = undefined; cleanup?.(); }
         finally {
           document.querySelectorAll('[data-hero-overlay]').forEach(node => node.remove());
           html.dataset.heroState = state === 'running' ? 'settled' : 'static-final';
@@ -79,17 +79,17 @@
       : !reload && (scrollY > 1 || (location.hash && location.hash !== '#top')) ? 'away-from-top'
       : window.visualViewport && visualViewport.scale !== 1 ? 'visual-viewport'
       : parseFloat(getComputedStyle(html).fontSize) > 16.5 ? 'resized-text'
-      : !restored && performance.getEntriesByType('paint').length ? 'late-bootstrap' : null;
+      : !restored && !replay && performance.getEntriesByType('paint').length ? 'late-bootstrap' : null;
     if (skip) { lease.finish(skip); return; }
 
     const options = { signal: events.signal };
     // Install every fail-open mechanism BEFORE the flag that can conceal content.
     timer = setTimeout(() => lease.finish('reservation-deadline'), 450);
     // Ordinary interaction never cancels or restarts the current entry.
-    // Geometry changes are reconciled by the motion controller, without scroll locking.
+    // Geometry changes are reconciled by the motion controller; admitted playback owns its cinematic lock.
     window.addEventListener('pagehide', () => lease.finish('pagehide'), options);
     matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change', () => lease.finish('motion-preference'), options);
-    if (!restored && navigation?.type === 'back_forward') {
+    if (!restored && !replay && navigation?.type === 'back_forward') {
       // Let native history restore scroll before claiming. Keep the same bounded reservation.
       lease.historyReady = new Promise(resolve => window.addEventListener('pageshow', () => {
         requestAnimationFrame(() => {

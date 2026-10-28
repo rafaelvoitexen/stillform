@@ -1,5 +1,7 @@
 /* Critical fail-open rules are delivered with the HTML, before reservation is possible. */
-html { --sf-expired: 0; }
+html { --sf-expired: 0; scrollbar-gutter: stable; }
+/* Override Lenis' overflow:clip while retaining the native layout gutter. */
+html[data-cinematic-scroll-lock] { overflow: hidden !important; }
 html[data-hero-state="reserved"] { animation: sf-reserved-flag 0s 450ms forwards; }
 html[data-hero-state="running"] { animation: sf-running-flag 0s 6200ms forwards; }
 

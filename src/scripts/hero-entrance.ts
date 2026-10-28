@@ -1,4 +1,5 @@
 import { gsap } from 'gsap';
+import { acquireCinematicScrollLock } from './cinematic-scroll-lock';
 
 interface HeroLease {
   entry: number;
@@ -10,13 +11,13 @@ interface HeroLease {
   claim: () => boolean;
   finish: (reason: string) => void;
 }
-declare global { interface Window { __stillformHero?: HeroLease; } }
+declare global { interface Window { __stillformHero?: HeroLease; __stillformHeroEnter?: (restored?: boolean, replay?: boolean) => HeroLease | undefined; } }
 
 const setStyles = (element: HTMLElement, styles: Partial<CSSStyleDeclaration>) => Object.assign(element.style, styles);
 
 /** One timeline owns independent frame and inner-image transforms. */
 export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void) {
-  const lease = window.__stillformHero;
+  let lease = window.__stillformHero;
   let disposed = false;
   let attempted = false;
   let context: gsap.Context | undefined;
@@ -26,7 +27,9 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
   const baseMasks: HTMLElement[] = [];
   let refreshGeometry: (() => void) | undefined;
   let geometryFrame = 0;
-  const geometryEvents = new AbortController();
+  let geometryEvents = new AbortController();
+  let releaseScroll: (() => void) | undefined;
+  let finishReplay: (() => void) | undefined;
   const refresh = () => {
     if (!refreshGeometry || disposed) return false;
     if (!geometryFrame) geometryFrame = requestAnimationFrame(() => {
@@ -35,9 +38,9 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
     });
     return true;
   };
-  const settle = (reason = 'layout-change') => lease?.finish(reason);
+  const settle = (reason = 'layout-change') => { lease?.finish(reason); finishReplay?.(); finishReplay = undefined; };
 
-  const attempt = async () => {
+  const attempt = async (autoplay = true) => {
     if (!lease || attempted || disposed || document.documentElement.dataset.heroState !== 'reserved') return;
     attempted = true;
     try {
@@ -136,6 +139,9 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
         geometryEvents.abort();
         timeline?.kill(); context?.revert(); overlay?.remove(); headlineInk?.remove();
         baseMasks.forEach(mask => { if (mask.firstElementChild) mask.replaceWith(mask.firstElementChild); });
+        baseMasks.length = 0;
+        releaseScroll?.(); releaseScroll = undefined;
+        finishReplay?.(); finishReplay = undefined;
       };
       const textWidth = (element: HTMLElement) => {
         const range = document.createRange(); range.selectNodeContents(element); return range.getBoundingClientRect().width;
@@ -231,6 +237,8 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
       render();
       performance.mark('stillform:hero:ready');
       if (!lease.claim()) { overlay.remove(); return; }
+      releaseScroll = acquireCinematicScrollLock(() => settle('cinematic-lock-cancelled')) ?? undefined;
+      if (!releaseScroll) return settle('scroll-lock-unsupported');
       claimed = true;
       context = gsap.context(() => {
         // The authored mineral backing must occlude both proxy and real photograph.
@@ -314,8 +322,36 @@ export function createHeroEntrance(hero: HTMLElement, prepareLayout: () => void)
       window.addEventListener('resize', refresh, geometryOptions);
       window.visualViewport?.addEventListener('resize', refresh, geometryOptions);
       window.visualViewport?.addEventListener('scroll', refresh, geometryOptions);
-      timeline!.play(0);
+      if (autoplay) timeline!.play(0);
     } catch { settle('setup-failure'); }
   };
-  return { attempt, settle, refresh, dispose: () => { disposed = true; settle('dispose'); } };
+  const replay = async () => {
+    const unavailable = (reason: string) => { hero.dataset.replayReason = reason; return null; };
+    if (disposed) return unavailable('disposed');
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return unavailable('reduced-motion');
+    if (!window.__stillformHeroEnter) return unavailable('admission-unavailable');
+    const image = hero.querySelector<HTMLImageElement>('.photo img');
+    if (!image || image.hidden) return unavailable('image-unavailable');
+    let timeout = 0;
+    const assetsReady = await Promise.race([
+      Promise.all([image.decode().then(() => image.naturalWidth > 0, () => false), document.fonts.load('500 176px Onest').then(faces => faces.some(face => face.status === 'loaded'), () => false)]).then(ready => ready.every(Boolean)),
+      new Promise<boolean>(resolve => { timeout = window.setTimeout(() => resolve(false), 1200); }),
+    ]);
+    clearTimeout(timeout);
+    if (disposed || !assetsReady) return unavailable('assets-unavailable');
+    hero.dataset.replayReason = 'preparing';
+    settle('replay-reset');
+    geometryEvents.abort(); geometryEvents = new AbortController();
+    context = undefined; timeline = undefined; overlay = undefined; headlineInk = undefined;
+    attempted = false;
+    lease = window.__stillformHeroEnter(false, true);
+    await attempt(false);
+    if (disposed || !timeline || document.documentElement.dataset.heroState !== 'running') { settle('replay-unavailable'); return unavailable(document.documentElement.dataset.heroReason ?? 'setup-unavailable'); }
+    hero.dataset.replayReason = 'ready';
+    const playback = timeline as gsap.core.Timeline;
+    const replayLease = lease;
+    const finished = new Promise<void>(resolve => { finishReplay = resolve; });
+    return { play: () => playback.play(0), cancel: () => { if (lease === replayLease) settle('replay-cancelled'); }, finished };
+  };
+  return { attempt, settle, refresh, replay, dispose: () => { disposed = true; settle('dispose'); } };
 }
