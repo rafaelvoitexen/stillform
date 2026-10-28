@@ -3,12 +3,13 @@ const chapters = [
   { id: 'hero', left: ['Architecture defines', 'the space that is not built.'], right: 'Light / Mass / Interval' },
   { id: 'manifesto', left: ['We collect the moments when', 'an absence becomes perceptible.'], right: 'Light / Mass / Perception' },
   { id: 'archive', left: ['Ten records.', 'Different ways of occupying space.'], right: 'Light / Mass / Interval' },
+  { id: 'outro', left: ['A way of looking.'], right: 'Created by Rafael Voitexen' },
 ];
 ---
 <footer class="site-footer" aria-label="Editorial information">
   <p class="sr-only" data-editorial-status>Architecture defines the space that is not built. Light / Mass / Interval</p>
   <p class="editorial-left" data-editorial-window aria-hidden="true">
-    <span class="editorial-motion">{chapters.map(chapter => <span class="label-row" data-chapter={chapter.id} data-editorial-label={chapter.left.join(' ')}><span>{chapter.left[0]}<br />{chapter.left[1]}</span></span>)}</span>
+    <span class="editorial-motion">{chapters.map(chapter => <span class="label-row" data-chapter={chapter.id} data-editorial-label={chapter.left.join(' ')}><span>{chapter.left.map((line, index) => <Fragment>{index > 0 && <br />}{line}</Fragment>)}</span></span>)}</span>
   </p>
   <p class="editorial-right" data-editorial-window aria-hidden="true">
     <span class="editorial-motion">{chapters.map(chapter => <span class="label-row" data-chapter={chapter.id} data-editorial-label={chapter.right}><span>{chapter.right}</span></span>)}</span>

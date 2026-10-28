@@ -1,11 +1,17 @@
 import { gsap } from 'gsap';
 
-const CHAPTERS = ['hero', 'manifesto', 'archive'] as const;
+const CHAPTERS = ['hero', 'manifesto', 'archive', 'outro'] as const;
 export type Chapter = typeof CHAPTERS[number];
-const DESCRIPTIONS: Record<Chapter, string> = { hero: 'An archive of spatial observations', manifesto: 'Manifesto', archive: 'Archive' };
+const DESCRIPTIONS: Record<Chapter, string> = { hero: 'An archive of spatial observations', manifesto: 'Manifesto', archive: 'Archive', outro: 'Outro' };
 let active: Chapter = 'hero';
 let override: Chapter | null = null;
 let editorialSuppressed = false;
+let outroEditorialReady = true;
+/** Outro motion gates only its chapter; presentation stays owned by this controller. */
+export function setOutroEditorialReady(ready: boolean) {
+  if (outroEditorialReady === ready) return;
+  outroEditorialReady = ready; refreshEditorial?.();
+}
 let refreshEditorial: (() => void) | undefined;
 let update: (() => void) | undefined;
 let current: { header: HTMLElement; dispose: () => void } | undefined;
@@ -43,7 +49,7 @@ function initializeHeader() {
   let footerShown = false, presenceTween: gsap.core.Tween | undefined;
   const renderPresence = () => footerMotion.forEach(layer => { layer.style.transform = `translateY(${presence.y}%)`; });
   const updateFooterVisibility = (immediate = false) => {
-    const shown = !editorialSuppressed && !!footer && innerWidth >= 600 && footerHeight > 0 && scrollY - heroTop >= footerHeight;
+    const shown = !editorialSuppressed && (active !== 'outro' || outroEditorialReady) && !!footer && innerWidth >= 600 && footerHeight > 0 && scrollY - heroTop >= footerHeight;
     if (shown === footerShown && !immediate) return;
     footerShown = shown;
     presenceTween?.kill();
@@ -73,6 +79,7 @@ function initializeHeader() {
   const select = (chapter: Chapter, immediate = false) => {
     if (initialized && chapter === active && !immediate) return;
     active = chapter; initialized = true;
+    updateFooterVisibility();
     const index = CHAPTERS.indexOf(chapter);
     document.documentElement.dataset.activeChapter = chapter;
     header.querySelector('[data-chapter-description]')!.textContent = DESCRIPTIONS[chapter];

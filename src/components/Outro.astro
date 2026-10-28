@@ -1,0 +1,48 @@
+<section id="outro" class="outro" aria-labelledby="outro-title">
+  <div class="outro-stage" data-outro-stage>
+    <h2 id="outro-title" aria-label="The opening remains.">
+      <span class="headline-line"><span class="headline-motion" data-outro-line="opening">THE OPENING</span></span>
+      <span class="headline-line headline-line--closing"><span class="headline-motion" data-outro-line="remains">REMAINS.</span></span>
+    </h2>
+  </div>
+  <div class="reading-row">
+    <p class="supporting-copy">A photograph holds a place for a moment.<br />What remains is a way of looking.</p>
+    <a class="return-link" href="#top" data-outro-return>Return to the opening ↑</a>
+  </div>
+  <aside class="notes" aria-label="About STILLFORM">
+    <p class="study-note">STILLFORM is a fictional editorial study of architecture and perception.</p>
+    <p class="creator">Created by Rafael Voitexen</p>
+  </aside>
+</section>
+
+<style>
+  .outro { min-height: 100svh; padding: max(120px, var(--header-content-clearance, 0px)) var(--page-gutter) max(96px, calc(var(--editorial-clearance) + 32px), var(--outro-tail-clearance, 0px)); }
+  /* Clip only the cinematic stage; Notes and links retain their natural flow. */
+  .outro-stage { min-width: 0; overflow: clip; overflow-clip-margin: 8px; }
+  h2 { display: grid; gap: clamp(96px, 11svh, 144px); margin: 0; font-size: clamp(5rem, calc(1rem + 9cqw), 16rem); font-weight: 450; line-height: 1.02; letter-spacing: -.055em; user-select: none; }
+  .headline-line { display: block; min-width: 0; }
+  .headline-line--closing { text-align: right; }
+  .headline-motion { display: inline-block; max-width: 100%; overflow-wrap: anywhere; }
+  .reading-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: end; gap: 24px; margin-top: clamp(56px, 5cqw, 88px); }
+  .supporting-copy { max-width: 32ch; font-size: clamp(1.0625rem, 1.3cqw, 1.25rem); line-height: 1.5; }
+  .return-link { justify-self: end; display: inline-flex; align-items: center; min-height: 44px; font-size: 1rem; line-height: 1.5; text-underline-offset: 4px; }
+  .notes { max-width: 49ch; margin-top: 56px; font-size: .8125rem; line-height: 1.5; }
+  .study-note { color: #626862; }
+  .creator { margin-top: 16px; }
+  @container (min-width: 600px) {
+    .creator { display: none; }
+  }
+  @container (max-width: 1023px) {
+    .outro { padding-top: max(104px, var(--header-content-clearance, 0px)); }
+    h2 { gap: clamp(104px, 12svh, 152px); font-size: clamp(4.5rem, 12cqw, 6.75rem); }
+  }
+  @container (max-width: 599px) {
+    .outro { padding-top: max(72px, var(--header-content-clearance, 0px)); padding-bottom: max(64px, var(--outro-tail-clearance, 0px)); }
+    h2 { gap: clamp(112px, 15svh, 168px); font-size: clamp(2.25rem, calc(.5rem + 10cqw), 3.5rem); }
+    .reading-row { grid-template-columns: minmax(0, 1fr); gap: 24px; margin-top: 40px; }
+    .return-link { font-size: .9375rem; }
+    .notes { margin-top: 48px; }
+  }
+</style>
+
+<script>import '../scripts/outro';</script>
