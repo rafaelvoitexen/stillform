@@ -3,7 +3,7 @@
     <h2 id="manifesto-statement" aria-label="What we leave open lets us see.">
       <span class="line-one"><span data-manifesto-word>WHAT</span>{' '}<span data-manifesto-word>WE</span></span>
       <span class="line-two"><span data-manifesto-word>LEAVE</span>{' '}<span data-manifesto-word>OPEN</span></span>
-      <span class="line-three"><span class="lets"><span data-manifesto-word>LETS</span>{' '}<span data-manifesto-word>US</span></span><span class="revealing-void" aria-hidden="true"></span><span class="see"><span data-manifesto-word>SEE.</span></span></span>
+      <span class="line-three"><span class="lets"><span data-manifesto-word>LETS</span>{' '}<span data-manifesto-word>US</span></span><span class="revealing-void" aria-hidden="true"><span class="reading-aperture" data-reading-aperture><img src="/images/archive/manifesto-barbican-1280.webp" width="1280" height="1920" loading="lazy" decoding="async" alt="" /><span class="aperture-cover" data-aperture-cover></span></span></span><span class="see"><span data-manifesto-word>SEE.</span></span></span>
     </h2>
     <div class="interval">
       <p class="annotation">[ THE INHABITED INTERVAL ]<br />Space is never neutral.</p>
@@ -24,6 +24,7 @@
   .lets, .see { flex-shrink: 0; }
   .see { color: var(--moss); }
   .revealing-void { flex: 1; min-width: 0; }
+  .reading-aperture { display: none; }
   .interval { grid-column: 1 / -1; grid-row: 3; display: grid; grid-template-columns: subgrid; align-items: center; min-height: clamp(140px, 20svh, 270px); padding-block: 28px; }
   .annotation { grid-column: 3 / 6; font-size: 12px; line-height: 1.5; }
   .reading { grid-column: 9 / 13; font-size: clamp(17px, 1.3cqw, 24px); line-height: 1.5; letter-spacing: -.025em; max-width: 30ch; }
@@ -59,6 +60,20 @@
   @media (min-width: 600px) {
     @container (max-width: 70rem) {
       .line-three { flex-wrap: wrap; }
+    }
+  }
+  /* Mutually exclusive with the fine-pointer desktop magnetic aperture. */
+  @media (max-width: 1023px), (hover: none), (pointer: coarse) {
+    .line-three { align-items: center; }
+    .reading-aperture { display: block; position: relative; width: 100%; max-width: 240px; margin-inline-start: auto; aspect-ratio: 3 / 1; overflow: hidden; pointer-events: none; }
+    .reading-aperture img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; filter: grayscale(1); }
+    .aperture-cover { position: absolute; inset: 0; background: var(--mineral); transform: scaleX(0); transform-origin: right center; pointer-events: none; }
+    @container (max-width: 650px) {
+      .line-three { display: grid; grid-template-columns: minmax(0, 1fr) max-content; gap: 5px 20px; }
+      .lets { grid-column: 1 / -1; }
+      .revealing-void { display: block; grid-column: 1; grid-row: 2; position: relative; align-self: stretch; }
+      .reading-aperture { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; aspect-ratio: auto; margin: 0; }
+      .see { grid-column: 2; grid-row: 2; margin-top: 0; white-space: nowrap; }
     }
   }
 </style>

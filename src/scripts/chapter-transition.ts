@@ -18,11 +18,15 @@ function initializeTransition() {
   const events = new AbortController();
   const media = gsap.matchMedia();
   let admitted = false, skipped = false;
+  let revealAperture: (() => void) | undefined, prepareAperture: (() => void) | undefined;
+  let apertureLanguageReady = true;
   const readiness = (ready: boolean) => {
     const value = ready ? originalReadiness : 'false';
-    if (manifesto.getAttribute('data-reveal-ready') === value) return;
-    if (value === null) manifesto.removeAttribute('data-reveal-ready');
-    else manifesto.setAttribute('data-reveal-ready', value);
+    if (manifesto.getAttribute('data-reveal-ready') !== value) {
+      if (value === null) manifesto.removeAttribute('data-reveal-ready');
+      else manifesto.setAttribute('data-reveal-ready', value);
+    }
+    revealAperture?.();
   };
 
   media.add({ all: 'all', desktop: '(min-width: 1024px)', mobile: '(max-width: 599px)', reduced: '(prefers-reduced-motion: reduce)' }, context => {
@@ -61,6 +65,7 @@ function initializeTransition() {
     };
     const coordinate = (progress: number) => {
       const underway = progress > 0 && progress < 1;
+      apertureLanguageReady = progress >= .8;
       readiness(progress >= 1);
       // A small progress band prevents chapter labels chattering when direction reverses.
       if (progress >= .625) chosen = 'manifesto';
@@ -80,6 +85,7 @@ function initializeTransition() {
       if (skipped && (state === 'reserved' || state === 'running')) skipped = false;
       if (disposed) return;
       if (state === 'reserved' || state === 'running') { movePhoto(false); return; }
+      prepareAperture?.();
       if (timeline) { if (mobile) coordinate(timeline.scrollTrigger?.progress ?? 0); return; }
       if (skipped || document.fonts.status !== 'loaded') return;
       if (!CSS.supports('clip-path', 'inset(0)') || parseFloat(getComputedStyle(html).fontSize) > 16.5) {
@@ -156,8 +162,54 @@ function initializeTransition() {
       image.removeEventListener('load', createMotion);
       timeline?.scrollTrigger?.kill(); timeline?.revert(); photoExit?.revert(); layers.forEach(layer => layer.remove());
       image.style.opacity = originalOpacity;
-      readiness(true); setChapterOverride(null);
+      apertureLanguageReady = true; readiness(true); setChapterOverride(null);
       delete html.dataset.voidState;
+    };
+  });
+  media.add({ eligible: '(max-width: 1023px), (hover: none), (pointer: coarse)', motion: '(prefers-reduced-motion: no-preference)' }, context => {
+    if (!context.conditions?.eligible) return;
+    const aperture = manifesto.querySelector<HTMLElement>('[data-reading-aperture]')!;
+    const cover = aperture.querySelector<HTMLElement>('[data-aperture-cover]')!;
+    const photograph = aperture.querySelector<HTMLImageElement>('img')!;
+    let disposed = false, entered = false, prepared = false, revealed = false;
+    let reveal: gsap.core.Timeline | undefined, trigger: ScrollTrigger | undefined;
+    const setup = () => {
+      if (disposed || prepared || document.readyState !== 'complete' || document.fonts.status !== 'loaded') return;
+      if (html.dataset.heroState === 'reserved' || html.dataset.heroState === 'running') return;
+      // Measure only after styles/layout and the Hero admission have settled.
+      // A zero-sized pre-style slot must not permanently bypass the entrance.
+      if (!aperture.getBoundingClientRect().width || !aperture.getBoundingClientRect().height) return;
+      prepared = true;
+      // Never conceal content already visible, including deep links and restored entries.
+      if (!context.conditions?.motion) return;
+      const preserveVisible = aperture.getBoundingClientRect().top < innerHeight;
+      reveal = gsap.timeline({ paused: true, onComplete: () => { revealed = true; } })
+        .fromTo(cover, { scaleX: 1 }, { scaleX: 0, duration: 1, ease: 'power2.inOut' });
+      if (preserveVisible) { reveal.progress(1).pause(); revealed = true; }
+      revealAperture = () => {
+        if (entered && !revealed && photograph.complete && photograph.naturalWidth && apertureLanguageReady) reveal?.play();
+      };
+      photograph.addEventListener('load', revealAperture);
+      const enter = () => {
+        entered = true;
+        photograph.loading = 'eager';
+        void photograph.decode().then(() => { if (!disposed) revealAperture?.(); }, () => { if (!disposed && entered) reveal?.progress(1).pause(); });
+        revealAperture?.();
+      };
+      const reset = () => { entered = false; revealed = false; reveal?.pause(0); };
+      trigger = ScrollTrigger.create({
+        id: 'manifesto-reading-aperture', trigger: aperture, start: 'top bottom', end: 'bottom top',
+        onEnter: enter, onEnterBack: enter, onLeave: reset, onLeaveBack: reset,
+      });
+    };
+    prepareAperture = setup;
+    window.addEventListener('load', setup, { once: true });
+    document.fonts.ready.then(setup);
+    setup();
+    return () => {
+      disposed = true; window.removeEventListener('load', setup); prepareAperture = undefined;
+      if (revealAperture) photograph.removeEventListener('load', revealAperture);
+      revealAperture = undefined; trigger?.kill(); reveal?.revert();
     };
   });
   // Refresh only for layout changes; no measurements run inside the scrub callback.
