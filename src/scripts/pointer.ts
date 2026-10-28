@@ -1,6 +1,6 @@
 import { gsap } from 'gsap';
 
-const TUNING = Object.freeze({ normalSize: 34, tracking: .12, expansion: .34, release: .24, influence: .28, hysteresis: 16 });
+const TUNING = Object.freeze({ normalSize: 34, photoSize: 46, tracking: .12, expansion: .34, release: .24, influence: .28, hysteresis: 16 });
 type Mode = 'NORMAL' | 'MAGNETIC_REVEAL';
 interface Bounds { left: number; right: number; top: number; bottom: number; }
 interface Transition { time: number; mode: Mode; reason: string; input: number; rawX: number; rawY: number; progress: number; }
@@ -32,16 +32,17 @@ function initializePointer() {
     const html = document.documentElement, events = new AbortController();
     const options = { signal: events.signal, passive: true };
     const image = new Image(); image.alt = ''; image.draggable = false;
-    image.src = '/images/tulach-e-vos.jpg';
-    Object.assign(image.style, { position: 'absolute', maxWidth: 'none', objectFit: 'cover', objectPosition: '50% 50%', pointerEvents: 'none' });
+    image.src = '/images/archive/manifesto-barbican-1280.webp';
+    Object.assign(image.style, { position: 'absolute', maxWidth: 'none', objectFit: 'cover', objectPosition: '50% 42%', pointerEvents: 'none' });
     portal.append(image);
+    let photoHovered = false;
     let assetReady = false, disposed = false, frame = 0, inside = false, blockedTarget = false;
     let rawX = 0, rawY = 0, input = 0, vw = innerWidth, vh = innerHeight;
     let dirty = true, geometryRevision = 0, transitionCount = 0;
     let mode: Mode = 'NORMAL';
     let progressTween: gsap.core.Tween | undefined;
     let zone = { left: 0, right: 0, top: 0, bottom: 0, diameter: 34, width: 0, planeX: 0, planeY: 0, planeHeight: 0 };
-    const state = { x: 0, y: 0, progress: 0, visible: 0 };
+    const state = { x: 0, y: 0, progress: 0, photoHover: 0, visible: 0 };
     const target = { x: 0, y: 0 };
     const rendered = { x: 0, y: 0, normalX: 0, normalY: 0, magneticX: 0, magneticY: 0, diameter: 34, imageOpacity: 0, negativeOpacity: 0 };
     const trace: Transition[] = [];
@@ -52,7 +53,8 @@ function initializePointer() {
     const fail = () => { inside = false; native(); negative.style.visibility = portal.style.visibility = 'hidden'; };
     const render = () => {
       try {
-        const diameter = TUNING.normalSize + (zone.diameter - TUNING.normalSize) * state.progress;
+        const normalSize = TUNING.normalSize + (TUNING.photoSize - TUNING.normalSize) * state.photoHover;
+        const diameter = normalSize + (zone.diameter - normalSize) * state.progress;
         const radius = diameter / 2;
         const normalX = clamp(radius, Math.max(radius, vw - radius), state.x);
         const normalY = clamp(radius, Math.max(radius, vh - radius), state.y);
@@ -79,6 +81,11 @@ function initializePointer() {
     const xTo = gsap.quickTo(state, 'x', { duration: TUNING.tracking, ease: 'power3.out', onUpdate: render });
     const yTo = gsap.quickTo(state, 'y', { duration: TUNING.tracking, ease: 'power3.out', onUpdate: render });
     const visibleTo = gsap.quickTo(state, 'visible', { duration: .12, ease: 'power2.out', onUpdate: render });
+    const photoHoverTo = gsap.quickTo(state, 'photoHover', { duration: .24, ease: 'power2.out', onUpdate: render });
+    const photoHover = (element: Element | null) => {
+      const next = !!element?.closest('#archive[data-hover-ready] [data-archive-photo]');
+      if (next !== photoHovered) { photoHovered = next; photoHoverTo(next ? 1 : 0); }
+    };
     const steer = () => {
       // Progress updates render the blend; only changed raw input retargets tracking.
       if (target.x !== rawX) { target.x = rawX; xTo(rawX); }
@@ -112,7 +119,7 @@ function initializePointer() {
     };
     const hide = () => {
       if (!inside) return;
-      inside = false; native(); setMode('NORMAL', 'pointer-hidden'); visibleTo(0);
+      inside = false; photoHover(null); native(); setMode('NORMAL', 'pointer-hidden'); visibleTo(0);
     };
     const measure = () => {
       frame = 0; dirty = false; geometryRevision++; vw = innerWidth; vh = innerHeight;
@@ -133,7 +140,7 @@ function initializePointer() {
         image.style.clipPath = `inset(${Math.max(0, zone.top - zone.planeY)}px ${Math.max(0, zone.planeX + zone.width - zone.right)}px ${Math.max(0, zone.planeY + zone.planeHeight - zone.bottom)}px ${Math.max(0, zone.left - zone.planeX)}px)`;
       }
       if (zone.diameter < 100 && (state.progress > 0 || mode === 'MAGNETIC_REVEAL')) resetUnavailable('geometry-unavailable');
-      classify('geometry'); if (inside) steer(); render();
+      classify('geometry'); if (inside) { photoHover(document.elementFromPoint(rawX, rawY)); steer(); } render();
     };
     const refresh = () => { dirty = true; if (!frame) frame = requestAnimationFrame(measure); };
     image.decode().then(() => { if (!disposed) { assetReady = true; refresh(); } }, () => { if (!disposed) { assetReady = false; resetUnavailable('image-unavailable'); } });
@@ -147,7 +154,7 @@ function initializePointer() {
           inside = true; visibleTo(1);
         }
         // Classify synchronously from this event, never from a tweened coordinate.
-        classify('pointer'); steer();
+        photoHover(event.target instanceof Element ? event.target : null); classify('pointer'); steer();
       } catch { fail(); }
     };
     document.addEventListener('pointermove', move, options);
@@ -168,7 +175,7 @@ function initializePointer() {
     const diagnostics = Object.freeze({
       snapshot: () => ({ raw: { x: rawX, y: rawY, input }, visual: { x: rendered.x, y: rendered.y }, target: { ...target },
         region: { left: zone.left, right: zone.right, top: zone.top, bottom: zone.bottom }, safeBounds: safeBounds(),
-        mode, progress: state.progress, diameter: rendered.diameter, imageOpacity: rendered.imageOpacity,
+        mode, photoHovered, progress: state.progress, diameter: rendered.diameter, imageOpacity: rendered.imageOpacity,
         negativeOpacity: rendered.negativeOpacity, magneticInfluence: state.progress * TUNING.influence, constraintStrength: state.progress,
         normalPosition: { x: rendered.normalX, y: rendered.normalY }, magneticPosition: { x: rendered.magneticX, y: rendered.magneticY },
         imageReady: assetReady, geometryRevision, geometryDirty: dirty, transitions: transitionCount,
@@ -179,7 +186,7 @@ function initializePointer() {
     measure();
     return () => {
       disposed = true; native(); events.abort(); observer.disconnect(); gate.disconnect(); cancelAnimationFrame(frame);
-      progressTween?.kill(); [xTo, yTo, visibleTo].forEach(tween => tween.tween.kill());
+      progressTween?.kill(); [xTo, yTo, visibleTo, photoHoverTo].forEach(tween => tween.tween.kill());
       image.remove(); negative.removeAttribute('style'); portal.removeAttribute('style');
       if (window.__stillformPointer === diagnostics) delete window.__stillformPointer;
     };

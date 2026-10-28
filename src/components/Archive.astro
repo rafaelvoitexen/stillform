@@ -1,0 +1,117 @@
+---
+import records from '../data/archive.json';
+const landscape = new Set(['threshold', 'weight', 'light', 'volume']);
+const leftEdge = new Set(['passage', 'weight', 'interval', 'depth', 'volume']);
+const descriptions: Record<string, string> = {
+  threshold: 'Symmetrical concrete walls and a central water channel facing the open horizon at the Salk Institute.',
+  passage: 'Directional sunlight crosses a concrete passage leading to greenery at Setre Marina Lake Biwako.',
+  weight: 'Stepped concrete volumes of the National Theatre beneath a pale blue sky.',
+  release: 'A patterned white curve of MAAT meets the pale sky, with a small aircraft in the distance.',
+  interval: 'Repeated concrete columns frame a pool and a dark central opening at the Barbican.',
+  ascent: 'A curved white staircase and angular walls of the Vitra Design Museum against blue sky.',
+  depth: 'Concrete columns and beams recede through a shadowed interior at Tate Modern.',
+  light: 'Illuminated shelves rise through the interior of the Beinecke Library.',
+  volume: 'The faceted concrete mass of Casa da Música rises into a blue sky.',
+  flow: 'White stairs and a continuous curved ceiling inside the Heydar Aliyev Center.',
+};
+---
+<section id="archive" class="archive" aria-labelledby="archive-title">
+  <div class="archive-heading">
+    <h2 id="archive-title">ARCHIVE</h2>
+    <p class="introduction">Ten observations on how a place is made perceptible.</p>
+  </div>
+  <div class="archive-field">
+    {records.map((record, index) => {
+      const fallback = record.variants.find(v => v.width === 1280)!;
+      const wide = landscape.has(record.id);
+      const portraitSize = record.id === 'ascent' ? 'min(33vw, 440px)' : record.id === 'flow' ? 'min(33vw, 500px)' : `min(${record.id === 'passage' ? '25' : '33'}vw, clamp(360px, 19vw, 560px))`;
+      const words = record.observation.split(' ');
+      return (
+        <article id={`archive-${record.id}`} class:list={['record', `record--${record.id}`, { 'record--portrait': !wide, 'observation-left': leftEdge.has(record.id) }]} data-archive-record={record.id} style={`--frame-ratio: ${record.ratio}; --focal-point: ${record.focal};`}>
+          <div class="record-parallax">
+            <figure class="record-entry" aria-labelledby={`archive-${record.id}-title`}>
+                <div class="image-frame" data-archive-photo>
+                  <div class="image-drift">
+                    <img src={fallback.src} srcset={record.variants.map(v => `${v.src} ${v.width}w`).join(', ')} sizes={`(max-width: 599px) ${wide ? 'calc(100vw - 40px)' : '82vw'}, (max-width: 1023px) ${wide ? 'calc(100vw - 48px)' : '65vw'}, ${wide ? 'min(65vw, 1120px)' : portraitSize}`} width={fallback.width} height={fallback.height} loading="lazy" decoding="async" alt={descriptions[record.id]} />
+                  </div>
+                </div>
+              <figcaption>
+                <h3 id={`archive-${record.id}-title`}><span class="record-number">{String(index + 1).padStart(2, '0')}</span> / {record.title}</h3>
+                <p class="record-location">{record.location}</p>
+                <p class="record-credit">Photograph by <a href={record.source}>{record.photographer}</a></p>
+              </figcaption>
+                <div class="record-observation">
+                  <p class="observation-ink">{words.map(word => <Fragment><span data-observation-word>{word}</span>{' '}</Fragment>)}</p>
+                  <p class="observation-white" aria-hidden="true">{words.map(word => <Fragment><span data-observation-word>{word}</span>{' '}</Fragment>)}</p>
+                </div>
+            </figure>
+          </div>
+        </article>
+      );
+    })}
+  </div>
+</section>
+
+<style>
+  .archive { --landscape-cap: clamp(55rem, 37cqw, 70rem); --portrait-cap: clamp(22.5rem, 19cqw, 35rem); padding: max(120px, var(--header-content-clearance, 0px)) var(--page-gutter) max(160px, calc(var(--editorial-clearance) + 64px)); }
+  .archive-heading, .archive-field { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; }
+  .archive-heading { align-items: end; row-gap: 20px; }
+  h2, h3 { margin: 0; font-weight: 500; overflow-wrap: anywhere; }
+  h2 { grid-column: 1 / 8; font-size: clamp(4rem, 6cqw, 6.5rem); line-height: 1; letter-spacing: -.05em; user-select: none; }
+  .introduction { grid-column: 9 / -1; max-width: 34ch; font-size: clamp(1rem, 1.3cqw, 1.25rem); line-height: 1.5; }
+  .archive-field { margin-top: clamp(72px, 7cqw, 160px); row-gap: clamp(140px, 12cqw, 300px); align-items: start; }
+  .record { width: 100%; min-width: 0; max-width: var(--landscape-cap); }
+  .record--portrait { max-width: var(--portrait-cap); }
+  .record--threshold { grid-area: 1 / 1 / 2 / 8; }
+  .record--passage { grid-area: 1 / 10 / 2 / 13; justify-self: end; margin-top: clamp(140px, 16cqw, 320px); }
+  .record--weight { grid-area: 2 / 4 / 3 / 12; justify-self: end; max-width: 65rem; }
+  .record--release { grid-area: 3 / 1 / 4 / 5; }
+  .record--interval { grid-area: 3 / 8 / 4 / 12; justify-self: end; margin-top: clamp(160px, 15cqw, 360px); }
+  .record--ascent { grid-area: 4 / 3 / 5 / 7; max-width: 27.5rem; }
+  .record--depth { grid-area: 4 / 9 / 5 / 13; justify-self: end; margin-top: clamp(180px, 19cqw, 420px); }
+  .record--light { grid-area: 5 / 1 / 6 / 9; }
+  .record--volume { grid-area: 6 / 7 / 7 / 13; justify-self: end; max-width: 60rem; }
+  .record--flow { grid-area: 7 / 2 / 8 / 6; max-width: 31.25rem; }
+  .record-entry { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-areas: "photo" "caption" "note"; }
+  .image-frame { grid-area: photo; position: relative; width: 100%; aspect-ratio: var(--frame-ratio); overflow: clip; }
+  .image-drift { position: absolute; inset: -6% 0; }
+  /* 120% image height covers the maximum 8% drift (9.6% of the frame). */
+  .archive[data-parallax-ready] .image-drift { inset: -10% 0; }
+  img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: var(--focal-point); }
+  figcaption { grid-area: caption; margin-top: 16px; }
+  h3 { font-size: clamp(1.125rem, 1.5cqw, 1.375rem); line-height: 1.25; letter-spacing: -.025em; }
+  .record-number { font-variant-numeric: tabular-nums; }
+  .record-location, .record-credit { font-size: .75rem; line-height: 1.5; overflow-wrap: anywhere; }
+  .record-location { margin-top: 9px; }
+  .record-credit { color: #626862; margin-top: 2px; }
+  .record-observation { grid-area: note; margin-top: 24px; max-width: 32ch; font-size: clamp(1rem, 1.3cqw, 1.25rem); line-height: 1.5; }
+  .observation-white { display: none; }
+  @media (min-width: 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .archive[data-hover-ready] .record-observation { --note-width: clamp(15rem, 23cqw, 23rem); grid-area: photo; align-self: center; justify-self: end; position: relative; z-index: 2; transform: translateX(50%); width: var(--note-width); max-width: none; margin: 0; pointer-events: none; font-size: clamp(1.5rem, 2.2cqw, 2rem); font-weight: 500; line-height: 1.12; letter-spacing: -.035em; }
+    .archive[data-hover-ready] .observation-left .record-observation { justify-self: start; transform: translateX(-50%); }
+    .archive[data-hover-ready] .observation-white { display: block; position: absolute; inset: 0; color: #fff; clip-path: inset(0 50% 0 0); }
+    .archive[data-hover-ready] :is(.record--weight, .record--release) .observation-white { color: #656966; }
+    .archive[data-hover-ready] .observation-left .observation-white { clip-path: inset(0 0 0 50%); }
+    [data-observation-word] { display: inline-block; }
+  }
+  @container (max-width: 1023px) {
+    .archive { padding-top: max(104px, var(--header-content-clearance, 0px)); }
+    .archive-heading, .archive-field { grid-template-columns: repeat(6, minmax(0, 1fr)); column-gap: 16px; }
+    h2 { grid-column: 1 / 4; }
+    .introduction { grid-column: 4 / -1; }
+    .archive-field { margin-top: 64px; row-gap: 104px; }
+    .record { grid-area: auto / 1 / auto / -1; margin-top: 0; max-width: none; }
+    .record--portrait { width: 65%; justify-self: end; }
+    .record--release, .record--ascent, .record--flow { justify-self: start; }
+  }
+  @container (max-width: 599px) {
+    .archive { padding-top: max(88px, var(--header-content-clearance, 0px)); padding-bottom: 100px; }
+    .archive-heading, .archive-field { grid-template-columns: minmax(0, 1fr); }
+    h2 { grid-column: 1; font-size: clamp(2.75rem, 12cqw, 3.5rem); }
+    .introduction { grid-column: 1; }
+    .archive-field { margin-top: 48px; row-gap: 76px; }
+    .record--portrait { width: 82%; }
+    .record-observation { margin-top: 20px; }
+  }
+</style>
+<script>import '../scripts/archive';</script>

@@ -1,0 +1,609 @@
+{
+  "licenseScope": "Photographic license verified on source pages. No claim of exhaustive third-party rights clearance. Historical Phase 05B provenance is preserved separately.",
+  "assets": [
+    {
+      "id": "threshold",
+      "title": "THRESHOLD",
+      "photographer": "Adam Bignell",
+      "location": "Salk Institute, La Jolla, USA",
+      "source": "https://unsplash.com/photos/YIfkZfh6_Ag",
+      "imageUrl": "https://images.unsplash.com/photo-1566457988328-6e080d8b90f8?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        4240,
+        2832
+      ],
+      "downloadDimensions": [
+        2800,
+        1870
+      ],
+      "sourceSha256": "6995700d0d1fc752e9de90974a654d0ba03fae1f5c0565f7a1ea17c28b239ba0",
+      "ratio": "3 / 2",
+      "focal": "50% 50%",
+      "observation": "Two walls hold a line of open sky.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "src": "/images/archive/threshold-480.webp",
+          "bytes": 19030
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "src": "/images/archive/threshold-800.webp",
+          "bytes": 46458
+        },
+        {
+          "width": 1280,
+          "height": 855,
+          "src": "/images/archive/threshold-1280.webp",
+          "bytes": 101702
+        },
+        {
+          "width": 1920,
+          "height": 1282,
+          "src": "/images/archive/threshold-1920.webp",
+          "bytes": 189876
+        },
+        {
+          "width": 2400,
+          "height": 1603,
+          "src": "/images/archive/threshold-2400.webp",
+          "bytes": 262930
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "passage",
+      "title": "PASSAGE",
+      "photographer": "Anastashia Nadya Angkasa",
+      "location": "Setre Marina Lake Biwako, Moriyama, Japan",
+      "source": "https://unsplash.com/photos/XnAubvnRnYU",
+      "imageUrl": "https://images.unsplash.com/photo-1773549760309-9ed383225d68?fm=jpg&q=90&w=2652&fit=max",
+      "originalDimensions": [
+        2652,
+        3991
+      ],
+      "downloadDimensions": [
+        2652,
+        3991
+      ],
+      "sourceSha256": "24886e4b4d658fe2b3c3ebf2b15f3ad78238fb037c73e3bfe014c8c7d164f202",
+      "ratio": "4 / 5",
+      "focal": "50% 55%",
+      "observation": "Light finds a path through the enclosure.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 722,
+          "src": "/images/archive/passage-480.webp",
+          "bytes": 15318
+        },
+        {
+          "width": 800,
+          "height": 1204,
+          "src": "/images/archive/passage-800.webp",
+          "bytes": 34324
+        },
+        {
+          "width": 1280,
+          "height": 1926,
+          "src": "/images/archive/passage-1280.webp",
+          "bytes": 68512
+        },
+        {
+          "width": 1920,
+          "height": 2889,
+          "src": "/images/archive/passage-1920.webp",
+          "bytes": 126900
+        },
+        {
+          "width": 2400,
+          "height": 3612,
+          "src": "/images/archive/passage-2400.webp",
+          "bytes": 176056
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "weight",
+      "title": "WEIGHT",
+      "photographer": "Simone Hutsch",
+      "location": "National Theatre, London, UK",
+      "source": "https://unsplash.com/photos/XK0faa4_mCQ",
+      "imageUrl": "https://images.unsplash.com/photo-1546414701-81cc6963c67f?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        4242,
+        2607
+      ],
+      "downloadDimensions": [
+        2800,
+        1721
+      ],
+      "sourceSha256": "6162d6cf2dae54a4f703c3fd3bad632b032e2762c76f62d12f5ff9ccbe8dd4a7",
+      "ratio": "3 / 2",
+      "focal": "50% 50%",
+      "observation": "Concrete gathers where the sky falls away.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 295,
+          "src": "/images/archive/weight-480.webp",
+          "bytes": 5960
+        },
+        {
+          "width": 800,
+          "height": 492,
+          "src": "/images/archive/weight-800.webp",
+          "bytes": 14002
+        },
+        {
+          "width": 1280,
+          "height": 787,
+          "src": "/images/archive/weight-1280.webp",
+          "bytes": 33114
+        },
+        {
+          "width": 1920,
+          "height": 1180,
+          "src": "/images/archive/weight-1920.webp",
+          "bytes": 68464
+        },
+        {
+          "width": 2400,
+          "height": 1475,
+          "src": "/images/archive/weight-2400.webp",
+          "bytes": 110784
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "release",
+      "title": "RELEASE",
+      "photographer": "Augustine Wong",
+      "location": "MAAT, Lisbon, Portugal",
+      "source": "https://unsplash.com/photos/7LK5VLWbqcY",
+      "imageUrl": "https://images.unsplash.com/photo-1586522471238-ce46346d73db?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        3456,
+        5184
+      ],
+      "downloadDimensions": [
+        2800,
+        4200
+      ],
+      "sourceSha256": "602987cb068d0a323262fc057bf53485933afa11fbdbc80ea6cad2f372de7590",
+      "ratio": "2 / 3",
+      "focal": "50% 50%",
+      "observation": "A curved edge lets the sky continue.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 720,
+          "src": "/images/archive/release-480.webp",
+          "bytes": 22160
+        },
+        {
+          "width": 800,
+          "height": 1200,
+          "src": "/images/archive/release-800.webp",
+          "bytes": 44626
+        },
+        {
+          "width": 1280,
+          "height": 1920,
+          "src": "/images/archive/release-1280.webp",
+          "bytes": 85688
+        },
+        {
+          "width": 1920,
+          "height": 2880,
+          "src": "/images/archive/release-1920.webp",
+          "bytes": 152136
+        },
+        {
+          "width": 2400,
+          "height": 3600,
+          "src": "/images/archive/release-2400.webp",
+          "bytes": 233158
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "interval",
+      "title": "INTERVAL",
+      "photographer": "Mike Hindle",
+      "location": "Barbican Centre, London, UK",
+      "source": "https://unsplash.com/photos/p3P20nfqTg4",
+      "imageUrl": "https://images.unsplash.com/photo-1759214657737-f6815531eba7?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        4561,
+        6842
+      ],
+      "downloadDimensions": [
+        2800,
+        4200
+      ],
+      "sourceSha256": "b7ce0775af1b74355137d7ccf661ba4385e18b494935ff4c2f4ae239f570d8da",
+      "ratio": "4 / 5",
+      "focal": "50% 50%",
+      "observation": "Between repeated columns, another space appears.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 720,
+          "src": "/images/archive/interval-480.webp",
+          "bytes": 71290
+        },
+        {
+          "width": 800,
+          "height": 1200,
+          "src": "/images/archive/interval-800.webp",
+          "bytes": 231618
+        },
+        {
+          "width": 1280,
+          "height": 1920,
+          "src": "/images/archive/interval-1280.webp",
+          "bytes": 660980
+        },
+        {
+          "width": 1920,
+          "height": 2880,
+          "src": "/images/archive/interval-1920.webp",
+          "bytes": 1572020
+        },
+        {
+          "width": 2400,
+          "height": 3600,
+          "src": "/images/archive/interval-2400.webp",
+          "bytes": 2445454
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "ascent",
+      "title": "ASCENT",
+      "photographer": "Victor",
+      "location": "Vitra Design Museum, Weil am Rhein, Germany",
+      "source": "https://unsplash.com/photos/3QaGzeQbda8",
+      "imageUrl": "https://images.unsplash.com/photo-1549357957-99ab8644c268?fm=jpg&q=90&w=2669&fit=max",
+      "originalDimensions": [
+        2669,
+        3336
+      ],
+      "downloadDimensions": [
+        2669,
+        3336
+      ],
+      "sourceSha256": "c9bc44a084d1cefc5cb5883b7482e3dc4a5cd30086b8fd7d5ededd0ff3eebc67",
+      "ratio": "4 / 5",
+      "focal": "50% 50%",
+      "observation": "The eye follows a turn into the light.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 600,
+          "src": "/images/archive/ascent-480.webp",
+          "bytes": 8114
+        },
+        {
+          "width": 800,
+          "height": 1000,
+          "src": "/images/archive/ascent-800.webp",
+          "bytes": 16402
+        },
+        {
+          "width": 1280,
+          "height": 1600,
+          "src": "/images/archive/ascent-1280.webp",
+          "bytes": 32570
+        },
+        {
+          "width": 1920,
+          "height": 2400,
+          "src": "/images/archive/ascent-1920.webp",
+          "bytes": 61486
+        },
+        {
+          "width": 2400,
+          "height": 3000,
+          "src": "/images/archive/ascent-2400.webp",
+          "bytes": 87274
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "depth",
+      "title": "DEPTH",
+      "photographer": "Joseph Pearson",
+      "location": "Tate Modern, London, UK",
+      "source": "https://unsplash.com/photos/LTDaDoMIdqs",
+      "imageUrl": "https://images.unsplash.com/photo-1509403619344-01b9e129e637?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        3648,
+        5472
+      ],
+      "downloadDimensions": [
+        2800,
+        4200
+      ],
+      "sourceSha256": "99e2710d634dc5aa8636f42fb325889c62fdd037301e455cee679647afded376",
+      "ratio": "2 / 3",
+      "focal": "50% 50%",
+      "observation": "Darkness gives the distant opening its depth.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 720,
+          "src": "/images/archive/depth-480.webp",
+          "bytes": 25104
+        },
+        {
+          "width": 800,
+          "height": 1200,
+          "src": "/images/archive/depth-800.webp",
+          "bytes": 58398
+        },
+        {
+          "width": 1280,
+          "height": 1920,
+          "src": "/images/archive/depth-1280.webp",
+          "bytes": 143710
+        },
+        {
+          "width": 1920,
+          "height": 2880,
+          "src": "/images/archive/depth-1920.webp",
+          "bytes": 373332
+        },
+        {
+          "width": 2400,
+          "height": 3600,
+          "src": "/images/archive/depth-2400.webp",
+          "bytes": 627974
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "light",
+      "title": "LIGHT",
+      "photographer": "Tim Bish",
+      "location": "Beinecke Library, New Haven, USA",
+      "source": "https://unsplash.com/photos/MOLPxhKRVlI",
+      "imageUrl": "https://images.unsplash.com/photo-1533511105234-0029ad9ac542?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        7374,
+        4265
+      ],
+      "downloadDimensions": [
+        2800,
+        1619
+      ],
+      "sourceSha256": "47b8fc1f991fcb827f0ca71149b01f7bea77c4dda907b2dddd780aecf61a90a4",
+      "ratio": "16 / 10",
+      "focal": "50% 50%",
+      "observation": "Rows of books hold a field of light.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 278,
+          "src": "/images/archive/light-480.webp",
+          "bytes": 53868
+        },
+        {
+          "width": 800,
+          "height": 463,
+          "src": "/images/archive/light-800.webp",
+          "bytes": 124708
+        },
+        {
+          "width": 1280,
+          "height": 740,
+          "src": "/images/archive/light-1280.webp",
+          "bytes": 271700
+        },
+        {
+          "width": 1920,
+          "height": 1110,
+          "src": "/images/archive/light-1920.webp",
+          "bytes": 545872
+        },
+        {
+          "width": 2400,
+          "height": 1388,
+          "src": "/images/archive/light-2400.webp",
+          "bytes": 777056
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "volume",
+      "title": "VOLUME",
+      "photographer": "Simone Hutsch",
+      "location": "Casa da Música, Porto, Portugal",
+      "source": "https://unsplash.com/photos/9jsQcDsxyqA",
+      "imageUrl": "https://images.unsplash.com/photo-1653288973812-81d1951b8127?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        9981,
+        7045
+      ],
+      "downloadDimensions": [
+        2800,
+        1976
+      ],
+      "sourceSha256": "988b772fc46b786288dec0d712ccd1de1e78dffe39b104d4ddd2aa7b519b6d52",
+      "ratio": "3 / 2",
+      "focal": "50% 50%",
+      "observation": "A single mass makes the surrounding air visible.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 339,
+          "src": "/images/archive/volume-480.webp",
+          "bytes": 8742
+        },
+        {
+          "width": 800,
+          "height": 565,
+          "src": "/images/archive/volume-800.webp",
+          "bytes": 23922
+        },
+        {
+          "width": 1280,
+          "height": 903,
+          "src": "/images/archive/volume-1280.webp",
+          "bytes": 56106
+        },
+        {
+          "width": 1920,
+          "height": 1355,
+          "src": "/images/archive/volume-1920.webp",
+          "bytes": 110192
+        },
+        {
+          "width": 2400,
+          "height": 1694,
+          "src": "/images/archive/volume-2400.webp",
+          "bytes": 156538
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "flow",
+      "title": "FLOW",
+      "photographer": "Shiva Mardahi",
+      "location": "Heydar Aliyev Center, Baku, Azerbaijan",
+      "source": "https://unsplash.com/photos/igcaXcXsQ2s",
+      "imageUrl": "https://images.unsplash.com/photo-1755040566521-55180385018d?fm=jpg&q=90&w=2656&fit=max",
+      "originalDimensions": [
+        2656,
+        3984
+      ],
+      "downloadDimensions": [
+        2656,
+        3984
+      ],
+      "sourceSha256": "8471d6260227608b98a81d0deb6a26667eefcddc323c9c2c80ab3c2f1943abba",
+      "ratio": "2 / 3",
+      "focal": "50% 50%",
+      "observation": "One surface folds into the next interval.",
+      "variants": [
+        {
+          "width": 480,
+          "height": 720,
+          "src": "/images/archive/flow-480.webp",
+          "bytes": 15980
+        },
+        {
+          "width": 800,
+          "height": 1200,
+          "src": "/images/archive/flow-800.webp",
+          "bytes": 33304
+        },
+        {
+          "width": 1280,
+          "height": 1920,
+          "src": "/images/archive/flow-1280.webp",
+          "bytes": 66950
+        },
+        {
+          "width": 1920,
+          "height": 2880,
+          "src": "/images/archive/flow-1920.webp",
+          "bytes": 127516
+        },
+        {
+          "width": 2400,
+          "height": 3600,
+          "src": "/images/archive/flow-2400.webp",
+          "bytes": 201376
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    },
+    {
+      "id": "manifesto-barbican",
+      "title": "MANIFESTO-BARBICAN",
+      "photographer": "Ollie Singleton",
+      "location": "Barbican Centre, London, UK",
+      "source": "https://unsplash.com/photos/NL9UoErgT-8",
+      "imageUrl": "https://images.unsplash.com/photo-1754864208187-549bc6a074b9?fm=jpg&q=90&w=2800&fit=max",
+      "originalDimensions": [
+        3712,
+        5568
+      ],
+      "downloadDimensions": [
+        2800,
+        4200
+      ],
+      "sourceSha256": "12615c634890505311d93864571cd21e735df181a41da85328cea6a7112dd89f",
+      "ratio": "native",
+      "focal": "50% 42%",
+      "observation": "",
+      "variants": [
+        {
+          "width": 640,
+          "height": 960,
+          "src": "/images/archive/manifesto-barbican-640.webp",
+          "bytes": 114860
+        },
+        {
+          "width": 1280,
+          "height": 1920,
+          "src": "/images/archive/manifesto-barbican-1280.webp",
+          "bytes": 381704
+        },
+        {
+          "width": 1920,
+          "height": 2880,
+          "src": "/images/archive/manifesto-barbican-1920.webp",
+          "bytes": 742764
+        }
+      ],
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "verified": "2026-10-27",
+      "verification": "Public photo page opened in a real browser. Creator, named location, original image width/height attributes and free Unsplash License confirmed. Building name follows source location; no independent architectural authorship asserted."
+    }
+  ]
+}

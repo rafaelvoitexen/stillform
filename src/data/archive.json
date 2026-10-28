@@ -1,0 +1,422 @@
+[
+  {
+    "id": "threshold",
+    "title": "THRESHOLD",
+    "photographer": "Adam Bignell",
+    "location": "Salk Institute, La Jolla, USA",
+    "source": "https://unsplash.com/photos/YIfkZfh6_Ag",
+    "ratio": "3 / 2",
+    "focal": "50% 50%",
+    "observation": "Two walls hold a line of open sky.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 321,
+        "src": "/images/archive/threshold-480.webp",
+        "bytes": 19030
+      },
+      {
+        "width": 800,
+        "height": 534,
+        "src": "/images/archive/threshold-800.webp",
+        "bytes": 46458
+      },
+      {
+        "width": 1280,
+        "height": 855,
+        "src": "/images/archive/threshold-1280.webp",
+        "bytes": 101702
+      },
+      {
+        "width": 1920,
+        "height": 1282,
+        "src": "/images/archive/threshold-1920.webp",
+        "bytes": 189876
+      },
+      {
+        "width": 2400,
+        "height": 1603,
+        "src": "/images/archive/threshold-2400.webp",
+        "bytes": 262930
+      }
+    ]
+  },
+  {
+    "id": "passage",
+    "title": "PASSAGE",
+    "photographer": "Anastashia Nadya Angkasa",
+    "location": "Setre Marina Lake Biwako, Moriyama, Japan",
+    "source": "https://unsplash.com/photos/XnAubvnRnYU",
+    "ratio": "4 / 5",
+    "focal": "50% 55%",
+    "observation": "Light finds a path through the enclosure.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 722,
+        "src": "/images/archive/passage-480.webp",
+        "bytes": 15318
+      },
+      {
+        "width": 800,
+        "height": 1204,
+        "src": "/images/archive/passage-800.webp",
+        "bytes": 34324
+      },
+      {
+        "width": 1280,
+        "height": 1926,
+        "src": "/images/archive/passage-1280.webp",
+        "bytes": 68512
+      },
+      {
+        "width": 1920,
+        "height": 2889,
+        "src": "/images/archive/passage-1920.webp",
+        "bytes": 126900
+      },
+      {
+        "width": 2400,
+        "height": 3612,
+        "src": "/images/archive/passage-2400.webp",
+        "bytes": 176056
+      }
+    ]
+  },
+  {
+    "id": "weight",
+    "title": "WEIGHT",
+    "photographer": "Simone Hutsch",
+    "location": "National Theatre, London, UK",
+    "source": "https://unsplash.com/photos/XK0faa4_mCQ",
+    "ratio": "3 / 2",
+    "focal": "50% 50%",
+    "observation": "Concrete gathers where the sky falls away.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 295,
+        "src": "/images/archive/weight-480.webp",
+        "bytes": 5960
+      },
+      {
+        "width": 800,
+        "height": 492,
+        "src": "/images/archive/weight-800.webp",
+        "bytes": 14002
+      },
+      {
+        "width": 1280,
+        "height": 787,
+        "src": "/images/archive/weight-1280.webp",
+        "bytes": 33114
+      },
+      {
+        "width": 1920,
+        "height": 1180,
+        "src": "/images/archive/weight-1920.webp",
+        "bytes": 68464
+      },
+      {
+        "width": 2400,
+        "height": 1475,
+        "src": "/images/archive/weight-2400.webp",
+        "bytes": 110784
+      }
+    ]
+  },
+  {
+    "id": "release",
+    "title": "RELEASE",
+    "photographer": "Augustine Wong",
+    "location": "MAAT, Lisbon, Portugal",
+    "source": "https://unsplash.com/photos/7LK5VLWbqcY",
+    "ratio": "2 / 3",
+    "focal": "50% 50%",
+    "observation": "A curved edge lets the sky continue.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/images/archive/release-480.webp",
+        "bytes": 22160
+      },
+      {
+        "width": 800,
+        "height": 1200,
+        "src": "/images/archive/release-800.webp",
+        "bytes": 44626
+      },
+      {
+        "width": 1280,
+        "height": 1920,
+        "src": "/images/archive/release-1280.webp",
+        "bytes": 85688
+      },
+      {
+        "width": 1920,
+        "height": 2880,
+        "src": "/images/archive/release-1920.webp",
+        "bytes": 152136
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "src": "/images/archive/release-2400.webp",
+        "bytes": 233158
+      }
+    ]
+  },
+  {
+    "id": "interval",
+    "title": "INTERVAL",
+    "photographer": "Mike Hindle",
+    "location": "Barbican Centre, London, UK",
+    "source": "https://unsplash.com/photos/p3P20nfqTg4",
+    "ratio": "4 / 5",
+    "focal": "50% 50%",
+    "observation": "Between repeated columns, another space appears.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/images/archive/interval-480.webp",
+        "bytes": 71290
+      },
+      {
+        "width": 800,
+        "height": 1200,
+        "src": "/images/archive/interval-800.webp",
+        "bytes": 231618
+      },
+      {
+        "width": 1280,
+        "height": 1920,
+        "src": "/images/archive/interval-1280.webp",
+        "bytes": 660980
+      },
+      {
+        "width": 1920,
+        "height": 2880,
+        "src": "/images/archive/interval-1920.webp",
+        "bytes": 1572020
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "src": "/images/archive/interval-2400.webp",
+        "bytes": 2445454
+      }
+    ]
+  },
+  {
+    "id": "ascent",
+    "title": "ASCENT",
+    "photographer": "Victor",
+    "location": "Vitra Design Museum, Weil am Rhein, Germany",
+    "source": "https://unsplash.com/photos/3QaGzeQbda8",
+    "ratio": "4 / 5",
+    "focal": "50% 50%",
+    "observation": "The eye follows a turn into the light.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 600,
+        "src": "/images/archive/ascent-480.webp",
+        "bytes": 8114
+      },
+      {
+        "width": 800,
+        "height": 1000,
+        "src": "/images/archive/ascent-800.webp",
+        "bytes": 16402
+      },
+      {
+        "width": 1280,
+        "height": 1600,
+        "src": "/images/archive/ascent-1280.webp",
+        "bytes": 32570
+      },
+      {
+        "width": 1920,
+        "height": 2400,
+        "src": "/images/archive/ascent-1920.webp",
+        "bytes": 61486
+      },
+      {
+        "width": 2400,
+        "height": 3000,
+        "src": "/images/archive/ascent-2400.webp",
+        "bytes": 87274
+      }
+    ]
+  },
+  {
+    "id": "depth",
+    "title": "DEPTH",
+    "photographer": "Joseph Pearson",
+    "location": "Tate Modern, London, UK",
+    "source": "https://unsplash.com/photos/LTDaDoMIdqs",
+    "ratio": "2 / 3",
+    "focal": "50% 50%",
+    "observation": "Darkness gives the distant opening its depth.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/images/archive/depth-480.webp",
+        "bytes": 25104
+      },
+      {
+        "width": 800,
+        "height": 1200,
+        "src": "/images/archive/depth-800.webp",
+        "bytes": 58398
+      },
+      {
+        "width": 1280,
+        "height": 1920,
+        "src": "/images/archive/depth-1280.webp",
+        "bytes": 143710
+      },
+      {
+        "width": 1920,
+        "height": 2880,
+        "src": "/images/archive/depth-1920.webp",
+        "bytes": 373332
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "src": "/images/archive/depth-2400.webp",
+        "bytes": 627974
+      }
+    ]
+  },
+  {
+    "id": "light",
+    "title": "LIGHT",
+    "photographer": "Tim Bish",
+    "location": "Beinecke Library, New Haven, USA",
+    "source": "https://unsplash.com/photos/MOLPxhKRVlI",
+    "ratio": "16 / 10",
+    "focal": "50% 50%",
+    "observation": "Rows of books hold a field of light.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 278,
+        "src": "/images/archive/light-480.webp",
+        "bytes": 53868
+      },
+      {
+        "width": 800,
+        "height": 463,
+        "src": "/images/archive/light-800.webp",
+        "bytes": 124708
+      },
+      {
+        "width": 1280,
+        "height": 740,
+        "src": "/images/archive/light-1280.webp",
+        "bytes": 271700
+      },
+      {
+        "width": 1920,
+        "height": 1110,
+        "src": "/images/archive/light-1920.webp",
+        "bytes": 545872
+      },
+      {
+        "width": 2400,
+        "height": 1388,
+        "src": "/images/archive/light-2400.webp",
+        "bytes": 777056
+      }
+    ]
+  },
+  {
+    "id": "volume",
+    "title": "VOLUME",
+    "photographer": "Simone Hutsch",
+    "location": "Casa da Música, Porto, Portugal",
+    "source": "https://unsplash.com/photos/9jsQcDsxyqA",
+    "ratio": "3 / 2",
+    "focal": "50% 50%",
+    "observation": "A single mass makes the surrounding air visible.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 339,
+        "src": "/images/archive/volume-480.webp",
+        "bytes": 8742
+      },
+      {
+        "width": 800,
+        "height": 565,
+        "src": "/images/archive/volume-800.webp",
+        "bytes": 23922
+      },
+      {
+        "width": 1280,
+        "height": 903,
+        "src": "/images/archive/volume-1280.webp",
+        "bytes": 56106
+      },
+      {
+        "width": 1920,
+        "height": 1355,
+        "src": "/images/archive/volume-1920.webp",
+        "bytes": 110192
+      },
+      {
+        "width": 2400,
+        "height": 1694,
+        "src": "/images/archive/volume-2400.webp",
+        "bytes": 156538
+      }
+    ]
+  },
+  {
+    "id": "flow",
+    "title": "FLOW",
+    "photographer": "Shiva Mardahi",
+    "location": "Heydar Aliyev Center, Baku, Azerbaijan",
+    "source": "https://unsplash.com/photos/igcaXcXsQ2s",
+    "ratio": "2 / 3",
+    "focal": "50% 50%",
+    "observation": "One surface folds into the next interval.",
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/images/archive/flow-480.webp",
+        "bytes": 15980
+      },
+      {
+        "width": 800,
+        "height": 1200,
+        "src": "/images/archive/flow-800.webp",
+        "bytes": 33304
+      },
+      {
+        "width": 1280,
+        "height": 1920,
+        "src": "/images/archive/flow-1280.webp",
+        "bytes": 66950
+      },
+      {
+        "width": 1920,
+        "height": 2880,
+        "src": "/images/archive/flow-1920.webp",
+        "bytes": 127516
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "src": "/images/archive/flow-2400.webp",
+        "bytes": 201376
+      }
+    ]
+  }
+]

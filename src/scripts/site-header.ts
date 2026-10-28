@@ -1,6 +1,8 @@
 import { gsap } from 'gsap';
 
-export type Chapter = 'hero' | 'manifesto';
+const CHAPTERS = ['hero', 'manifesto', 'archive'] as const;
+export type Chapter = typeof CHAPTERS[number];
+const DESCRIPTIONS: Record<Chapter, string> = { hero: 'An archive of spatial observations', manifesto: 'Manifesto', archive: 'Archive' };
 let active: Chapter = 'hero';
 let override: Chapter | null = null;
 let editorialSuppressed = false;
@@ -23,6 +25,7 @@ function initializeHeader() {
   current?.dispose();
   const events = new AbortController(), options = { signal: events.signal, passive: true };
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const sections = CHAPTERS.map(chapter => document.querySelector<HTMLElement>(chapter === 'hero' ? '.hero' : `#${chapter}`));
   const footer = document.querySelector<HTMLElement>('.site-footer');
   const windows = [...header.querySelectorAll<HTMLElement>('.descriptor, .chapter'), ...(footer?.querySelectorAll<HTMLElement>('[data-editorial-window]') ?? [])];
   const rows = windows.map(view => [...view.querySelectorAll<HTMLElement>('.label-row')]);
@@ -32,7 +35,8 @@ function initializeHeader() {
     footer.querySelector('[data-editorial-status]')!.textContent = [...footer.querySelectorAll<HTMLElement>(`[data-chapter="${chapter}"]`)].map(row => row.dataset.editorialLabel).join(' ');
   };
   const progress = { value: 0 };
-  let tween: gsap.core.Tween | undefined, frame = 0, top = 0, initialized = false;
+  let tween: gsap.core.Tween | undefined, frame = 0, initialized = false;
+  let tops: number[] = [];
   let dirty = true, footerHeight = 0, heroTop = 0;
   const footerMotion = [...(footer?.querySelectorAll<HTMLElement>('.editorial-motion') ?? [])];
   const presence = { y: 100 };
@@ -69,19 +73,21 @@ function initializeHeader() {
   const select = (chapter: Chapter, immediate = false) => {
     if (initialized && chapter === active && !immediate) return;
     active = chapter; initialized = true;
+    const index = CHAPTERS.indexOf(chapter);
     document.documentElement.dataset.activeChapter = chapter;
-    header.querySelector('[data-chapter-description]')!.textContent = chapter === 'hero' ? 'An archive of spatial observations' : 'Manifesto';
-    header.querySelector('[data-chapter-status]')!.textContent = chapter === 'hero' ? 'Section 1 of 4' : 'Section 2 of 4';
+    header.querySelector('[data-chapter-description]')!.textContent = DESCRIPTIONS[chapter];
+    header.querySelector('[data-chapter-status]')!.textContent = `Section ${index + 1} of 4`;
     updateFooterStatus();
     tween?.kill();
-    tween = gsap.to(progress, { value: chapter === 'hero' ? 0 : 1, duration: immediate || reduced.matches ? 0 : .52, ease: 'power2.inOut', onUpdate: render, onComplete: updateFooterVisibility });
+    tween = gsap.to(progress, { value: index, duration: immediate || reduced.matches ? 0 : .52, ease: 'power2.inOut', onUpdate: render, onComplete: updateFooterVisibility });
     document.dispatchEvent(new CustomEvent('stillform:chapterchange', { detail: { chapter } }));
   };
   const tick = () => {
     frame = 0;
     if (dirty) {
-      dirty = false; top = manifesto.getBoundingClientRect().top + scrollY;
-      heroTop = document.querySelector('.hero')!.getBoundingClientRect().top + scrollY;
+      dirty = false;
+      tops = sections.map(section => section ? section.getBoundingClientRect().top + scrollY : Infinity);
+      heroTop = tops[0];
       windows.forEach((view, index) => {
         const height = Math.max(...rows[index].map(row => row.firstElementChild!.getBoundingClientRect().height));
         view.style.setProperty('--label-height', `${height}px`);
@@ -98,7 +104,11 @@ function initializeHeader() {
       document.documentElement.style.setProperty('--header-content-clearance', headerBox.height > 70 ? `${headerBox.bottom + 24}px` : '0px');
     }
     const marker = scrollY + innerHeight * .35;
-    const chapter = override ?? (initialized ? active === 'hero' ? marker >= top + 24 ? 'manifesto' : 'hero' : marker < top - 24 ? 'hero' : 'manifesto' : marker >= top ? 'manifesto' : 'hero');
+    let index = initialized ? CHAPTERS.indexOf(active) : 0;
+    const margin = initialized ? 24 : 0;
+    while (index < CHAPTERS.length - 1 && marker >= tops[index + 1] + margin) index++;
+    while (index > 0 && marker < tops[index] - margin) index--;
+    const chapter = override ?? CHAPTERS[index];
     select(chapter, !initialized); updateFooterVisibility();
   };
   const schedule = () => { if (!frame) frame = requestAnimationFrame(tick); };
@@ -110,7 +120,8 @@ function initializeHeader() {
   window.addEventListener('hashchange', schedule, options);
   reduced.addEventListener('change', () => { select(active, true); updateFooterVisibility(true); }, options);
   const observer = new ResizeObserver(measure);
-  observer.observe(manifesto); observer.observe(document.querySelector('.hero')!); observer.observe(header); if (footer) observer.observe(footer);
+  sections.forEach(section => { if (section) observer.observe(section); });
+  observer.observe(header); if (footer) observer.observe(footer);
   document.fonts.ready.then(() => { if (!events.signal.aborted) measure(); });
   tick();
   current = { header, dispose: () => {
