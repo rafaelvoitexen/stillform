@@ -15,7 +15,10 @@ pnpm-debug.log*
 
 # environment variables
 .env
-.env.production
+.env.*
+!.env.example
+*.local
+*.log
 
 # macOS-specific files
 .DS_Store
@@ -25,3 +28,5 @@ pnpm-debug.log*
 
 # local browser QA profile
 .qa-chrome/
+
+docs/

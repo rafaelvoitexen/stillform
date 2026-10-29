@@ -53,6 +53,8 @@ const descriptions: Record<string, string> = {
 </section>
 
 <style>
+  /* Reverting animated records must not move native history's restored scroll anchor. */
+  .archive { overflow-anchor: none; }
   .archive { --landscape-cap: clamp(55rem, 37cqw, 70rem); --portrait-cap: clamp(22.5rem, 19cqw, 35rem); padding: max(120px, var(--header-content-clearance, 0px)) var(--page-gutter) max(160px, calc(var(--editorial-clearance) + 64px)); }
   .archive-heading, .archive-field { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; }
   .archive-heading { align-items: end; row-gap: 20px; }

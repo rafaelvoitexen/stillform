@@ -63,32 +63,50 @@ function initializeArchive() {
       }
     }, root);
     media.add(HOVER, () => {
-      const hoverEvents = new AbortController();
-      const timelines: gsap.core.Timeline[] = [];
-      root.dataset.hoverReady = 'true';
-      for (const record of records) {
-        const frame = record.querySelector<HTMLElement>('[data-archive-photo]')!;
-        const image = frame.querySelector<HTMLImageElement>('img')!;
-        const ink = [...record.querySelectorAll<HTMLElement>('.observation-ink [data-observation-word]')];
-        const white = [...record.querySelectorAll<HTMLElement>('.observation-white [data-observation-word]')];
-        const timeline = gsap.timeline({ paused: true });
-        timeline.to(image, { scale: 1.045, duration: 1.4, ease: 'power2.out' }, 0);
-        ink.forEach((word, index) => {
-          timeline.fromTo([word, white[index]], { opacity: 0, filter: 'blur(4px)' }, {
-            opacity: 1, filter: 'blur(0px)', duration: .5, ease: 'power2.out',
-          }, index * .05);
-        });
-        const dismiss = () => timeline.timeScale(2).reverse();
-        frame.addEventListener('pointerenter', event => { if (event.pointerType === 'mouse') timeline.timeScale(1).play(); }, { signal: hoverEvents.signal });
-        frame.addEventListener('pointerleave', dismiss, { signal: hoverEvents.signal });
-        frame.addEventListener('pointercancel', dismiss, { signal: hoverEvents.signal });
-        ScrollTrigger.create({ trigger: record, start: 'top bottom', end: 'bottom top', onLeave: dismiss, onLeaveBack: dismiss });
-        timelines.push(timeline);
-      }
-      const dismissAll = () => timelines.forEach(timeline => timeline.timeScale(2).reverse());
-      window.addEventListener('blur', dismissAll, { signal: hoverEvents.signal });
-      document.addEventListener('visibilitychange', dismissAll, { signal: hoverEvents.signal });
-      return () => { hoverEvents.abort(); delete root.dataset.hoverReady; };
+      // Media queries include the scrollbar; the editorial grid uses .page's
+      // actual query-container width. Admit hover only with that desktop layout.
+      const page = root.closest<HTMLElement>('.page')!;
+      let hoverContext: gsap.Context | undefined;
+      const syncHover = () => {
+        if (page.clientWidth < 1024) { hoverContext?.revert(); hoverContext = undefined; return; }
+        if (hoverContext) return;
+        hoverContext = gsap.context(() => {
+          const hoverEvents = new AbortController();
+          const timelines: gsap.core.Timeline[] = [];
+          root.dataset.hoverReady = 'true';
+          for (const record of records) {
+            const frame = record.querySelector<HTMLElement>('[data-archive-photo]')!;
+            const image = frame.querySelector<HTMLImageElement>('img')!;
+            const ink = [...record.querySelectorAll<HTMLElement>('.observation-ink [data-observation-word]')];
+            const white = [...record.querySelectorAll<HTMLElement>('.observation-white [data-observation-word]')];
+            const timeline = gsap.timeline({ paused: true });
+            timeline.to(image, { scale: 1.045, duration: 1.4, ease: 'power2.out' }, 0);
+            ink.forEach((word, index) => {
+              timeline.fromTo([word, white[index]], { opacity: 0, filter: 'blur(4px)' }, {
+                opacity: 1, filter: 'blur(0px)', duration: .5, ease: 'power2.out',
+              }, index * .05);
+            });
+            const reveal = () => timeline.timeScale(1).play();
+            const dismiss = () => { if (!record.matches(':focus-within')) timeline.timeScale(2).reverse(); };
+            frame.addEventListener('pointerenter', event => { if (event.pointerType === 'mouse') reveal(); }, { signal: hoverEvents.signal });
+            frame.addEventListener('pointerleave', dismiss, { signal: hoverEvents.signal });
+            frame.addEventListener('pointercancel', dismiss, { signal: hoverEvents.signal });
+            record.addEventListener('focusin', reveal, { signal: hoverEvents.signal });
+            record.addEventListener('focusout', event => {
+              if (!record.contains(event.relatedTarget as Node | null) && !frame.matches(':hover')) timeline.timeScale(2).reverse();
+            }, { signal: hoverEvents.signal });
+            ScrollTrigger.create({ trigger: record, start: 'top bottom', end: 'bottom top', onLeave: dismiss, onLeaveBack: dismiss });
+            timelines.push(timeline);
+          }
+          const dismissAll = () => timelines.forEach(timeline => timeline.timeScale(2).reverse());
+          window.addEventListener('blur', dismissAll, { signal: hoverEvents.signal });
+          document.addEventListener('visibilitychange', dismissAll, { signal: hoverEvents.signal });
+          return () => { hoverEvents.abort(); delete root.dataset.hoverReady; };
+        }, root);
+      };
+      const layout = new ResizeObserver(syncHover);
+      layout.observe(page); syncHover();
+      return () => { layout.disconnect(); hoverContext?.revert(); };
     }, root);
   } catch { media.revert(); delete root.dataset.hoverReady; }
   // Reserved image dimensions avoid image-load refreshes. Fonts can change reading heights.

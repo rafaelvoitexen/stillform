@@ -11,13 +11,42 @@ import 'lenis/dist/lenis.css';
 import '../styles/global.css';
 import critical from '../styles/hero-critical.css?raw';
 import admission from '../scripts/hero-admission.js?raw';
+const title = 'STILLFORM — Built around absence.';
+const description = 'A personal creative frontend study by Rafael Voitexen, exploring architecture, typography and motion through an editorial experience built around absence.';
+const canonical = Astro.site;
+const socialImage = canonical && new URL('/images/tulach-e-vos.jpg', canonical);
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="STILLFORM — An archive of spatial observations. Built around absence." />
+    <meta name="description" content={description} />
+    <meta name="author" content="Rafael Voitexen" />
+    <meta name="theme-color" content="#e5e8e4" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="STILLFORM" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    {socialImage && <>
+      <meta property="og:image" content={socialImage} />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:width" content="1920" />
+      <meta property="og:image:height" content="1440" />
+      <meta property="og:image:alt" content="Tulach a’ tSolais, photographed by E Vos. Two concrete masses frame a shaft of daylight." />
+    </>}
+    <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {socialImage && <>
+      <meta name="twitter:image" content={socialImage} />
+      <meta name="twitter:image:alt" content="Tulach a’ tSolais — photograph by E Vos." />
+    </>}
     <link rel="preload" href="/fonts/Onest-Latin-Variable.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/images/tulach-e-vos.jpg" as="image" fetchpriority="high" />
     <style is:inline>
@@ -31,7 +60,7 @@ import admission from '../scripts/hero-admission.js?raw';
     </style>
     <style is:inline set:html={critical}></style>
     <script is:inline set:html={admission}></script>
-    <title>STILLFORM — Built around absence.</title>
+    <title>{title}</title>
   </head>
-  <body><div class="page"><Hero /><Manifesto /><Archive /><Outro /></div><SiteHeader /><SiteFooter /><GlobalPointer /><ReturnTransition /><script>import '../scripts/chapter-transition'; import '../scripts/smooth-scroll';</script></body>
+  <body><main class="page"><Hero /><Manifesto /><Archive /><Outro /></main><SiteHeader /><SiteFooter /><GlobalPointer /><ReturnTransition /><script>import '../scripts/chapter-transition'; import '../scripts/smooth-scroll';</script></body>
 </html>

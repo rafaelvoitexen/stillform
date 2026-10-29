@@ -23,8 +23,6 @@ function initializeSmoothScroll() {
   const page = document.querySelector<HTMLElement>('.page');
   if (!page || current?.page === page) return;
   current?.dispose();
-  // Temporary development-only A/B comparison; no visible setting or persistent preference.
-  if (import.meta.env.DEV && new URLSearchParams(location.search).get('scroll') === 'native') return;
   const media = gsap.matchMedia();
   media.add(ELIGIBILITY, () => {
     let lenis: Lenis | undefined, unsubscribe: (() => void) | undefined;
